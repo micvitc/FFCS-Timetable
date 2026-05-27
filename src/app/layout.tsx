@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, Lato } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import Providers from "@/components/Providers";
 import MobileGuard from "@/components/MobileGuard";
 import "./globals.css";
@@ -60,6 +61,7 @@ export default function RootLayout({
       >
         <Providers>
           <MobileGuard>{children}</MobileGuard>
+          <Analytics />
         </Providers>
       </body>
     </html>
