@@ -328,6 +328,20 @@ export default function TeamPage() {
               </div>
               <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
                 <div className="w-20 h-20 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center text-blue-600 text-2xl font-bold">
+                  G
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Gouse Moideen</h3>
+                <p className="text-gray-500 font-medium">Developer</p>
+              </div>
+              <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
+                <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center text-purple-600 text-2xl font-bold">
+                  S
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Sri Saidhakshini V</h3>
+                <p className="text-gray-500 font-medium">Developer</p>
+              </div>
+              <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
+                <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center text-purple-600 text-2xl font-bold">
                   R
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Rahul</h3>
@@ -335,31 +349,38 @@ export default function TeamPage() {
               </div>
               <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
                 <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center text-purple-600 text-2xl font-bold">
-                  T
+                  S
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Team Member 3</h3>
-                <p className="text-gray-500 font-medium">Role</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Subhayan Niyogi</h3>
+                <p className="text-gray-500 font-medium">Developer</p>
               </div>
               <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
                 <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center text-purple-600 text-2xl font-bold">
-                  T
+                  V
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Team Member 3</h3>
-                <p className="text-gray-500 font-medium">Role</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Vishu Jain</h3>
+                <p className="text-gray-500 font-medium">Developer</p>
               </div>
               <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
-                <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center text-purple-600 text-2xl font-bold">
-                  T
+                <div className="w-20 h-20 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center text-green-600 text-2xl font-bold">
+                  S
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Team Member 3</h3>
-                <p className="text-gray-500 font-medium">Role</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Surya R</h3>
+                <p className="text-gray-500 font-medium">Developer</p>
               </div>
               <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
-                <div className="w-20 h-20 bg-purple-100 rounded-full mx-auto mb-4 flex items-center justify-center text-purple-600 text-2xl font-bold">
-                  T
+                <div className="w-20 h-20 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center text-green-600 text-2xl font-bold">
+                  S
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Team Member 3</h3>
-                <p className="text-gray-500 font-medium">Role</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Souptik Dam</h3>
+                <p className="text-gray-500 font-medium">Developer</p>
+              </div>
+              <div className="team-card bg-[#FAFAFA] rounded-2xl p-8 shadow-[4px_4px_10px_rgba(0,0,0,0.05)] border border-gray-100 transition-transform hover:-translate-y-1">
+                <div className="w-20 h-20 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center text-green-600 text-2xl font-bold">
+                  A
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Akash Vishnu P</h3>
+                <p className="text-gray-500 font-medium">Developer</p>
               </div>
             </div>
           </div>
