@@ -5,6 +5,7 @@ import LoginModal from "../../components/loginPopup"
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
 import { clearPlannerClientCache } from "@/lib/clientCache";
+import { parseName } from "@/lib/utils";
 
 type FloatingTile = {
   id: number;
@@ -269,15 +270,24 @@ export default function TeamPage() {
           {session ? (
             <div className="relative">
               <div
-                className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity"
+                className="flex items-center gap-1.5 md:gap-3 cursor-pointer hover:opacity-80 transition-opacity min-w-0"
                 onClick={() => setShowUserMenu(!showUserMenu)}
               >
                 {session.user?.image && (
-                  <Image src={session.user.image} alt="avatar" width={32} height={32} className="w-8 h-8 rounded-full" referrerPolicy="no-referrer" />
+                  <Image src={session.user.image} alt="avatar" width={32} height={32} className="profile-avatar w-8 h-8 rounded-full" referrerPolicy="no-referrer" />
                 )}
-                <span className="font-semibold text-black">{session.user?.name}</span>
+                <div className="profile-info-container">
+                  <span className="profile-name-text font-semibold text-black">
+                    {parseName(session.user?.name).name}
+                  </span>
+                  {parseName(session.user?.name).regNo && (
+                    <span className="profile-reg-text">
+                      {parseName(session.user?.name).regNo}
+                    </span>
+                  )}
+                </div>
                 <svg
-                  className={`w-4 h-4 text-black transition-transform duration-200 ${showUserMenu ? 'rotate-180' : ''}`}
+                  className={`profile-chevron w-4 h-4 text-black transition-transform duration-200 ${showUserMenu ? 'rotate-180' : ''}`}
                   viewBox="0 0 20 20"
                   fill="none"
                   aria-hidden="true"

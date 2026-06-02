@@ -16,6 +16,7 @@ export const authOptions: AuthOptions = {
                     prompt: 'select_account',
                 },
             },
+            allowDangerousEmailAccountLinking: true,
         }),
     ],
     adapter: MongoDBAdapter(getClientPromise() as Promise<MongoClient>),

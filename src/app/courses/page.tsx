@@ -502,7 +502,7 @@ export default function CoursesPage() {
 
     return (
         <div className={`h-screen bg-[#F5E6D3] font-sans flex flex-col overflow-hidden transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
-            <div className="flex-1 min-h-0 w-full flex justify-center px-4 sm:px-6 pt-6 pb-29">
+            <div className="flex-1 min-h-0 w-full flex justify-center px-4 sm:px-6 pt-6 pb-[160px] md:pb-29">
                 <div className="w-full max-w-6xl min-h-0 flex flex-col gap-4">
                     <h1 className="text-3xl sm:text-4xl font-bold text-black px-2 pt-2 shrink-0">Your Courses</h1>
 
@@ -512,14 +512,16 @@ export default function CoursesPage() {
                             <h2 className="text-2xl font-bold text-[#1f1f1f]">Selected Courses</h2>
                         </div>
 
-                        <div className="grid grid-cols-[60px_minmax(120px,1fr)_minmax(220px,1.4fr)_minmax(180px,1.2fr)_minmax(120px,1fr)_minmax(90px,120px)] border-b border-[#ededed] bg-[#fcfcfc] text-[#1f1f1f] shrink-0">
-                            <div className="px-5 py-3 text-sm font-bold">No</div>
-                            <div className="px-5 py-3 text-sm font-bold">Course Code</div>
-                            <div className="px-5 py-3 text-sm font-bold">Course Name</div>
-                            <div className="px-5 py-3 text-sm font-bold">Faculty Name</div>
-                            <div className="px-5 py-3 text-sm font-bold">Slot</div>
-                            <div className="px-5 py-3 text-sm font-bold text-right">Actions</div>
-                        </div>
+                        <div className="flex-1 min-h-0 w-full overflow-x-auto custom-scrollbar">
+                            <div className="min-w-[800px] flex flex-col h-full">
+                                <div className="grid grid-cols-[60px_minmax(120px,1fr)_minmax(220px,1.4fr)_minmax(180px,1.2fr)_minmax(120px,1fr)_minmax(90px,120px)] border-b border-[#ededed] bg-[#fcfcfc] text-[#1f1f1f] shrink-0">
+                                    <div className="px-5 py-3 text-sm font-bold">No</div>
+                                    <div className="px-5 py-3 text-sm font-bold">Course Code</div>
+                                    <div className="px-5 py-3 text-sm font-bold">Course Name</div>
+                                    <div className="px-5 py-3 text-sm font-bold">Faculty Name</div>
+                                    <div className="px-5 py-3 text-sm font-bold">Slot</div>
+                                    <div className="px-5 py-3 text-sm font-bold text-right">Actions</div>
+                                </div>
 
                         {visibleFaculties.length === 0 && !(lastRemovedFaculties && lastRemovedFaculties.length > 0) && !deletedRow ? (
                             <div className="flex-1 min-h-0 flex items-center justify-center px-6 py-12 text-[22px] text-[#1f1f1f] font-medium">
@@ -616,12 +618,14 @@ export default function CoursesPage() {
 
                             </div>
                         )}
+                            </div>
+                        </div>
 
-                        <div className="px-6 py-4 flex items-center justify-between border-t border-[#ededed] bg-[#fcfcfc] shrink-0">
+                        <div className="px-4 md:px-6 py-4 flex flex-row items-center justify-between gap-2 border-t border-[#ededed] bg-[#fcfcfc] shrink-0">
 
                             <div className="flex items-center gap-3">
                                 <div data-tour="courses-all-subjects-mode" className="flex items-center gap-2 bg-[#f2e6b5] rounded-xl px-3 py-2 shadow-[0_4px_10px_rgba(0,0,0,0.08)]">
-                                    <span className="text-sm font-semibold text-[#1f1f1f]">All subjects mode</span>
+                                    <span className="text-[13px] md:text-sm font-semibold text-[#1f1f1f]">All subjects mode</span>
                                     <button
                                         type="button"
                                         onClick={() => setIsHelpOpen(true)}
@@ -643,7 +647,7 @@ export default function CoursesPage() {
                                 </div>
                             </div><button
                                 onClick={handleRemoveAll}
-                                className="flex items-center gap-2 text-sm font-semibold text-[#c9302c] bg-white border border-[#e9b3b0] rounded-full px-4 py-2 shadow-[0_3px_8px_rgba(0,0,0,0.08)] hover:bg-[#fff5f5] transition cursor-pointer"
+                                className="flex shrink-0 items-center justify-center gap-1.5 text-[13px] md:text-sm font-semibold text-[#c9302c] bg-white border border-[#e9b3b0] rounded-xl px-3 md:px-4 py-2 shadow-[0_3px_8px_rgba(0,0,0,0.08)] hover:bg-[#fff5f5] transition cursor-pointer w-auto"
                             >
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-[#c9302c]">
                                     <polyline points="3 6 5 6 21 6" />
@@ -698,14 +702,14 @@ export default function CoursesPage() {
                 className="fixed bottom-0 left-0 right-0 z-40 bg-[#F5E6D3] py-6 px-[clamp(16px,2vw,32px)] w-full flex justify-center"
                 style={{ fontFamily: 'Inter, Arial, Helvetica, sans-serif' }}
             >
-                <div className="flex flex-wrap md:flex-nowrap items-center justify-between gap-4 w-full">
-                    <div className="flex items-center justify-start gap-3 w-full sm:w-auto shrink-0">
+                <div className="flex flex-wrap md:flex-nowrap items-center justify-between gap-2 w-full">
+                    <div className="flex items-center justify-start gap-3 shrink-0">
                         <button
                             type="button"
                             onClick={() => router.push('/')}
                             aria-label="Go to home page"
                             title="Home"
-                            className="bg-white rounded-xl p-3 shadow-sm flex items-center justify-center min-w-14.5 min-h-14.5 hover:bg-gray-50 transition-colors shrink-0"
+                            className="bg-white rounded-xl p-2.5 md:p-3 shadow-sm flex items-center justify-center min-w-12 min-h-12 md:min-w-14.5 md:min-h-14.5 hover:bg-gray-50 transition-colors shrink-0"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -715,7 +719,7 @@ export default function CoursesPage() {
                                 strokeWidth="2.2"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                className="w-6 h-6 text-gray-800"
+                                className="w-[22px] h-[22px] md:w-6 md:h-6 text-gray-800"
                                 aria-hidden="true"
                             >
                                 <path d="M3 10.5L12 3l9 7.5" />
@@ -725,7 +729,7 @@ export default function CoursesPage() {
                         </button>
 
                         {/* LEFT - USER BOX */}
-                        <div className="bg-white rounded-xl p-3 shadow-sm flex items-center gap-3 w-full sm:w-auto overflow-hidden">
+                        <div className="hidden md:flex bg-white rounded-xl p-3 shadow-sm items-center gap-3 w-auto overflow-hidden">
                             {session?.user?.image ? (
                                 <Image src={session.user.image} alt="User avatar" width={38} height={38} className="w-9.5 h-9.5 rounded-lg border border-gray-100 shrink-0" referrerPolicy="no-referrer" />
                             ) : (
@@ -761,7 +765,7 @@ export default function CoursesPage() {
                     </div>
 
                     {/* RIGHT - ACTION BOX */}
-                    <div className="flex gap-3 justify-end shrink-0 ml-auto mr-auto sm:mr-0 mt-2 sm:mt-0">
+                    <div className="flex gap-2 lg:gap-3 justify-end shrink-0">
                         <button
                             onClick={() => {
                                 const editingTimetableId = getCookie('editingTimetableId');
@@ -772,14 +776,14 @@ export default function CoursesPage() {
                                 }
                                 router.push('/preferences');
                             }}
-                            className="px-8 py-3 bg-[#f1eacb] hover:bg-[#E8DDB8] border-2 border-[#A0C4FF] rounded-[10px] font-bold text-sm text-black transition-all duration-200 cursor-pointer"
+                            className="px-6 md:px-8 py-2.5 md:py-3 bg-[#f1eacb] hover:bg-[#E8DDB8] border-2 border-[#A0C4FF] rounded-[10px] font-bold text-[13px] md:text-sm text-black transition-all duration-200 cursor-pointer"
                         >
                             Previous
                         </button>
                         <button
                             onClick={syncAndOpenTimetable}
                             data-tour="courses-generate-next"
-                            className="px-10 py-3 bg-[#A0C4FF] hover:bg-[#90B4EF] rounded-[10px] font-bold text-sm text-black transition-all duration-200 cursor-pointer"
+                            className="px-7 md:px-10 py-2.5 md:py-3 bg-[#A0C4FF] hover:bg-[#90B4EF] rounded-[10px] font-bold text-[13px] md:text-sm text-black transition-all duration-200 cursor-pointer"
                         >
                             Next
                         </button>

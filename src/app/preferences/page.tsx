@@ -729,8 +729,8 @@ export default function PreferencesPage() {
         <div className={`h-screen bg-[#F5E6D3] font-sans overflow-hidden transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
             <div className="h-full px-[clamp(12px,1.5vw,24px)] pt-[clamp(10px,1vh,18px)] pb-29">
                 <div className="w-full max-w-450 h-full mx-auto flex flex-col min-h-0">
-                    <div className="flex items-center justify-between gap-4 px-2 pt-6 pb-3 shrink-0">
-                        <h1 data-tour="preferences-intro" className="text-[26px] lg:text-3xl font-bold text-black animate-lucid-fade-up">Select Your Preferences</h1>
+                    <div className="flex flex-col md:flex-row items-center justify-between gap-4 px-2 pt-6 pb-3 shrink-0">
+                        <h1 data-tour="preferences-intro" className="text-[26px] lg:text-3xl font-bold text-black text-center md:text-left animate-lucid-fade-up">Select Your Preferences</h1>
                         {isFacultyFirstToggleAvailable && (
                             <div data-tour="preferences-faculty-first-mode" className="shrink-0 flex h-11 items-center gap-2 rounded-[10px] bg-[#F6E9AB] px-3 py-2 shadow-sm">
                                 <span className="text-sm font-extrabold text-gray-900 whitespace-nowrap">
@@ -775,10 +775,10 @@ export default function PreferencesPage() {
                                 key={stepNum}
                                 data-tour={stepNum === currentStep ? `preferences-step-${stepNum}` : undefined}
                                 onClick={stepNum === currentStep ? undefined : () => handleStepClick(stepNum)}
-                                className={`rounded-2xl flex items-center justify-center transition-all duration-300 overflow-hidden shrink-0 ${
+                                className={`rounded-2xl items-center justify-center transition-all duration-300 overflow-hidden shrink-0 ${
   stepNum === currentStep
-    ? 'flex-[2.8] min-w-70 max-w-117.5'
-    : 'flex-1 min-w-14.5'
+    ? 'flex flex-1 md:flex-[2.8] w-full md:w-auto min-w-[200px] md:min-w-70 max-w-full md:max-w-117.5'
+    : 'hidden md:flex flex-1 min-w-14.5'
 }`}
                                 style={{ backgroundColor: STEP_COLORS[stepNum - 1] }}
                             >
@@ -1054,13 +1054,13 @@ export default function PreferencesPage() {
             style={{ fontFamily: 'Inter, Arial, Helvetica, sans-serif' }}
         >
             <div className="flex flex-wrap md:flex-nowrap items-center justify-between gap-4 w-full">
-                <div className="flex items-center justify-start gap-3 w-full sm:w-auto shrink-0">
+                <div className="flex items-center justify-start gap-3 shrink-0">
                     <button
                         type="button"
                         onClick={() => router.push('/')}
                         aria-label="Go to home page"
                         title="Home"
-                        className="bg-white rounded-xl p-3 shadow-sm flex items-center justify-center min-w-14.5 min-h-14.5 hover:bg-gray-50 transition-colors shrink-0"
+                        className="bg-white rounded-xl p-2.5 md:p-3 shadow-sm flex items-center justify-center min-w-12 min-h-12 md:min-w-14.5 md:min-h-14.5 hover:bg-gray-50 transition-colors shrink-0"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -1080,7 +1080,7 @@ export default function PreferencesPage() {
                     </button>
 
                     {/* LEFT - USER BOX */}
-                    <div className="bg-white rounded-xl p-3 shadow-sm flex items-center gap-3 w-full sm:w-auto overflow-hidden">
+                    <div className="hidden md:flex bg-white rounded-xl p-3 shadow-sm items-center gap-3 w-auto overflow-hidden">
                             {session?.user?.image ? (
                                 <Image src={session.user.image} alt="User avatar" width={36} height={36} className="w-9 h-9 rounded-lg border border-gray-100 shrink-0" referrerPolicy="no-referrer" />
                         ) : (
@@ -1095,7 +1095,7 @@ export default function PreferencesPage() {
                 </div>
 
                 {/* CENTER - STEPS BOX */}
-                <div className="bg-white rounded-xl p-2 shadow-sm flex flex-wrap justify-center items-center gap-2 w-full sm:w-auto order-last md:order-0 mt-2 md:mt-0">
+                <div className="bg-white rounded-xl p-2 shadow-sm flex justify-center items-center gap-1 sm:gap-2">
                     {[1, 2, 3, 4].map((num) => (
                         <button
                             key={num}
@@ -1117,11 +1117,15 @@ export default function PreferencesPage() {
                 </div>
 
                 {/* RIGHT - ACTION BOX */}
-                <div className="flex gap-3 justify-end shrink-0 ml-auto mr-auto sm:mr-0 mt-2 sm:mt-0">
+                <div className="hidden md:flex gap-2 lg:gap-3 justify-end shrink-0">
                     <button
                         onClick={() => {
-                            deleteCookie('editingTimetableId');
-                            router.push('/');
+                            if (currentStep > 1) {
+                                handlePrevious();
+                            } else {
+                                deleteCookie('editingTimetableId');
+                                router.push('/');
+                            }
                         }}
                         className="px-8 py-3 bg-[#f1eacb] hover:bg-[#E8DDB8] border-2 border-[#A0C4FF] rounded-[10px] font-bold text-sm text-black transition-all duration-200"
                     >
