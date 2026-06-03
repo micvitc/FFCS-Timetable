@@ -20,18 +20,18 @@ const THEORY_SLOTS: Record<string, [number, number][]> = {};
 const LAB_SLOTS: Record<string, [number, number][]> = {};
 
 const theoryLabels = [
-    ['A1', 'F1', 'D1', 'TB1', 'TG1', '', 'A2', 'F2', 'D2', '', 'TB2', 'TG2', 'S3'],
-    ['B1', 'G1', 'E1', 'TC1', 'TAA1', '', 'B2', 'G2', 'E2', '', 'TC2', 'TAA2', 'S1'],
-    ['C1', 'A1', 'F1', 'TD1', 'TBB1', '', 'C2', 'A2', 'F2', '', 'TD2', 'TBB2', 'S4'],
-    ['D1', 'B1', 'G1', 'TE1', 'TCC1', '', 'D2', 'B2', 'G2', '', 'TE2', 'TCC2', 'S2'],
-    ['E1', 'C1', 'TA1', 'TF1', 'TDD1', 'S15', 'E2', 'C2', 'TA2', 'TF2', 'TDD2', '', ''],
+    ['A1', 'F1', 'D1', 'TB1', 'TG1', '', 'A2', 'F2', 'D2', 'TB2', 'TG2', 'S3'],
+    ['B1', 'G1', 'E1', 'TC1', 'TAA1', '', 'B2', 'G2', 'E2', 'TC2', 'TAA2', 'S1'],
+    ['C1', 'A1', 'F1', 'TD1', 'TBB1', '', 'C2', 'A2', 'F2', 'TD2', 'TBB2', 'S4'],
+    ['D1', 'B1', 'G1', 'TE1', 'TCC1', '', 'D2', 'B2', 'G2', 'TE2', 'TCC2', 'S2'],
+    ['E1', 'C1', 'TA1', 'TF1', 'TDD1', 'S15', 'E2', 'C2', 'TA2', 'TF2', 'TDD2', ''],
 ];
 const labLabels = [
-    ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L31', 'L32', 'L33', 'L34', 'L35', 'L36', ''],
-    ['L7', 'L8', 'L9', 'L10', 'L11', 'L12', 'L37', 'L38', 'L39', 'L40', 'L41', 'L42', ''],
-    ['L13', 'L14', 'L15', 'L16', 'L17', 'L18', 'L43', 'L44', 'L45', 'L46', 'L47', 'L48', ''],
-    ['L19', 'L20', 'L21', 'L22', 'L23', 'L24', 'L49', 'L50', 'L51', 'L52', 'L53', 'L54', ''],
-    ['L25', 'L26', 'L27', 'L28', 'L29', 'L30', 'L55', 'L56', 'L57', 'L58', 'L59', 'L60', ''],
+    ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L31', 'L32', 'L33', 'L34', 'L35', 'L36'],
+    ['L7', 'L8', 'L9', 'L10', 'L11', 'L12', 'L37', 'L38', 'L39', 'L40', 'L41', 'L42'],
+    ['L13', 'L14', 'L15', 'L16', 'L17', 'L18', 'L43', 'L44', 'L45', 'L46', 'L47', 'L48'],
+    ['L19', 'L20', 'L21', 'L22', 'L23', 'L24', 'L49', 'L50', 'L51', 'L52', 'L53', 'L54'],
+    ['L25', 'L26', 'L27', 'L28', 'L29', 'L30', 'L55', 'L56', 'L57', 'L58', 'L59', 'L60'],
 ];
 
 theoryLabels.forEach((row, r) => row.forEach((s, c) => {
@@ -97,7 +97,7 @@ function convertTimetableToCoursePreferences(tt: TimetableEntry): fullCourseData
     const courseMap = new Map<string, {
         courseCode: string;
         courseName: string;
-        slots: Map<string, string[]>; // slotName -> facultyNames[]
+        slots: Map<string, string[]>;
     }>();
 
     tt.slots.forEach(entry => {
@@ -694,8 +694,8 @@ function TimetableCard({
     }
 
     const allCodes = tt.slots.map(s => s.courseCode);
-    const theoryGrid: (string | null)[][] = Array.from({ length: 5 }, () => Array(13).fill(null));
-    const labGrid: (string | null)[][] = Array.from({ length: 5 }, () => Array(13).fill(null));
+    const theoryGrid: (string | null)[][] = Array.from({ length: 5 }, () => Array(12).fill(null));
+    const labGrid: (string | null)[][] = Array.from({ length: 5 }, () => Array(12).fill(null));
     tt.slots.forEach(s => {
         s.slot.split('+').forEach(p => {
             const slotCode = p.trim();
@@ -790,8 +790,8 @@ function TimetableDetailView({
     const [showDownloadModal, setShowDownloadModal] = useState(false);
 
     type CellData = { code: string; courseName: string; facultyName: string; slot: string } | null;
-    const theoryGrid: CellData[][] = Array.from({ length: 5 }, () => Array(13).fill(null));
-    const labGrid: CellData[][] = Array.from({ length: 5 }, () => Array(13).fill(null));
+    const theoryGrid: CellData[][] = Array.from({ length: 5 }, () => Array(12).fill(null));
+    const labGrid: CellData[][] = Array.from({ length: 5 }, () => Array(12).fill(null));
 
     tt.slots.forEach(s => {
         s.slot.split('+').forEach(p => {
@@ -835,12 +835,12 @@ function TimetableDetailView({
     const THEORY_TIME_LABELS = [
         '8:00am-\n8:50am', '8:55am-\n9:45am', '9:50am-\n10:40am', '10:45am-\n11:35am',
         '11:40am-\n12:30pm', '12:30pm-\n1:20pm', '2:00pm-\n2:50pm', '2:55pm-\n3:45pm',
-        '3:50pm-\n4:40pm', '4:45pm-\n5:35pm', '5:40pm-\n6:30pm', '6:35pm-\n7:25pm', '',
+        '3:50pm-\n4:40pm', '4:45pm-\n5:35pm', '5:40pm-\n6:30pm', '6:35pm-\n7:25pm',
     ];
     const LAB_TIME_LABELS = [
         '8:00am-\n8:50am', '8:50am-\n9:40am', '9:50am-\n10:40am', '10:40am-\n11:30am',
         '11:40am-\n12:30pm', '12:30pm-\n1:20pm', '2:00pm-\n2:50pm', '2:50pm-\n3:40pm',
-        '3:50pm-\n4:40pm', '4:40pm-\n5:30pm', '5:40pm-\n6:30pm', '6:30pm-\n7:20pm', '',
+        '3:50pm-\n4:40pm', '4:40pm-\n5:30pm', '5:40pm-\n6:30pm', '6:30pm-\n7:20pm',
     ];
     const LUNCH_LETTERS = ['L', 'U', 'N', 'C', 'H'];
 
@@ -1002,7 +1002,8 @@ function TimetableDetailView({
                 {/* Selected Courses */}
                 <div className="dv-courses-box">
                     <h2 className="dv-courses-title">Selected Courses</h2>
-                    <table className="dv-courses-table" id="saved-selected-courses-export">
+                    <div className="overflow-x-auto w-full">
+                        <table className="dv-courses-table" id="saved-selected-courses-export">
                         <thead>
                             <tr>
                                 <th>Slot</th>
@@ -1024,6 +1025,7 @@ function TimetableDetailView({
                             ))}
                         </tbody>
                     </table>
+                    </div>
                 </div>
             </div>
 
