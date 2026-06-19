@@ -254,6 +254,62 @@ const data = [
     "CREDITS": 1,
     "SLOT": "L11+L12",
     "FACULTY": "SELECT FACULTY"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "BACSE106 - Operating Systems - Embedded Theory and Lab",
+    "FACULTY": "Embedded Theory / Embedded Lab"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "BACSE202 - Database Systems - Embedded Theory and Lab",
+    "FACULTY": "Embedded Theory / Embedded Lab"
+  },
+  {
+    "CODE": "BAMAT205",
+    "TITLE": "Discrete Mathematics and Linear Algebra",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "BAMAT205 - Discrete Mathematics and Linear Algebra - Theory Only",
+    "FACULTY": "Theory Only"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "BACSE201 - Models of Computation - Theory Only",
+    "FACULTY": "Theory Only"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ETH",
+    "CREDITS": 0,
+    "SLOT": "BACSE102 - Problem Solving Using Java - Lab Only",
+    "FACULTY": "Lab Only"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "BACSE344 - Cloud Infrastructure and Architecture - Theory Only",
+    "FACULTY": "Theory Only"
   }
 ] as const;
 

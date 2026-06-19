@@ -1150,5 +1150,1333 @@
     "CREDITS": 1,
     "SLOT": "L23+L24",
     "FACULTY": "SELECT FACULTY"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "STS2012",
+    "TITLE": "Aptitude and Reasoning Skills",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "BACSE106 - Operating Systems - Embedded Theory and Lab",
+    "FACULTY": "Embedded Theory / Embedded Lab"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "SHOLA USHA RANI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "RAJALAKSHMI R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "V. MUTHUMANIKANDAN"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "MONICA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "SANKARI M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "RAVICHANDRAN M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "SHYAMALA L"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SIVAGAMI   M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "RABINDRA KUMAR SINGH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SK AYESHA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SANDEEP KUMAR SATAPATHY"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SUDHA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "MERCY RAJASELVI BEAULAH P"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SHOLA USHA RANI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "MENAKA PUSHPA A"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "MONICA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SANKARI M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "RAVICHANDRAN M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "SIVAGAMI   M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "THOMAS ABRAHAM J V"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "RABINDRA KUMAR SINGH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "RAJAKUMAR R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "MENAKA PUSHPA A"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L13+L14",
+    "FACULTY": "SUDHA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L13+L14",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L13+L14",
+    "FACULTY": "SHOLA USHA RANI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L13+L14",
+    "FACULTY": "MENAKA PUSHPA A"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L13+L14",
+    "FACULTY": "SANKARI M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L13+L14",
+    "FACULTY": "RAVICHANDRAN M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L15+L16",
+    "FACULTY": "SIVAGAMI   M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L15+L16",
+    "FACULTY": "RABINDRA KUMAR SINGH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L15+L16",
+    "FACULTY": "MONICA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "SK AYESHA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "SANDEEP KUMAR SATAPATHY"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "BACSE202 - Database Systems - Embedded Theory and Lab",
+    "FACULTY": "Embedded Theory / Embedded Lab"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "BHUVANESWARI"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "A SWAMINATHAN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "JOE DHANITH"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "REENA ROY R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "SOBITHA AHILA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "MALATHI D"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "RAMA PARVATHY L"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "SHARMILADEVI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "S.A.SAJIDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "SIVABALAKRISHNAN M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "M. BRAVEEN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "BHUVANESWARI"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "A SWAMINATHAN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "SAHAYA BENI PRATHIBA B"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "JOE DHANITH"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "REENA ROY R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "MALATHI D"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "SHARMILADEVI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "VISWANATHAN V"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "S.A.SAJIDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "M. BRAVEEN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D2+TD2",
+    "FACULTY": "SOBITHA AHILA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "D1+TD1",
+    "FACULTY": "GEETHA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L25+L26",
+    "FACULTY": "A SWAMINATHAN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L25+L26",
+    "FACULTY": "JOE DHANITH"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L25+L26",
+    "FACULTY": "REENA ROY R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L25+L26",
+    "FACULTY": "MALATHI D"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L29+L30",
+    "FACULTY": "RAMA PARVATHY L"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L37+L38",
+    "FACULTY": "BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L37+L38",
+    "FACULTY": "SHARMILADEVI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L37+L38",
+    "FACULTY": "BHUVANESWARI"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L39+L40",
+    "FACULTY": "JOE DHANITH"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L39+L40",
+    "FACULTY": "REENA ROY R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L39+L40",
+    "FACULTY": "SOBITHA AHILA S"
+  },
+  {
+    "CODE": "BAMAT205",
+    "TITLE": "Discrete Mathematics and Linear Algebra",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "BAMAT205 - Discrete Mathematics and Linear Algebra - Theory Only",
+    "FACULTY": "Theory Only"
+  },
+  {
+    "CODE": "BAMAT205",
+    "TITLE": "Discrete Mathematics and Linear Algebra",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "D1+TD1+TDD1",
+    "FACULTY": "PADMAJA N"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "BACSE201 - Models of Computation - Theory Only",
+    "FACULTY": "Theory Only"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "SURESHKUMAR WI"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "KIRUTHIKA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "AMUTHA S"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "SUBITHA D"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "KAVITHA J C"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "PADMA J"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "SHREE PRAKASH"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DEVI K"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "LAKSHMANAN K"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "SATHYARAJASEKARAN K"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "RENJITH"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "SURESHKUMAR WI"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "KIRUTHIKA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "MODIGARI NARENDRA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "AMUTHA S"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "SUBITHA D"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "SARAVANAN P"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "PADMA J"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "SHREE PRAKASH"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "MADURA MEENAKSHI R"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "LAKSHMANAN K"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "SUGANYA G"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "MADURA MEENAKSHI R"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "KAVITHA J C"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "MODIGARI NARENDRA"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ETH",
+    "CREDITS": 0,
+    "SLOT": "BACSE102 - Problem Solving Using Java - Lab Only",
+    "FACULTY": "Lab Only"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L19+L20",
+    "FACULTY": "KANNIGA DEVI R"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L27+L28",
+    "FACULTY": "KARTHIKEYAN N"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L27+L28",
+    "FACULTY": "SARAVANAN P"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L9+L10",
+    "FACULTY": "INDRA PRIYADHARSHINI"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L9+L10",
+    "FACULTY": "PALANI THANARAJ K"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L9+L10",
+    "FACULTY": "SENTHIL PRAKASH P N"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L9+L10",
+    "FACULTY": "LEKSHMI K"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L9+L10",
+    "FACULTY": "JAI VINITA L"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L49+L50",
+    "FACULTY": "JOSHAN"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L49+L50",
+    "FACULTY": "MANSOOR HUSSAIN D"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L49+L50",
+    "FACULTY": "DINAKARAN M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L49+L50",
+    "FACULTY": "PALANI THANARAJ K"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L49+L50",
+    "FACULTY": "KABILAN K"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L45+L46+L51+L52",
+    "FACULTY": "MARIMUTHU M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L51+L52+L55+L56",
+    "FACULTY": "JANAKI MEENA M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L51+L52+L55+L56",
+    "FACULTY": "INDRA PRIYADHARSHINI"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L9+L10+L19+L20",
+    "FACULTY": "DOMINIC SAVIO M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L9+L10+L19+L20",
+    "FACULTY": "SARAVANAN P"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L9+L10+L27+L28",
+    "FACULTY": "ANUSOOYA G"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L19+L20",
+    "FACULTY": "PRADEEP K"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L49+L50",
+    "FACULTY": "ANUSOOYA G"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L49+L50",
+    "FACULTY": "RADHA R"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L51+L52+L55+L56",
+    "FACULTY": "LEKSHMI K"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L27+L28",
+    "FACULTY": "MANSOOR HUSSAIN D"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L19+L20",
+    "FACULTY": "ANGELINE EZHILARASI G"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L51+L52+L55+L56",
+    "FACULTY": "SRINIVASAN B"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "ELA",
+    "CREDITS": 2,
+    "SLOT": "L11+L12+L23+L24",
+    "FACULTY": "CHENDUR KUMARAN R"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "BACSE344 - Cloud Infrastructure and Architecture - Theory Only",
+    "FACULTY": "Theory Only"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "ANANDAN P"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "SANDOSH"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "BHULAKSHMI BONTHU"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "MEIGNANAMOORTHI D"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "SENTHIL KUMAR A M"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "YOGESH C"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "MANIKANDAN P"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "BHULAKSHMI BONTHU"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "PRASSANNA J"
+  },
+  {
+    "CODE": "BACSE344",
+    "TITLE": "Cloud Infrastructure and Architecture",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "ABDUL QUADIR MD"
   }
 ]
