@@ -3,6 +3,7 @@ import { Bricolage_Grotesque, Lato } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Providers from "@/components/Providers";
+// import { headers } from "next/headers";
 // // import MobileGuard from "@/components/MobileGuard";
 import "./globals.css";
 
@@ -64,6 +65,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // const nonce = (await headers()).get("x-nonce") ?? undefined;
+
   return (
     <html lang="en">
       <body
@@ -71,7 +74,9 @@ export default function RootLayout({
       >
         <Providers>
           {/* <MobileGuard> */}
-          {children}
+          {/* <main> */}
+            {children}
+          {/* </main> */}
           {/* </MobileGuard> */}
           <Analytics />
           <SpeedInsights />

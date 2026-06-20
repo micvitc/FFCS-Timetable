@@ -159,6 +159,12 @@ export default function SavedPage() {
     const scrollRef = useRef<HTMLDivElement>(null);
     const [canScrollTimetables, setCanScrollTimetables] = useState(false);
 
+    /* survey states */
+    const [showSurvey, setShowSurvey] = useState(false);
+    const [surveyRating, setSurveyRating] = useState(0);
+    const [surveyComment, setSurveyComment] = useState('');
+    const [surveySubmitting, setSurveySubmitting] = useState(false);
+
     // Unique value per mount — ensures the fetch effect re-runs every time
     // this component mounts, even if userEmail/status haven't changed
     const [mountId] = useState(() => Date.now());
@@ -215,6 +221,58 @@ export default function SavedPage() {
         setToast(msg);
         setTimeout(() => setToast(''), 3000);
     }, []);
+
+    useEffect(() => {
+        if (timetables && timetables.length > 0) {
+            const hasSeen = localStorage.getItem('ffcs_survey_completed_or_dismissed');
+            if (!hasSeen) {
+                const timer = setTimeout(() => {
+                    setShowSurvey(true);
+                }, 2000);
+                return () => clearTimeout(timer);
+            }
+        }
+    }, [timetables]);
+
+    const handleSurveySubmit = async () => {
+        if (surveyRating === 0) return;
+        setSurveySubmitting(true);
+        try {
+            const submissionText = `[SURVEY RATING: ${surveyRating}/5] ${surveyComment}`;
+            const res = await fetch('/api/feedback', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    feedback: submissionText,
+                    userName: session?.user?.name,
+                    email: session?.user?.email,
+                }),
+            });
+
+            if (res.ok) {
+                posthog.capture('feedback_submitted', {
+                    rating: surveyRating,
+                    comment: surveyComment,
+                    source: 'saved_page_survey',
+                });
+                localStorage.setItem('ffcs_survey_completed_or_dismissed', 'true');
+                setShowSurvey(false);
+                showToast('Thank you for your feedback!');
+            } else {
+                showToast('Failed to submit feedback.');
+            }
+        } catch (error) {
+            console.error('Error submitting survey:', error);
+            showToast('Error submitting feedback.');
+        } finally {
+            setSurveySubmitting(false);
+        }
+    };
+
+    const handleSurveyDismiss = () => {
+        localStorage.setItem('ffcs_survey_completed_or_dismissed', 'true');
+        setShowSurvey(false);
+    };
 
     const handlePrevious = () => {
         if (viewMode === 'view') {
@@ -659,6 +717,74 @@ export default function SavedPage() {
                             </button>
                         </div>
                     </div>
+                </div>
+            )}
+            {/* Feedback Survey Modal (Slide-in) */}
+            {showSurvey && (
+                <div className="fixed bottom-6 right-6 z-150 w-full max-w-sm animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[24px] border border-[#eadcc5] bg-[#FFF8E7]/95 backdrop-blur-md p-6 shadow-[0_24px_60px_rgba(74,54,30,0.2)]">
+                    <div className="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 className="text-[20px] font-black text-gray-900 tracking-tight">Quick Feedback</h4>
+                            <p className="text-[13px] font-semibold text-[#6b6257] mt-1">How is your experience with FFCS Planner?</p>
+                        </div>
+                        <button
+                            onClick={handleSurveyDismiss}
+                            className="text-gray-400 hover:text-gray-900 transition-colors p-1 hover:bg-[#eadcc5]/40 rounded-full border-none bg-transparent cursor-pointer"
+                            aria-label="Dismiss feedback survey"
+                        >
+                            <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div className="flex gap-2 justify-center mb-5">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                            <button
+                                key={star}
+                                onClick={() => setSurveyRating(star)}
+                                className="transition-all border-none bg-transparent cursor-pointer p-0.5"
+                            >
+                                <svg 
+                                    width="28" 
+                                    height="28" 
+                                    viewBox="0 0 24 24" 
+                                    fill={surveyRating >= star ? "#F59E0B" : "none"} 
+                                    stroke={surveyRating >= star ? "#F59E0B" : "#A3A3A3"} 
+                                    strokeWidth="2.2" 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round" 
+                                    className={`transition-all duration-150 hover:scale-115 active:scale-95 ${
+                                        surveyRating >= star ? 'drop-shadow-[0_2px_8px_rgba(245,158,11,0.25)]' : ''
+                                    }`}
+                                >
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                            </button>
+                        ))}
+                    </div>
+
+                    <div className="mb-4">
+                        <textarea
+                            value={surveyComment}
+                            onChange={(e) => setSurveyComment(e.target.value)}
+                            placeholder="Optional: Tell us what you like or what could be better..."
+                            rows={3}
+                            className="w-full text-sm rounded-xl border border-[#eadcc5] bg-white/85 px-3.5 py-2.5 text-black outline-none transition-all placeholder:text-[#8a8177] focus:ring-2 focus:ring-[#3B5BDB]/25 focus:border-[#3B5BDB] resize-none"
+                        />
+                    </div>
+
+                    <button
+                        onClick={handleSurveySubmit}
+                        disabled={surveyRating === 0 || surveySubmitting}
+                        className={`w-full py-3 rounded-xl font-extrabold text-[15px] text-center border-none transition-all cursor-pointer ${
+                            surveyRating === 0 || surveySubmitting
+                                ? 'bg-gray-200 text-gray-400 cursor-not-allowed opacity-60'
+                                : 'bg-[#3B5BDB] text-white shadow-lg shadow-[#3B5BDB]/25 hover:bg-[#2B4BCE] hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98]'
+                        }`}
+                    >
+                        {surveySubmitting ? 'Submitting...' : 'Submit Feedback'}
+                    </button>
                 </div>
             )}
         </div>

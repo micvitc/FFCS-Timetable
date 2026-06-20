@@ -28,7 +28,8 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { useSession } from 'next-auth/react';
-import { useFlags } from '@flagsmith/flagsmith/react';
+import { useFeatureFlagEnabled } from '@posthog/react';
+import posthog from 'posthog-js';
 import { usePreferences } from '@/lib/PreferencesContext';
 import { fullCourseData } from '@/lib/type';
 import { getPlannerStoredValue, setPlannerStoredValue } from '@/lib/plannerStorage';
@@ -39,6 +40,7 @@ import type { ChennaiDomainCatalog } from '@/lib/chennaiCatalog';
 import {
     buildPreferenceCoursesFromChennaiSelection,
     getChennaiDepartmentData,
+    chennaiCatalog,
 } from '@/lib/chennaiCatalog';
 
 // Cookie utility functions
@@ -66,22 +68,20 @@ const getCookie = (name: string): string | null => {
 
 const keepFirst = (arr: string[]): string[] => (arr.length > 0 ? [arr[0]] : []);
 
-const STEP_COLORS = ['#9bc0f6', '#eedaff', '#d1fae5', '#9bc0f6', '#eedaff'];
-const STEP_BORDER_COLORS = ['#759fdf', '#bfa1eb', '#9dcbb5', '#759fdf', '#bfa1eb'];
-const STEP_LABELS = [
-    'Select Domain',
-    'Select Subject',
-    'Select Slot',
-    'Select Faculty',
-    'Faculty Priority',
-];
-const FACULTY_FIRST_STEP_LABELS = [
-    'Select Domain',
-    'Select Subject',
-    'Select Faculty',
-    'Select Slot',
-    'Faculty Priority',
-];
+const SCHOOLS = ['SCOPE', 'SENSE', 'SELECT', 'SMEC', 'SCHEME', 'SCORE', 'SBST', 'SCE', 'SHINE', 'SSL', 'SAS'];
+
+const SCHOOL_TO_DOMAINS: Record<string, string[]> = {
+    SCOPE: ['BACSE'],
+    SENSE: ['BECE', 'BAECE'],
+    SELECT: ['BAEEE', 'BEEE'],
+    SAS: ['BAMAT', 'BABIT'],
+    SSL: ['BASTS', 'BSTS', 'STS', 'BAHUM', 'BAESP', 'BAFRE', 'BAGER', 'BAJAP'],
+    SCE: ['BACLE'],
+};
+
+const STEP_COLORS_PALETTE = ['#9bc0f6', '#eedaff', '#d1fae5', '#9bc0f6', '#eedaff', '#d1fae5'];
+const STEP_BORDER_COLORS_PALETTE = ['#759fdf', '#bfa1eb', '#9dcbb5', '#759fdf', '#bfa1eb', '#9dcbb5'];
+
 const FACULTY_FIRST_MODE_COOKIE = 'facultyFirstPreferenceMode';
 const FACULTY_FIRST_MODE_HELP = [
     {
@@ -102,12 +102,23 @@ export default function PreferencesPage() {
     const router = useRouter();
     const { data: session } = useSession();
     const { addCourse, updateCourse } = usePreferences();
-    const flags = useFlags([FEATURE_FLAGS.facultyFirstPreferenceFlow]);
-    const isFacultyFirstToggleAvailable = Boolean(flags[FEATURE_FLAGS.facultyFirstPreferenceFlow]?.enabled);
+    const [isMounted, setIsMounted] = useState(false);
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+
+    const isFacultyFirstToggleAvailableRaw = useFeatureFlagEnabled(FEATURE_FLAGS.facultyFirstPreferenceFlow) ?? false;
+    const isSchoolSelectionEnabledRaw = useFeatureFlagEnabled(FEATURE_FLAGS.schoolSelectionStep) ?? false;
+    const isDirectJumpEnabledRaw = useFeatureFlagEnabled(FEATURE_FLAGS.directJumpToCourses) ?? false;
+
+    const isFacultyFirstToggleAvailable = isMounted && isFacultyFirstToggleAvailableRaw;
+    const isSchoolSelectionEnabled = isMounted && isSchoolSelectionEnabledRaw;
+    const isDirectJumpEnabled = isMounted && isDirectJumpEnabledRaw;
 
     const itemRefs = React.useRef<Record<string, HTMLButtonElement | null>>({});
 
     const [currentStep, setCurrentStep] = useState(1);
+    const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
     const [selectedDomains, setSelectedDomains] = useState<string[]>([]);
     const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
     const [selectedSlots, setSelectedSlots] = useState<string[]>([]);
@@ -119,8 +130,53 @@ export default function PreferencesPage() {
     const [isHelpOpen, setIsHelpOpen] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
     const [selectionError, setSelectionError] = useState('');
+    const [isSkippedToSubjects, setIsSkippedToSubjects] = useState(false);
+    const [subjectSearchQuery, setSubjectSearchQuery] = useState('');
     const isFacultyFirstMode = isFacultyFirstToggleAvailable && isFacultyFirstModeEnabled;
-    const stepLabels = isFacultyFirstMode ? FACULTY_FIRST_STEP_LABELS : STEP_LABELS;
+
+    useEffect(() => {
+        setSubjectSearchQuery('');
+    }, [currentStep]);
+
+    const stepKeys = useMemo(() => {
+        const keys = [];
+        if (isSchoolSelectionEnabled) {
+            keys.push('school');
+        }
+        keys.push('domain');
+        keys.push('subject');
+        if (isFacultyFirstMode) {
+            keys.push('faculty');
+            keys.push('slot');
+        } else {
+            keys.push('slot');
+            keys.push('faculty');
+        }
+        keys.push('priority');
+        return keys;
+    }, [isSchoolSelectionEnabled, isFacultyFirstMode]);
+
+    const stepLabels = useMemo(() => {
+        return stepKeys.map(key => {
+            switch (key) {
+                case 'school': return 'Select School';
+                case 'domain': return 'Select Domain';
+                case 'subject': return 'Select Subject';
+                case 'slot': return 'Select Slot';
+                case 'faculty': return 'Select Faculty';
+                case 'priority': return 'Faculty Priority';
+                default: return '';
+            }
+        });
+    }, [stepKeys]);
+
+    const stepColors = useMemo(() => {
+        return stepKeys.map((_, idx) => STEP_COLORS_PALETTE[idx % STEP_COLORS_PALETTE.length]);
+    }, [stepKeys]);
+
+    const stepBorderColors = useMemo(() => {
+        return stepKeys.map((_, idx) => STEP_BORDER_COLORS_PALETTE[idx % STEP_BORDER_COLORS_PALETTE.length]);
+    }, [stepKeys]);
 
     const moveFacultyUp = (index: number) => {
         if (index === 0) return;
@@ -135,23 +191,24 @@ export default function PreferencesPage() {
         [updated[index + 1], updated[index]] = [updated[index], updated[index + 1]];
         setSavedFacultyPreferences(updated);
     };
+    const hasRestoredRef = React.useRef(false);
     // Load preferences from cookies on mount
     useEffect(() => {
+        if (hasRestoredRef.current) return;
+        posthog.capture('preferences_flow_started');
         const timer = window.setTimeout(() => {
             const savedStep = getCookie('preferenceStep');
+            const savedStepKey = getCookie('preferenceStepKey');
+            const savedSchool = getCookie('preferenceSchool');
             const savedDomains = getCookie('preferenceDomains');
             const savedSubjects = getCookie('preferenceSubjects');
             const savedSlots = getCookie('preferenceSlots');
             const savedFaculties = getPlannerStoredValue('preferenceMultipleFaculties');
             const savedPriority = getCookie('facultyPriority');
             const savedFacultyFirstMode = getCookie(FACULTY_FIRST_MODE_COOKIE);
+            const savedSkipped = getCookie('preferenceIsSkippedToSubjects');
 
-            if (savedStep) {
-                const parsedStep = Number.parseInt(savedStep, 10);
-                if (!Number.isNaN(parsedStep) && parsedStep >= 1 && parsedStep <= 5) {
-                    setCurrentStep(parsedStep);
-                }
-            }
+            if (savedSchool) setSelectedSchool(savedSchool);
             if (savedDomains) {
                 const parsed = JSON.parse(savedDomains);
                 setSelectedDomains(keepFirst(Array.isArray(parsed) ? parsed : []));
@@ -164,20 +221,42 @@ export default function PreferencesPage() {
             if (savedFaculties) setSavedFacultyPreferences(JSON.parse(savedFaculties));
             if (savedPriority) setFacultyPriority(savedPriority as 'slot' | 'faculty');
             if (savedFacultyFirstMode === 'true') setIsFacultyFirstModeEnabled(true);
+            if (savedSkipped === 'true') setIsSkippedToSubjects(true);
             setHasLoadedFacultyFirstMode(true);
+
+            let stepRestored = false;
+            if (savedStepKey) {
+                const stepIdx = stepKeys.indexOf(savedStepKey);
+                if (stepIdx !== -1) {
+                    setCurrentStep(stepIdx + 1);
+                    stepRestored = true;
+                }
+            }
+            if (!stepRestored && savedStep) {
+                const parsedStep = Number.parseInt(savedStep, 10);
+                if (!Number.isNaN(parsedStep) && parsedStep >= 1 && parsedStep <= stepKeys.length) {
+                    setCurrentStep(parsedStep);
+                }
+            }
+            hasRestoredRef.current = true;
         }, 0);
 
         return () => window.clearTimeout(timer);
-    }, []);
+    }, [stepKeys]);
 
     // Save preferences to cookies whenever they change
     useEffect(() => {
         setCookie('preferenceStep', currentStep.toString());
+        if (stepKeys[currentStep - 1]) {
+            setCookie('preferenceStepKey', stepKeys[currentStep - 1]);
+        }
+        setCookie('preferenceSchool', selectedSchool || '');
         setCookie('preferenceDomains', JSON.stringify(selectedDomains));
         setCookie('preferenceSubjects', JSON.stringify(selectedSubjects));
         setCookie('preferenceSlots', JSON.stringify(selectedSlots));
         setCookie('facultyPriority', facultyPriority);
-    }, [currentStep, selectedDomains, selectedSubjects, selectedSlots, facultyPriority]);
+        setCookie('preferenceIsSkippedToSubjects', isSkippedToSubjects ? 'true' : 'false');
+    }, [currentStep, selectedSchool, selectedDomains, selectedSubjects, selectedSlots, facultyPriority, stepKeys, isSkippedToSubjects]);
 
     useEffect(() => {
         if (!hasLoadedFacultyFirstMode) return;
@@ -196,14 +275,15 @@ export default function PreferencesPage() {
     useEffect(() => {
         const handleTourStep = (event: Event) => {
             const step = (event as CustomEvent<{ step?: number }>).detail?.step;
-            if (typeof step === 'number' && step >= 1 && step <= 5) {
-                setCurrentStep(step);
+            if (typeof step === 'number' && step >= (isSchoolSelectionEnabled ? 0 : 1) && step <= 5) {
+                const adjustedStep = isSchoolSelectionEnabled ? step + 1 : step;
+                setCurrentStep(adjustedStep);
             }
         };
 
         window.addEventListener(PREFERENCE_TOUR_STEP_EVENT, handleTourStep);
         return () => window.removeEventListener(PREFERENCE_TOUR_STEP_EVENT, handleTourStep);
-    }, []);
+    }, [isSchoolSelectionEnabled]);
 
 
 
@@ -214,15 +294,34 @@ export default function PreferencesPage() {
 
     // Get available domains (course prefixes)
     const domains = useMemo(() => {
-        return Object.keys(getChennaiDepartmentData([]));
-    }, []);
+        const allDomains = Object.keys(getChennaiDepartmentData([]));
+        if (isSchoolSelectionEnabled && selectedSchool) {
+            const allowedDomains = SCHOOL_TO_DOMAINS[selectedSchool] || [];
+            return allDomains.filter((domain) => allowedDomains.includes(domain));
+        }
+        return allDomains;
+    }, [isSchoolSelectionEnabled, selectedSchool]);
 
     // Get subjects in selected domain
     const subjects = useMemo(() => {
+        if (isSkippedToSubjects) {
+            const allSubjects = Object.values(chennaiCatalog).flatMap((subjectsObj) => Object.keys(subjectsObj));
+            return [...new Set(allSubjects)].sort();
+        }
         if (selectedDomains.length === 0 || !domainData) return [];
         const allSubjects = selectedDomains.flatMap((domain) => Object.keys(domainData[domain] ?? {}));
         return [...new Set(allSubjects)];
-    }, [selectedDomains, domainData]);
+    }, [selectedDomains, domainData, isSkippedToSubjects]);
+
+    const filteredSubjectsInStep = useMemo(() => {
+        const query = subjectSearchQuery.toLowerCase().trim();
+        if (!query) {
+            return isSkippedToSubjects ? subjects.slice(0, 50) : subjects;
+        }
+        return subjects.filter(
+            s => s.toLowerCase().includes(query)
+        );
+    }, [subjects, subjectSearchQuery, isSkippedToSubjects]);
 
     // Get slots for selected subject, narrowed to the active faculty in faculty-first mode.
     const slots = useMemo(() => {
@@ -289,27 +388,36 @@ export default function PreferencesPage() {
     }, [selectedSubjects, selectedDomains, selectedSlots, domainData, isFacultyFirstMode]);
 
     const handleNext = () => {
-        if (currentStep === 4) {
+        posthog.capture('preference_step_completed', { step: currentStep });
+        if (currentStep === stepKeys.length - 1) {
             const persisted = persistCurrentSelection(false);
             if (persisted) {
-                setCurrentStep(5);
+                setCurrentStep(stepKeys.length);
             }
             return;
         }
 
-        if (currentStep < 5) {
+        if (currentStep < stepKeys.length) {
             setCurrentStep(prev => prev + 1);
         }
     };
 
     const handlePrevious = () => {
+        if (currentStep === 3 && isSkippedToSubjects) {
+            setCurrentStep(1);
+            setIsSkippedToSubjects(false);
+            return;
+        }
         if (currentStep > 1) {
             setCurrentStep(prev => prev - 1);
         }
     };
 
     const handleStepClick = (stepNum: number) => {
-        if (stepNum >= 1 && stepNum <= 5) {
+        if (stepNum >= 1 && stepNum <= stepKeys.length) {
+            if (isSkippedToSubjects && stepNum < 3) {
+                setIsSkippedToSubjects(false);
+            }
             setCurrentStep(stepNum);
         }
     };
@@ -338,8 +446,9 @@ export default function PreferencesPage() {
             return prev.filter(faculty => validFaculties.has(faculty));
         });
 
-        if (currentStep > 2) {
-            setCurrentStep(3);
+        const subjectIdx = stepKeys.indexOf('subject');
+        if (currentStep > subjectIdx + 1) {
+            setCurrentStep(subjectIdx + 2);
         }
     };
 
@@ -352,15 +461,34 @@ export default function PreferencesPage() {
         setSelectedSubjects([]);
         setSelectedSlots([]);
         setSelectedFaculties([]);
-        setCurrentStep(2);
-        setCookie('preferenceStep', '2');
+        const targetStep = isSkippedToSubjects
+            ? stepKeys.indexOf('subject') + 1
+            : stepKeys.indexOf('domain') + 1;
+        setCurrentStep(targetStep);
+        setCookie('preferenceStep', targetStep.toString());
     };
+
+    const handleSchoolSelect = React.useCallback((school: string, autoAdvance = true) => {
+        setSelectionError('');
+        setSelectedSchool(school);
+
+        if (selectedSchool !== school) {
+            setSelectedDomains([]);
+            setSelectedSubjects([]);
+            setSelectedSlots([]);
+            setSelectedFaculties([]);
+        }
+
+        if (autoAdvance) {
+            setTimeout(() => setCurrentStep(stepKeys.indexOf('domain') + 1), 200);
+        }
+    }, [selectedSchool, stepKeys]);
 
     const handleDomainSelect = React.useCallback((domain: string, autoAdvance = true) => {
         setSelectionError('');
-        
+
         setSelectedDomains([domain]);
-        
+
         if (selectedDomains[0] !== domain) {
             setSelectedSubjects([]);
             setSelectedSlots([]);
@@ -368,9 +496,9 @@ export default function PreferencesPage() {
         }
 
         if (autoAdvance) {
-            setTimeout(() => setCurrentStep(2), 200);
+            setTimeout(() => setCurrentStep(stepKeys.indexOf('subject') + 1), 200);
         }
-    }, [selectedDomains]);
+    }, [selectedDomains, stepKeys]);
 
     const handleSubjectSelect = React.useCallback((subject: string, autoAdvance = true) => {
         setSelectionError('');
@@ -382,10 +510,17 @@ export default function PreferencesPage() {
             setSelectedFaculties([]);
         }
 
+        if (isSkippedToSubjects) {
+            const code = subject.split(' - ')[0];
+            const match = code.match(/^[A-Z]+/);
+            const domain = match?.[0] || '';
+            setSelectedDomains([domain]);
+        }
+
         if (autoAdvance) {
             setTimeout(() => setCurrentStep(3), 200);
         }
-    }, [selectedSubjects]);
+    }, [selectedSubjects, isSkippedToSubjects]);
 
     const handleSlotSelect = React.useCallback((slot: string, autoAdvance = true) => {
         setSelectionError('');
@@ -582,6 +717,7 @@ export default function PreferencesPage() {
                 setSelectedSubjects([]);
                 setSelectedSlots([]);
                 setSelectedFaculties([]);
+                setSelectedSchool(null);
                 setCurrentStep(1);
             } else {
                 setSelectedFaculties([]);
@@ -594,16 +730,19 @@ export default function PreferencesPage() {
     }, [addCourse, selectedDomains, selectedFaculties, selectedSlots, selectedSubjects, slotTypes, updateCourse]);
 
     const canProceed = () => {
-        switch (currentStep) {
-            case 1:
+        const stepKey = stepKeys[currentStep - 1];
+        switch (stepKey) {
+            case 'school':
+                return selectedSchool !== null;
+            case 'domain':
                 return selectedDomains.length > 0;
-            case 2:
+            case 'subject':
                 return selectedSubjects.length > 0;
-            case 3:
-                return isFacultyFirstMode ? selectedFaculties.length > 0 : selectedSlots.length > 0;
-            case 4:
-                return isFacultyFirstMode ? selectedSlots.length > 0 : selectedFaculties.length > 0;
-            case 5:
+            case 'slot':
+                return selectedSlots.length > 0;
+            case 'faculty':
+                return selectedFaculties.length > 0;
+            case 'priority':
                 return savedFacultyPreferences.length > 0;
             default:
                 return false;
@@ -616,36 +755,42 @@ export default function PreferencesPage() {
             if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
             const key = e.key.toLowerCase();
+            const stepKey = stepKeys[currentStep - 1];
             let itemsToSearch: string[] = [];
-            if (currentStep === 1) itemsToSearch = domains;
-            else if (currentStep === 2) itemsToSearch = subjects;
-            else if (currentStep === 3) itemsToSearch = isFacultyFirstMode ? faculties : slots;
-            else if (currentStep === 4) itemsToSearch = isFacultyFirstMode ? slots : faculties;
+            if (stepKey === 'school') itemsToSearch = SCHOOLS;
+            else if (stepKey === 'domain') itemsToSearch = domains;
+            else if (stepKey === 'subject') itemsToSearch = filteredSubjectsInStep;
+            else if (stepKey === 'slot') itemsToSearch = slots;
+            else if (stepKey === 'faculty') itemsToSearch = faculties;
 
             if (key === 'enter') {
-                if (currentStep === 4) {
+                if (stepKey === 'school' && selectedSchool) {
+                    e.preventDefault();
+                    setCurrentStep(stepKeys.indexOf('domain') + 1);
+                    return;
+                }
+                if (stepKey === 'domain' && selectedDomains.length > 0) {
+                    e.preventDefault();
+                    setCurrentStep(stepKeys.indexOf('subject') + 1);
+                    return;
+                }
+                if (stepKey === 'subject' && selectedSubjects.length > 0) {
+                    e.preventDefault();
+                    setCurrentStep(stepKeys.indexOf(isFacultyFirstMode ? 'faculty' : 'slot') + 1);
+                    return;
+                }
+                if (stepKey === (isFacultyFirstMode ? 'faculty' : 'slot') && (isFacultyFirstMode ? selectedFaculties.length > 0 : selectedSlots.length > 0)) {
+                    e.preventDefault();
+                    setCurrentStep(stepKeys.indexOf(isFacultyFirstMode ? 'slot' : 'faculty') + 1);
+                    return;
+                }
+                if (stepKey === (isFacultyFirstMode ? 'slot' : 'faculty')) {
                     const hasFinalSelection = isFacultyFirstMode ? selectedSlots.length > 0 : selectedFaculties.length > 0;
                     if (hasFinalSelection) {
                         e.preventDefault();
                         const persisted = persistCurrentSelection(false);
-                        if (persisted) setCurrentStep(5);
+                        if (persisted) setCurrentStep(stepKeys.indexOf('priority') + 1);
                     }
-                    return;
-                }
-
-                if (currentStep === 1 && selectedDomains.length > 0) {
-                    e.preventDefault();
-                    setCurrentStep(2);
-                    return;
-                }
-                if (currentStep === 2 && selectedSubjects.length > 0) {
-                    e.preventDefault();
-                    setCurrentStep(3);
-                    return;
-                }
-                if (currentStep === 3 && (isFacultyFirstMode ? selectedFaculties.length > 0 : selectedSlots.length > 0)) {
-                    e.preventDefault();
-                    setCurrentStep(4);
                     return;
                 }
                 return;
@@ -672,15 +817,11 @@ export default function PreferencesPage() {
                     itemRefs.current[targetItem].focus();
                     itemRefs.current[targetItem].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
-                    if (currentStep === 1) handleDomainSelect(targetItem, false);
-                    else if (currentStep === 2) handleSubjectSelect(targetItem, false);
-                    else if (currentStep === 3) {
-                        if (isFacultyFirstMode) handleFacultySelect(targetItem, false);
-                        else handleSlotSelect(targetItem, false);
-                    } else if (currentStep === 4) {
-                        if (isFacultyFirstMode) handleSlotSelect(targetItem, false);
-                        else handleFacultySelect(targetItem, false);
-                    }
+                    if (stepKey === 'school') handleSchoolSelect(targetItem, false);
+                    else if (stepKey === 'domain') handleDomainSelect(targetItem, false);
+                    else if (stepKey === 'subject') handleSubjectSelect(targetItem, false);
+                    else if (stepKey === 'slot') handleSlotSelect(targetItem, false);
+                    else if (stepKey === 'faculty') handleFacultySelect(targetItem, false);
                 }
                 return;
             }
@@ -691,15 +832,11 @@ export default function PreferencesPage() {
                     itemRefs.current[targetItem].focus();
                     itemRefs.current[targetItem].scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 
-                    if (currentStep === 1) handleDomainSelect(targetItem, false);
-                    else if (currentStep === 2) handleSubjectSelect(targetItem, false);
-                    else if (currentStep === 3) {
-                        if (isFacultyFirstMode) handleFacultySelect(targetItem, false);
-                        else handleSlotSelect(targetItem, false);
-                    } else if (currentStep === 4) {
-                        if (isFacultyFirstMode) handleSlotSelect(targetItem, false);
-                        else handleFacultySelect(targetItem, false);
-                    }
+                    if (stepKey === 'school') handleSchoolSelect(targetItem, false);
+                    else if (stepKey === 'domain') handleDomainSelect(targetItem, false);
+                    else if (stepKey === 'subject') handleSubjectSelect(targetItem, false);
+                    else if (stepKey === 'slot') handleSlotSelect(targetItem, false);
+                    else if (stepKey === 'faculty') handleFacultySelect(targetItem, false);
                 }
             }
         };
@@ -708,21 +845,32 @@ export default function PreferencesPage() {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [
         currentStep,
+        stepKeys,
         domains,
-        subjects,
+        filteredSubjectsInStep,
         slots,
         faculties,
+        selectedSchool,
         selectedDomains,
         selectedSubjects,
         selectedSlots,
         selectedFaculties,
         isFacultyFirstMode,
+        handleSchoolSelect,
         handleDomainSelect,
         handleSubjectSelect,
         handleFacultySelect,
         handleSlotSelect,
         persistCurrentSelection,
     ]);
+
+    const getTourStepName = (stepNum: number) => {
+        if (isSchoolSelectionEnabled) {
+            if (stepNum === 1) return 'preferences-step-school';
+            return `preferences-step-${stepNum - 1}`;
+        }
+        return `preferences-step-${stepNum}`;
+    };
 
     return (
         <>
@@ -770,278 +918,318 @@ export default function PreferencesPage() {
                     <div className="flex-1 min-h-0 bg-white rounded-[18px] shadow-[0_8px_30px_rgb(0,0,0,0.02)] border border-white overflow-hidden px-4 py-4 lg:px-6 lg:py-5 animate-lucid-fade-up-delayed">
                             <div className="flex items-stretch gap-[clamp(8px,0.9vw,16px)] h-full min-h-0 min-w-0 overflow-hidden" style={{ scrollBehavior: 'smooth' }}>
                         {/* Step Panels */}
-                        {[1, 2, 3, 4, 5].map(stepNum => (
-                            <div
-                                key={stepNum}
-                                data-tour={stepNum === currentStep ? `preferences-step-${stepNum}` : undefined}
-                                onClick={stepNum === currentStep ? undefined : () => handleStepClick(stepNum)}
-                                className={`rounded-2xl items-center justify-center transition-all duration-300 overflow-hidden shrink-0 ${
-  stepNum === currentStep
-    ? 'flex flex-1 md:flex-[2.8] w-full md:w-auto min-w-[200px] md:min-w-70 max-w-full md:max-w-117.5'
-    : 'hidden md:flex flex-1 min-w-14.5'
-}`}
-                                style={{ backgroundColor: STEP_COLORS[stepNum - 1] }}
-                            >
-                            {stepNum === currentStep ? (
-                                <div key={`active-step-${currentStep}`} className="w-full h-full flex flex-col px-2 lg:px-4 pt-4 pb-3 overflow-hidden bg-white/10 backdrop-blur-sm rounded-2xl animate-lucid-panel-in">
-                                    <div 
-                                        className="flex items-center justify-center shrink-0 border-b-4 pb-3 mb-3 px-2 lg:-mx-4 lg:px-4"
-                                        style={{ borderBottomColor: STEP_BORDER_COLORS[stepNum - 1] }}
-                                    >
-                                        <h2 className="text-[16px] lg:text-[28px] font-bold text-black m-0 leading-none text-center">
-                                            {stepNum}. {stepLabels[stepNum - 1]}
-                                        </h2>
-                                    </div>
+                        {stepKeys.map((stepKey, idx) => {
+                            const stepNum = idx + 1;
+                            return (
+                                <div
+                                    key={stepNum}
+                                    data-tour={stepNum === currentStep ? getTourStepName(stepNum) : undefined}
+                                    onClick={stepNum === currentStep ? undefined : () => handleStepClick(stepNum)}
+                                    className={`rounded-2xl items-center justify-center transition-all duration-300 overflow-hidden shrink-0 ${
+                                        stepNum === currentStep
+                                            ? 'flex flex-1 md:flex-[2.8] w-full md:w-auto min-w-[200px] md:min-w-70 max-w-full md:max-w-117.5'
+                                            : 'hidden md:flex flex-1 min-w-14.5'
+                                    }`}
+                                    style={{ backgroundColor: stepColors[idx] }}
+                                >
+                                {stepNum === currentStep ? (
+                                    <div key={`active-step-${stepKey}`} className="w-full h-full flex flex-col px-2 lg:px-4 pt-4 pb-3 overflow-hidden bg-white/10 backdrop-blur-sm rounded-2xl animate-lucid-panel-in">
+                                        <div 
+                                            className="flex items-center justify-center shrink-0 border-b-4 pb-3 mb-3 px-2 lg:-mx-4 lg:px-4"
+                                            style={{ borderBottomColor: stepBorderColors[idx] }}
+                                        >
+                                            <h2 className="text-[16px] lg:text-[28px] font-bold text-black m-0 leading-none text-center">
+                                                {stepNum}. {stepLabels[idx]}
+                                            </h2>
+                                        </div>
 
-                                    <div className="flex-1 bg-transparent p-1 lg:p-3 overflow-y-auto custom-scrollbar flex flex-col">
-                                        {selectionError && (
-                                            <div className="mb-3 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
-                                                {selectionError}
-                                            </div>
-                                        )}
-                                        {/* Step 1: Domain Selection */}
-                                        {stepNum === 1 && (
-                                            <div style={{ display: 'grid', gap: '10px' }}>
-                                                <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
-                                                    Select one option
-                                                </p>
-                                                {domains.map(dept => (
-                                                    <button
-                                                        key={dept}
-                                                        ref={(el) => { itemRefs.current[dept] = el; }}
-                                                        onClick={() => handleDomainSelect(dept, false)}
-                                                        className={`${selectionButtonClass} cursor-pointer ${selectedDomains.includes(dept)
-                                                            ? selectionButtonSelectedClass
-                                                            : selectionButtonUnselectedClass
-                                                            }`}
-                                                    >
-                                                        {dept}
-                                                    </button>
-                                                ))}
-                                            </div>
-                                        )}
-
-                                        {/* Step 2: Subject Selection */}
-                                        {stepNum === 2 && (
-                                            <div style={{ display: 'grid', gap: '10px' }}>
-                                                <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
-                                                    Select one option
-                                                </p>
-                                                {subjects.length > 0 ? subjects.map(subject => (
-                                                    <button
-                                                        key={subject}
-                                                        ref={(el) => { itemRefs.current[subject] = el; }}
-                                                        onClick={() => handleSubjectSelect(subject, false)}
-                                                        className={`${selectionButtonClass} cursor-pointer ${selectedSubjects.includes(subject)
-                                                            ? selectionButtonSelectedClass
-                                                            : selectionButtonUnselectedClass
-                                                            }`}
-                                                    >
-                                                        <div className="font-mono font-bold text-sm">
-                                                            {subject.split(' - ')[0]}
-                                                        </div>
-                                                        <div className="text-xs text-gray-700 mt-1">
-                                                            {subject.split(' - ').slice(1).join(' - ')}
-                                                        </div>
-                                                    </button>
-                                                )) : (
-                                                    <div className="text-center text-gray-700 py-8">
-                                                        Please select a domain first
-                                                    </div>
-                                                )}
-                                            </div>
-                                        )}
-
-                                        {/* Slot Selection */}
-                                        {((stepNum === 3 && !isFacultyFirstMode) || (stepNum === 4 && isFacultyFirstMode)) && (
-                                            <div style={{ display: 'grid', gap: '10px' }}>
-                                                <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
-                                                    Select one option
-                                                </p>
-                                                {slots.length > 0 ? slots.map(slot => {
-                                                    return (
+                                        <div className="flex-1 bg-transparent p-1 lg:p-3 overflow-y-auto custom-scrollbar flex flex-col">
+                                            {selectionError && (
+                                                <div className="mb-3 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
+                                                    {selectionError}
+                                                </div>
+                                            )}
+                                            {/* Step: School Selection */}
+                                            {stepKey === 'school' && (
+                                                <div style={{ display: 'grid', gap: '10px' }}>
+                                                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
+                                                        Select one option
+                                                    </p>
+                                                    {isDirectJumpEnabled && (
                                                         <button
-                                                            key={slot}
-                                                            ref={(el) => { itemRefs.current[slot] = el; }}
-                                                            onClick={() => handleSlotSelect(slot, false)}
-                                                            className={`${selectionButtonClass} ${selectedSlots.includes(slot)
+                                                            onClick={() => {
+                                                                posthog.capture('preferences_skipped_to_subject_selection');
+                                                                setIsSkippedToSubjects(true);
+                                                                setSelectedSchool(null);
+                                                                setSelectedDomains([]);
+                                                                setSelectedSubjects([]);
+                                                                setSelectedSlots([]);
+                                                                setSelectedFaculties([]);
+                                                                setCurrentStep(stepKeys.indexOf('subject') + 1);
+                                                            }}
+                                                            className="w-full p-3 lg:p-4 mb-1 rounded-lg text-center font-bold text-white bg-gradient-to-r from-[#4C6EF5] to-[#3B5BDB] border border-[#3B5BDB]/20 hover:from-[#5C7CFA] hover:to-[#4C6EF5] shadow-lg shadow-[#3B5BDB]/25 transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3B5BDB] cursor-pointer"
+                                                        >
+                                                            🔍 Skip & Search All Subjects
+                                                        </button>
+                                                    )}
+                                                    {SCHOOLS.map(school => (
+                                                        <button
+                                                            key={school}
+                                                            ref={(el) => { itemRefs.current[school] = el; }}
+                                                            onClick={() => handleSchoolSelect(school, false)}
+                                                            className={`${selectionButtonClass} cursor-pointer ${selectedSchool === school
                                                                 ? selectionButtonSelectedClass
                                                                 : selectionButtonUnselectedClass
-                                                                } flex items-center justify-between`}
+                                                                }`}
                                                         >
-                                                            <span>{slot}</span>
-                                                            {/* {slotKind === 'theory' && (
-                                                                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 ml-2 shrink-0">
-                                                                    Theory
-                                                                </span>
-                                                            )}
-                                                            {slotKind === 'lab' && (
-                                                                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 ml-2 shrink-0">
-                                                                    Lab
-                                                                </span>
-                                                            )} */}
+                                                            {school}
                                                         </button>
-                                                    );
-                                                }) : (
-                                                    <div className="text-center text-gray-700 py-8">
-                                                        {isFacultyFirstMode ? 'Please select a faculty first' : 'Please select a subject first'}
-                                                    </div>
-                                                )}
-                                            </div>
-                                        )}
+                                                    ))}
+                                                </div>
+                                            )}
 
-                                        {/* Faculty Selection */}
-                                        {((stepNum === 3 && isFacultyFirstMode) || (stepNum === 4 && !isFacultyFirstMode)) && (
-                                            <div style={{ display: 'grid', gap: '10px' }}>
-                                                <p className={`text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1 ${selectionError ? 'mt-1' : ''}`}>
-                                                    {isFacultyFirstMode ? 'Select one option' : 'Select one or more options'}
-                                                </p>
-                                                {faculties.length > 0 ? faculties.map((faculty, idx) => (
-                                                    <button
-                                                        key={idx}
-                                                        ref={(el) => { itemRefs.current[faculty] = el; }}
-                                                        onClick={() => handleFacultySelect(faculty)}
-                                                        className={`${selectionButtonClass} ${selectedFaculties.includes(faculty)
-                                                            ? selectionButtonSelectedClass
-                                                            : selectionButtonUnselectedClass
-                                                            }`}
-                                                    >
-                                                        {faculty}
-                                                    </button>
-                                                )) : (
-                                                    <div className="text-center text-gray-700 py-8">
-                                                        {isFacultyFirstMode ? 'Please select a subject first' : 'Please select a slot first'}
-                                                    </div>
-                                                )}
-                                            </div>
-                                        )}
+                                            {/* Step: Domain Selection */}
+                                            {stepKey === 'domain' && (
+                                                <div style={{ display: 'grid', gap: '10px' }}>
+                                                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
+                                                        Select one option
+                                                    </p>
+                                                    {domains.map(dept => (
+                                                        <button
+                                                            key={dept}
+                                                            ref={(el) => { itemRefs.current[dept] = el; }}
+                                                            onClick={() => handleDomainSelect(dept, false)}
+                                                            className={`${selectionButtonClass} cursor-pointer ${selectedDomains.includes(dept)
+                                                                ? selectionButtonSelectedClass
+                                                                : selectionButtonUnselectedClass
+                                                                }`}
+                                                        >
+                                                            {dept}
+                                                        </button>
+                                                    ))}
+                                                </div>
+                                            )}
 
-                                        {/* Step 5: Faculty Priority */}
-                                        {stepNum === 5 && (
-                                            <div className="flex flex-col h-full">
-                                                <p className="text-gray-800 font-medium mb-3">
-                                                    Professors selected in {isFacultyFirstMode ? 'Step 3' : 'Step 4'} are auto-added:
-                                                </p>
-
-                                                <div className="bg-white/50 rounded-lg p-4 shadow-sm border border-white/60">
-                                                    <p className="text-sm font-bold text-gray-800 mb-3">Your Faculty Preferences:</p>
-                                                    {savedFacultyPreferences.length > 0 ? (
-                                                        <div style={{ display: 'grid', gap: '8px' }}>
-                                                            {savedFacultyPreferences.map((f, idx) => {
-                                                                const name = typeof f === 'string' ? f : f.name;
-                                                                const type = typeof f === 'string' ? null : f.type;
-                                                                return (
-                                                                    <div key={idx} className="flex justify-between items-center bg-white p-3 rounded-lg shadow-sm border border-gray-100">
-                                                                        <div className="flex items-center gap-2">
-                                                                            <span className="text-sm font-bold text-gray-900">{name}</span>
-                                                                            {type === 'theory' && (
-                                                                                <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-blue-100 text-blue-700 shrink-0">
-                                                                                    Theory
-                                                                                </span>
-                                                                            )}
-                                                                            {type === 'lab' && (
-                                                                                <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-purple-100 text-purple-700 shrink-0">
-                                                                                    Lab
-                                                                                </span>
-                                                                            )}
-                                                                        </div>
-                                                                    <div className="flex gap-2 items-center">
-                                                                        <button
-                                                                            onClick={() => moveFacultyUp(idx)}
-                                                                            disabled={idx === 0}
-                                                                            className={`px-2 py-1 rounded border ${idx === 0 ? "opacity-30 cursor-not-allowed" : "hover:bg-gray-100"}`}
-                                                                        >
-                                                                            ↑
-                                                                        </button>
-                                                                        <button
-                                                                            onClick={() => moveFacultyDown(idx)}
-                                                                            disabled={idx === savedFacultyPreferences.length - 1}
-                                                                            className={`px-2 py-1 rounded border ${idx === savedFacultyPreferences.length - 1 ? "opacity-30 cursor-not-allowed" : "hover:bg-gray-100"}`}
-                                                                        >
-                                                                            ↓
-                                                                        </button>
-                                                                        <button
-                                                                            onClick={() => {
-                                                                                const updated = savedFacultyPreferences.filter((_, i) => i !== idx);
-                                                                                setSavedFacultyPreferences(updated);
-                                                                            }}
-                                                                            className="text-red-500 hover:text-red-700 font-bold ml-2 text-lg hover:bg-red-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors"
-                                                                        >
-                                                                            ×
-                                                                        </button>
-                                                                    </div>
-                                                                </div>
-                                                                );
-                                                            })}
+                                            {/* Step: Subject Selection */}
+                                            {stepKey === 'subject' && (
+                                                <div style={{ display: 'grid', gap: '10px' }}>
+                                                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
+                                                        Select one option
+                                                    </p>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Search subjects by code or title..."
+                                                        value={subjectSearchQuery}
+                                                        onChange={(e) => setSubjectSearchQuery(e.target.value)}
+                                                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2 text-sm text-gray-800 bg-white"
+                                                    />
+                                                    {filteredSubjectsInStep.length > 0 ? filteredSubjectsInStep.map(subject => (
+                                                        <button
+                                                            key={subject}
+                                                            ref={(el) => { itemRefs.current[subject] = el; }}
+                                                            onClick={() => handleSubjectSelect(subject, false)}
+                                                            className={`${selectionButtonClass} cursor-pointer ${selectedSubjects.includes(subject)
+                                                                ? selectionButtonSelectedClass
+                                                                : selectionButtonUnselectedClass
+                                                                }`}
+                                                        >
+                                                            <div className="font-mono font-bold text-sm">
+                                                                {subject.split(' - ')[0]}
+                                                            </div>
+                                                            <div className="text-xs text-gray-700 mt-1">
+                                                                {subject.split(' - ').slice(1).join(' - ')}
+                                                            </div>
+                                                        </button>
+                                                    )) : (
+                                                        <div className="text-center text-gray-700 py-8">
+                                                            {subjects.length > 0 ? 'No matching subjects found' : 'Please select a domain first'}
                                                         </div>
-                                                    ) : (
-                                                        <p className="text-xs text-gray-500">No faculty added yet</p>
                                                     )}
                                                 </div>
-                                            </div>
-                                        )}
+                                            )}
+
+                                            {/* Step: Slot Selection */}
+                                            {stepKey === 'slot' && (
+                                                <div style={{ display: 'grid', gap: '10px' }}>
+                                                    <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
+                                                        Select one option
+                                                    </p>
+                                                    {slots.length > 0 ? slots.map(slot => {
+                                                        return (
+                                                            <button
+                                                                key={slot}
+                                                                ref={(el) => { itemRefs.current[slot] = el; }}
+                                                                onClick={() => handleSlotSelect(slot, false)}
+                                                                className={`${selectionButtonClass} ${selectedSlots.includes(slot)
+                                                                    ? selectionButtonSelectedClass
+                                                                    : selectionButtonUnselectedClass
+                                                                    } flex items-center justify-between`}
+                                                            >
+                                                                <span>{slot}</span>
+                                                            </button>
+                                                        );
+                                                    }) : (
+                                                        <div className="text-center text-gray-700 py-8">
+                                                            {isFacultyFirstMode ? 'Please select a faculty first' : 'Please select a subject first'}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            )}
+
+                                            {/* Step: Faculty Selection */}
+                                            {stepKey === 'faculty' && (
+                                                <div style={{ display: 'grid', gap: '10px' }}>
+                                                    <p className={`text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1 ${selectionError ? 'mt-1' : ''}`}>
+                                                        {isFacultyFirstMode ? 'Select one option' : 'Select one or more options'}
+                                                    </p>
+                                                    {faculties.length > 0 ? faculties.map((faculty, idx) => (
+                                                        <button
+                                                            key={idx}
+                                                            ref={(el) => { itemRefs.current[faculty] = el; }}
+                                                            onClick={() => handleFacultySelect(faculty)}
+                                                            className={`${selectionButtonClass} ${selectedFaculties.includes(faculty)
+                                                                ? selectionButtonSelectedClass
+                                                                : selectionButtonUnselectedClass
+                                                                }`}
+                                                        >
+                                                            {faculty}
+                                                        </button>
+                                                    )) : (
+                                                        <div className="text-center text-gray-700 py-8">
+                                                            {isFacultyFirstMode ? 'Please select a subject first' : 'Please select a slot first'}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            )}
+
+                                            {/* Step: Faculty Priority */}
+                                            {stepKey === 'priority' && (
+                                                <div className="flex flex-col h-full">
+                                                    <p className="text-gray-800 font-medium mb-3">
+                                                        Professors selected in Step {stepKeys.indexOf('faculty') + 1} are auto-added:
+                                                    </p>
+
+                                                    <div className="bg-white/50 rounded-lg p-4 shadow-sm border border-white/60">
+                                                        <p className="text-sm font-bold text-gray-800 mb-3">Your Faculty Preferences:</p>
+                                                        {savedFacultyPreferences.length > 0 ? (
+                                                            <div style={{ display: 'grid', gap: '8px' }}>
+                                                                {savedFacultyPreferences.map((f, idx) => {
+                                                                    const name = typeof f === 'string' ? f : f.name;
+                                                                    const type = typeof f === 'string' ? null : f.type;
+                                                                    return (
+                                                                        <div key={idx} className="flex justify-between items-center bg-white p-3 rounded-lg shadow-sm border border-gray-100">
+                                                                            <div className="flex items-center gap-2">
+                                                                                <span className="text-sm font-bold text-gray-900">{name}</span>
+                                                                                {type === 'theory' && (
+                                                                                    <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-blue-100 text-blue-700 shrink-0">
+                                                                                        Theory
+                                                                                    </span>
+                                                                                )}
+                                                                                {type === 'lab' && (
+                                                                                    <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-purple-100 text-purple-700 shrink-0">
+                                                                                        Lab
+                                                                                    </span>
+                                                                                )}
+                                                                            </div>
+                                                                        <div className="flex gap-2 items-center">
+                                                                            <button
+                                                                                onClick={() => moveFacultyUp(idx)}
+                                                                                disabled={idx === 0}
+                                                                                className={`px-2 py-1 rounded border ${idx === 0 ? "opacity-30 cursor-not-allowed" : "hover:bg-gray-100"}`}
+                                                                            >
+                                                                                ↑
+                                                                            </button>
+                                                                            <button
+                                                                                onClick={() => moveFacultyDown(idx)}
+                                                                                disabled={idx === savedFacultyPreferences.length - 1}
+                                                                                className={`px-2 py-1 rounded border ${idx === savedFacultyPreferences.length - 1 ? "opacity-30 cursor-not-allowed" : "hover:bg-gray-100"}`}
+                                                                            >
+                                                                                ↓
+                                                                            </button>
+                                                                            <button
+                                                                                onClick={() => {
+                                                                                    const updated = savedFacultyPreferences.filter((_, i) => i !== idx);
+                                                                                    setSavedFacultyPreferences(updated);
+                                                                                }}
+                                                                                className="text-red-500 hover:text-red-700 font-bold ml-2 text-lg hover:bg-red-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors"
+                                                                            >
+                                                                                ×
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                    );
+                                                                })}
+                                                            </div>
+                                                        ) : (
+                                                            <p className="text-xs text-gray-500">No faculty added yet</p>
+                                                        )}
+                                                    </div>
+                                                </div>
+                                            )}
 
 
-                                    </div>
+                                        </div>
 
-                                    {/* Navigation arrows within active panel */}
-                                     <div className="flex justify-between mt-auto pt-3 shrink-0 px-1 pb-1">
-                                         <button
-                                             onClick={(e) => { e.stopPropagation(); handlePrevious(); }}
-                                             disabled={currentStep === 1}
-                                             className={`w-10 h-10 flex items-center justify-center rounded-[10px] bg-white text-gray-900 shadow-sm transition-all duration-200 ${currentStep === 1 ? 'opacity-40 cursor-not-allowed' : 'hover:shadow-md cursor-pointer'}`}
-                                         >
-                                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-                                         </button>
-                                         
-                                        {currentStep === 5 ? (
-                                             <div className="flex w-full gap-2 px-2">
-                                                 <button
-                                                     onClick={(e) => { e.stopPropagation(); handleAddAnotherProfessor(); }}
-                                                     title={'Reset to Step 2 and select another subject'}
-                                                     className="flex-1 px-3 py-2 rounded-lg font-bold text-sm bg-white text-blue-700 shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer"
-                                                 >
-                                                     + Add another
-                                                 </button>
-                                                 <button
-                                                     onClick={(e) => {
-                                                         e.stopPropagation();
-                                                         router.push('/courses');
-                                                     }}
-                                                     title={'Save current preference and view all courses'}
-                                                     className="flex-1 px-4 py-2 rounded-lg font-bold text-sm bg-blue-600 text-white hover:bg-blue-700 shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer"
-                                                 >
-                                                     Save & Continue →
-                                                 </button>
-                                             </div>
-                                         ) : (
+                                        {/* Navigation arrows within active panel */}
+                                         <div className="flex justify-between mt-auto pt-3 shrink-0 px-1 pb-1">
                                              <button
-                                                 onClick={(e) => { e.stopPropagation(); handleNext(); }}
-                                                 disabled={!canProceed()}
-                                                 className={`w-10 h-10 flex items-center justify-center rounded-[10px] bg-white text-gray-900 shadow-sm transition-all duration-200 cursor-pointer ${!canProceed() ? 'opacity-40 cursor-not-allowed' : 'hover:shadow-md'}`}
+                                                 onClick={(e) => { e.stopPropagation(); handlePrevious(); }}
+                                                 disabled={currentStep === 1}
+                                                 className={`w-10 h-10 flex items-center justify-center rounded-[10px] bg-white text-gray-900 shadow-sm transition-all duration-200 ${currentStep === 1 ? 'opacity-40 cursor-not-allowed' : 'hover:shadow-md cursor-pointer'}`}
                                              >
-                                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
                                              </button>
-                                         )}
+                                             
+                                            {currentStep === stepKeys.length ? (
+                                                 <div className="flex w-full gap-2 px-2">
+                                                     <button
+                                                         onClick={(e) => { e.stopPropagation(); handleAddAnotherProfessor(); }}
+                                                         title={'Reset to Step 2 and select another subject'}
+                                                         className="flex-1 px-3 py-2 rounded-lg font-bold text-sm bg-white text-blue-700 shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer"
+                                                     >
+                                                         + Add another
+                                                     </button>
+                                                     <button
+                                                         onClick={(e) => {
+                                                             e.stopPropagation();
+                                                             posthog.capture('preferences_flow_completed');
+                                                             router.push('/courses');
+                                                         }}
+                                                         title={'Save current preference and view all courses'}
+                                                         className="flex-1 px-4 py-2 rounded-lg font-bold text-sm bg-blue-600 text-white hover:bg-blue-700 shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer"
+                                                     >
+                                                         Save & Continue →
+                                                     </button>
+                                                 </div>
+                                             ) : (
+                                                 <button
+                                                     onClick={(e) => { e.stopPropagation(); handleNext(); }}
+                                                     disabled={!canProceed()}
+                                                     className={`w-10 h-10 flex items-center justify-center rounded-[10px] bg-white text-gray-900 shadow-sm transition-all duration-200 cursor-pointer ${!canProceed() ? 'opacity-40 cursor-not-allowed' : 'hover:shadow-md'}`}
+                                                 >
+                                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                                 </button>
+                                             )}
+                                         </div>
                                      </div>
-                                 </div>
-                             ) : (
-                                 <div className="h-full flex flex-col items-center justify-center px-1 lg:px-2 py-5 lg:py-6">
-                                     <span className="text-[1.9rem] font-bold text-black mb-3">{stepNum}</span>
-                                     <div
-                                         className="text-base lg:text-[18px] font-bold tracking-wide flex-1 flex items-center justify-center whitespace-nowrap"
-                                        style={{
-                                            writingMode: 'vertical-rl',
-                                            textOrientation: 'mixed',
-                                            transform: 'rotate(180deg)'
-                                        }}
-                                    >
-                                        {stepLabels[stepNum - 1]}
-                                    </div>
+                                 ) : (
+                                     <div className="h-full flex flex-col items-center justify-center px-1 lg:px-2 py-5 lg:py-6">
+                                         <span className="text-[1.9rem] font-bold text-black mb-3">{stepNum}</span>
+                                         <div
+                                             className="text-base lg:text-[18px] font-bold tracking-wide flex-1 flex items-center justify-center whitespace-nowrap"
+                                            style={{
+                                                writingMode: 'vertical-rl',
+                                                textOrientation: 'mixed',
+                                                transform: 'rotate(180deg)'
+                                            }}
+                                         >
+                                             {stepLabels[idx]}
+                                         </div>
+                                     </div>
+                                 )}
                                 </div>
-                            )}
-                        </div>
-                    ))}
+                            );
+                        })}
                     </div>
                 </div>
             </div>
