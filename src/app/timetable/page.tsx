@@ -6,8 +6,6 @@ import { useRouter } from 'next/navigation';
 import axios from 'axios';
 import type { AxiosError } from 'axios';
 import posthog from 'posthog-js';
-import { useFeatureFlagEnabled } from '@posthog/react';
-import { FEATURE_FLAGS } from '@/lib/featureFlags';
 import LoginModal from '@/components/loginPopup';
 import Image from 'next/image';
 import { useTimetable } from '@/lib/TimeTableContext';
@@ -224,27 +222,13 @@ export default function TimetablePage() {
     const [isGenerating, setIsGenerating] = useState(false);
     const [showSaveModal, setShowSaveModal] = useState(false);
     const [showDownloadModal, setShowDownloadModal] = useState(false);
+    const [isDownloading, setIsDownloading] = useState(false);
     const [showShareModal, setShowShareModal] = useState(false);
     const [shareUrl, setShareUrl] = useState('');
     const [showLogin, setShowLogin] = useState(false);
     const [timetableTitle, setTimetableTitle] = useState('My Schedule');
     const [saveError, setSaveError] = useState('');
     const { scheduleRows, leftTimes, rightTimes } = useMemo(() => getSlotViewPayload(), []);
-
-    const [showCourseUpdateAlert, setShowCourseUpdateAlert] = useState(false);
-    const isCourseUpdateAlertEnabled = useFeatureFlagEnabled(FEATURE_FLAGS.courseUpdateAlert) ?? false;
-
-    useEffect(() => {
-        const hasDismissed = localStorage.getItem('course_update_alert_dismissed');
-        if (isCourseUpdateAlertEnabled && !hasDismissed) {
-            setShowCourseUpdateAlert(true);
-        }
-    }, [isCourseUpdateAlertEnabled]);
-
-    const handleDismissCourseUpdateAlert = () => {
-        setShowCourseUpdateAlert(false);
-        localStorage.setItem('course_update_alert_dismissed', 'true');
-    };
 
     const hasInitialized = useRef(false);
 
@@ -477,6 +461,7 @@ export default function TimetablePage() {
             window.alert('No timetable data to download.');
             return;
         }
+        setIsDownloading(true);
         showToast('Preparing PDF...');
         try {
             await new Promise<void>((resolve) => requestAnimationFrame(() => requestAnimationFrame(() => resolve())));
@@ -492,6 +477,7 @@ export default function TimetablePage() {
             const message = error instanceof Error ? error.message : String(error);
             window.alert('Failed to generate PDF: ' + message);
         } finally {
+            setIsDownloading(false);
             setShowDownloadModal(false);
         }
     };
@@ -884,7 +870,11 @@ export default function TimetablePage() {
                                 PDF Export
                             </div>
                         </div>
-                        <div className="overflow-hidden rounded-3xl border border-[#ece6d8] bg-white p-6">
+                        <div className="overflow-hidden rounded-3xl border border-[#ece6d8] bg-white p-6 relative">
+                            {/* Watermark overlay */}
+                            <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-30 opacity-[0.035]">
+                                <img src="/mic-logo.png" alt="" className="w-[450px] h-[450px] object-contain select-none" />
+                            </div>
                             <TimetableTable
                                 scheduleRows={scheduleRows}
                                 leftTimes={leftTimes}
@@ -896,6 +886,9 @@ export default function TimetablePage() {
                                 exportMode
                             />
                         </div>
+                        <div className="mt-8 pb-2 text-center text-[15px] text-gray-500/80 font-semibold tracking-wide">
+                            Generated via FFCS Planner • Made with ❤️ by Microsoft Innovation Club
+                        </div>
                     </div>
                 </div>
                 <div id="selected-courses-export" className="w-300 bg-[#F8E8D2] p-12 font-sans">
@@ -905,7 +898,11 @@ export default function TimetablePage() {
                                 {timetableTitle || 'Selected Courses'}
                             </h2>
                         </div>
-                        <div className="overflow-hidden border-y border-[#2c2c2c] bg-white" style={{ marginBottom: 32 }}>
+                        <div className="overflow-hidden border-y border-[#2c2c2c] bg-white relative" style={{ marginBottom: 32 }}>
+                            {/* Watermark overlay */}
+                            <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-30 opacity-[0.035]">
+                                <img src="/mic-logo.png" alt="" className="w-[300px] h-[300px] object-contain select-none" />
+                            </div>
                             <table className="w-full border-collapse text-center">
                                 <thead className="bg-[#D9EBE5]">
                                     <tr>
@@ -935,6 +932,9 @@ export default function TimetablePage() {
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+                        <div className="mt-8 pb-2 text-center text-[15px] text-gray-500/80 font-semibold tracking-wide">
+                            Generated via FFCS Planner • Made with ❤️ by Microsoft Innovation Club
                         </div>
                     </div>
                 </div>
@@ -1016,61 +1016,71 @@ export default function TimetablePage() {
             )}
 
             {showDownloadModal && (
-                <div className="fixed inset-0 z-520 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => setShowDownloadModal(false)}>
+                <div className="fixed inset-0 z-520 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => !isDownloading && setShowDownloadModal(false)}>
                     <div
                         className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
                         onClick={(e) => e.stopPropagation()}
                     >
-                        <div className="mb-4! flex items-start gap-4">
-                            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#C8F7DC]/80 text-black shadow-[0_10px_22px_rgba(200,247,220,0.3)]">
-                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                                    <path d="M7 10l5 5 5-5" />
-                                    <path d="M12 15V3" />
-                                </svg>
+                        {isDownloading ? (
+                            <div className="flex flex-col items-center justify-center py-10">
+                                <div className="h-12 w-12 animate-spin rounded-full border-4 border-[#3B5BDB]/20 border-t-[#3B5BDB] shadow-md"></div>
+                                <h3 className="mt-6 text-[20px] font-black text-black">Generating PDF...</h3>
+                                <p className="mt-2 text-center text-[14px] font-medium leading-relaxed text-[#6b6257]">Please wait, we are assembling your schedule.</p>
                             </div>
-                            <div>
-                                <h2 className="text-[24px] font-black leading-tight text-black">Download PDF</h2>
-                                <p className="mt-1 text-[14px] font-medium leading-relaxed text-[#6b6257]">Choose the timetable view or selected courses list.</p>
-                            </div>
-                        </div>
+                        ) : (
+                            <>
+                                <div className="mb-4! flex items-start gap-4">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#C8F7DC]/80 text-black shadow-[0_10px_22px_rgba(200,247,220,0.3)]">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                            <path d="M7 10l5 5 5-5" />
+                                            <path d="M12 15V3" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h2 className="text-[24px] font-black leading-tight text-black">Download PDF</h2>
+                                        <p className="mt-1 text-[14px] font-medium leading-relaxed text-[#6b6257]">Choose the timetable view or selected courses list.</p>
+                                    </div>
+                                </div>
 
-                        <div className="mb-4! flex flex-col gap-2 sm:grid-cols-2">
-                            <button
-                                onClick={() => handleDownload('timetable')}
-                                className="flex min-h-16 items-center justify-center gap-1 rounded-xl border border-[#bfead0] bg-[#C8F7DC] px-5 py-4 text-[16px] font-semibold text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#b0eac8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C8F7DC] active:scale-[0.98]"
-                            >
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                    <rect x="3" y="4" width="18" height="16" rx="2" />
-                                    <path d="M7 8h10" />
-                                    <path d="M7 12h10" />
-                                    <path d="M7 16h6" />
-                                </svg>
-                                Timetable
-                            </button>
-                            <button
-                                onClick={() => handleDownload('slots')}
-                                className="flex min-h-16 items-center justify-center gap-3 rounded-xl border border-[#d8e5fb] bg-[#A0C4FF] px-5 py-4 text-[16px] font-semibold text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#8fb6f2] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/70 active:scale-[0.98]"
-                            >
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                    <path d="M8 6h13" />
-                                    <path d="M8 12h13" />
-                                    <path d="M8 18h13" />
-                                    <path d="M3 6h.01" />
-                                    <path d="M3 12h.01" />
-                                    <path d="M3 18h.01" />
-                                </svg>
-                                Selected Courses
-                            </button>
-                        </div>
-                        <div className="pt-1">
-                            <button
-                                onClick={() => setShowDownloadModal(false)}
-                                className="w-full rounded-2xl bg-white px-6 py-3.5 text-center text-[16px] font-black text-[#6b6257] shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-colors hover:bg-[#f6ead8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/60"
-                            >
-                                Cancel
-                            </button>
-                        </div>
+                                <div className="mb-4! flex flex-col gap-2 sm:grid-cols-2">
+                                    <button
+                                        onClick={() => handleDownload('timetable')}
+                                        className="flex min-h-16 items-center justify-center gap-1 rounded-xl border border-[#bfead0] bg-[#C8F7DC] px-5 py-4 text-[16px] font-semibold text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#b0eac8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C8F7DC] active:scale-[0.98]"
+                                    >
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                            <rect x="3" y="4" width="18" height="16" rx="2" />
+                                            <path d="M7 8h10" />
+                                            <path d="M7 12h10" />
+                                            <path d="M7 16h6" />
+                                        </svg>
+                                        Timetable
+                                    </button>
+                                    <button
+                                        onClick={() => handleDownload('slots')}
+                                        className="flex min-h-16 items-center justify-center gap-3 rounded-xl border border-[#d8e5fb] bg-[#A0C4FF] px-5 py-4 text-[16px] font-semibold text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#8fb6f2] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/70 active:scale-[0.98]"
+                                    >
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                            <path d="M8 6h13" />
+                                            <path d="M8 12h13" />
+                                            <path d="M8 18h13" />
+                                            <path d="M3 6h.01" />
+                                            <path d="M3 12h.01" />
+                                            <path d="M3 18h.01" />
+                                        </svg>
+                                        Selected Courses
+                                    </button>
+                                </div>
+                                <div className="pt-1">
+                                    <button
+                                        onClick={() => setShowDownloadModal(false)}
+                                        className="w-full rounded-2xl bg-white px-6 py-3.5 text-center text-[16px] font-black text-[#6b6257] shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-colors hover:bg-[#f6ead8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/60"
+                                    >
+                                        Cancel
+                                    </button>
+                                </div>
+                            </>
+                        )}
                     </div>
                 </div>
             )}
@@ -1237,39 +1247,6 @@ export default function TimetablePage() {
                 </div>
             )}
 
-            {showCourseUpdateAlert && (
-                <div className="fixed inset-0 z-520 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={handleDismissCourseUpdateAlert}>
-                    <div
-                        className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
-                        onClick={e => e.stopPropagation()}
-                    >
-                        <div className="mb-4! flex items-start gap-4">
-                            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#FFE78A]/80 text-[#8F8443] shadow-[0_10px_22px_rgba(255,231,138,0.3)]">
-                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-                                    <line x1="12" y1="9" x2="12" y2="13" />
-                                    <line x1="12" y1="17" x2="12.01" y2="17" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h2 className="text-[24px] font-black leading-tight text-black">Course Update Info</h2>
-                                <p className="mt-2.5 text-[15px] font-semibold leading-relaxed text-[#6b6257]">
-                                    Only some of the courses are updated. Please stay tuned if your courses are not updated.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="pt-2">
-                            <button
-                                onClick={handleDismissCourseUpdateAlert}
-                                className="w-full rounded-2xl bg-[#A0C4FF] px-6 py-3.5 text-center text-[16px] font-black text-black shadow-[0_8px_20px_rgba(160,196,255,0.32)] transition-all hover:bg-[#8eb1ef] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/70 active:scale-[0.98]"
-                            >
-                                Okay, got it
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            )}
 
             {showLogin && (
                 <LoginModal

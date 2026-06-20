@@ -1010,7 +1010,12 @@ function TimetableDetailView({
 
                 {/* Timetable grid */}
                 <div className="dv-grid-box">
-                    <div className="dv-grid-scroll" id="saved-timetable-grid">
+                    <div className="dv-grid-scroll relative" id="saved-timetable-grid">
+                        {isExporting && (
+                            <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-30 opacity-[0.035]">
+                                <img src="/mic-logo.png" alt="" className="w-[450px] h-[450px] object-contain select-none" />
+                            </div>
+                        )}
                         <table className="dv-table">
                             <thead>
                                 <tr>
@@ -1105,6 +1110,11 @@ function TimetableDetailView({
                                 ))}
                             </tbody>
                         </table>
+                        {isExporting && (
+                            <div className="w-full mt-8 pb-4 text-center text-[15px] text-gray-500/80 font-semibold tracking-wide">
+                                Generated via FFCS Planner • Made with ❤️ by Microsoft Innovation Club
+                            </div>
+                        )}
                     </div>
                     {/* Share / Download buttons */}
                     <div className="dv-grid-actions">
@@ -1162,8 +1172,12 @@ function TimetableDetailView({
                         <div style={{ minHeight: 80, display: 'flex', alignItems: 'center', justifyContent: 'center', paddingLeft: 24, paddingRight: 24, paddingBottom: 24, marginBottom: 32, borderBottom: '1px solid #ececec' }}>
                             <h2 style={{ margin: 0, textAlign: 'center', fontSize: 34, lineHeight: 1.15, fontWeight: 900, color: '#000' }}>{tt.title}</h2>
                         </div>
-                        <div style={{ overflow: 'hidden', borderTop: '1px solid #2c2c2c', borderBottom: '1px solid #2c2c2c', background: '#fff', marginBottom: 32 }}>
-                            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'center' }}>
+                        <div style={{ overflow: 'hidden', borderTop: '1px solid #2c2c2c', borderBottom: '1px solid #2c2c2c', background: '#fff', marginBottom: 32, position: 'relative' }}>
+                            {/* Watermark overlay */}
+                            <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none', zIndex: 10, opacity: 0.035 }}>
+                                <img src="/mic-logo.png" alt="" style={{ width: 300, height: 300, objectFit: 'contain', userSelect: 'none' }} />
+                            </div>
+                            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'center', position: 'relative', zIndex: 20 }}>
                                 <thead style={{ background: '#D9EBE5' }}>
                                     <tr>
                                         <th style={{ width: '15%', padding: '16px 20px', fontSize: 17, fontWeight: 900 }}>Slot</th>
@@ -1193,67 +1207,79 @@ function TimetableDetailView({
                                 </tbody>
                             </table>
                         </div>
+                        <div style={{ textAlign: 'center', fontSize: 15, color: '#6b7280', fontWeight: 600, letterSpacing: '0.025em', marginTop: 32, paddingBottom: 16 }}>
+                            Generated via FFCS Planner • Made with ❤️ by Microsoft Innovation Club
+                        </div>
                     </div>
                 </div>
             </div>
 
-            {showDownloadModal && (
-                <div className="fixed inset-0 z-120 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => setShowDownloadModal(false)}>
+                        {showDownloadModal && (
+                <div className="fixed inset-0 z-520 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => !isExporting && setShowDownloadModal(false)}>
                     <div
                         className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
-                        onClick={e => e.stopPropagation()}
+                        onClick={(e) => e.stopPropagation()}
                     >
-                        <div className="mb-7 flex items-start gap-4">
-                            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#C8F7DC]/80 text-black shadow-[0_10px_22px_rgba(200,247,220,0.3)]">
-                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                                    <path d="M7 10l5 5 5-5" />
-                                    <path d="M12 15V3" />
-                                </svg>
+                        {isExporting ? (
+                            <div className="flex flex-col items-center justify-center py-10">
+                                <div className="h-12 w-12 animate-spin rounded-full border-4 border-[#3B5BDB]/20 border-t-[#3B5BDB] shadow-md"></div>
+                                <h3 className="mt-6 text-[20px] font-black text-black">Generating PDF...</h3>
+                                <p className="mt-2 text-center text-[14px] font-medium leading-relaxed text-[#6b6257]">Please wait, we are assembling your schedule.</p>
                             </div>
-                            <div>
-                                <h3 className="text-[24px] font-black leading-tight text-black">Download PDF</h3>
-                                <p className="mt-1 text-[14px] font-medium leading-relaxed text-[#6b6257]">Choose the timetable view or selected courses list.</p>
-                            </div>
-                        </div>
+                        ) : (
+                            <>
+                                <div className="mb-4! flex items-start gap-4">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#C8F7DC]/80 text-black shadow-[0_10px_22px_rgba(200,247,220,0.3)]">
+                                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                            <path d="M7 10l5 5 5-5" />
+                                            <path d="M12 15V3" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h2 className="text-[24px] font-black leading-tight text-black">Download PDF</h2>
+                                        <p className="mt-1 text-[14px] font-medium leading-relaxed text-[#6b6257]">Choose the timetable view or selected courses list.</p>
+                                    </div>
+                                </div>
 
-                        <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                            <button
-                                onClick={() => handleDownload('timetable')}
-                                className="flex min-h-16 items-center justify-center gap-3 rounded-2xl border border-[#bfead0] bg-[#C8F7DC] px-5 py-4 text-[16px] font-black text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#b0eac8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C8F7DC] active:scale-[0.98]"
-                            >
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                    <rect x="3" y="4" width="18" height="16" rx="2" />
-                                    <path d="M7 8h10" />
-                                    <path d="M7 12h10" />
-                                    <path d="M7 16h6" />
-                                </svg>
-                                Timetable
-                            </button>
-                            <button
-                                onClick={() => handleDownload('slots')}
-                                className="flex min-h-16 items-center justify-center gap-3 rounded-2xl border border-[#d8e5fb] bg-[#A0C4FF] px-5 py-4 text-[16px] font-black text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#8fb6f2] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/70 active:scale-[0.98]"
-                            >
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                    <path d="M8 6h13" />
-                                    <path d="M8 12h13" />
-                                    <path d="M8 18h13" />
-                                    <path d="M3 6h.01" />
-                                    <path d="M3 12h.01" />
-                                    <path d="M3 18h.01" />
-                                </svg>
-                                Selected Courses
-                            </button>
-                        </div>
-
-                        <div className="pt-1">
-                            <button
-                                onClick={() => setShowDownloadModal(false)}
-                                className="w-full rounded-2xl bg-white px-6 py-3.5 text-center text-[16px] font-black text-[#6b6257] shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-colors hover:bg-[#f6ead8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/60"
-                            >
-                                Cancel
-                            </button>
-                        </div>
+                                <div className="mb-4! flex flex-col gap-2 sm:grid-cols-2">
+                                    <button
+                                        onClick={() => handleDownload('timetable')}
+                                        className="flex min-h-16 items-center justify-center gap-1 rounded-xl border border-[#bfead0] bg-[#C8F7DC] px-5 py-4 text-[16px] font-semibold text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#b0eac8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C8F7DC] active:scale-[0.98]"
+                                    >
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                            <rect x="3" y="4" width="18" height="16" rx="2" />
+                                            <path d="M7 8h10" />
+                                            <path d="M7 12h10" />
+                                            <path d="M7 16h6" />
+                                        </svg>
+                                        Timetable
+                                    </button>
+                                    <button
+                                        onClick={() => handleDownload('slots')}
+                                        className="flex min-h-16 items-center justify-center gap-3 rounded-xl border border-[#d8e5fb] bg-[#A0C4FF] px-5 py-4 text-[16px] font-semibold text-black shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-all hover:bg-[#8fb6f2] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/70 active:scale-[0.98]"
+                                    >
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                            <path d="M8 6h13" />
+                                            <path d="M8 12h13" />
+                                            <path d="M8 18h13" />
+                                            <path d="M3 6h.01" />
+                                            <path d="M3 12h.01" />
+                                            <path d="M3 18h.01" />
+                                        </svg>
+                                        Selected Courses
+                                    </button>
+                                </div>
+                                <div className="pt-1">
+                                    <button
+                                        onClick={() => setShowDownloadModal(false)}
+                                        className="w-full rounded-2xl bg-white px-6 py-3.5 text-center text-[16px] font-black text-[#6b6257] shadow-[0_8px_20px_rgba(74,54,30,0.05)] transition-colors hover:bg-[#f6ead8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/60"
+                                    >
+                                        Cancel
+                                    </button>
+                                </div>
+                            </>
+                        )}
                     </div>
                 </div>
             )}

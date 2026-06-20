@@ -104,6 +104,7 @@ export default function PreferencesPage() {
     const { addCourse, updateCourse } = usePreferences();
     const [isMounted, setIsMounted] = useState(false);
     useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setIsMounted(true);
     }, []);
 
@@ -116,6 +117,26 @@ export default function PreferencesPage() {
     const isDirectJumpEnabled = isMounted && isDirectJumpEnabledRaw;
 
     const itemRefs = React.useRef<Record<string, HTMLButtonElement | null>>({});
+
+    const [showCourseUpdateAlert, setShowCourseUpdateAlert] = useState(false);
+    const isCourseUpdateAlertEnabledRaw = useFeatureFlagEnabled(FEATURE_FLAGS.courseUpdateAlert) ?? false;
+    const isCourseUpdateAlertEnabled = isMounted && isCourseUpdateAlertEnabledRaw;
+
+    useEffect(() => {
+        if (isCourseUpdateAlertEnabled) {
+            const hasDismissed = localStorage.getItem('course_update_alert_dismissed');
+            if (!hasDismissed) {
+                // eslint-disable-next-line react-hooks/set-state-in-effect
+                setShowCourseUpdateAlert(true);
+            }
+        }
+    }, [isCourseUpdateAlertEnabled]);
+
+    const handleDismissCourseUpdateAlert = () => {
+        setShowCourseUpdateAlert(false);
+        localStorage.setItem('course_update_alert_dismissed', 'true');
+        window.dispatchEvent(new Event('course_update_alert_dismissed'));
+    };
 
     const [currentStep, setCurrentStep] = useState(1);
     const [selectedSchool, setSelectedSchool] = useState<string | null>(null);
@@ -135,6 +156,7 @@ export default function PreferencesPage() {
     const isFacultyFirstMode = isFacultyFirstToggleAvailable && isFacultyFirstModeEnabled;
 
     useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setSubjectSearchQuery('');
     }, [currentStep]);
 
@@ -1334,6 +1356,105 @@ export default function PreferencesPage() {
                 sections={FACULTY_FIRST_MODE_HELP}
                 onClose={() => setIsHelpOpen(false)}
             />
+        )}
+
+        {showCourseUpdateAlert && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+                {/* Backdrop */}
+                <div 
+                    className="absolute inset-0 bg-black/40 backdrop-blur-sm animate-in fade-in duration-300" 
+                    onClick={handleDismissCourseUpdateAlert}
+                ></div>
+                
+                {/* Modal Container */}
+                <div className="relative w-full max-w-lg overflow-hidden rounded-[28px] bg-[#FFF8E7] shadow-[0_24px_70px_rgba(74,54,30,0.18)] border border-[#eadcc5] animate-in zoom-in-95 duration-200">
+                    {/* Header */}
+                    <div className="flex items-center gap-3.5 px-6 py-5 bg-white/50 border-b border-[#eadcc5]/70">
+                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#FFE78A]/80 text-[#8F8443] shadow-[0_6px_16px_rgba(255,231,138,0.4)]">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                                <line x1="12" y1="9" x2="12" y2="13" />
+                                <line x1="12" y1="17" x2="12.01" y2="17" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 className="text-xl font-bold text-gray-900 tracking-tight">Course Update Info</h3>
+                            <p className="text-[12px] font-semibold text-gray-500 mt-0.5">Database Sync in Progress</p>
+                        </div>
+                        <button 
+                            onClick={handleDismissCourseUpdateAlert}
+                            className="ml-auto text-gray-400 hover:text-gray-900 transition-colors p-1.5 hover:bg-gray-100/50 rounded-lg"
+                        >
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-6 md:p-8 space-y-5">
+                        <p className="text-[15px] font-semibold leading-relaxed text-gray-700">
+                            Please note that we are currently in the middle of updating our database with the courses, slots, and faculty options for the upcoming semester.
+                        </p>
+
+                        <div className="space-y-4 bg-white/40 border border-[#eadcc5]/50 rounded-2xl p-5">
+                            <div className="flex items-start gap-3">
+                                <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A0C4FF]/20 text-[#3B5BDB]">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 className="text-[14px] font-bold text-gray-900">Partial Semester Data</h4>
+                                    <p className="text-[13px] font-medium leading-normal text-gray-600 mt-0.5">
+                                        Only some of the course domain data has been fully uploaded and structured. Additional courses are being synced daily.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start gap-3">
+                                <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A0C4FF]/20 text-[#3B5BDB]">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 className="text-[14px] font-bold text-gray-900">Missing Courses or Faculty</h4>
+                                    <p className="text-[13px] font-medium leading-normal text-gray-600 mt-0.5">
+                                        If your specific courses, slot patterns, or professors are missing, stay tuned as the system updates dynamically.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start gap-3">
+                                <div className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#A0C4FF]/20 text-[#3B5BDB]">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 className="text-[14px] font-bold text-gray-900">Proceed Safely</h4>
+                                    <p className="text-[13px] font-medium leading-normal text-gray-600 mt-0.5">
+                                        You can still draft and test your schedule structure with the currently available data and finalize it once updates finish.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Action Button */}
+                        <div className="pt-2">
+                            <button
+                                type="button"
+                                onClick={handleDismissCourseUpdateAlert}
+                                className="w-full rounded-2xl bg-[#A0C4FF] py-3.5 text-[15px] font-black text-black shadow-lg shadow-[#A0C4FF]/20 transition-all hover:bg-[#8eb1ef] hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]"
+                            >
+                                Okay, got it
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         )}
 
             <style jsx>{`
