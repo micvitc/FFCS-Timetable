@@ -499,6 +499,30 @@ const data = [
     "SLOT": "D1+TD1+TDD1",
     "FACULTY": "DHIVYA P",
     "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "MALATHI G"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "SRIDHAR R"
+  },
+  {
+    "CODE": "BACSE103",
+    "TITLE": "Computation Structure",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "NITHYA DARISINI  P S"
   }
 ] as const;
 

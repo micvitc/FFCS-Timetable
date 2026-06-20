@@ -4147,5 +4147,429 @@
     "SLOT": "D1+TD1+TDD1",
     "FACULTY": "SOMNATH BERA",
     "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L29+L30",
+    "FACULTY": "S.A.SAJIDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L29+L30",
+    "FACULTY": "GEETHA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L37+L38",
+    "FACULTY": "M. BRAVEEN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L39+L40",
+    "FACULTY": "A SWAMINATHAN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L39+L40",
+    "FACULTY": "MALATHI D"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L25+L26",
+    "FACULTY": "SOBITHA AHILA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "SAHAYA BENI PRATHIBA B"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "SHARMILADEVI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "S.A.SAJIDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "SIVABALAKRISHNAN M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "M. BRAVEEN"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "BHUVANESWARI"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L7+L8",
+    "FACULTY": "VISWANATHAN V"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "SHOLA USHA RANI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "SANKARI M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "RAVICHANDRAN M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "THOMAS ABRAHAM J V"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "MENAKA PUSHPA A"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "SIVAGAMI   M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "RAJALAKSHMI R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "V. MUTHUMANIKANDAN"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "RABINDRA KUMAR SINGH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "SHYAMALA L"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "MONICA"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "MERCY RAJASELVI BEAULAH P"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "RAJAKUMAR R"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "MALATHI G"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "GANESAN R"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "SANDHYA P"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "PRIYANKA MISHRA"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1+TCC1",
+    "FACULTY": "SARANYA M"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "SANDHYA P"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "NOEL JEYGAR ROBERT V"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "SENTHIL PRAKASH P N"
+  },
+  {
+    "CODE": "BACSE350",
+    "TITLE": "Block Chain Technology : Blockchain Architecture and Design",
+    "TYPE": "ETH",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2+TCC2",
+    "FACULTY": "VISWANATHAN V"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "SRIDHAR R"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "SRIDHAR R"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "SIVAKUMAR"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "SIVAKUMAR"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "SIVAKUMAR"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L1+L2",
+    "FACULTY": "SIVAKUMAR"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "PRIYAADHARSHINI M"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L15+L16",
+    "FACULTY": "PRIYAADHARSHINI M"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "SRIDHAR R"
+  },
+  {
+    "CODE": "BACSE341",
+    "TITLE": "Augmented Reality : Fundamentals of Augmented and Virtual Reality",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L19+L20",
+    "FACULTY": "SRIDHAR R"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F1+TF1",
+    "FACULTY": "ACAD"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "F2+TF2",
+    "FACULTY": "ACAD"
+  },
+  {
+    "CODE": "BACSE103",
+    "TITLE": "Computation Structure",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "NITHYA DARISINI  P S"
+  },
+  {
+    "CODE": "BACSE103",
+    "TITLE": "Computation Structure",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "NITHYA DARISINI  P S"
+  },
+  {
+    "CODE": "BACSE103",
+    "TITLE": "Computation Structure",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "NIVEDITA M"
+  },
+  {
+    "CODE": "BACSE103",
+    "TITLE": "Computation Structure",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "NIVEDITA M"
   }
 ]
