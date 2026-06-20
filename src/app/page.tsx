@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import LoginModal from "@/components/loginPopup"
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
@@ -264,10 +265,10 @@ export default function LandingPage() {
       {/* Top Banner and Hero */}
       <div className="white-container">
         <nav className="navbar">
-          <div className="logo cursor-pointer flex items-center gap-2 md:gap-3" onClick={() => router.push('/')}>
+          <Link className="logo cursor-pointer flex items-center gap-2 md:gap-3" href="/">
             <Image src="/mic-logo.png" alt="MIC Logo" width={80} height={40} className="object-contain w-14 md:w-20 h-7 md:h-10" priority />
             <span className="font-extrabold text-[24px] md:text-[32px] tracking-wider text-black select-none">FFCS</span>
-          </div>
+          </Link>
           {session ? (
             <div className="relative">
               <div
@@ -365,7 +366,7 @@ export default function LandingPage() {
                   </div>
                 </div>
               )}
-              <button className="btn-secondary" onClick={() => router.push('/slots')}>Slot View</button>
+              <Link href="/slots" className="btn-secondary">Slot View</Link>
             </div>
           </div>
           <div className="hero-graphic">
@@ -545,10 +546,10 @@ export default function LandingPage() {
             </div>
 
             <div className="f-block f-buttons">
-              <button className="f-btn f-btn-gen" onClick={() => router.push('/preferences')}>
+              <Link className="f-btn f-btn-gen" href="/preferences">
                 <Image src="/calendar_icon2.png" alt="calendar" width={34} height={34} />
                 <span>Generate<br />timetable</span>
-              </button>
+              </Link>
               <button
                 className="f-btn f-btn-saved"
                 onClick={() => {
@@ -562,14 +563,14 @@ export default function LandingPage() {
                 <Image src="/Clock.png" alt="clock" width={34} height={34} />
                 <span>View saved<br />timetables</span>
               </button>
-              <button className="f-btn f-btn-slots" onClick={() => router.push('/slots')}>
+              <Link className="f-btn f-btn-slots" href="/slots">
                 <Image src="/slot_icon.png" alt="slot" width={34} height={34} />
                 <span>View slots</span>
-              </button>
-              <button className="f-btn f-btn-team" onClick={() => router.push('/team')}>
+              </Link>
+              <Link className="f-btn f-btn-team" href="/team">
                 <Image src="/team_icon.png" alt="team" width={34} height={34} />
                 <span>View team</span>
-              </button>
+              </Link>
             </div>
 
             <div className="f-block f-graphics" ref={floatingContainerRef}>
@@ -597,13 +598,13 @@ export default function LandingPage() {
             </div>
 
             <div className="f-block f-updates" style={{ padding: '8px' }}>
-              <button
-                onClick={() => router.push('/feedback')}
+              <Link
+                href="/feedback"
                 className="w-full flex items-center justify-center gap-2 bg-[#BFDBFE] hover:bg-[#93C5FD] transition-colors rounded-lg cursor-pointer"
-                style={{ height: '40px', width: '100%', border: 'none', fontWeight: 700, fontSize: '15px', color: '#000' }}
+                style={{ height: '40px', width: '100%', border: 'none', fontWeight: 700, fontSize: '15px', color: '#000', textDecoration: 'none' }}
               >
                 Give feedback
-              </button>
+              </Link>
             </div>
           </div>
         </div>
