@@ -1,7 +1,8 @@
 'use client';
 
 import { useEffect, useState, useMemo, useCallback } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
+import Image from "next/image";
 import axios from "axios";
 import { getSlotViewPayload } from "@/lib/slot-view";
 
@@ -48,6 +49,7 @@ function isSameSharedSlot(a: SharedSlot | null, b: SharedSlot | null) {
 
 export default function SharePage() {
     const { shareId } = useParams();
+    const router = useRouter();
     const [timetable, setTimetable] = useState<SharedSlot[]>([]);
     const [title, setTitle] = useState("");
     const [loading, setLoading] = useState(true);
@@ -156,8 +158,8 @@ export default function SharePage() {
     return (
         <div className="min-h-screen bg-[#F5E6D3] font-sans flex flex-col items-center py-4 md:py-8">
             <div className="w-[95%] max-w-350 bg-[#FFFBF0] rounded-3xl md:rounded-4xl p-5 md:p-8 my-4 md:my-8 pb-4 shadow-sm">
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 md:pb-6 ml-0 md:ml-2">
-                    <div className="flex flex-col md:flex-row md:items-center gap-3 md:gap-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 md:pb-6 ml-0 md:ml-2 border-b border-gray-100 pb-4">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-3 md:gap-4">
                         <h1 className="text-[22px] md:text-[26px] font-bold text-black leading-tight">{title || 'Shared Timetable'}</h1>
                         <div className="bg-green-50 border border-green-300 rounded-full px-2.5 py-1 flex items-center gap-1.5 w-fit shadow-sm">
                             <svg className="w-3.5 h-3.5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -165,6 +167,19 @@ export default function SharePage() {
                             </svg>
                             <span className="text-green-800 font-bold text-[11px] tracking-wide uppercase">View Only</span>
                         </div>
+                    </div>
+
+                    <div className="flex items-center gap-3.5 self-start sm:self-auto">
+                        <div className="cursor-pointer flex items-center gap-2 md:gap-3" onClick={() => router.push('/')}>
+                            <Image src="/mic-logo.png" alt="MIC Logo" width={80} height={40} className="object-contain w-12 sm:w-14 md:w-20 h-6 sm:h-7 md:h-10" priority />
+                            <span className="font-extrabold text-[20px] sm:text-[24px] md:text-[32px] tracking-wider text-black select-none leading-none">FFCS</span>
+                        </div>
+                        <button
+                            onClick={() => router.push('/')}
+                            className="px-4 py-2 bg-[#aecbfa] hover:bg-[#9cbfee] text-black font-bold text-xs md:text-sm rounded-xl shadow-[0_4px_12px_rgba(174,203,250,0.3)] hover:shadow-[0_6px_16px_rgba(174,203,250,0.45)] hover:-translate-y-0.5 active:scale-95 transition-all duration-200 cursor-pointer"
+                        >
+                            Create Yours
+                        </button>
                     </div>
                 </div>
 

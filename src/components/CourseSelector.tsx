@@ -1,6 +1,8 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import { useFeatureFlagEnabled } from '@posthog/react';
+import { FEATURE_FLAGS } from '@/lib/featureFlags';
 import { fullCourseData } from '@/lib/type';
 import { getChennaiCourseType } from '@/lib/chennaiCatalog';
 import chennaiCourses from '@/data/all_data_chennai';
@@ -19,11 +21,53 @@ interface CourseSelectorProps {
     selectedCourses: fullCourseData[];
 }
 
+function parseChennaiCoursesLegacy(courses: typeof chennaiCourses): CourseCatalog {
+    const chennaiCategoryData: CourseCatalog = {};
+    courses.forEach((record) => {
+        const category = record.TYPE || 'UNKNOWN';
+        const courseKey = `${record.CODE} - ${record.TITLE}`;
+
+        chennaiCategoryData[category] ||= {};
+        chennaiCategoryData[category][courseKey] ||= [];
+        chennaiCategoryData[category][courseKey].push({
+            slot: record.SLOT,
+            faculty: record.FACULTY,
+        });
+    });
+    return chennaiCategoryData;
+}
+
+function parseChennaiCoursesNew(courses: typeof chennaiCourses): CourseCatalog {
+    const chennaiCategoryData: CourseCatalog = {};
+    for (let i = 0; i < courses.length; i++) {
+        const record = courses[i];
+        const category = record.TYPE?.trim() || 'UNKNOWN';
+        const courseKey = `${record.CODE?.trim()} - ${record.TITLE?.trim()}`;
+
+        chennaiCategoryData[category] ||= {};
+        const options = (chennaiCategoryData[category][courseKey] ||= []);
+        
+        // De-duplicate same faculty + slot combinations and trim whitespace
+        const isDuplicate = options.some(
+            (opt) => opt.slot === record.SLOT && opt.faculty === record.FACULTY
+        );
+        if (!isDuplicate) {
+            options.push({
+                slot: record.SLOT?.trim(),
+                faculty: record.FACULTY?.trim(),
+            });
+        }
+    }
+    return chennaiCategoryData;
+}
+
 export default function CourseSelector({
     scheme,
     onCourseSelect,
     selectedCourses,
 }: CourseSelectorProps) {
+    const isNewParserEnabled = useFeatureFlagEnabled(FEATURE_FLAGS.useNewCourseParser) ?? false;
+
     const [selectedCategory, setSelectedCategory] = useState<string>('');
     const [searchTerm, setSearchTerm] = useState('');
     const [schemeData, categories, courses] = useMemo(() => {
@@ -31,19 +75,9 @@ export default function CourseSelector({
             return [{} as CourseCatalog, [] as string[], {} as Record<string, CourseOption[]>];
         }
 
-        const chennaiCategoryData: CourseCatalog = {};
-
-        chennaiCourses.forEach((record) => {
-            const category = record.TYPE || 'UNKNOWN';
-            const courseKey = `${record.CODE} - ${record.TITLE}`;
-
-            chennaiCategoryData[category] ||= {};
-            chennaiCategoryData[category][courseKey] ||= [];
-            chennaiCategoryData[category][courseKey].push({
-                slot: record.SLOT,
-                faculty: record.FACULTY,
-            });
-        });
+        const chennaiCategoryData = isNewParserEnabled
+            ? parseChennaiCoursesNew(chennaiCourses)
+            : parseChennaiCoursesLegacy(chennaiCourses);
 
         const chennaiCategories = Object.keys(chennaiCategoryData);
         const chennaiAllCourses: Record<string, CourseOption[]> = {};
@@ -53,7 +87,7 @@ export default function CourseSelector({
         });
 
         return [chennaiCategoryData, chennaiCategories, chennaiAllCourses];
-    }, [scheme]);
+    }, [scheme, isNewParserEnabled]);
 
     const filteredCourses = useMemo(() => {
         let filtered = Object.entries(courses);

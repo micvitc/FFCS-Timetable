@@ -6,6 +6,8 @@ import { useRouter } from 'next/navigation';
 import axios from 'axios';
 import type { AxiosError } from 'axios';
 import posthog from 'posthog-js';
+import { useFeatureFlagEnabled } from '@posthog/react';
+import { FEATURE_FLAGS } from '@/lib/featureFlags';
 import LoginModal from '@/components/loginPopup';
 import Image from 'next/image';
 import { useTimetable } from '@/lib/TimeTableContext';
@@ -229,6 +231,21 @@ export default function TimetablePage() {
     const [saveError, setSaveError] = useState('');
     const { scheduleRows, leftTimes, rightTimes } = useMemo(() => getSlotViewPayload(), []);
 
+    const [showCourseUpdateAlert, setShowCourseUpdateAlert] = useState(false);
+    const isCourseUpdateAlertEnabled = useFeatureFlagEnabled(FEATURE_FLAGS.courseUpdateAlert) ?? false;
+
+    useEffect(() => {
+        const hasDismissed = localStorage.getItem('course_update_alert_dismissed');
+        if (isCourseUpdateAlertEnabled && !hasDismissed) {
+            setShowCourseUpdateAlert(true);
+        }
+    }, [isCourseUpdateAlertEnabled]);
+
+    const handleDismissCourseUpdateAlert = () => {
+        setShowCourseUpdateAlert(false);
+        localStorage.setItem('course_update_alert_dismissed', 'true');
+    };
+
     const hasInitialized = useRef(false);
 
     // Load from cookies and generate if context is empty
@@ -236,7 +253,7 @@ export default function TimetablePage() {
         if (hasInitialized.current) return;
         hasInitialized.current = true;
 
-
+        posthog.capture('timetable_builder_loaded');
 
         if (!timetableData || timetableData.length === 0) {
             const savedCoursesRaw = getPlannerStoredValue('generatedTimetableCourses') || getPlannerStoredValue('preferenceCourses');
@@ -247,6 +264,11 @@ export default function TimetablePage() {
                     const { result, clashes } = generateTT(savedCourses);
                     setTimetableData(result);
                     setClashMessage(clashes);
+                    if (clashes && clashes.length > 0) {
+                        posthog.capture('timetable_clash_detected', {
+                            clash_count: clashes.length,
+                        });
+                    }
                 } catch (error) {
                     console.error('Error generating timetable:', error);
                 } finally {
@@ -1209,6 +1231,40 @@ export default function TimetablePage() {
                                 className="min-h-13 rounded-2xl bg-[#A0C4FF] px-6 py-3.5 text-center text-[16px] font-black text-black shadow-[0_8px_20px_rgba(160,196,255,0.32)] transition-all hover:bg-[#8eb1ef] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/70 active:scale-[0.98] disabled:opacity-50"
                             >
                                 Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {showCourseUpdateAlert && (
+                <div className="fixed inset-0 z-520 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={handleDismissCourseUpdateAlert}>
+                    <div
+                        className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
+                        onClick={e => e.stopPropagation()}
+                    >
+                        <div className="mb-4! flex items-start gap-4">
+                            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#FFE78A]/80 text-[#8F8443] shadow-[0_10px_22px_rgba(255,231,138,0.3)]">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                                    <line x1="12" y1="9" x2="12" y2="13" />
+                                    <line x1="12" y1="17" x2="12.01" y2="17" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h2 className="text-[24px] font-black leading-tight text-black">Course Update Info</h2>
+                                <p className="mt-2.5 text-[15px] font-semibold leading-relaxed text-[#6b6257]">
+                                    Only some of the courses are updated. Please stay tuned if your courses are not updated.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="pt-2">
+                            <button
+                                onClick={handleDismissCourseUpdateAlert}
+                                className="w-full rounded-2xl bg-[#A0C4FF] px-6 py-3.5 text-center text-[16px] font-black text-black shadow-[0_8px_20px_rgba(160,196,255,0.32)] transition-all hover:bg-[#8eb1ef] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A0C4FF]/70 active:scale-[0.98]"
+                            >
+                                Okay, got it
                             </button>
                         </div>
                     </div>

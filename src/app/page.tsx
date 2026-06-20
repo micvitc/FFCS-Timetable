@@ -45,6 +45,7 @@ export default function LandingPage() {
   const [showUserMenu, setShowUserMenu] = useState(false);
   const [floatingTiles, setFloatingTiles] = useState<FloatingTile[]>([]);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const [videoError, setVideoError] = useState(false);
   const videoRef = React.useRef<HTMLVideoElement | null>(null);
 
 
@@ -263,7 +264,10 @@ export default function LandingPage() {
       {/* Top Banner and Hero */}
       <div className="white-container">
         <nav className="navbar">
-          <div className="logo">FFCS</div>
+          <div className="logo cursor-pointer flex items-center gap-2 md:gap-3" onClick={() => router.push('/')}>
+            <Image src="/mic-logo.png" alt="MIC Logo" width={80} height={40} className="object-contain w-14 md:w-20 h-7 md:h-10" priority />
+            <span className="font-extrabold text-[24px] md:text-[32px] tracking-wider text-black select-none">FFCS</span>
+          </div>
           {session ? (
             <div className="relative">
               <div
@@ -404,35 +408,39 @@ export default function LandingPage() {
           <h2>How This Site Works?</h2>
 
           <div className="video-box" style={{ position: 'relative' }}>
-            <>
-              {/* Option A: Uploadthing Video Player (Active) */}
-              <video
-                ref={videoRef}
-                src="https://h8z6stjynz.ufs.sh/f/nEev6VX4XfKE5CB0pMEvK0cVWaoY4UbStprle19NBx8f3nZT"
-                poster="/section1-preview.png"
-                controls
-                playsInline
-                preload="metadata"
-                onPlay={() => setIsVideoPlaying(true)}
-                onPause={() => setIsVideoPlaying(false)}
-                className="w-full h-full object-cover"
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              />
-              {!isVideoPlaying && (
-                <div className="play-icon-overlay" onClick={() => videoRef.current?.play()}>
-                  <div className="play-icon-btn"></div>
-                </div>
-              )}
-
-              {/* Option B: YouTube Player (Commented out - uncomment to swap. If using YouTube, comment out Option A and the overlay above)
+            {!videoError ? (
+              <>
+                {/* Option A: Uploadthing Video Player (Active) */}
+                <video
+                  ref={videoRef}
+                  src="https://h8z6stjynz.ufs.sh/f/nEev6VX4XfKE5CB0pMEvK0cVWaoY4UbStprle19NBx8f3nZT"
+                  poster="/section1-preview.png"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  onPlay={() => setIsVideoPlaying(true)}
+                  onPause={() => setIsVideoPlaying(false)}
+                  onError={() => setVideoError(true)}
+                  className="w-full h-full object-cover"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+                {!isVideoPlaying && (
+                  <div className="play-icon-overlay" onClick={() => videoRef.current?.play()}>
+                    <div className="play-icon-btn"></div>
+                  </div>
+                )}
+              </>
+            ) : (
+              /* Option B: YouTube Player (Fallback if Uploadthing fails) */
               <iframe
-                src="https://www.youtube-nocookie.com/embed/lv7asnSPVBw?autoplay=1&rel=0&modestbranding=1"
+                src="https://www.youtube-nocookie.com/embed/lv7asnSPVBw?rel=0&modestbranding=1"
                 title="How FFCS Timetable Works"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
+                className="w-full h-full"
+                style={{ width: '100%', height: '100%', border: 'none' }}
               />
-              */}
-            </>
+            )}
           </div>
 
           <div className="steps-list">
