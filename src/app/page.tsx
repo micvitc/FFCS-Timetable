@@ -299,13 +299,13 @@ export default function LandingPage() {
               {showUserMenu && (
                 <>
                   <div className="fixed inset-0 z-10" onClick={() => setShowUserMenu(false)}></div>
-                  <div className="absolute right-0 mt-2.5 w-48 bg-white/95 backdrop-blur-md border border-[#eadcc5]/80 rounded-2xl shadow-xl z-20 py-2 animate-in zoom-in-95 duration-200">
+                  <div className="absolute right-0 mt-2 w-full min-w-[170px] bg-white/95 backdrop-blur-md border border-[#eadcc5]/80 rounded-2xl shadow-xl z-20 p-1.5 animate-in zoom-in-95 duration-200">
                     <button
-                      className="w-full text-left px-4 py-3 text-sm text-red-600 font-bold hover:bg-red-50/50 transition-colors flex items-center gap-2 cursor-pointer"
+                      className="w-full text-left px-3.5 py-2.5 text-sm text-red-600 font-bold hover:bg-red-50/70 rounded-xl transition-colors flex items-center gap-2.5 cursor-pointer"
                       onClick={handleLogout}
                     >
-                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9" /></svg>
-                      Log out
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9" /></svg>
+                      <span>Log out</span>
                     </button>
                   </div>
                 </>
