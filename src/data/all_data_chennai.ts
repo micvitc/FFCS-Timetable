@@ -185,7 +185,7 @@ const data = [
   },
   {
     "CODE": "BEEE303P",
-    "TITLE": "Control Systems Lab",
+    "TITLE": "Control Systems",
     "TYPE": "LO",
     "CREDITS": 1,
     "SLOT": "L5+L6",
@@ -193,7 +193,7 @@ const data = [
   },
   {
     "CODE": "BEEE309L",
-    "TITLE": "Microprocessors and Microcontro",
+    "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
     "SLOT": "F1+TF1",
@@ -201,7 +201,7 @@ const data = [
   },
   {
     "CODE": "BEEE309P",
-    "TITLE": "Microprocessors and Microcontro",
+    "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "LO",
     "CREDITS": 1,
     "SLOT": "L43+L44",
@@ -217,7 +217,7 @@ const data = [
   },
   {
     "CODE": "BEEE312P",
-    "TITLE": "AC Machines Lab",
+    "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
     "SLOT": "L55+L56",
@@ -244,7 +244,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
-    "SLOT": "F1+TF1",
+    "SLOT": "B1+TB1",
     "FACULTY": "ACAD"
   },
   {
@@ -252,7 +252,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
-    "SLOT": "F2+TF2",
+    "SLOT": "B2+TB2",
     "FACULTY": "ACAD"
   },
   {
@@ -1356,14 +1356,6 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "BACSE106 - Operating Systems - Embedded Theory and Lab",
-    "FACULTY": "Embedded Theory / Embedded Lab"
-  },
-  {
-    "CODE": "BACSE106",
-    "TITLE": "Operating Systems",
-    "TYPE": "ETH",
-    "CREDITS": 3,
     "SLOT": "E1+TE1",
     "FACULTY": "SHOLA USHA RANI"
   },
@@ -1646,14 +1638,6 @@ const data = [
     "CREDITS": 1,
     "SLOT": "L21+L22",
     "FACULTY": "SANDEEP KUMAR SATAPATHY"
-  },
-  {
-    "CODE": "BACSE202",
-    "TITLE": "Database Systems",
-    "TYPE": "ETH",
-    "CREDITS": 3,
-    "SLOT": "BACSE202 - Database Systems - Embedded Theory and Lab",
-    "FACULTY": "Embedded Theory / Embedded Lab"
   },
   {
     "CODE": "BACSE202",
@@ -2452,7 +2436,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F2+TF2",
+    "SLOT": "B2+TB2",
     "FACULTY": "FACE (APT)",
     "VENUE": "AB1-609"
   },
@@ -2461,7 +2445,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F1+TF1",
+    "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)",
     "VENUE": "AB4-514"
   },
@@ -2470,7 +2454,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F2+TF2",
+    "SLOT": "B2+TB2",
     "FACULTY": "SIXPHRASE(APT)",
     "VENUE": "AB1-301"
   },
@@ -2479,7 +2463,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F1+TF1",
+    "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)",
     "VENUE": "AB1-608"
   },
@@ -2488,7 +2472,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F2+TF2",
+    "SLOT": "B1+TB1",
     "FACULTY": "SIXPHRASE(APT)",
     "VENUE": "AB1-609"
   },
@@ -2497,7 +2481,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F2+TF2",
+    "SLOT": "B2+TB2",
     "FACULTY": "SIXPHRASE(APT)",
     "VENUE": "AB1-309"
   },
@@ -2506,7 +2490,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F2+TF2",
+    "SLOT": "B2+TB2",
     "FACULTY": "ETHNUS (APT)",
     "VENUE": "AB1-608"
   },
@@ -2515,7 +2499,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F1+TF1",
+    "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)",
     "VENUE": "AB1-302"
   },
@@ -2524,7 +2508,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F1+TF1",
+    "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)",
     "VENUE": "AB1-309"
   },
@@ -2560,7 +2544,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F1+TF1",
+    "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)",
     "VENUE": "AB1-301"
   },
@@ -2569,76 +2553,13 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1.5,
-    "SLOT": "F1+TF1",
+    "SLOT": "B1+TB1",
     "FACULTY": "SIXPHRASE(APT)",
     "VENUE": "AB1-308"
   },
   {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L13+L14+L27+L28",
-    "FACULTY": "KIRUTHIKA",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L39+L40+L57+L58",
-    "FACULTY": "KIRUTHIKA",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L3+L4+L15+L16",
-    "FACULTY": "SHEENA CHRISTABEL PRAVIN",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L31+L32+L37+L38",
-    "FACULTY": "SHEENA CHRISTABEL PRAVIN",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L5+L6+L43+L44",
-    "FACULTY": "KIRUTHIKA",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L1+L2+L19+L20",
-    "FACULTY": "ANGELINE EZHILARASI G",
-    "VENUE": "AB1-607"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L11+L12+L23+L24",
-    "FACULTY": "CHENDUR KUMARAN R",
-    "VENUE": "AB1-603A"
-  },
-  {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2647,7 +2568,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2656,7 +2577,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2665,7 +2586,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2674,7 +2595,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2683,7 +2604,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2692,7 +2613,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L19+L20",
@@ -2701,7 +2622,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L1+L2",
@@ -2710,7 +2631,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L59+L60",
@@ -2719,7 +2640,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L9+L10",
@@ -2728,7 +2649,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L47+L48",
@@ -2737,7 +2658,7 @@ const data = [
   },
   {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L57+L58",
@@ -2746,7 +2667,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2755,7 +2676,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2764,7 +2685,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2773,7 +2694,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2782,7 +2703,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2791,7 +2712,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2800,7 +2721,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2809,7 +2730,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2818,7 +2739,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L15+L16",
@@ -2827,7 +2748,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L37+L38",
@@ -2836,7 +2757,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L7+L8",
@@ -2845,7 +2766,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L13+L14",
@@ -2854,7 +2775,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L35+L36",
@@ -2863,7 +2784,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L49+L50",
@@ -2872,7 +2793,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L55+L56",
@@ -2881,7 +2802,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L11+L12",
@@ -2890,7 +2811,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2899,7 +2820,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2908,7 +2829,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2917,7 +2838,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2926,7 +2847,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2935,7 +2856,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2944,7 +2865,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -2953,7 +2874,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -2962,7 +2883,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L5+L6",
@@ -2971,7 +2892,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L15+L16",
@@ -2980,7 +2901,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L13+L14",
@@ -2989,7 +2910,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L45+L46",
@@ -2998,7 +2919,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L53+L54",
@@ -3007,7 +2928,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L43+L44",
@@ -3016,7 +2937,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L43+L44",
@@ -3025,7 +2946,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L29+L30",
@@ -3115,7 +3036,7 @@ const data = [
   },
   {
     "CODE": "BAJAP101",
-    "TITLE": "Japanese Level I - Embedded Theory and Lab",
+    "TITLE": "Japanese Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -3124,7 +3045,7 @@ const data = [
   },
   {
     "CODE": "BAJAP101",
-    "TITLE": "Japanese Level I - Embedded Theory and Lab",
+    "TITLE": "Japanese Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "L45+L46",
@@ -3160,7 +3081,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "C1+TC1",
@@ -3169,7 +3090,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "C1+TC1",
@@ -3178,7 +3099,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "C2+TC2",
@@ -3187,7 +3108,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "C1+TC1",
@@ -3196,7 +3117,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "C2+TC2",
@@ -3205,7 +3126,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L1+L2",
@@ -3214,7 +3135,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L33+L34",
@@ -3223,7 +3144,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L5+L6",
@@ -3232,7 +3153,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L21+L22",
@@ -3241,7 +3162,7 @@ const data = [
   },
   {
     "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TITLE": "Operating Systems",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L55+L56",
@@ -3250,7 +3171,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G1+TG1",
@@ -3259,7 +3180,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G1+TG1",
@@ -3268,7 +3189,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G2+TG2",
@@ -3277,7 +3198,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G2+TG2",
@@ -3286,7 +3207,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G2+TG2",
@@ -3295,7 +3216,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G1+TG1",
@@ -3304,7 +3225,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G2+TG2",
@@ -3313,7 +3234,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G1+TG1",
@@ -3322,7 +3243,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L13+L14",
@@ -3331,7 +3252,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L15+L16",
@@ -3340,7 +3261,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L29+L30",
@@ -3349,7 +3270,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L43+L44",
@@ -3358,7 +3279,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L45+L46",
@@ -3367,7 +3288,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L25+L26",
@@ -3376,7 +3297,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L37+L38",
@@ -3385,7 +3306,7 @@ const data = [
   },
   {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L55+L56",
@@ -3466,7 +3387,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -3475,7 +3396,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -3484,7 +3405,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F2+TF2",
@@ -3493,7 +3414,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F2+TF2",
@@ -3502,7 +3423,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -3511,7 +3432,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "C1+TC1",
@@ -3520,7 +3441,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "C2+TC2",
@@ -3529,7 +3450,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L11+L12",
@@ -3538,7 +3459,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L51+L52",
@@ -3547,7 +3468,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L7+L8",
@@ -3556,7 +3477,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L9+L10",
@@ -3565,7 +3486,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L49+L50",
@@ -3574,7 +3495,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L25+L26",
@@ -3583,7 +3504,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L31+L32",
@@ -3592,7 +3513,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -3601,7 +3522,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -3610,7 +3531,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -3619,7 +3540,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A2+TA2",
@@ -3628,7 +3549,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A2+TA2",
@@ -3637,7 +3558,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A2+TA2",
@@ -3646,7 +3567,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A2+TA2",
@@ -3655,7 +3576,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A2+TA2",
@@ -3664,7 +3585,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -3673,7 +3594,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -3682,7 +3603,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -3691,7 +3612,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -3700,7 +3621,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A2+TA2",
@@ -3709,7 +3630,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L11+L12",
@@ -3718,7 +3639,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L19+L20",
@@ -3727,7 +3648,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L21+L22",
@@ -3736,7 +3657,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L21+L22",
@@ -3745,7 +3666,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L23+L24",
@@ -3754,7 +3675,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L29+L30",
@@ -3763,7 +3684,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L29+L30",
@@ -3772,7 +3693,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L31+L32",
@@ -3781,7 +3702,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L37+L38",
@@ -3790,7 +3711,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L37+L38",
@@ -3799,7 +3720,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L39+L40",
@@ -3808,7 +3729,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L3+L4",
@@ -3817,7 +3738,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L3+L4",
@@ -3826,7 +3747,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L45+L46",
@@ -3835,7 +3756,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L45+L46",
@@ -3844,7 +3765,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L49+L50",
@@ -3853,7 +3774,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L49+L50",
@@ -3862,7 +3783,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L7+L8",
@@ -3871,7 +3792,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L7+L8",
@@ -3880,7 +3801,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L9+L10",
@@ -3889,7 +3810,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L9+L10",
@@ -3898,7 +3819,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L11+L12",
@@ -3907,7 +3828,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L19+L20",
@@ -3916,7 +3837,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L23+L24",
@@ -3925,7 +3846,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L31+L32",
@@ -3934,7 +3855,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L39+L40",
@@ -3943,7 +3864,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -3952,7 +3873,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -3961,7 +3882,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F2+TF2",
@@ -3970,7 +3891,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F2+TF2",
@@ -3979,7 +3900,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -3988,7 +3909,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -3997,7 +3918,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F2+TF2",
@@ -4006,7 +3927,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F2+TF2",
@@ -4015,7 +3936,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -4024,7 +3945,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L49+L50",
@@ -4033,7 +3954,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L55+L56",
@@ -4042,7 +3963,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L5+L6",
@@ -4051,7 +3972,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L9+L10",
@@ -4060,7 +3981,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L19+L20",
@@ -4069,7 +3990,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L23+L24",
@@ -4078,7 +3999,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L37+L38",
@@ -4087,7 +4008,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L51+L52",
@@ -4096,7 +4017,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "L11+L12",

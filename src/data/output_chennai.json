@@ -1351,14 +1351,7 @@
     "SLOT": "F2+TF2",
     "FACULTY": "ETHNUS (APT)"
   },
-  {
-    "CODE": "BACSE106",
-    "TITLE": "Operating Systems",
-    "TYPE": "ETH",
-    "CREDITS": 3,
-    "SLOT": "BACSE106 - Operating Systems - Embedded Theory and Lab",
-    "FACULTY": "Embedded Theory / Embedded Lab"
-  },
+
   {
     "CODE": "BACSE106",
     "TITLE": "Operating Systems",
@@ -1647,14 +1640,7 @@
     "SLOT": "L21+L22",
     "FACULTY": "SANDEEP KUMAR SATAPATHY"
   },
-  {
-    "CODE": "BACSE202",
-    "TITLE": "Database Systems",
-    "TYPE": "ETH",
-    "CREDITS": 3,
-    "SLOT": "BACSE202 - Database Systems - Embedded Theory and Lab",
-    "FACULTY": "Embedded Theory / Embedded Lab"
-  },
+
   {
     "CODE": "BACSE202",
     "TITLE": "Database Systems",
@@ -2573,69 +2559,7 @@
     "FACULTY": "SIXPHRASE(APT)",
     "VENUE": "AB1-308"
   },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L13+L14+L27+L28",
-    "FACULTY": "KIRUTHIKA",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L39+L40+L57+L58",
-    "FACULTY": "KIRUTHIKA",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L3+L4+L15+L16",
-    "FACULTY": "SHEENA CHRISTABEL PRAVIN",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L31+L32+L37+L38",
-    "FACULTY": "SHEENA CHRISTABEL PRAVIN",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L5+L6+L43+L44",
-    "FACULTY": "KIRUTHIKA",
-    "VENUE": "AB1-607B"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L1+L2+L19+L20",
-    "FACULTY": "ANGELINE EZHILARASI G",
-    "VENUE": "AB1-607"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L11+L12+L23+L24",
-    "FACULTY": "CHENDUR KUMARAN R",
-    "VENUE": "AB1-603A"
-  },
+
   {
     "CODE": "BAESP101",
     "TITLE": "Spanish Level I - Embedded Theory and Lab",

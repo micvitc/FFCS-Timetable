@@ -33,7 +33,7 @@ const data = [
   },
   {
     "CODE": "BEEE303P",
-    "TITLE": "Control Systems Lab",
+    "TITLE": "Control Systems",
     "TYPE": "LO",
     "CREDITS": 1,
     "SLOT": "L5+L6",
@@ -41,7 +41,7 @@ const data = [
   },
   {
     "CODE": "BEEE309L",
-    "TITLE": "Microprocessors and Microcontro",
+    "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
     "SLOT": "F1+TF1",
@@ -49,7 +49,7 @@ const data = [
   },
   {
     "CODE": "BEEE309P",
-    "TITLE": "Microprocessors and Microcontro",
+    "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "LO",
     "CREDITS": 1,
     "SLOT": "L43+L44",
@@ -65,7 +65,7 @@ const data = [
   },
   {
     "CODE": "BEEE312P",
-    "TITLE": "AC Machines Lab",
+    "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
     "SLOT": "L55+L56",
@@ -160,22 +160,6 @@ const data = [
     "FACULTY": "Dr. Meera P S"
   },
   {
-    "CODE": "BEEE309L",
-    "TITLE": "Microprocessors and Microcontrollers",
-    "TYPE": "ETH",
-    "CREDITS": 3,
-    "SLOT": "B1+TB1",
-    "FACULTY": "Dr. Vijayapriya R"
-  },
-  {
-    "CODE": "BEEE309P",
-    "TITLE": "Microprocessors and Microcontrollers",
-    "TYPE": "ELA",
-    "CREDITS": 1,
-    "SLOT": "L51+L52",
-    "FACULTY": "Dr. Vijayapriya R"
-  },
-  {
     "CODE": "BEEE302L",
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
@@ -190,14 +174,6 @@ const data = [
     "CREDITS": 1,
     "SLOT": "L39+L40",
     "FACULTY": "Dr. Umayal C"
-  },
-  {
-    "CODE": "BEEE312P",
-    "TITLE": "AC Machines",
-    "TYPE": "ELA",
-    "CREDITS": 1,
-    "SLOT": "L31+L32",
-    "FACULTY": "Dr. Sri Ramalakshmi P"
   },
   {
     "CODE": "BEEE411L",
@@ -248,14 +224,6 @@ const data = [
     "FACULTY": "Dr. Anantha Krishnan V"
   },
   {
-    "CODE": "BEEE303P",
-    "TITLE": "Control Systems",
-    "TYPE": "ELA",
-    "CREDITS": 1,
-    "SLOT": "L11+L12",
-    "FACULTY": "SELECT FACULTY"
-  },
-  {
     "CODE": "STS2012",
     "TITLE": "Aptitude and Reasoning Skills",
     "TYPE": "SS",
@@ -268,16 +236,16 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "BACSE106 - Operating Systems - Embedded Theory and Lab",
-    "FACULTY": "Embedded Theory / Embedded Lab"
+    "SLOT": "E1+TE1",
+    "FACULTY": "SHOLA USHA RANI"
   },
   {
     "CODE": "BACSE202",
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "BACSE202 - Database Systems - Embedded Theory and Lab",
-    "FACULTY": "Embedded Theory / Embedded Lab"
+    "SLOT": "D1+TD1",
+    "FACULTY": "BHUVANESWARI"
   },
   {
     "CODE": "BAMAT205",
@@ -312,17 +280,8 @@ const data = [
     "FACULTY": "ANANDAN P"
   },
   {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java - Lab Only",
-    "TYPE": "Lab Only",
-    "CREDITS": 2,
-    "SLOT": "L13+L14+L27+L28",
-    "FACULTY": "KIRUTHIKA",
-    "VENUE": "AB1-607B"
-  },
-  {
     "CODE": "BAESP101",
-    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TITLE": "Spanish Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -331,7 +290,7 @@ const data = [
   },
   {
     "CODE": "BAFRE101",
-    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TITLE": "French Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -340,7 +299,7 @@ const data = [
   },
   {
     "CODE": "BAGER101",
-    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TITLE": "German Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE2",
@@ -403,7 +362,7 @@ const data = [
   },
   {
     "CODE": "BAJAP101",
-    "TITLE": "Japanese Level I - Embedded Theory and Lab",
+    "TITLE": "Japanese Level I",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 2,
     "SLOT": "TE1",
@@ -429,17 +388,8 @@ const data = [
     "VENUE": "AB1-702"
   },
   {
-    "CODE": "BACSE106",
-    "TITLE": "Operating Systems - Embedded Theory and Lab",
-    "TYPE": "Embedded Theory / Embedded Lab",
-    "CREDITS": 4,
-    "SLOT": "C1+TC1",
-    "FACULTY": "LOGESH R",
-    "VENUE": "AB1-609"
-  },
-  {
     "CODE": "BAECE206",
-    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TITLE": "Digital Signal Processing",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "G1+TG1",
@@ -466,7 +416,7 @@ const data = [
   },
   {
     "CODE": "BACSE105",
-    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TITLE": "Data Structures and Algorithms",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",
@@ -475,7 +425,7 @@ const data = [
   },
   {
     "CODE": "BAECE203",
-    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TITLE": "Analog Electronics",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "A1+TA1",
@@ -484,7 +434,7 @@ const data = [
   },
   {
     "CODE": "BAECE204",
-    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "Embedded Theory / Embedded Lab",
     "CREDITS": 4,
     "SLOT": "F1+TF1",

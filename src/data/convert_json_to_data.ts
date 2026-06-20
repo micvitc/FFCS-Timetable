@@ -51,6 +51,45 @@ const writeTsModule = async (filePath: string, value: unknown) => {
     await fs.writeFile(filePath, formatTsModule(value));
 };
 
+const normalizeCourseRow = (row: RawCourseRow): RawCourseRow => {
+    if (!row.CODE || !row.TITLE) return row;
+    
+    const code = String(row.CODE).trim();
+    let title = String(row.TITLE).trim();
+    
+    if (code === 'BEEE309L' || code === 'BEEE309P') {
+        if (title.startsWith('Microprocessors and Microcontro')) {
+            title = 'Microprocessors and Microcontrollers';
+        }
+    } else if (code === 'BACSE102') {
+        if (title === 'Problem Solving Using Java - Lab Only') {
+            title = 'Problem Solving Using Java';
+        }
+    } else if (code === 'BACSE106') {
+        if (title === 'Operating Systems - Embedded Theory and Lab') {
+            title = 'Operating Systems';
+        }
+    } else if (code === 'BEEE303P') {
+        if (title === 'Control Systems Lab') {
+            title = 'Control Systems';
+        }
+    } else if (code === 'BEEE312P') {
+        if (title === 'AC Machines Lab') {
+            title = 'AC Machines';
+        }
+    }
+    
+    title = title.replace(/\s*-\s*Lab Only$/i, '');
+    title = title.replace(/\s*-\s*Embedded Theory and Lab$/i, '');
+    title = title.replace(/\s*-\s*Embedded Theory \/ Embedded Lab$/i, '');
+    
+    return {
+        ...row,
+        CODE: code,
+        TITLE: title,
+    };
+};
+
 const uniqueCourses = (courses: RawCourseRow[]) =>
     courses.filter(
         (element, index, self) =>
@@ -62,9 +101,11 @@ const uniqueCourses = (courses: RawCourseRow[]) =>
 const run = async () => {
     await ensureDirectory();
 
-    const outputObjectChennai = await fileExists(INPUT_FILE)
+    const rawData = await fileExists(INPUT_FILE)
         ? await readJson()
         : await readFromWorkbook();
+
+    const outputObjectChennai = rawData.map(normalizeCourseRow);
 
     await writeTsModule(path.join(SRC_DATA_DIR, 'all_data_chennai.ts'), outputObjectChennai);
     console.log('Updated all_data_chennai.ts');
