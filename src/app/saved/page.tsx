@@ -13,6 +13,7 @@ import Image from 'next/image';
 import './saved.css';
 import { setPlannerStoredValue } from '@/lib/plannerStorage';
 import { getChennaiCourseType, getCourseCredits } from '@/lib/chennaiCatalog';
+import LoginModal from '@/components/loginPopup';
 
 
 /* ── Slot → timetable grid mapping ── */
@@ -168,11 +169,7 @@ export default function SavedPage() {
     function scrollLeft() { scrollRef.current?.scrollBy({ left: -380, behavior: 'smooth' }); }
     function scrollRight() { scrollRef.current?.scrollBy({ left: 380, behavior: 'smooth' }); }
 
-    useEffect(() => {
-        if (status === 'unauthenticated') {
-            router.push('/');
-        }
-    }, [status, router]);
+
 
     // Fetch timetables — runs on every mount (mountId is unique per mount)
     // and whenever userEmail or auth status becomes available
@@ -370,7 +367,11 @@ export default function SavedPage() {
                                 </div>
                             ) : displayTimetables.length === 0 ? (
                                 <div className="empty-state">
-                                    <div className="empty-icon">📅</div>
+                                    <div className="empty-icon-container">
+                                        <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                                        </svg>
+                                    </div>
                                     <h2 className="empty-title">No saved timetables yet</h2>
                                     <p className="empty-desc">Go through the steps to build and save your first timetable.</p>
                                     <button onClick={() => router.push('/preferences')} className="empty-btn">
@@ -1164,6 +1165,15 @@ function TimetableDetailView({
                     <button disabled className="btn-next">Next</button>
                 </div>
             </div>
+
+            {status === 'unauthenticated' && (
+                <LoginModal
+                    onClose={() => {
+                        router.push('/');
+                    }}
+                    callbackUrl={typeof window !== 'undefined' ? window.location.href : '/saved'}
+                />
+            )}
         </div>
     );
 }

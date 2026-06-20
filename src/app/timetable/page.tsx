@@ -607,19 +607,44 @@ export default function TimetablePage() {
 
     if (!timetableData || timetableData.length === 0) {
         return (
-            <div className="min-h-screen bg-cream flex flex-col items-center justify-center p-8">
-                <h1 className="text-3xl font-black text-black mb-4">No Timetables Found</h1>
-                <p className="text-gray-600 mb-8 max-w-md text-center">
-                    {clashMessage || "We couldn't generate any non-clashing combinations based on your selections."}
-                </p>
-                <button
-                    onClick={() => {
-                        router.push('/preferences');
-                    }}
-                    className="px-8 py-3 bg-[#A0C4FF] text-black font-bold rounded-xl shadow-lg hover:scale-105 transition-all"
-                >
-                    Back to Selection
-                </button>
+            <div className="min-h-screen bg-cream flex flex-col items-center justify-center p-6">
+                <div className="bg-white rounded-3xl p-8 md:p-10 max-w-md w-full text-center shadow-[0_20px_50px_rgba(74,54,30,0.06)] border border-[#fdf6e2] flex flex-col items-center gap-6 animate-lucid-fade-up">
+                    
+                    {/* Warning Shield Icon */}
+                    <div className="w-16 h-16 rounded-full bg-[#FEF2F2] flex items-center justify-center border border-[#FEE2E2] text-[#EF4444]">
+                        <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m0-10.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.75c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.75h-.152c-3.196 0-6.1-1.249-8.25-3.286Zm0 13.036h.008v.008H12v-.008Z" />
+                        </svg>
+                    </div>
+
+                    <div className="flex flex-col gap-2">
+                        <h1 className="text-[26px] font-black text-black leading-tight">No Timetables Found</h1>
+                        <p className="text-gray-600 font-medium text-[14px] leading-relaxed px-2">
+                            {clashMessage || "We couldn't generate any non-clashing combinations based on your selections."}
+                        </p>
+                    </div>
+
+                    <div className="w-full h-px bg-gray-100" />
+
+                    {/* Troubleshooting Suggestions */}
+                    <div className="text-left bg-gray-50/50 rounded-2xl p-4 w-full border border-gray-100/80">
+                        <span className="text-[11px] font-bold text-gray-400 uppercase tracking-wider block mb-2">Suggestions</span>
+                        <ul className="text-[13px] text-gray-600 space-y-1.5 list-disc list-inside font-medium">
+                            <li>Check for overlapping course slots.</li>
+                            <li>Try deselecting some optional courses.</li>
+                            <li>Enable more slot options in preferences.</li>
+                        </ul>
+                    </div>
+
+                    <button
+                        onClick={() => {
+                            router.push('/preferences');
+                        }}
+                        className="w-full py-3.5 bg-[#A0C4FF] hover:bg-[#8ab2f2] text-black font-black rounded-2xl shadow-[0_8px_30px_rgba(160,196,255,0.25)] hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer text-[14px]"
+                    >
+                        Back to Selection
+                    </button>
+                </div>
             </div>
         );
     }

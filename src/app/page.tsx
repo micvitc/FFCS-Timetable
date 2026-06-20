@@ -44,6 +44,10 @@ export default function LandingPage() {
   const [showLogin, setShowLogin] = useState(false);
   const [showUserMenu, setShowUserMenu] = useState(false);
   const [floatingTiles, setFloatingTiles] = useState<FloatingTile[]>([]);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const videoRef = React.useRef<HTMLVideoElement | null>(null);
+
+
   const floatingContainerRef = React.useRef<HTMLDivElement | null>(null);
   const router = useRouter();
   const { data: session } = useSession();
@@ -399,9 +403,36 @@ export default function LandingPage() {
         <div className="how-it-works-card">
           <h2>How This Site Works?</h2>
 
-          <div className="video-box">
-            <Image src="/section1-preview.png" alt="Demo" fill unoptimized style={{ objectFit: 'cover' }} />
-            <div className="play-icon"></div>
+          <div className="video-box" style={{ position: 'relative' }}>
+            <>
+              {/* Option A: Uploadthing Video Player (Active) */}
+              <video
+                ref={videoRef}
+                src="https://h8z6stjynz.ufs.sh/f/nEev6VX4XfKE5CB0pMEvK0cVWaoY4UbStprle19NBx8f3nZT"
+                poster="/section1-preview.png"
+                controls
+                playsInline
+                preload="metadata"
+                onPlay={() => setIsVideoPlaying(true)}
+                onPause={() => setIsVideoPlaying(false)}
+                className="w-full h-full object-cover"
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
+              {!isVideoPlaying && (
+                <div className="play-icon-overlay" onClick={() => videoRef.current?.play()}>
+                  <div className="play-icon-btn"></div>
+                </div>
+              )}
+
+              {/* Option B: YouTube Player (Commented out - uncomment to swap. If using YouTube, comment out Option A and the overlay above)
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/lv7asnSPVBw?autoplay=1&rel=0&modestbranding=1"
+                title="How FFCS Timetable Works"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+              */}
+            </>
           </div>
 
           <div className="steps-list">
@@ -432,11 +463,11 @@ export default function LandingPage() {
           <div className="faq-list">
             {[
               {
-                q: "Why to use this site?",
+                q: "Why use this site?",
                 a: "Our FFCS planner helps you make informed decisions before registering for courses. Plan ahead, avoid schedule conflicts, and save time during the actual FFCS registration process. It's designed specifically for VIT's course system."
               },
               {
-                q: "Will it help me in my\nFFCS",
+                q: "Will it help me with my\nFFCS?",
                 a: "Yes, it helps you organize and plan your timetable seamlessly before the actual FFCS process begins."
               },
               {
