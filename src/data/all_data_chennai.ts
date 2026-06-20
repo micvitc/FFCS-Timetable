@@ -1948,24 +1948,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "ETH",
     "CREDITS": 4,
-    "SLOT": "BAMAT205 - Discrete Mathematics and Linear Algebra - Theory Only",
-    "FACULTY": "Theory Only"
-  },
-  {
-    "CODE": "BAMAT205",
-    "TITLE": "Discrete Mathematics and Linear Algebra",
-    "TYPE": "ETH",
-    "CREDITS": 4,
     "SLOT": "D1+TD1+TDD1",
     "FACULTY": "PADMAJA N"
-  },
-  {
-    "CODE": "BACSE201",
-    "TITLE": "Models of Computation",
-    "TYPE": "ETH",
-    "CREDITS": 4,
-    "SLOT": "BACSE201 - Models of Computation - Theory Only",
-    "FACULTY": "Theory Only"
   },
   {
     "CODE": "BACSE201",
@@ -2166,14 +2150,6 @@ const data = [
     "CREDITS": 4,
     "SLOT": "A1+TA1+TAA1",
     "FACULTY": "MODIGARI NARENDRA"
-  },
-  {
-    "CODE": "BACSE102",
-    "TITLE": "Problem Solving Using Java",
-    "TYPE": "ETH",
-    "CREDITS": 0,
-    "SLOT": "BACSE102 - Problem Solving Using Java - Lab Only",
-    "FACULTY": "Lab Only"
   },
   {
     "CODE": "BACSE102",
@@ -2396,14 +2372,6 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "ETH",
     "CREDITS": 4,
-    "SLOT": "BACSE344 - Cloud Infrastructure and Architecture - Theory Only",
-    "FACULTY": "Theory Only"
-  },
-  {
-    "CODE": "BACSE344",
-    "TITLE": "Cloud Infrastructure and Architecture",
-    "TYPE": "ETH",
-    "CREDITS": 4,
     "SLOT": "C1+TC1+TCC1",
     "FACULTY": "ANANDAN P"
   },
@@ -2478,6 +2446,1707 @@ const data = [
     "CREDITS": 4,
     "SLOT": "C1+TC1+TCC1",
     "FACULTY": "ABDUL QUADIR MD"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B2+TB2",
+    "FACULTY": "FACE (APT)",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "FACE (APT)",
+    "VENUE": "AB4-514"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B2+TB2",
+    "FACULTY": "SIXPHRASE(APT)",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "FACE (APT)",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "SIXPHRASE(APT)",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B2+TB2",
+    "FACULTY": "SIXPHRASE(APT)",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B2+TB2",
+    "FACULTY": "ETHNUS (APT)",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "FACE (APT)",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "ETHNUS (APT)",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "ETHNUS (APT)",
+    "VENUE": "AB1-610"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B2+TB2",
+    "FACULTY": "ETHNUS (APT)",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B2+TB2",
+    "FACULTY": "FACE (APT)",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "ETHNUS (APT)",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1.5,
+    "SLOT": "B1+TB1",
+    "FACULTY": "SIXPHRASE(APT)",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java - Lab Only",
+    "TYPE": "Lab Only",
+    "CREDITS": 2,
+    "SLOT": "L13+L14+L27+L28",
+    "FACULTY": "KIRUTHIKA",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java - Lab Only",
+    "TYPE": "Lab Only",
+    "CREDITS": 2,
+    "SLOT": "L39+L40+L57+L58",
+    "FACULTY": "KIRUTHIKA",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java - Lab Only",
+    "TYPE": "Lab Only",
+    "CREDITS": 2,
+    "SLOT": "L3+L4+L15+L16",
+    "FACULTY": "SHEENA CHRISTABEL PRAVIN",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java - Lab Only",
+    "TYPE": "Lab Only",
+    "CREDITS": 2,
+    "SLOT": "L31+L32+L37+L38",
+    "FACULTY": "SHEENA CHRISTABEL PRAVIN",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java - Lab Only",
+    "TYPE": "Lab Only",
+    "CREDITS": 2,
+    "SLOT": "L5+L6+L43+L44",
+    "FACULTY": "KIRUTHIKA",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java - Lab Only",
+    "TYPE": "Lab Only",
+    "CREDITS": 2,
+    "SLOT": "L1+L2+L19+L20",
+    "FACULTY": "ANGELINE EZHILARASI G",
+    "VENUE": "AB1-607"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java - Lab Only",
+    "TYPE": "Lab Only",
+    "CREDITS": 2,
+    "SLOT": "L11+L12+L23+L24",
+    "FACULTY": "CHENDUR KUMARAN R",
+    "VENUE": "AB1-603A"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "TRISHA",
+    "VENUE": "AB2-401"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "HALAVATH RAJESH",
+    "VENUE": "AB2-402"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "SHALINI SUPRIYA",
+    "VENUE": "AB1-402"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "HALAVATH RAJESH",
+    "VENUE": "AB2-302"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "SAVARIAH XAVIER Y C",
+    "VENUE": "AB1-702"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "SHALINI SUPRIYA",
+    "VENUE": "AB2-301"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L19+L20",
+    "FACULTY": "SHALINI SUPRIYA",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L1+L2",
+    "FACULTY": "TRISHA",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L59+L60",
+    "FACULTY": "HALAVATH RAJESH",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L9+L10",
+    "FACULTY": "HALAVATH RAJESH",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L47+L48",
+    "FACULTY": "SAVARIAH XAVIER Y C",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAESP101",
+    "TITLE": "Spanish Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L57+L58",
+    "FACULTY": "SHALINI SUPRIYA",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "GOVINDARAJAN P",
+    "VENUE": "AB1-402"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "GOVINDARAJAN P",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "LOKESH BISHNOI",
+    "VENUE": "AB2-301"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "LOKESH BISHNOI",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "CLARISSE ROUABAH",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "CLARISSE ROUABAH",
+    "VENUE": "AB1-408"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "PRIYA SINGH",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "PRIYA SINGH",
+    "VENUE": "AB2-302"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L15+L16",
+    "FACULTY": "LOKESH BISHNOI",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L37+L38",
+    "FACULTY": "GOVINDARAJAN P",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L7+L8",
+    "FACULTY": "GOVINDARAJAN P",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L13+L14",
+    "FACULTY": "CLARISSE ROUABAH",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L35+L36",
+    "FACULTY": "LOKESH BISHNOI",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L49+L50",
+    "FACULTY": "CLARISSE ROUABAH",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L55+L56",
+    "FACULTY": "PRIYA SINGH",
+    "VENUE": "AB1-404 A"
+  },
+  {
+    "CODE": "BAFRE101",
+    "TITLE": "French Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L11+L12",
+    "FACULTY": "PRIYA SINGH",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "VEENA PANI",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "SUGUMAR G",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "ASHUTOSH KUMAR TRIPATHI",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "VEENA PANI",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "JAMUNARANI M",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "JAMUNARANI M",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "SUGUMAR G",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE2",
+    "FACULTY": "ASHUTOSH KUMAR TRIPATHI",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L5+L6",
+    "FACULTY": "VEENA PANI",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L15+L16",
+    "FACULTY": "SUGUMAR G",
+    "VENUE": "AB1-404 A"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L13+L14",
+    "FACULTY": "JAMUNARANI M",
+    "VENUE": "AB1-404 A"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L45+L46",
+    "FACULTY": "ASHUTOSH KUMAR TRIPATHI",
+    "VENUE": "AB1-404 A"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L53+L54",
+    "FACULTY": "VEENA PANI",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L43+L44",
+    "FACULTY": "JAMUNARANI M",
+    "VENUE": "AB1-404 A"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L43+L44",
+    "FACULTY": "SUGUMAR G",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAGER101",
+    "TITLE": "German Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L29+L30",
+    "FACULTY": "ASHUTOSH KUMAR TRIPATHI",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BAHUM106",
+    "TITLE": "Micro Economics - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "SHALINA SUSAN MATHEW",
+    "VENUE": "AB3-508"
+  },
+  {
+    "CODE": "BAHUM109",
+    "TITLE": "Principles of Sociology - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "URJANI",
+    "VENUE": "AB3-308"
+  },
+  {
+    "CODE": "BAHUM109",
+    "TITLE": "Principles of Sociology - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "URJANI",
+    "VENUE": "AB3-308"
+  },
+  {
+    "CODE": "BAHUM110",
+    "TITLE": "Sustainability and Society - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "ROOPESH O B",
+    "VENUE": "AB3-307"
+  },
+  {
+    "CODE": "BAHUM110",
+    "TITLE": "Sustainability and Society - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "ROOPESH O B",
+    "VENUE": "AB3-307"
+  },
+  {
+    "CODE": "BAHUM111",
+    "TITLE": "Introduction to Psychology - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "MAYA RATHNASABAPATHY",
+    "VENUE": "AB3-508"
+  },
+  {
+    "CODE": "BAHUM112",
+    "TITLE": "Psychology in Everyday Life - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "VIJAYABANU U",
+    "VENUE": "AB3-408"
+  },
+  {
+    "CODE": "BAHUM251",
+    "TITLE": "Indian Constitution - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "ARUN KUMAR G",
+    "VENUE": "AB3-608"
+  },
+  {
+    "CODE": "BAHUM251",
+    "TITLE": "Indian Constitution - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "ARUN KUMAR G",
+    "VENUE": "AB3-606"
+  },
+  {
+    "CODE": "BAJAP101",
+    "TITLE": "Japanese Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "TE1",
+    "FACULTY": "M JAYASHREE DASS",
+    "VENUE": "AB1-610"
+  },
+  {
+    "CODE": "BAJAP101",
+    "TITLE": "Japanese Level I - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 2,
+    "SLOT": "L45+L46",
+    "FACULTY": "M JAYASHREE DASS",
+    "VENUE": "AB1-404B"
+  },
+  {
+    "CODE": "BABIT314",
+    "TITLE": "Food Nutrition and Health - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "D2+TD2+TDD2",
+    "FACULTY": "SIVAKAMAVALLI J",
+    "VENUE": "AB3-405"
+  },
+  {
+    "CODE": "BABIT314",
+    "TITLE": "Food Nutrition and Health - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "D1+TD1+TDD1",
+    "FACULTY": "JAYARAMAN G",
+    "VENUE": "AB3-405"
+  },
+  {
+    "CODE": "BACLE402",
+    "TITLE": "Engineering Geology - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "MOHAN K",
+    "VENUE": "AB1-702"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1",
+    "FACULTY": "LOGESH R",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1",
+    "FACULTY": "SUDHAKARAN",
+    "VENUE": "AB1-610"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2",
+    "FACULTY": "SUGANTHI K",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1",
+    "FACULTY": "KARTHIK R",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2",
+    "FACULTY": "SUDHAKARAN",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L1+L2",
+    "FACULTY": "SUGANTHI K",
+    "VENUE": "AB4-407"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L33+L34",
+    "FACULTY": "SUDHAKARAN",
+    "VENUE": "AB4-407"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L5+L6",
+    "FACULTY": "LOGESH R",
+    "VENUE": "AB4-407"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L21+L22",
+    "FACULTY": "SUDHAKARAN",
+    "VENUE": "AB4-407"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L55+L56",
+    "FACULTY": "KARTHIK R",
+    "VENUE": "AB4-407"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G1+TG1",
+    "FACULTY": "RAMESH R",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G1+TG1",
+    "FACULTY": "SOURABH PAUL",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G2+TG2",
+    "FACULTY": "ANNIS FATHIMA A",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G2+TG2",
+    "FACULTY": "RAMESH R",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G2+TG2",
+    "FACULTY": "SOURABH PAUL",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G1+TG1",
+    "FACULTY": "ASHOK",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G2+TG2",
+    "FACULTY": "SATHIYA NARAYANAN S",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "G1+TG1",
+    "FACULTY": "ANNIS FATHIMA A",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L13+L14",
+    "FACULTY": "RAMESH R",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L15+L16",
+    "FACULTY": "SOURABH PAUL",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L29+L30",
+    "FACULTY": "ANNIS FATHIMA A",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L43+L44",
+    "FACULTY": "RAMESH R",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L45+L46",
+    "FACULTY": "SOURABH PAUL",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L25+L26",
+    "FACULTY": "SATHIYA NARAYANAN S",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L37+L38",
+    "FACULTY": "ASHOK",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAECE206",
+    "TITLE": "Digital Signal Processing - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L55+L56",
+    "FACULTY": "ANNIS FATHIMA A",
+    "VENUE": "AB1-707"
+  },
+  {
+    "CODE": "BAHUM202",
+    "TITLE": "Security Analysis and Portfolio Management - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "AHMAD HASAN",
+    "VENUE": "AB3-704"
+  },
+  {
+    "CODE": "BAHUM202",
+    "TITLE": "Security Analysis and Portfolio Management - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "MOHD HAMMAD NAEEM",
+    "VENUE": "AB3-706"
+  },
+  {
+    "CODE": "BAHUM202",
+    "TITLE": "Security Analysis and Portfolio Management - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "AHMAD HASAN",
+    "VENUE": "AB3-704"
+  },
+  {
+    "CODE": "BAHUM202",
+    "TITLE": "Security Analysis and Portfolio Management - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "MOHD NADEEM BHAT",
+    "VENUE": "AB3-705"
+  },
+  {
+    "CODE": "BAHUM202",
+    "TITLE": "Security Analysis and Portfolio Management - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "MOHD NADEEM BHAT",
+    "VENUE": "AB3-705"
+  },
+  {
+    "CODE": "BAHUM202",
+    "TITLE": "Security Analysis and Portfolio Management - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "MOHD HAMMAD NAEEM",
+    "VENUE": "AB3-706"
+  },
+  {
+    "CODE": "BAHUM204",
+    "TITLE": "Fixed Income Securities - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G2+TG2",
+    "FACULTY": "BUVANESH",
+    "VENUE": "AB2-708"
+  },
+  {
+    "CODE": "BAHUM204",
+    "TITLE": "Fixed Income Securities - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 3,
+    "SLOT": "G1+TG1",
+    "FACULTY": "BUVANESH",
+    "VENUE": "AB2-708"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "MERCY RAJASELVI BEAULAH P",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "SANTHI V",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F2+TF2",
+    "FACULTY": "SANTHI V",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F2+TF2",
+    "FACULTY": "POONKODI",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "ANANDAN P",
+    "VENUE": "AB1-610"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "C1+TC1",
+    "FACULTY": "ANGELINE EZHILARASI G",
+    "VENUE": "AB2-406"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "C2+TC2",
+    "FACULTY": "CHENDUR KUMARAN R",
+    "VENUE": "AB2-406"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L11+L12",
+    "FACULTY": "MERCY RAJASELVI BEAULAH P",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L51+L52",
+    "FACULTY": "SANTHI V",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L7+L8",
+    "FACULTY": "POONKODI",
+    "VENUE": "AB4-411"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L9+L10",
+    "FACULTY": "SANTHI V",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L49+L50",
+    "FACULTY": "ANANDAN P",
+    "VENUE": "AB1-607B"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L25+L26",
+    "FACULTY": "CHENDUR KUMARAN R",
+    "VENUE": "AB1-607"
+  },
+  {
+    "CODE": "BACSE105",
+    "TITLE": "Data Structures and Algorithms - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L31+L32",
+    "FACULTY": "ANGELINE EZHILARASI G",
+    "VENUE": "AB1-603A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1",
+    "FACULTY": "SANGEETHA R G",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1",
+    "FACULTY": "SATHYA SREE J",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1",
+    "FACULTY": "B PRASHANTH KUMAR",
+    "VENUE": "AB1-610"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2",
+    "FACULTY": "LAKSHMI B",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2",
+    "FACULTY": "BRINTHA THERESE A",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2",
+    "FACULTY": "CHANDRAMAULESHWAR ROY",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2",
+    "FACULTY": "RAHUL NARASIMHAN",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2",
+    "FACULTY": "SANGEETHA R G",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1",
+    "FACULTY": "V.R BALAJI",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1",
+    "FACULTY": "BINDU B",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1",
+    "FACULTY": "BRINTHA THERESE A",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1",
+    "FACULTY": "CHANDRAMAULESHWAR ROY",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2",
+    "FACULTY": "SATHYA SREE J",
+    "VENUE": "AB1-610"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L11+L12",
+    "FACULTY": "JEAN JENIFER NESAM J",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L19+L20",
+    "FACULTY": "E MANIKANDAN",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L21+L22",
+    "FACULTY": "RAHUL NARASIMHAN",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L21+L22",
+    "FACULTY": "G LAKSHMI PRIYA",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L23+L24",
+    "FACULTY": "PAPANASAM E",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L29+L30",
+    "FACULTY": "LAKSHMI B",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L29+L30",
+    "FACULTY": "SRIDHAR C",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L31+L32",
+    "FACULTY": "GIRIJA SHANKAR SAHOO",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L37+L38",
+    "FACULTY": "SANGEETHA R G",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L37+L38",
+    "FACULTY": "S SHOBA",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L39+L40",
+    "FACULTY": "CHANDRAMAULESHWAR ROY",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L3+L4",
+    "FACULTY": "BRINTHA THERESE A",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L3+L4",
+    "FACULTY": "FLORENCE GNANA POOVATHY J",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L45+L46",
+    "FACULTY": "B PRASHANTH KUMAR",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L45+L46",
+    "FACULTY": "ABHIJIT MISHRA",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L49+L50",
+    "FACULTY": "SATHYA SREE J",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L49+L50",
+    "FACULTY": "PRATHIBA A",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L7+L8",
+    "FACULTY": "SANGEETHA R G",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L7+L8",
+    "FACULTY": "A BHARATHI SANKAR",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L9+L10",
+    "FACULTY": "CHANDRAMAULESHWAR ROY",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L9+L10",
+    "FACULTY": "TANMOY MAJUMDER",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L11+L12",
+    "FACULTY": "BRINTHA THERESE A",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L19+L20",
+    "FACULTY": "SATHYA SREE J",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L23+L24",
+    "FACULTY": "BINDU B",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L31+L32",
+    "FACULTY": "V.R BALAJI",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE203",
+    "TITLE": "Analog Electronics - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L39+L40",
+    "FACULTY": "VIJAYAKUMAR P",
+    "VENUE": "AB1-307A"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "MANOJ KUMAR R",
+    "VENUE": "AB4-517"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "JOHN SAHAYA RANI ALEX",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F2+TF2",
+    "FACULTY": "JOHN SAHAYA RANI ALEX",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F2+TF2",
+    "FACULTY": "VYDEKI D",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "VIGNESWARAN T",
+    "VENUE": "AB1-309"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "VYDEKI D",
+    "VENUE": "AB1-301"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F2+TF2",
+    "FACULTY": "BERLIN HENCY V",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F2+TF2",
+    "FACULTY": "VIGNESWARAN T",
+    "VENUE": "AB1-308"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "F1+TF1",
+    "FACULTY": "BERLIN HENCY V",
+    "VENUE": "AB1-302"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L49+L50",
+    "FACULTY": "MANOJ KUMAR R",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L55+L56",
+    "FACULTY": "JOHN SAHAYA RANI ALEX",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L5+L6",
+    "FACULTY": "JOHN SAHAYA RANI ALEX",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L9+L10",
+    "FACULTY": "VYDEKI D",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L19+L20",
+    "FACULTY": "BERLIN HENCY V",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L23+L24",
+    "FACULTY": "VIGNESWARAN T",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L37+L38",
+    "FACULTY": "VYDEKI D",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L51+L52",
+    "FACULTY": "VIGNESWARAN T",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAECE204",
+    "TITLE": "Microcontrollers and Embedded C Programming - Embedded Theory and Lab",
+    "TYPE": "Embedded Theory / Embedded Lab",
+    "CREDITS": 4,
+    "SLOT": "L11+L12",
+    "FACULTY": "BERLIN HENCY V",
+    "VENUE": "AB3-102"
+  },
+  {
+    "CODE": "BAMAT209",
+    "TITLE": "Mathematical Foundations for Computation - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "D1+TD1+TDD1",
+    "FACULTY": "DHIVYA P",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BAMAT209",
+    "TITLE": "Mathematical Foundations for Computation - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "D1+TD1+TDD1",
+    "FACULTY": "NATHIYA N",
+    "VENUE": "AB1-610"
+  },
+  {
+    "CODE": "BAMAT209",
+    "TITLE": "Mathematical Foundations for Computation - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "D2+TD2+TDD2",
+    "FACULTY": "DEVI YAMINI S",
+    "VENUE": "AB1-608"
+  },
+  {
+    "CODE": "BAMAT209",
+    "TITLE": "Mathematical Foundations for Computation - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "D2+TD2+TDD2",
+    "FACULTY": "ABHISHEK KUMAR SINGH",
+    "VENUE": "AB1-609"
+  },
+  {
+    "CODE": "BAMAT209",
+    "TITLE": "Mathematical Foundations for Computation - Theory Only",
+    "TYPE": "Theory Only",
+    "CREDITS": 4,
+    "SLOT": "D1+TD1+TDD1",
+    "FACULTY": "SOMNATH BERA",
+    "VENUE": "AB1-608"
   }
 ] as const;
 
