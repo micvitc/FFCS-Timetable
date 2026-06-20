@@ -8,24 +8,27 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Generate a fresh cryptographic nonce for every request.
-  // Buffer.from(uuid).toString('base64') gives a URL-safe 24-char base64 string.
-  const nonce = Buffer.from(crypto.randomUUID()).toString("base64");
-
   // ---------------------------------------------------------------------------
   // Content Security Policy
-  // ---------------------------------------------------------------------------
-  // 'nonce-{nonce}'   — only scripts tagged with this nonce execute.
-  // 'strict-dynamic'  — scripts loaded by a nonced script inherit trust,
-  //                     so Vercel Analytics, PostHog, and Sentry all work
-  //                     without being explicitly listed in script-src.
-  // No 'unsafe-inline' or 'unsafe-eval' in script-src.
   // ---------------------------------------------------------------------------
   const csp = [
     "default-src 'self'",
 
-    // Scripts: nonce + strict-dynamic removes unsafe-inline and unsafe-eval
-    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'`,
+    // Scripts: Allow self, inline scripts for Next.js/PostHog hydration, and trusted CDN domains
+    [
+      "script-src 'self'",
+      "'unsafe-inline'",
+      "'unsafe-eval'",
+      "https://va.vercel-scripts.com",
+      "https://vitals.vercel-insights.com",
+      "https://us.posthog.com",
+      "https://eu.posthog.com",
+      "https://us.i.posthog.com",
+      "https://eu.i.posthog.com",
+      "https://us-assets.i.posthog.com",
+      "https://eu-assets.i.posthog.com",
+      "https://t.microsoftinnovations.club",
+    ].join(" "),
 
     // Styles: unsafe-inline is acceptable (CSS injection risk << XSS risk)
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
@@ -50,7 +53,11 @@ export function middleware(request: NextRequest) {
       "https://o4511123083689984.ingest.de.sentry.io",
       "https://t.microsoftinnovations.club",
       "https://us.posthog.com",
+      "https://eu.posthog.com",
+      "https://us.i.posthog.com",
+      "https://eu.i.posthog.com",
       "https://us-assets.i.posthog.com",
+      "https://eu-assets.i.posthog.com",
     ].join(" "),
 
     "worker-src 'self' blob:",
@@ -60,13 +67,7 @@ export function middleware(request: NextRequest) {
     "upgrade-insecure-requests",
   ].join("; ");
 
-  // Forward the nonce to the root layout via a request header.
-  // layout.tsx reads it with headers().get('x-nonce') and passes it to
-  // <Script> components so Next.js attaches nonce= to its injected <script> tags.
-  const requestHeaders = new Headers(request.headers);
-  requestHeaders.set("x-nonce", nonce);
-
-  const response = NextResponse.next({ request: { headers: requestHeaders } });
+  const response = NextResponse.next();
   response.headers.set("Content-Security-Policy", csp);
 
   return response;
