@@ -1,5 +1,7 @@
 import chennaiCourses from '@/data/all_data_chennai';
 import type { fullCourseData } from '@/lib/type';
+import { findMatchingLabSlot } from './slots';
+import { isSessionBasedSlotPairingEnabled } from './featureFlags';
 
 export type ChennaiCourseRecord = (typeof chennaiCourses)[number];
 
@@ -175,16 +177,27 @@ export function buildPreferenceCoursesFromChennaiSelection(
                     let facultyLabSlot: string | undefined;
 
                     if (slotIsTheory) {
-                        // Auto-pair: faculty must have EXACTLY 1 ELA/LO row for this course
                         const labRecords = subjectRecords.filter(
                             r => r.FACULTY === facultyName && isLabType(r.TYPE)
                         );
 
-                        if (labRecords.length === 1) {
-                            facultyLabSlot = labRecords[0].SLOT;
-                            hasAutoPairedLab = true;
+                        if (isSessionBasedSlotPairingEnabled()) {
+                            if (labRecords.length > 0) {
+                                const labSlots = labRecords.map(r => r.SLOT);
+                                const matched = findMatchingLabSlot(slotName, labSlots);
+                                if (matched) {
+                                    facultyLabSlot = matched;
+                                    hasAutoPairedLab = true;
+                                }
+                            }
+                        } else {
+                            // Legacy behavior: auto-pair only if faculty has EXACTLY 1 ELA/LO row for this course
+                            if (labRecords.length === 1) {
+                                facultyLabSlot = labRecords[0].SLOT;
+                                hasAutoPairedLab = true;
+                            }
+                            // 0 or 2+ lab records → cannot auto-pair; user adds lab manually
                         }
-                        // 0 or 2+ lab records → cannot auto-pair; user adds lab manually
                     }
 
                     return { facultyName, ...(facultyLabSlot ? { facultyLabSlot } : {}) };

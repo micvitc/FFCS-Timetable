@@ -33,7 +33,8 @@ import posthog from 'posthog-js';
 import { usePreferences } from '@/lib/PreferencesContext';
 import { fullCourseData } from '@/lib/type';
 import { getPlannerStoredValue, setPlannerStoredValue } from '@/lib/plannerStorage';
-import { FEATURE_FLAGS } from '@/lib/featureFlags';
+import { FEATURE_FLAGS, isSessionBasedSlotPairingEnabled } from '@/lib/featureFlags';
+import { findMatchingLabSlot } from '@/lib/slots';
 import ModeHelpDialog from '@/components/ModeHelpDialog';
 import { PREFERENCE_TOUR_STEP_EVENT } from '@/components/plannerTourSteps';
 import type { ChennaiDomainCatalog } from '@/lib/chennaiCatalog';
@@ -68,14 +69,14 @@ const getCookie = (name: string): string | null => {
 
 const keepFirst = (arr: string[]): string[] => (arr.length > 0 ? [arr[0]] : []);
 
-const SCHOOLS = ['SCOPE', 'SENSE', 'SELECT', 'SMEC', 'SCHEME', 'SCORE', 'SBST', 'SCE', 'SHINE', 'SSL', 'SAS'];
+const SCHOOLS = ['SCOPE', 'SENSE', 'SELECT', 'SMEC', 'SCHEME', 'SCORE', 'SBST', 'SCE', 'SHINE', 'SSL', 'SAS', 'VBS'];
 
 const SCHOOL_TO_DOMAINS: Record<string, string[]> = {
-    SCOPE: ['BACSE'],
+    SCOPE: ['BACSE', 'BCSE'],
     SENSE: ['BECE', 'BAECE'],
     SELECT: ['BAEEE', 'BEEE'],
-    SAS: ['BAMAT', 'BABIT'],
-    SSL: ['BASTS', 'BSTS', 'STS', 'BAHUM', 'BAESP', 'BAFRE', 'BAGER', 'BAJAP'],
+    SAS: ['BAMAT', 'BABIT', 'BMAT'],
+    SSL: ['BASTS', 'BSTS', 'STS', 'BAHUM', 'BAESP', 'BAFRE', 'BAGER', 'BAJAP', 'BHSM'],
     SCE: ['BACLE'],
 };
 
@@ -647,8 +648,7 @@ export default function PreferencesPage() {
                         );
                         if (theoryIdx !== -1) {
                             const theoryCourse = mergedExistingCourses[theoryIdx];
-                            const labSlot = newCourse.courseSlots[0];
-                            if (labSlot) {
+                            if (isSessionBasedSlotPairingEnabled()) {
                                 const mergedCourse: fullCourseData = {
                                     ...theoryCourse,
                                     courseType: 'both',
@@ -657,8 +657,14 @@ export default function PreferencesPage() {
                                     courseSlots: theoryCourse.courseSlots.map(cs => ({
                                         ...cs,
                                         slotFaculties: cs.slotFaculties.map(f => {
-                                            const match = labSlot.slotFaculties.find(lf => lf.facultyName === f.facultyName);
-                                            return match ? { ...f, facultyLabSlot: labSlot.slotName } : f;
+                                            const facultyLabSlots = newCourse.courseSlots
+                                                .filter(ls => ls.slotFaculties.some(lf => lf.facultyName === f.facultyName))
+                                                .map(ls => ls.slotName);
+                                            if (facultyLabSlots.length > 0) {
+                                                const matched = findMatchingLabSlot(cs.slotName, facultyLabSlots);
+                                                return matched ? { ...f, facultyLabSlot: matched } : f;
+                                            }
+                                            return f;
                                         }),
                                     })),
                                 };
@@ -668,7 +674,31 @@ export default function PreferencesPage() {
                                     ...mergedExistingCourses.slice(theoryIdx + 1),
                                 ];
                                 updateCourse(theoryCourse.courseCode, mergedCourse);
-                                continue; // Skip adding lab as separate entry
+                                continue;
+                            } else {
+                                const labSlot = newCourse.courseSlots[0];
+                                if (labSlot) {
+                                    const mergedCourse: fullCourseData = {
+                                        ...theoryCourse,
+                                        courseType: 'both',
+                                        courseCodeLab: newCourse.courseCode,
+                                        courseNameLab: newCourse.courseName,
+                                        courseSlots: theoryCourse.courseSlots.map(cs => ({
+                                            ...cs,
+                                            slotFaculties: cs.slotFaculties.map(f => {
+                                                const match = labSlot.slotFaculties.find(lf => lf.facultyName === f.facultyName);
+                                                return match ? { ...f, facultyLabSlot: labSlot.slotName } : f;
+                                            }),
+                                        })),
+                                    };
+                                    mergedExistingCourses = [
+                                        ...mergedExistingCourses.slice(0, theoryIdx),
+                                        mergedCourse,
+                                        ...mergedExistingCourses.slice(theoryIdx + 1),
+                                    ];
+                                    updateCourse(theoryCourse.courseCode, mergedCourse);
+                                    continue; // Skip adding lab as separate entry
+                                }
                             }
                         }
                     } else if (newCourse.courseType === 'th') {
@@ -677,8 +707,7 @@ export default function PreferencesPage() {
                         );
                         if (labIdx !== -1) {
                             const labCourse = mergedExistingCourses[labIdx];
-                            const labSlot = labCourse.courseSlots[0];
-                            if (labSlot) {
+                            if (isSessionBasedSlotPairingEnabled()) {
                                 const mergedCourse: fullCourseData = {
                                     ...newCourse,
                                     courseType: 'both',
@@ -687,17 +716,46 @@ export default function PreferencesPage() {
                                     courseSlots: newCourse.courseSlots.map(cs => ({
                                         ...cs,
                                         slotFaculties: cs.slotFaculties.map(f => {
-                                            const match = labSlot.slotFaculties.find(lf => lf.facultyName === f.facultyName);
-                                            return match ? { ...f, facultyLabSlot: labSlot.slotName } : f;
+                                            const facultyLabSlots = labCourse.courseSlots
+                                                .filter(ls => ls.slotFaculties.some(lf => lf.facultyName === f.facultyName))
+                                                .map(ls => ls.slotName);
+                                            if (facultyLabSlots.length > 0) {
+                                                const matched = findMatchingLabSlot(cs.slotName, facultyLabSlots);
+                                                return matched ? { ...f, facultyLabSlot: matched } : f;
+                                            }
+                                            return f;
                                         }),
                                     })),
                                 };
                                 // Remove old lab entry, add merged theory entry
                                 mergedExistingCourses = mergedExistingCourses.filter((_, i) => i !== labIdx);
                                 mergedExistingCourses.push(mergedCourse);
-                                addCourse(mergedCourse); // context: add merged (lab entry will be removed next)
+                                addCourse(mergedCourse);
                                 updateCourse(labCourse.courseCode, mergedCourse);
                                 continue;
+                            } else {
+                                const labSlot = labCourse.courseSlots[0];
+                                if (labSlot) {
+                                    const mergedCourse: fullCourseData = {
+                                        ...newCourse,
+                                        courseType: 'both',
+                                        courseCodeLab: labCourse.courseCode,
+                                        courseNameLab: labCourse.courseName,
+                                        courseSlots: newCourse.courseSlots.map(cs => ({
+                                            ...cs,
+                                            slotFaculties: cs.slotFaculties.map(f => {
+                                                const match = labSlot.slotFaculties.find(lf => lf.facultyName === f.facultyName);
+                                                return match ? { ...f, facultyLabSlot: labSlot.slotName } : f;
+                                            }),
+                                        })),
+                                    };
+                                    // Remove old lab entry, add merged theory entry
+                                    mergedExistingCourses = mergedExistingCourses.filter((_, i) => i !== labIdx);
+                                    mergedExistingCourses.push(mergedCourse);
+                                    addCourse(mergedCourse); // context: add merged (lab entry will be removed next)
+                                    updateCourse(labCourse.courseCode, mergedCourse);
+                                    continue;
+                                }
                             }
                         }
                     }

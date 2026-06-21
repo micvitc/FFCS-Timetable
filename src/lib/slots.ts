@@ -198,3 +198,67 @@ export function getAllSlots(): string[] {
 export function getCollisions(s: slot): slot[] {
     return (clashMap[s.slotName] || []).flatMap(name => slotMap[name] || []);
 }
+
+/**
+ * Helper to determine if a slot name represents a morning slot.
+ */
+export function isMorningSlot(slot: string): boolean {
+    const parts = slot.split('+').map(s => s.trim().toUpperCase());
+    for (const part of parts) {
+        if (part.startsWith('L')) {
+            const numMatch = part.match(/\d+/);
+            if (numMatch) {
+                const num = parseInt(numMatch[0], 10);
+                if (num < 31) return true;
+            }
+        } else {
+            if (part.includes('1')) return true;
+        }
+    }
+    return false;
+}
+
+/**
+ * Helper to determine if a slot name represents an evening slot.
+ */
+export function isEveningSlot(slot: string): boolean {
+    const parts = slot.split('+').map(s => s.trim().toUpperCase());
+    for (const part of parts) {
+        if (part.startsWith('L')) {
+            const numMatch = part.match(/\d+/);
+            if (numMatch) {
+                const num = parseInt(numMatch[0], 10);
+                if (num >= 31) return true;
+            }
+        } else {
+            if (part.includes('2')) return true;
+        }
+    }
+    return false;
+}
+
+/**
+ * Finds the corresponding lab slot for a given theory slot based on morning/evening session pairing.
+ * - Morning theory -> Evening lab
+ * - Evening theory -> Morning lab
+ */
+export function findMatchingLabSlot(theorySlot: string, labSlots: string[]): string | undefined {
+    if (labSlots.length === 0) return undefined;
+    
+    const isTheoryMorning = isMorningSlot(theorySlot);
+    const isTheoryEvening = isEveningSlot(theorySlot);
+
+    if (isTheoryMorning) {
+        // Look for an evening lab slot
+        const match = labSlots.find(slot => isEveningSlot(slot));
+        if (match) return match;
+    } else if (isTheoryEvening) {
+        // Look for a morning lab slot
+        const match = labSlots.find(slot => isMorningSlot(slot));
+        if (match) return match;
+    }
+
+    // Fallback: if no session-matched lab slot is found, return the first lab slot
+    return labSlots[0];
+}
+

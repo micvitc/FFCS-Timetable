@@ -5,7 +5,8 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { useSession } from 'next-auth/react';
 import { fullCourseData } from '@/lib/type';
-import { clashMap } from '@/lib/slots';
+import { clashMap, findMatchingLabSlot } from '@/lib/slots';
+import { isSessionBasedSlotPairingEnabled } from '@/lib/featureFlags';
 import { generateTT } from '@/lib/utils';
 import { useTimetable } from '@/lib/TimeTableContext';
 import { getPlannerStoredValue, setPlannerStoredValue } from '@/lib/plannerStorage';
@@ -127,14 +128,25 @@ const buildPreferenceCoursesFromRows = (rows: FacultyEntry[]): fullCourseData[] 
             const theorySlotMap = new Map<string, { facultyName: string; facultyLabSlot?: string }[]>();
 
             course.facultySlots.forEach(({ theorySlots, labSlots }, facultyName) => {
-                const labSlot = labSlots[0]; // pair with first lab slot
-                theorySlots.forEach(theorySlot => {
-                    if (!theorySlotMap.has(theorySlot)) theorySlotMap.set(theorySlot, []);
-                    theorySlotMap.get(theorySlot)!.push({
-                        facultyName,
-                        ...(labSlot ? { facultyLabSlot: labSlot } : {}),
+                if (isSessionBasedSlotPairingEnabled()) {
+                    theorySlots.forEach(theorySlot => {
+                        const labSlot = findMatchingLabSlot(theorySlot, labSlots);
+                        if (!theorySlotMap.has(theorySlot)) theorySlotMap.set(theorySlot, []);
+                        theorySlotMap.get(theorySlot)!.push({
+                            facultyName,
+                            ...(labSlot ? { facultyLabSlot: labSlot } : {}),
+                        });
                     });
-                });
+                } else {
+                    const labSlot = labSlots[0]; // pair with first lab slot
+                    theorySlots.forEach(theorySlot => {
+                        if (!theorySlotMap.has(theorySlot)) theorySlotMap.set(theorySlot, []);
+                        theorySlotMap.get(theorySlot)!.push({
+                            facultyName,
+                            ...(labSlot ? { facultyLabSlot: labSlot } : {}),
+                        });
+                    });
+                }
                 // Faculty with only lab (no theory) — store as standalone lab slot
                 if (theorySlots.length === 0) {
                     labSlots.forEach(labSlot => {

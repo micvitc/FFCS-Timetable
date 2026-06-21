@@ -483,8 +483,8 @@ export default function LandingPage() {
                 a: "Absolutely! When you select a theory slot for a course, the corresponding lab slot is automatically selected for you (and vice-versa), ensuring perfect synchronization."
               },
               {
-                q: "Do I need to be a VIT student to use\nthis site?",
-                a: "This tool is specifically designed for the FFCS system at VIT Chennai. However, anyone can try it out!"
+                q: "Can I share my timetable\nwith my friends?",
+                a: "Yes! Once you generate your timetable, you can easily share a link with your friends to sync your schedules and find common free time."
               },
               {
                 q: "Can I change my timetable\nafter saving?",
