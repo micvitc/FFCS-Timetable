@@ -24,7 +24,7 @@
  * - Uses: lib/PreferencesContext.tsx (state management)
  */
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { useSession } from 'next-auth/react';
@@ -160,6 +160,13 @@ export default function PreferencesPage() {
     const [selectionError, setSelectionError] = useState('');
     const [isSkippedToSubjects, setIsSkippedToSubjects] = useState(false);
     const [subjectSearchQuery, setSubjectSearchQuery] = useState('');
+    const [skipToast, setSkipToast] = useState(false);
+    const skipToastTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+    const showSkipToast = () => {
+        if (skipToastTimer.current) clearTimeout(skipToastTimer.current);
+        setSkipToast(true);
+        skipToastTimer.current = setTimeout(() => setSkipToast(false), 3000);
+    };
     const isFacultyFirstMode = isFacultyFirstToggleAvailable && isFacultyFirstModeEnabled;
     const [pairingToast, setPairingToast] = useState<{
         title: string;
@@ -1108,23 +1115,7 @@ export default function PreferencesPage() {
                                                     <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
                                                         Select one option
                                                     </p>
-                                                    {isDirectJumpEnabled && (
-                                                        <button
-                                                            onClick={() => {
-                                                                posthog.capture('preferences_skipped_to_subject_selection');
-                                                                setIsSkippedToSubjects(true);
-                                                                setSelectedSchool(null);
-                                                                setSelectedDomains([]);
-                                                                setSelectedSubjects([]);
-                                                                setSelectedSlots([]);
-                                                                setSelectedFaculties([]);
-                                                                setCurrentStep(stepKeys.indexOf('subject') + 1);
-                                                            }}
-                                                            className="w-full p-3 lg:p-4 mb-1 rounded-lg text-center font-bold text-white  border border-[#3B5BDB]/20 shadow-lg shadow-[#3B5BDB]/25 transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3B5BDB] cursor-pointer"
-                                                        >
-                                                            Skip & Search All Subjects
-                                                        </button>
-                                                    )}
+
                                                     {SCHOOLS.map(school => (
                                                         <button
                                                             key={school}
@@ -1169,13 +1160,45 @@ export default function PreferencesPage() {
                                                     <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
                                                         Select one option
                                                     </p>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Search subjects by code or title..."
-                                                        value={subjectSearchQuery}
-                                                        onChange={(e) => setSubjectSearchQuery(e.target.value)}
-                                                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2 text-sm text-gray-800 bg-white"
-                                                    />
+                                                    <div className="flex items-center gap-2 mb-2">
+                                                        <input
+                                                            type="text"
+                                                            placeholder="Search subjects by code or title..."
+                                                            value={subjectSearchQuery}
+                                                            onChange={(e) => setSubjectSearchQuery(e.target.value)}
+                                                            className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-gray-800 bg-white"
+                                                        />
+                                                        {isDirectJumpEnabled && (
+                                                            <button
+                                                                type="button"
+                                                                title="Search all subjects regardless of school"
+                                                                aria-label="Search all subjects"
+                                                                onClick={() => {
+                                                                    if (!isSkippedToSubjects) {
+                                                                        posthog.capture('preferences_skipped_to_subject_selection');
+                                                                        setIsSkippedToSubjects(true);
+                                                                        setSelectedSchool(null);
+                                                                        setSelectedDomains([]);
+                                                                        setSelectedSlots([]);
+                                                                        setSelectedFaculties([]);
+                                                                        showSkipToast();
+                                                                    }
+                                                                }}
+                                                                className={`shrink-0 flex items-center gap-1.5 px-3 h-9 rounded-lg border font-semibold text-xs transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3B5BDB] cursor-pointer whitespace-nowrap ${
+                                                                    isSkippedToSubjects
+                                                                        ? 'bg-[#3B5BDB] border-[#3B5BDB] text-white shadow-md shadow-[#3B5BDB]/30'
+                                                                        : 'bg-white border-gray-300 text-gray-600 hover:border-[#3B5BDB] hover:text-[#3B5BDB] hover:shadow-sm active:scale-95'
+                                                                }`}
+                                                            >
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                                                    <circle cx="12" cy="12" r="10"/>
+                                                                    <line x1="2" y1="12" x2="22" y2="12"/>
+                                                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                                                </svg>
+                                                                {isSkippedToSubjects ? 'Show All Subjects ✓' : 'Show All Subjects'}
+                                                            </button>
+                                                        )}
+                                                    </div>
                                                     {filteredSubjectsInStep.length > 0 ? filteredSubjectsInStep.map(subject => (
                                                         <button
                                                             key={subject}
@@ -1658,6 +1681,52 @@ export default function PreferencesPage() {
                 </div>
             )}
 
+            {/* Show-all-subjects toast */}
+            {skipToast && (
+                <div
+                    style={{
+                        position: 'fixed',
+                        bottom: '32px',
+                        left: '50%',
+                        transform: 'translateX(-50%)',
+                        zIndex: 99999,
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '16px',
+                        padding: '16px 24px',
+                        borderRadius: '16px',
+                        background: 'linear-gradient(135deg, #3B5BDB 0%, #5C7CFA 100%)',
+                        boxShadow: '0 20px 40px rgba(59,91,219,0.35)',
+                        border: '1px solid rgba(255,255,255,0.2)',
+                        color: '#fff',
+                        minWidth: '300px',
+                        maxWidth: '90vw',
+                        pointerEvents: 'none',
+                        animation: 'skipToastIn 0.4s cubic-bezier(0.34,1.56,0.64,1) forwards',
+                        fontFamily: 'Inter, system-ui, sans-serif',
+                    }}
+                >
+                    <div style={{
+                        flexShrink: 0,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        width: '40px',
+                        height: '40px',
+                        borderRadius: '50%',
+                        background: 'rgba(255,255,255,0.2)',
+                    }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                        <span style={{ fontSize: '15px', fontWeight: 700, lineHeight: 1.2 }}>Showing all subjects</span>
+                        <span style={{ fontSize: '13px', fontWeight: 400, opacity: 0.8 }}>School filter removed — browsing everything</span>
+                    </div>
+                </div>
+            )}
+
             <style jsx>{`
                 .custom-scrollbar::-webkit-scrollbar {
                     width: 8px;
@@ -1699,7 +1768,14 @@ export default function PreferencesPage() {
                 .animate-lucid-panel-in {
                     animation: lucidPanelIn 280ms ease-out;
                 }
+
+                @keyframes skipToastIn {
+                    from { opacity: 0; transform: translateX(-50%) translateY(16px) scale(0.96); }
+                    to   { opacity: 1; transform: translateX(-50%) translateY(0)    scale(1); }
+                }
             `}</style>
+
+            {/* Skip-to-all toast */}
         </>
     );
 }
