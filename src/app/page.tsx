@@ -7,6 +7,8 @@ import { useRouter } from "next/navigation";
 import { useSession, signOut } from "next-auth/react";
 import { clearPlannerClientCache } from "@/lib/clientCache";
 import { parseName } from "@/lib/utils";
+import { useFeatureFlagEnabled } from "@posthog/react";
+import { FEATURE_FLAGS } from "@/lib/featureFlags";
 
 type FloatingTile = {
   id: number;
@@ -53,6 +55,7 @@ export default function LandingPage() {
   const floatingContainerRef = React.useRef<HTMLDivElement | null>(null);
   const router = useRouter();
   const { data: session } = useSession();
+  const isSimplifiedEnabled = useFeatureFlagEnabled(FEATURE_FLAGS.simplifiedFlow);
 
   const handleLogout = React.useCallback(() => {
     clearPlannerClientCache({ includeEditingState: true });
@@ -339,13 +342,40 @@ export default function LandingPage() {
                       </h2>
                       <div className="w-full max-w-175 h-px bg-gray-300 mb-4"></div>
                       <p className="text-center text-[clamp(16px,2vw,20px)] mb-8">Choose what you&apos;d like to do next</p>
-                      <div className="flex flex-wrap gap-8 justify-center mb-4">
-                        <button className="flex flex-col items-center justify-center bg-[#E9F3E8] border-[5px] border-[#D4F4E6] rounded-2xl p-6 w-72 max-w-full h-52 shadow hover:bg-green-200 transition text-black" onClick={() => { setOpen(false); router.push('/preferences'); }}>
-                          <Image src="/create_new.png" alt="create" width={167} height={101} />
-                          <p className="font-medium text-center">Create a new one</p>
-                        </button>
+                      <div className="flex flex-wrap gap-4 justify-center mb-4">
+                        {isSimplifiedEnabled ? (
+                          <>
+                            <button
+                              className="flex flex-col items-center justify-start bg-[#E9F3E8] border-[5px] border-[#D4F4E6] rounded-2xl p-4 pt-5 w-56 max-w-full h-52 shadow hover:bg-green-200 transition text-black text-center cursor-pointer"
+                              onClick={() => {
+                                setOpen(false);
+                                router.push('/simplified');
+                              }}
+                            >
+                              <Image src="/create_new.png" alt="create" width={95} height={55} className="object-contain" />
+                              <p className="font-bold text-sm mt-2">Course Selection</p>
+                              <p className="text-[10px] text-gray-500 mt-1 px-1 leading-normal">Real-time search & single-page layout (Recommended)</p>
+                            </button>
+                            <button
+                              className="flex flex-col items-center justify-start bg-[#FEF3C7] border-[5px] border-[#FDE68A] rounded-2xl p-4 pt-5 w-56 max-w-full h-52 shadow hover:bg-amber-200 transition text-black text-center cursor-pointer"
+                              onClick={() => {
+                                setOpen(false);
+                                router.push('/preferences');
+                              }}
+                            >
+                              <Image src="/create_new.png" alt="advanced" width={95} height={55} className="object-contain hue-rotate-60" />
+                              <p className="font-bold text-sm mt-2">Advanced Preferences</p>
+                              <p className="text-[10px] text-gray-500 mt-1 px-1 leading-normal">Classic step-by-step slot & faculty priorities</p>
+                            </button>
+                          </>
+                        ) : (
+                          <button className="flex flex-col items-center justify-start bg-[#E9F3E8] border-[5px] border-[#D4F4E6] rounded-2xl p-4 pt-5 w-56 max-w-full h-52 shadow hover:bg-green-200 transition text-black cursor-pointer" onClick={() => { setOpen(false); router.push('/preferences'); }}>
+                            <Image src="/create_new.png" alt="create" width={110} height={65} />
+                            <p className="font-medium text-center">Create a new one</p>
+                          </button>
+                        )}
                         <button
-                          className="flex flex-col items-center justify-center bg-[#E9D5FF] border-[#F2D8FE] border-[5px] rounded-2xl p-6 w-72 max-w-full h-52 shadow hover:bg-purple-300 transition text-black"
+                          className="flex flex-col items-center justify-start bg-[#E9D5FF] border-[#F2D8FE] border-[5px] rounded-2xl p-4 pt-5 w-56 max-w-full h-52 shadow hover:bg-purple-300 transition text-black text-center cursor-pointer"
                           onClick={() => {
                             if (!session) {
                               setOpen(false);
@@ -356,9 +386,10 @@ export default function LandingPage() {
                             }
                           }}
                         >
-                          <Image src="/savedTimetable.png" alt="saved" width={167} height={101} unoptimized />
-                          <p className="mt-4 font-medium text-center">
-                            {session ? "View saved timetables" : "Log in to view saved timetables"}
+                          <Image src="/savedTimetable.png" alt="saved" width={95} height={55} unoptimized className="object-contain" />
+                          <p className="font-bold text-sm mt-2">Saved Timetables</p>
+                          <p className="text-[10px] text-gray-500 mt-1 px-1 leading-normal">
+                            {session ? "View and manage your saved timetables" : "Log in to view saved timetables"}
                           </p>
                         </button>
                       </div>

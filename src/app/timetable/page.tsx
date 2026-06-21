@@ -1,5 +1,7 @@
 'use client';
 
+import { useFeatureFlagEnabled } from '@posthog/react';
+import { FEATURE_FLAGS } from '@/lib/featureFlags';
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
@@ -210,6 +212,7 @@ export default function TimetablePage() {
     const router = useRouter();
     const { data: session, status } = useSession();
     const { timetableData, setTimetableData } = useTimetable();
+    const isSimplifiedEnabled = useFeatureFlagEnabled(FEATURE_FLAGS.simplifiedFlow) ?? false;
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedSlot, setSelectedSlot] = useState<timetableDisplayData | null>(null);
@@ -671,8 +674,27 @@ export default function TimetablePage() {
 
             <div className="h-full px-[clamp(12px,1.5vw,24px)] pt-[clamp(10px,1vh,18px)] pb-40 md:pb-29">
                 <div className="w-full max-w-450 h-full mx-auto flex flex-col min-h-0">
-                    <div data-tour="timetable-intro" className="flex items-center gap-4 px-2 pt-4.5 pb-2 shrink-0">
-                        <h1 className="text-[24px] font-bold text-black">Timetables Generated</h1>
+                    <div data-tour="timetable-intro" className="flex flex-row items-center justify-between gap-4 px-2 pt-4.5 pb-2 shrink-0 w-full">
+                        <div className="flex flex-col gap-1">
+                            <h1 className="text-[24px] font-bold text-black">Timetables Generated</h1>
+                        </div>
+                        {isSimplifiedEnabled && (
+                            <div className="shrink-0 flex h-11 items-center gap-2 rounded-[10px] bg-[#E2E6EA] px-3 py-2 shadow-sm border border-gray-300/40">
+                                <span className="text-sm font-extrabold text-gray-700 whitespace-nowrap">
+                                    Course Selection Mode
+                                </span>
+                                <button
+                                    type="button"
+                                    role="switch"
+                                    onClick={() => router.push('/simplified')}
+                                    aria-checked={false}
+                                    aria-label="Toggle course selection mode"
+                                    className="relative h-7 w-12 rounded-full shadow-inner transition-colors bg-gray-300 focus:outline-none cursor-pointer"
+                                >
+                                    <span className="absolute top-1/2 h-5 w-5 -translate-y-1/2 rounded-full transition-all duration-200 left-1 bg-white" />
+                                </button>
+                            </div>
+                        )}
                     </div>
 
                     {/* Main Table Container */}

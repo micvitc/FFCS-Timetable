@@ -6,7 +6,8 @@ import Image from 'next/image';
 import { useSession } from 'next-auth/react';
 import { fullCourseData } from '@/lib/type';
 import { clashMap, findMatchingLabSlot } from '@/lib/slots';
-import { isSessionBasedSlotPairingEnabled } from '@/lib/featureFlags';
+import { isSessionBasedSlotPairingEnabled, FEATURE_FLAGS } from '@/lib/featureFlags';
+import { useFeatureFlagEnabled } from '@posthog/react';
 import { generateTT } from '@/lib/utils';
 import { useTimetable } from '@/lib/TimeTableContext';
 import { getPlannerStoredValue, setPlannerStoredValue } from '@/lib/plannerStorage';
@@ -231,6 +232,7 @@ export default function CoursesPage() {
     const router = useRouter();
     const { data: session } = useSession();
     const { setTimetableData } = useTimetable();
+    const isSimplifiedEnabled = useFeatureFlagEnabled(FEATURE_FLAGS.simplifiedFlow) ?? false;
 
     const [allSubjectsMode, setAllSubjectsMode] = useState(false);
     const [faculties, setFaculties] = useState<FacultyEntry[]>([]);
@@ -516,7 +518,28 @@ export default function CoursesPage() {
         <div className={`h-screen bg-[#F5E6D3] font-sans flex flex-col overflow-hidden transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
             <div className="flex-1 min-h-0 w-full flex justify-center px-4 sm:px-6 pt-6 pb-[160px] md:pb-29">
                 <div className="w-full max-w-6xl min-h-0 flex flex-col gap-4">
-                    <h1 className="text-3xl sm:text-4xl font-bold text-black px-2 pt-2 shrink-0">Your Courses</h1>
+                    <div className="flex flex-row items-center justify-between gap-4 px-2 pt-2 pb-1 shrink-0 w-full">
+                        <div className="flex flex-col gap-1">
+                            <h1 className="text-3xl sm:text-4xl font-bold text-black">Your Courses</h1>
+                        </div>
+                        {isSimplifiedEnabled && (
+                            <div className="shrink-0 flex h-11 items-center gap-2 rounded-[10px] bg-[#E2E6EA] px-3 py-2 shadow-sm border border-gray-300/40">
+                                <span className="text-sm font-extrabold text-gray-700 whitespace-nowrap">
+                                    Course Selection Mode
+                                </span>
+                                <button
+                                    type="button"
+                                    role="switch"
+                                    onClick={() => router.push('/simplified')}
+                                    aria-checked={false}
+                                    aria-label="Toggle course selection mode"
+                                    className="relative h-7 w-12 rounded-full shadow-inner transition-colors bg-gray-300 focus:outline-none cursor-pointer"
+                                >
+                                    <span className="absolute top-1/2 h-5 w-5 -translate-y-1/2 rounded-full transition-all duration-200 left-1 bg-white" />
+                                </button>
+                            </div>
+                        )}
+                    </div>
 
                     {/* Selected Courses Card */}
                     <div data-tour="courses-review-table" className="w-full flex-1 min-h-0 bg-[#fcfcfc] rounded-3xl shadow-sm border border-[#eaeaea] overflow-hidden animate-lucid-fade-up-delayed flex flex-col">

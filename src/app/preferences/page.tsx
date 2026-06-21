@@ -118,10 +118,12 @@ export default function PreferencesPage() {
     const isFacultyFirstToggleAvailableRaw = useFeatureFlagEnabled(FEATURE_FLAGS.facultyFirstPreferenceFlow) ?? false;
     const isSchoolSelectionEnabledRaw = useFeatureFlagEnabled(FEATURE_FLAGS.schoolSelectionStep) ?? false;
     const isDirectJumpEnabledRaw = useFeatureFlagEnabled(FEATURE_FLAGS.directJumpToCourses) ?? false;
+    const isSimplifiedEnabledRaw = useFeatureFlagEnabled(FEATURE_FLAGS.simplifiedFlow) ?? false;
 
     const isFacultyFirstToggleAvailable = isMounted && isFacultyFirstToggleAvailableRaw;
     const isSchoolSelectionEnabled = isMounted && isSchoolSelectionEnabledRaw;
     const isDirectJumpEnabled = isMounted && isDirectJumpEnabledRaw;
+    const isSimplifiedEnabled = isMounted && isSimplifiedEnabledRaw;
 
     const itemRefs = React.useRef<Record<string, HTMLButtonElement | null>>({});
 
@@ -1037,42 +1039,63 @@ export default function PreferencesPage() {
         <div className={`h-screen bg-[#F5E6D3] font-sans overflow-hidden transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`}>
             <div className="h-full px-[clamp(12px,1.5vw,24px)] pt-[clamp(10px,1vh,18px)] pb-29">
                 <div className="w-full max-w-450 h-full mx-auto flex flex-col min-h-0">
-                    <div className="flex flex-col md:flex-row items-center justify-between gap-4 px-2 pt-6 pb-3 shrink-0">
-                        <h1 data-tour="preferences-intro" className="text-[26px] lg:text-3xl font-bold text-black text-center md:text-left animate-lucid-fade-up">Select Your Preferences</h1>
-                        {isFacultyFirstToggleAvailable && (
-                            <div data-tour="preferences-faculty-first-mode" className="shrink-0 flex h-11 items-center gap-2 rounded-[10px] bg-[#F6E9AB] px-3 py-2 shadow-sm">
-                                <span className="text-sm font-extrabold text-gray-900 whitespace-nowrap">
-                                    Faculty first mode
-                                </span>
-                                <button
-                                    type="button"
-                                    onClick={handleFacultyFirstModeHelp}
-                                    aria-label="What is faculty first mode?"
-                                    title="What is faculty first mode?"
-                                    className="flex h-6 w-6 items-center justify-center rounded-full bg-[#F0C73C] font-extrabold leading-none text-gray-900 shadow-sm transition-colors hover:bg-[#E6B829] focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900"
-                                >
-                                    ?
-                                </button>
-                                <button
-                                    type="button"
-                                    role="switch"
-                                    onClick={handleFacultyFirstModeToggle}
-                                    aria-checked={isFacultyFirstMode}
-                                    aria-label="Toggle faculty first mode"
-                                    className={`relative h-7 w-12 rounded-full shadow-inner transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 ${
-                                        isFacultyFirstMode ? 'bg-[#F0C73C]' : 'bg-white'
-                                    }`}
-                                >
-                                    <span
-                                        className={`absolute top-1/2 h-5 w-5 -translate-y-1/2 rounded-full transition-all duration-200 ${
-                                            isFacultyFirstMode
-                                                ? 'left-6 bg-white'
-                                                : 'left-1 bg-[#D8CF96]'
+                    <div className="flex flex-col md:flex-row items-center justify-between gap-4 px-2 pt-6 pb-3 shrink-0 w-full">
+                        <div className="flex flex-col gap-1 w-full md:w-auto">
+                            <h1 data-tour="preferences-intro" className="text-[26px] lg:text-3xl font-bold text-black text-center md:text-left animate-lucid-fade-up">Select Your Preferences</h1>
+                        </div>
+                        <div className="flex items-center gap-3 flex-wrap md:flex-nowrap justify-center md:justify-end w-full md:w-auto">
+                            {isSimplifiedEnabled && (
+                                <div className="shrink-0 flex h-11 items-center gap-2 rounded-[10px] bg-[#E2E6EA] px-3 py-2 shadow-sm border border-gray-300/40">
+                                    <span className="text-sm font-extrabold text-gray-700 whitespace-nowrap">
+                                        Course Selection Mode
+                                    </span>
+                                    <button
+                                        type="button"
+                                        role="switch"
+                                        onClick={() => router.push('/simplified')}
+                                        aria-checked={false}
+                                        aria-label="Toggle course selection mode"
+                                        className="relative h-7 w-12 rounded-full shadow-inner transition-colors bg-gray-300 focus:outline-none cursor-pointer"
+                                    >
+                                        <span className="absolute top-1/2 h-5 w-5 -translate-y-1/2 rounded-full transition-all duration-200 left-1 bg-white" />
+                                    </button>
+                                </div>
+                            )}
+                            {isFacultyFirstToggleAvailable && (
+                                <div data-tour="preferences-faculty-first-mode" className="shrink-0 flex h-11 items-center gap-2 rounded-[10px] bg-[#F6E9AB] px-3 py-2 shadow-sm">
+                                    <span className="text-sm font-extrabold text-gray-900 whitespace-nowrap">
+                                        Faculty first mode
+                                    </span>
+                                    <button
+                                        type="button"
+                                        onClick={handleFacultyFirstModeHelp}
+                                        aria-label="What is faculty first mode?"
+                                        title="What is faculty first mode?"
+                                        className="flex h-6 w-6 items-center justify-center rounded-full bg-[#F0C73C] font-extrabold leading-none text-gray-900 shadow-sm transition-colors hover:bg-[#E6B829] focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900"
+                                    >
+                                        ?
+                                    </button>
+                                    <button
+                                        type="button"
+                                        role="switch"
+                                        onClick={handleFacultyFirstModeToggle}
+                                        aria-checked={isFacultyFirstMode}
+                                        aria-label="Toggle faculty first mode"
+                                        className={`relative h-7 w-12 rounded-full shadow-inner transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900 ${
+                                            isFacultyFirstMode ? 'bg-[#F0C73C]' : 'bg-white'
                                         }`}
-                                    />
-                                </button>
-                            </div>
-                        )}
+                                    >
+                                        <span
+                                            className={`absolute top-1/2 h-5 w-5 -translate-y-1/2 rounded-full transition-all duration-200 ${
+                                                isFacultyFirstMode
+                                                    ? 'left-6 bg-white'
+                                                    : 'left-1 bg-[#D8CF96]'
+                                            }`}
+                                        />
+                                    </button>
+                                </div>
+                            )}
+                        </div>
                     </div>
 
                     <div className="flex-1 min-h-0 bg-white rounded-[18px] shadow-[0_8px_30px_rgb(0,0,0,0.02)] border border-white overflow-hidden px-4 py-4 lg:px-6 lg:py-5 animate-lucid-fade-up-delayed">
