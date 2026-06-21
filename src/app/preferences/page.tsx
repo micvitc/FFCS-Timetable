@@ -155,6 +155,19 @@ export default function PreferencesPage() {
     const [isSkippedToSubjects, setIsSkippedToSubjects] = useState(false);
     const [subjectSearchQuery, setSubjectSearchQuery] = useState('');
     const isFacultyFirstMode = isFacultyFirstToggleAvailable && isFacultyFirstModeEnabled;
+    const [pairingToast, setPairingToast] = useState<{ title: string; description: string } | null>(null);
+
+    const showPairingToast = React.useCallback((title: string, description: string) => {
+        setPairingToast({ title, description });
+    }, []);
+
+    useEffect(() => {
+        if (!pairingToast) return;
+        const timer = setTimeout(() => {
+            setPairingToast(null);
+        }, 5000);
+        return () => clearTimeout(timer);
+    }, [pairingToast]);
 
     useEffect(() => {
         // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -640,6 +653,7 @@ export default function PreferencesPage() {
                 // (or vice versa), merge them into a single 'both' entry.
                 const finalNewCourses: fullCourseData[] = [];
                 let mergedExistingCourses = [...existingCourses];
+                const changedCourses: fullCourseData[] = [];
 
                 for (const newCourse of newCourses) {
                     if (newCourse.courseType === 'lab') {
@@ -668,6 +682,7 @@ export default function PreferencesPage() {
                                         }),
                                     })),
                                 };
+                                changedCourses.push(mergedCourse);
                                 mergedExistingCourses = [
                                     ...mergedExistingCourses.slice(0, theoryIdx),
                                     mergedCourse,
@@ -727,6 +742,7 @@ export default function PreferencesPage() {
                                         }),
                                     })),
                                 };
+                                changedCourses.push(mergedCourse);
                                 // Remove old lab entry, add merged theory entry
                                 mergedExistingCourses = mergedExistingCourses.filter((_, i) => i !== labIdx);
                                 mergedExistingCourses.push(mergedCourse);
@@ -791,6 +807,35 @@ export default function PreferencesPage() {
                     });
                     return merged;
                 });
+
+                if (isSessionBasedSlotPairingEnabled()) {
+                    changedCourses.push(...finalNewCourses);
+                    
+                    const pairings: { theorySlot: string; labSlot: string; facultyName: string }[] = [];
+                    changedCourses.forEach(course => {
+                        if (course.courseType === 'both') {
+                            course.courseSlots.forEach(cs => {
+                                cs.slotFaculties.forEach(f => {
+                                    if (f.facultyLabSlot) {
+                                        pairings.push({
+                                            theorySlot: cs.slotName,
+                                            labSlot: f.facultyLabSlot,
+                                            facultyName: f.facultyName
+                                        });
+                                    }
+                                });
+                            });
+                        }
+                    });
+
+                    if (pairings.length > 0) {
+                        const first = pairings[0];
+                        const description = pairings.length === 1
+                            ? `Theory slot ${first.theorySlot} matched with Lab slot ${first.labSlot} for ${first.facultyName}.`
+                            : `Matched ${pairings.length} theory/lab slots session-wise for selected faculties.`;
+                        showPairingToast("Slots Paired Successfully", description);
+                    }
+                }
             }
 
             if (resetWizard) {
@@ -1200,16 +1245,6 @@ export default function PreferencesPage() {
                                                                         <div key={idx} className="flex justify-between items-center bg-white p-3 rounded-lg shadow-sm border border-gray-100">
                                                                             <div className="flex items-center gap-2">
                                                                                 <span className="text-sm font-bold text-gray-900">{name}</span>
-                                                                                {type === 'theory' && (
-                                                                                    <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-blue-100 text-blue-700 shrink-0">
-                                                                                        Theory
-                                                                                    </span>
-                                                                                )}
-                                                                                {type === 'lab' && (
-                                                                                    <span className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-purple-100 text-purple-700 shrink-0">
-                                                                                        Lab
-                                                                                    </span>
-                                                                                )}
                                                                             </div>
                                                                         <div className="flex gap-2 items-center">
                                                                             <button
@@ -1515,6 +1550,33 @@ export default function PreferencesPage() {
             </div>
         )}
 
+            {pairingToast && (
+                <div className="fixed bottom-6 right-6 z-50 flex w-full max-w-[420px] animate-[slideUp_0.25s_ease-out] flex-col gap-1 rounded-xl border border-gray-100 bg-white p-4 shadow-xl pointer-events-auto">
+                    <div className="flex items-start justify-between gap-2">
+                        <div className="flex gap-2.5">
+                            <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-50 text-emerald-600">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <div>
+                                <h3 className="text-sm font-semibold text-gray-900 leading-tight">{pairingToast.title}</h3>
+                                <p className="text-xs text-gray-500 leading-normal mt-0.5">{pairingToast.description}</p>
+                            </div>
+                        </div>
+                        <button 
+                            onClick={() => setPairingToast(null)}
+                            className="text-gray-400 hover:text-gray-600 rounded-lg p-1 transition-colors"
+                        >
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            )}
+
             <style jsx>{`
                 .custom-scrollbar::-webkit-scrollbar {
                     width: 8px;
@@ -1528,6 +1590,11 @@ export default function PreferencesPage() {
                 }
                 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
                     background-color: #ffffff;
+                }
+
+                @keyframes slideUp {
+                    from { opacity: 0; transform: translateY(12px) scale(0.98); }
+                    to { opacity: 1; transform: translateY(0) scale(1); }
                 }
 
                 @keyframes lucidFadeUp {

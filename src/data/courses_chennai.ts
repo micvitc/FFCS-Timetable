@@ -614,6 +614,30 @@ const data = [
     "CREDITS": 3,
     "SLOT": "G1+TG1, G2+TG2",
     "FACULTY": ""
+  },
+  {
+    "CODE": "BCSE204L/P",
+    "TITLE": "Design and Analysis of Algorithms",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "A1+TA1",
+    "FACULTY": "DR. SELVAM D"
+  },
+  {
+    "CODE": "BCSE309L/P",
+    "TITLE": "Cryptography and Network Security",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "B1+TB1",
+    "FACULTY": "DR. NITHYANANDAM P"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "MAHESWARI S"
   }
 ] as const;
 

@@ -5718,5 +5718,1485 @@
     "CREDITS": 1,
     "SLOT": "L15+L16",
     "FACULTY": "SOURABH PAUL"
+  },
+  {
+    "CODE": "BCSE204L/P",
+    "TITLE": "Design and Analysis of Algorithms",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "A1+TA1",
+    "FACULTY": "DR. SELVAM D"
+  },
+  {
+    "CODE": "BCSE204L/P",
+    "TITLE": "Design and Analysis of Algorithms",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L37+L38",
+    "FACULTY": "DR. SELVAM D"
+  },
+  {
+    "CODE": "BCSE204L/P",
+    "TITLE": "Design and Analysis of Algorithms",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "A1+TA1",
+    "FACULTY": "DR. MANIMEGALAI"
+  },
+  {
+    "CODE": "BCSE204L/P",
+    "TITLE": "Design and Analysis of Algorithms",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "DR. MANIMEGALAI"
+  },
+  {
+    "CODE": "BCSE204L/P",
+    "TITLE": "Design and Analysis of Algorithms",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "A2+TA2",
+    "FACULTY": "DR, MALINI A"
+  },
+  {
+    "CODE": "BCSE204L/P",
+    "TITLE": "Design and Analysis of Algorithms",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "DR, MALINI A"
+  },
+  {
+    "CODE": "BCSE301L/P",
+    "TITLE": "Software Engineering",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "D1+TD1",
+    "FACULTY": "DR. V. SAKTHIVEL"
+  },
+  {
+    "CODE": "BCSE301L/P",
+    "TITLE": "Software Engineering",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L29+L30",
+    "FACULTY": "DR. V. SAKTHIVEL"
+  },
+  {
+    "CODE": "BCSE301L/P",
+    "TITLE": "Software Engineering",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "D1+TD1",
+    "FACULTY": "DR. PRABHAKARAN R"
+  },
+  {
+    "CODE": "BCSE301L/P",
+    "TITLE": "Software Engineering",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L55+L56",
+    "FACULTY": "DR. PRABHAKARAN R"
+  },
+  {
+    "CODE": "BCSE301L/P",
+    "TITLE": "Software Engineering",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "D2+TD2",
+    "FACULTY": "DR. ELAKIYA E"
+  },
+  {
+    "CODE": "BCSE301L/P",
+    "TITLE": "Software Engineering",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L27+L28",
+    "FACULTY": "DR. ELAKIYA E"
+  },
+  {
+    "CODE": "BCSE309L/P",
+    "TITLE": "Cryptography and Network Security",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "B1+TB1",
+    "FACULTY": "DR. NITHYANANDAM P"
+  },
+  {
+    "CODE": "BCSE309L/P",
+    "TITLE": "Cryptography and Network Security",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L31+L32",
+    "FACULTY": "DR. NITHYANANDAM P"
+  },
+  {
+    "CODE": "BCSE309L/P",
+    "TITLE": "Cryptography and Network Security",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "B1+TB1",
+    "FACULTY": "DR. KARTHIKA V"
+  },
+  {
+    "CODE": "BCSE309L/P",
+    "TITLE": "Cryptography and Network Security",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L43+L44",
+    "FACULTY": "DR. KARTHIKA V"
+  },
+  {
+    "CODE": "BCSE309L/P",
+    "TITLE": "Cryptography and Network Security",
+    "TYPE": "ETH",
+    "CREDITS": 2,
+    "SLOT": "B2+TB2",
+    "FACULTY": "DR. KARTHIKA V"
+  },
+  {
+    "CODE": "BCSE309L/P",
+    "TITLE": "Cryptography and Network Security",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L15+L16",
+    "FACULTY": "DR. KARTHIKA V"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "MAHESWARI S"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "JAYANTHI R"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "PRADEEP K"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "SUGUNA"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "TAMILARASI K"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "KRITHIGA R"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "MANSOOR HUSSAIN D"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "SENDHIL R"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "KANNIGA DEVI R"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "KARTHIKEYAN N"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "MARIMUTHU M"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "THANIKACHALAM V"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E1+TE1",
+    "FACULTY": "SIVA PRIYA M S"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "MAHESWARI S"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "JAYANTHI R"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "PRADEEP K"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SUGUNA"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "TAMILARASI K"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "KRITHIGA R"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "SENDHIL R"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "S JAHANGEER SIDIQ"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "PALANI THANARAJ K"
+  },
+  {
+    "CODE": "BCSE355L",
+    "TITLE": "AWS Solutions Architect",
+    "TYPE": "TH",
+    "CREDITS": 3,
+    "SLOT": "E2+TE2",
+    "FACULTY": "LOGESWARI G"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. RAJESH M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "DR. RAJESH M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. LENINISHA SHANMUGAM"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "DR. LENINISHA SHANMUGAM"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. PRIYADARSHINI R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "DR. PRIYADARSHINI R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. SUJITHRA @ KANMANI R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "DR. SUJITHRA @ KANMANI R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. V BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "DR. V BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. REVATHI A R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L23+L24",
+    "FACULTY": "DR. REVATHI A R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. SUHAIL K"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L49+L50",
+    "FACULTY": "DR. SUHAIL K"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. BENILA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L49+L50",
+    "FACULTY": "DR. BENILA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. SHIVANI GUPTA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L51+L52",
+    "FACULTY": "DR. SHIVANI GUPTA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. KANIMOZHI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L51+L52",
+    "FACULTY": "DR. KANIMOZHI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. HEMALATHA K"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L51+L52",
+    "FACULTY": "DR. HEMALATHA K"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. KOWSIGAN M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L51+L52",
+    "FACULTY": "DR. KOWSIGAN M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F1+TF1",
+    "FACULTY": "DR. RAJALAKSHMI V"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L51+L52",
+    "FACULTY": "DR. RAJALAKSHMI V"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. RAJESH M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L19+L20",
+    "FACULTY": "DR. RAJESH M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. LENINISHA SHANMUGAM"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L19+L20",
+    "FACULTY": "DR. LENINISHA SHANMUGAM"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. SUJITHRA @ KANMANI R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L19+L20",
+    "FACULTY": "DR. SUJITHRA @ KANMANI R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. V BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L19+L20",
+    "FACULTY": "DR. V BRINDHA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. REVATHI A R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L19+L20",
+    "FACULTY": "DR. REVATHI A R"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. BENILA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L19+L20",
+    "FACULTY": "DR. BENILA S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. SHIVANI GUPTA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "DR. SHIVANI GUPTA"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. KANIMOZHI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "DR. KANIMOZHI S"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. KOWSIGAN M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "DR. KOWSIGAN M"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. SUHAIL K"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "DR. SUHAIL K"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "F2+TF2",
+    "FACULTY": "DR. HEMALATHA K"
+  },
+  {
+    "CODE": "BACSE202",
+    "TITLE": "Database Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L21+L22",
+    "FACULTY": "DR. HEMALATHA K"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. UMMITY SRINIVASA RAO"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. KARMEL A"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. JANI ANBARASI L"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. ANITA X"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. PRAKASH P"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. PADMAVATHY T V"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. MANJU G"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. JANNATH NISHA O S"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. DEEPA NIVETHIKA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. SANDHYA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. TAHIR MUJTABA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. BALRAJ E"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A1+TA1+TAA1",
+    "FACULTY": "DR. KSHMA TRIVEDI"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. UMMITY SRINIVASA RAO"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. JANI ANBARASI L"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. VENKATRAMAN S"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. ANITA X"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. MANJU G"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. JANNATH NISHA O S"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. DEEPA NIVETHIKA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. SANDHYA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. TAHIR MUJTABA"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. KSHMA TRIVEDI"
+  },
+  {
+    "CODE": "BACSE201",
+    "TITLE": "Models of Computation",
+    "TYPE": "TH",
+    "CREDITS": 4,
+    "SLOT": "A2+TA2+TAA2",
+    "FACULTY": "DR. PRAKASH P"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. MARY SHAMALA L"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "DR. MARY SHAMALA L"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. PADMANABAN R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "DR. PADMANABAN R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. SREEJA P S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "DR. SREEJA P S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. SAMBATH M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "DR. SAMBATH M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. LINDA JOSEPH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "DR. LINDA JOSEPH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. SRIMATHI C"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L33+L34",
+    "FACULTY": "DR. SRIMATHI C"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. RENUKA DEVI S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "DR. RENUKA DEVI S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "T RAJA SREE"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "T RAJA SREE"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. VATCHALA S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "DR. VATCHALA S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. SUGANYA R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "DR. SUGANYA R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. RAJESH R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "DR. RAJESH R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. ANUBHA PEARLINE S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "DR. ANUBHA PEARLINE S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C1+TC1",
+    "FACULTY": "DR. AVUTHU AVINASH REDDY"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L5+L6",
+    "FACULTY": "DR. AVUTHU AVINASH REDDY"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. T RAJA SREE"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L1+L2",
+    "FACULTY": "DR. T RAJA SREE"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. VATCHALA S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L1+L2",
+    "FACULTY": "DR. VATCHALA S"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. SUGANYA R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L1+L2",
+    "FACULTY": "DR. SUGANYA R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. RAJESH R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L1+L2",
+    "FACULTY": "DR. RAJESH R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. AVUTHU AVINASH REDDY"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L1+L2",
+    "FACULTY": "DR. AVUTHU AVINASH REDDY"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. SANGEETHA N"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L3+L4",
+    "FACULTY": "DR. SANGEETHA N"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. MARY SHAMALA L"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L3+L4",
+    "FACULTY": "DR. MARY SHAMALA L"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. PADMANABAN R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L3+L4",
+    "FACULTY": "DR. PADMANABAN R"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. SAMBATH M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L3+L4",
+    "FACULTY": "DR. SAMBATH M"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. LINDA JOSEPH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L3+L4",
+    "FACULTY": "DR. LINDA JOSEPH"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "SLOT": "C2+TC2",
+    "FACULTY": "DR. SRIMATHI C"
+  },
+  {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ELA",
+    "CREDITS": 1,
+    "SLOT": "L3+L4",
+    "FACULTY": "DR. SRIMATHI C"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L37+L38+L43+L44",
+    "FACULTY": "DR. PRADEEP K V"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L37+L38+L43+L44",
+    "FACULTY": "DR. KANNIGA DEVI R"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L39+L40+L55+L56",
+    "FACULTY": "DR. SHERLY A"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L39+L40+L55+L56",
+    "FACULTY": "DR. KARTHIKEYAN N"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L39+L40+L55+L56",
+    "FACULTY": "DR. DHAVAKUMAR P"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L39+L40+L55+L56",
+    "FACULTY": "DR. MARIMUTHU M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L39+L40+L57+L58",
+    "FACULTY": "DR. DOMINIC SAVIO M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L45+L46+L57+L58",
+    "FACULTY": "DR. DINAKARAN M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L45+L46+L57+L58",
+    "FACULTY": "DR. S JAHANGEER SIDIQ"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L45+L46+L57+L58",
+    "FACULTY": "DR. KABILAN K"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L45+L46+L57+L58",
+    "FACULTY": "DR. JAI VINITA L"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L5+L6+L37+L38",
+    "FACULTY": "DR. VIJAYAKUMAR K P"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L5+L6+L37+L38",
+    "FACULTY": "DR. SENTHIL PRAKASH P N"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L13+L14+L25+L26",
+    "FACULTY": "DR. PRADEEP K V"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L13+L14+L25+L26",
+    "FACULTY": "DR. VIJAYAKUMAR K P"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L13+L14+L25+L26",
+    "FACULTY": "DR. RADHA R"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L13+L14+L25+L26",
+    "FACULTY": "DR. JOSHAN"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L13+L14+L27+L28",
+    "FACULTY": "DR. SHERLY A"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L5+L6+L13+L14",
+    "FACULTY": "DR. SRINIVASAN B"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L5+L6+L19+L20",
+    "FACULTY": "DR. DHAVAKUMAR P"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L5+L6+L21+L22",
+    "FACULTY": "DR. SIVAKAMI R"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L7+L8+L13+L14",
+    "FACULTY": "DR. SIVAKAMI R"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L7+L8+L15+L16",
+    "FACULTY": "DR. JANAKI MEENA M"
+  },
+  {
+    "CODE": "BACSE102",
+    "TITLE": "Problem Solving Using Java",
+    "TYPE": "LO",
+    "CREDITS": 2,
+    "SLOT": "L7+L8+L15+L16",
+    "FACULTY": "DR. S JAHANGEER SIDIQ"
   }
 ]
