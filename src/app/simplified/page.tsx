@@ -22,9 +22,7 @@ import { isTheoryType, isLabType, getCourseCredits } from '@/lib/chennaiCatalog'
 import chennaiCourses from '@/data/all_data_chennai';
 import { fullCourseData, timetableDisplayData } from '@/lib/type';
 import { exportToPDF } from '@/lib/exportToPDF';
-import { clearPlannerClientCache } from '@/lib/clientCache';
 import { getShortCourseName } from '@/lib/courseDisplay';
-import LoginModal from '@/components/loginPopup';
 
 // Types
 type FacultyEntry = {
@@ -428,7 +426,6 @@ export default function CourseSelectionPage() {
     const [isDownloading, setIsDownloading] = useState(false);
     const [showShareModal, setShowShareModal] = useState(false);
     const [shareUrl, setShareUrl] = useState('');
-    const [showLogin, setShowLogin] = useState(false);
     const [timetableTitle, setTimetableTitle] = useState('My Schedule');
     const [saveError, setSaveError] = useState('');
 
@@ -1128,9 +1125,7 @@ export default function CourseSelectionPage() {
                 </div>
             </header>
 
-            {showLogin && (
-                <LoginModal onClose={() => setShowLogin(false)} />
-            )}
+
 
             {/* Center Wrapper */}
             <div className="flex-1 w-full flex justify-center px-4 sm:px-6 py-6">
