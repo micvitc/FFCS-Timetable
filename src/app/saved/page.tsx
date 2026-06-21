@@ -406,7 +406,7 @@ export default function SavedPage() {
         <div className="saved-page">
             {/* Toast */}
             {toast && (
-                <div className="toast" style={{ zIndex: 100000 }}>
+                <div className="toast">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A7F3D0" strokeWidth="2.5"><path d="M20 6L9 17l-5-5" /></svg>
                     {toast}
                 </div>
@@ -440,7 +440,7 @@ export default function SavedPage() {
                                 <div className="cards-scroller-wrapper">
                                     {/* White background wrapping cards + arrows */}
                                     <div className="white-cards-outer relative">
-                                        <div ref={scrollRef} className="white-cards-box">
+                                        <div ref={scrollRef} className={`white-cards-box ${canScrollTimetables ? '' : 'hide-scrollbar'}`}>
                                             {displayTimetables.map((tt, i) => (
                                                 <TimetableCard
                                                     key={tt._id}
@@ -583,11 +583,7 @@ export default function SavedPage() {
 
             {/* Rename Modal */}
             {renameOpen && (
-                <div 
-                    className="fixed inset-0 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" 
-                    style={{ zIndex: 99999 }}
-                    onClick={() => setRenameOpen(false)}
-                >
+                <div className="fixed inset-0 z-120 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => setRenameOpen(false)}>
                     <div
                         className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
                         onClick={e => e.stopPropagation()}
@@ -622,11 +618,7 @@ export default function SavedPage() {
 
             {/* Delete Modal */}
             {deleteOpen && (
-                <div 
-                    className="fixed inset-0 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" 
-                    style={{ zIndex: 99999 }}
-                    onClick={() => setDeleteOpen(false)}
-                >
+                <div className="fixed inset-0 z-120 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => setDeleteOpen(false)}>
                     <div
                         className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
                         onClick={e => e.stopPropagation()}
@@ -654,11 +646,7 @@ export default function SavedPage() {
 
             {/* Share Modal */}
             {shareOpen && (
-                <div 
-                    className="fixed inset-0 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" 
-                    style={{ zIndex: 99999 }}
-                    onClick={() => setShareOpen(false)}
-                >
+                <div className="fixed inset-0 z-120 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => setShareOpen(false)}>
                     <div
                         className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
                         onClick={e => e.stopPropagation()}
@@ -733,10 +721,7 @@ export default function SavedPage() {
             )}
             {/* Feedback Survey Modal (Slide-in) */}
             {showSurvey && (
-                <div 
-                    className="fixed bottom-6 right-6 w-full max-w-sm animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[24px] border border-[#eadcc5] bg-[#FFF8E7]/95 backdrop-blur-md p-6 shadow-[0_24px_60px_rgba(74,54,30,0.2)]"
-                    style={{ zIndex: 99999 }}
-                >
+                <div className="fixed bottom-6 right-6 z-150 w-full max-w-sm animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[24px] border border-[#eadcc5] bg-[#FFF8E7]/95 backdrop-blur-md p-6 shadow-[0_24px_60px_rgba(74,54,30,0.2)]">
                     <div className="flex justify-between items-start mb-4">
                         <div>
                             <h4 className="text-[20px] font-black text-gray-900 tracking-tight">Quick Feedback</h4>
@@ -1230,11 +1215,7 @@ function TimetableDetailView({
             </div>
 
                         {showDownloadModal && (
-                <div 
-                    className="fixed inset-0 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" 
-                    style={{ zIndex: 99999 }}
-                    onClick={() => !isExporting && setShowDownloadModal(false)}
-                >
+                <div className="fixed inset-0 z-520 flex items-center justify-center bg-black/35 px-4 backdrop-blur-sm" onClick={() => !isExporting && setShowDownloadModal(false)}>
                     <div
                         className="relative w-full max-w-118 animate-[scaleIn_0.2s_ease] overflow-hidden rounded-[30px] border border-[#eadcc5] bg-[#FFF8E7] p-7 shadow-[0_24px_70px_rgba(74,54,30,0.18)] sm:p-8"
                         onClick={(e) => e.stopPropagation()}

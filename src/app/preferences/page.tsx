@@ -1108,6 +1108,23 @@ export default function PreferencesPage() {
                                                     <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
                                                         Select one option
                                                     </p>
+                                                    {isDirectJumpEnabled && (
+                                                        <button
+                                                            onClick={() => {
+                                                                posthog.capture('preferences_skipped_to_subject_selection');
+                                                                setIsSkippedToSubjects(true);
+                                                                setSelectedSchool(null);
+                                                                setSelectedDomains([]);
+                                                                setSelectedSubjects([]);
+                                                                setSelectedSlots([]);
+                                                                setSelectedFaculties([]);
+                                                                setCurrentStep(stepKeys.indexOf('subject') + 1);
+                                                            }}
+                                                            className="w-full p-3 lg:p-4 mb-1 rounded-lg text-center font-bold text-white  border border-[#3B5BDB]/20 shadow-lg shadow-[#3B5BDB]/25 transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3B5BDB] cursor-pointer"
+                                                        >
+                                                            Skip & Search All Subjects
+                                                        </button>
+                                                    )}
                                                     {SCHOOLS.map(school => (
                                                         <button
                                                             key={school}
@@ -1152,37 +1169,13 @@ export default function PreferencesPage() {
                                                     <p className="text-xs font-semibold uppercase tracking-wide text-gray-700 mb-1">
                                                         Select one option
                                                     </p>
-                                                    <div className="flex flex-row gap-2 mb-2 w-full">
-                                                        <input
-                                                            type="text"
-                                                            placeholder="Search subjects by code or title..."
-                                                            value={subjectSearchQuery}
-                                                            onChange={(e) => setSubjectSearchQuery(e.target.value)}
-                                                            className="flex-1 min-w-0 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-gray-800 bg-white"
-                                                        />
-                                                        {isDirectJumpEnabled && (
-                                                            <button
-                                                                onClick={() => {
-                                                                    posthog.capture('preferences_skipped_to_subject_selection');
-                                                                    setIsSkippedToSubjects(true);
-                                                                    setSelectedSchool(null);
-                                                                    setSelectedDomains([]);
-                                                                    setSelectedSubjects([]);
-                                                                    setSelectedSlots([]);
-                                                                    setSelectedFaculties([]);
-                                                                    showPairingToast("Showing All Courses", "School and domain filters cleared. Browsing entire catalog.");
-                                                                }}
-                                                                disabled={isSkippedToSubjects}
-                                                                className={`px-4 py-2 rounded-lg font-bold text-sm transition-all duration-200 cursor-pointer border shrink-0 ${
-                                                                    isSkippedToSubjects
-                                                                        ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed'
-                                                                        : 'bg-[#3B5BDB] text-white border-[#3B5BDB]/20 hover:-translate-y-0.5 active:scale-[0.98] shadow-sm shadow-[#3B5BDB]/15'
-                                                                }`}
-                                                            >
-                                                                Show All Courses
-                                                            </button>
-                                                        )}
-                                                    </div>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Search subjects by code or title..."
+                                                        value={subjectSearchQuery}
+                                                        onChange={(e) => setSubjectSearchQuery(e.target.value)}
+                                                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2 text-sm text-gray-800 bg-white"
+                                                    />
                                                     {filteredSubjectsInStep.length > 0 ? filteredSubjectsInStep.map(subject => (
                                                         <button
                                                             key={subject}
@@ -1625,7 +1618,7 @@ export default function PreferencesPage() {
                             </span>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '2px', flex: 1 }}>
                                 <h3 style={{ margin: 0, fontSize: '14px', fontWeight: 600, color: '#0f172a', lineHeight: '1.25' }}>
-                                    {pairingToast.title}
+                                    Slots Paired Successfully
                                 </h3>
                                 <p style={{ margin: 0, fontSize: '12px', color: '#475569', lineHeight: '1.4', marginTop: '2px' }}>
                                     {pairingToast.theorySlot && pairingToast.labSlot && pairingToast.facultyName ? (
