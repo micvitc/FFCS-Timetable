@@ -17,6 +17,7 @@ import { getPlannerStoredValue, setPlannerStoredValue } from '@/lib/plannerStora
 import { generateTT, parseName } from '@/lib/utils';
 import { clearPlannerClientCache } from '@/lib/clientCache';
 import LoginModal from '@/components/loginPopup';
+import SmallFooter from '@/components/SmallFooter';
 import { getSlotViewPayload } from '@/lib/slot-view';
 import { clashMap, findMatchingLabSlot } from '@/lib/slots';
 import { isTheoryType, isLabType, getCourseCredits } from '@/lib/chennaiCatalog';
@@ -428,9 +429,6 @@ export default function CourseSelectionPage() {
     const [disabledOptions, setDisabledOptions] = useState<Set<string>>(new Set());
     const [isHelpOpen, setIsHelpOpen] = useState(false);
     const [undoStack, setUndoStack] = useState<CourseOption[][]>([]);
-    const [showUndoToast, setShowUndoToast] = useState(false);
-    const [undoToastMessage, setUndoToastMessage] = useState('Deleted all subjects.');
-    const undoToastTimerRef = useRef<number | null>(null);
 
     const { scheduleRows, leftTimes, rightTimes } = useMemo(() => getSlotViewPayload(), []);
 
@@ -1014,8 +1012,6 @@ export default function CourseSelectionPage() {
     const handleRemoveCourse = (courseCode: string) => {
         setUndoStack(prev => [...prev, selectedOptions]);
         setSelectedOptions(prev => prev.filter(o => o.courseCode !== courseCode));
-        setUndoToastMessage('Subject deleted.');
-        setShowUndoToast(true);
     };
 
     const handleUndo = () => {
@@ -1025,15 +1021,6 @@ export default function CourseSelectionPage() {
             setSelectedOptions(lastState);
             return prev.slice(0, -1);
         });
-    };
-
-    const handleUndoAction = () => {
-        if (undoToastTimerRef.current) {
-            window.clearTimeout(undoToastTimerRef.current);
-            undoToastTimerRef.current = null;
-        }
-        handleUndo();
-        setShowUndoToast(false);
     };
 
     const handleMoveUp = (index: number) => {
@@ -1065,8 +1052,6 @@ export default function CourseSelectionPage() {
         setSelectedOptions([]);
         setActiveCourseCode(null);
         setSearchTerm('');
-        setUndoToastMessage('Deleted all subjects.');
-        setShowUndoToast(true);
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
@@ -1077,29 +1062,6 @@ export default function CourseSelectionPage() {
         });
         router.push('/timetable');
     };
-
-    useEffect(() => {
-        if (!showUndoToast || undoStack.length === 0) {
-            if (undoToastTimerRef.current) {
-                window.clearTimeout(undoToastTimerRef.current);
-                undoToastTimerRef.current = null;
-            }
-            return;
-        }
-
-        undoToastTimerRef.current = window.setTimeout(() => {
-            setShowUndoToast(false);
-            setUndoStack([]);
-            undoToastTimerRef.current = null;
-        }, 3000);
-
-        return () => {
-            if (undoToastTimerRef.current) {
-                window.clearTimeout(undoToastTimerRef.current);
-                undoToastTimerRef.current = null;
-            }
-        };
-    }, [showUndoToast, undoStack]);
 
     // If flag is disabled and loaded, redirect back to preferences
     useEffect(() => {
@@ -1347,6 +1309,18 @@ export default function CourseSelectionPage() {
                     <div data-tour="courses-review-table" className="w-full flex-1 min-h-0 bg-[#fcfcfc] rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[#eaeaea]/80 overflow-hidden flex flex-col mt-4">
                         <div className="bg-[#a9d6a9] px-6 py-4 shrink-0 flex items-center justify-between">
                             <h2 className="text-2xl font-bold text-[#1f1f1f]">Selected Courses</h2>
+                            {undoStack.length > 0 && (
+                                <button
+                                    onClick={handleUndo}
+                                    className="flex items-center gap-2 px-3 py-1.5 bg-white/60 hover:bg-white text-[#1f1f1f] font-bold text-sm rounded-xl shadow-sm transition-all"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                        <path d="M3 7v6h6" />
+                                        <path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13" />
+                                    </svg>
+                                    Undo
+                                </button>
+                            )}
                         </div>
 
                         <div className="p-5 md:p-6 flex flex-col gap-4">
@@ -2137,34 +2111,13 @@ export default function CourseSelectionPage() {
                 </div>
             )}
 
-            {showUndoToast && undoStack.length > 0 && (
-                <div className="fixed bottom-44 right-24 z-50 w-[min(80vw,480px)] rounded-lg bg-[#F9E176] shadow-[0_14px_35px_rgba(0,0,0,0.18)] overflow-hidden">
-                    <div className="flex items-center gap-2.5 px-3 py-2 md:px-4">
-                        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f7d85f] text-black">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" aria-hidden="true">
-                                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
-                                <path d="M12 9v4" />
-                                <path d="M12 17h.01" />
-                            </svg>
-                        </div>
-                        <p className="flex-1 text-[15px] font-medium leading-tight text-black">{undoToastMessage}</p>
-                        <button
-                            type="button"
-                            onClick={handleUndoAction}
-                            className="rounded-full px-3 py-1 text-[15px] font-black text-black transition-colors hover:bg-black/10"
-                        >
-                            Undo
-                        </button>
-                    </div>
-                </div>
-            )}
-
             {isHelpOpen && (
                 <ModeHelpDialog
                     sections={ALL_SUBJECTS_MODE_HELP}
                     onClose={() => setIsHelpOpen(false)}
                 />
             )}
+            <SmallFooter />
             <style jsx>{`
                 .custom-scrollbar { scrollbar-width: thin; scrollbar-color: #7bcf86 #eeeeee; }
                 .custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }

@@ -4,6 +4,7 @@ import { useEffect, useState, useMemo, useCallback } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import axios from "axios";
+import SmallFooter from "@/components/SmallFooter";
 import { getSlotViewPayload } from "@/lib/slot-view";
 
 type SharedSlot = {
@@ -364,6 +365,7 @@ export default function SharePage() {
                     </div>
                 </div>
             )}
+            <SmallFooter />
         </div>
     );
 }
