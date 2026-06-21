@@ -702,7 +702,7 @@ export default function CourseSelectionPage() {
                                 </div>
                             ) : (
                                 <div className="min-w-[900px] flex flex-col h-full">
-                                    <div className="grid grid-cols-[40px_50px_minmax(120px,1fr)_minmax(200px,1.4fr)_minmax(180px,1.2fr)_minmax(100px,1fr)_60px_60px] border-b border-[#ededed] bg-[#fcfcfc] text-[#1f1f1f] shrink-0 pr-[8px]">
+                                    <div className="grid grid-cols-[40px_50px_minmax(120px,1fr)_minmax(200px,1.4fr)_minmax(180px,1.2fr)_minmax(100px,1fr)_60px_60px] border-b border-[#ededed] bg-[#fcfcfc] text-[#1f1f1f] shrink-0">
                                         <div className="px-4 py-3 text-sm font-bold"></div>
                                         <div className="px-4 py-3 text-sm font-bold">No</div>
                                         <div className="px-4 py-3 text-sm font-bold">Course Code</div>
@@ -712,7 +712,7 @@ export default function CourseSelectionPage() {
                                         <div className="px-4 py-3 text-sm font-bold text-center">CR</div>
                                         <div className="px-4 py-3 text-sm font-bold text-right"></div>
                                     </div>
-                                    <div className="flex-1 min-h-0 overflow-y-scroll custom-scrollbar px-0 max-h-[260px] scroll-smooth">
+                                    <div className="flex-1 min-h-0 px-0">
                                         {selectedOptions.map((opt, index) => (
                                             <div
                                                 key={opt.id}
