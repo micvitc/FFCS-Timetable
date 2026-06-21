@@ -1105,14 +1105,14 @@ export default function CourseSelectionPage() {
                 <div className="flex items-center gap-4">
                     <div className="shrink-0 flex h-11 items-center gap-2 rounded-[10px] bg-[#D4F4E6] px-3 py-2 shadow-sm border border-emerald-300/30">
                         <span className="text-sm font-extrabold text-green-800 whitespace-nowrap">
-                            Course Selection Mode
+                            Advanced Mode
                         </span>
                         <button
                             type="button"
                             role="switch"
                             onClick={() => navigateWithLoader('/preferences', 'Switching to Preferences...')}
                             aria-checked={true}
-                            aria-label="Toggle course selection mode"
+                            aria-label="Toggle advanced mode"
                             className="relative h-7 w-12 rounded-full shadow-inner transition-colors bg-emerald-500 focus:outline-none cursor-pointer"
                         >
                             <span className="absolute top-1/2 h-5 w-5 -translate-y-1/2 rounded-full transition-all duration-200 left-6 bg-white" />
@@ -2122,7 +2122,7 @@ export default function CourseSelectionPage() {
                 .custom-scrollbar { scrollbar-width: thin; scrollbar-color: #7bcf86 #eeeeee; }
                 .custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
                 .custom-scrollbar::-webkit-scrollbar-track { background: #eeeeee; border-radius: 6px; }
-                .custom-scrollbar::-webkit-scrollbar-thumb { background: #7bcf86; border-radius: 6px; border: 1px solid #eeeeee; }
+                .custom-scrollbar::-webkit-scrollbar-thumb { background: #7bcf86; border-radius: 6px; }
                 .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #6bc679; }
             `}</style>
         </div>
