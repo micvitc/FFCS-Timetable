@@ -60,7 +60,7 @@ export async function POST(req: Request) {
                     'Authorization': `Bearer ${apiKey}`,
                 },
                 body: JSON.stringify({
-                    from: 'Feedback Bot <onboarding@resend.dev>',
+                    from: 'FFCS Planner <onboarding@resend.dev>',
                     to: [targetEmail],
                     subject: 'PostHog Webhook Test Connection',
                     text: 'Congratulations! Your PostHog Webhook integration with FFCS Timetable is working correctly.',
@@ -129,7 +129,7 @@ export async function POST(req: Request) {
 
         // 6. Send the email using Resend REST API
         const emailPayload: EmailPayload = {
-            from: 'Feedback Bot <onboarding@resend.dev>',
+            from: 'FFCS Planner <onboarding@resend.dev>',
             to: [targetEmail],
             subject: `Feedback: ${surveyName} - from ${userEmail}`,
             text: feedbackContent,

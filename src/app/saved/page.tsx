@@ -254,6 +254,8 @@ export default function SavedPage() {
                     rating: surveyRating,
                     comment: surveyComment,
                     source: 'saved_page_survey',
+                    email: session?.user?.email,
+                    userName: session?.user?.name,
                 });
                 localStorage.setItem('ffcs_survey_completed_or_dismissed', 'true');
                 setShowSurvey(false);
