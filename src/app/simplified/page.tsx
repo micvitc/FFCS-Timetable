@@ -1491,8 +1491,8 @@ export default function CourseSelectionPage() {
                                                 <div className="px-4 py-4 text-sm leading-relaxed text-[#1f1f1f]">{opt.facultyName}</div>
                                                 <div className="px-4 py-4 text-sm font-semibold text-[#1f1f1f]">
                                                     <div className="flex flex-col gap-0.5">
-                                                        {opt.theorySlot && <span className="font-bold">T: {opt.theorySlot}</span>}
-                                                        {opt.labSlot && <span className="font-bold">L: {opt.labSlot}</span>}
+                                                        {opt.theorySlot && <span className="font-bold">{opt.theorySlot}</span>}
+                                                        {opt.labSlot && <span className="font-bold">{opt.labSlot}</span>}
                                                     </div>
                                                 </div>
                                                 <div className="px-4 py-4 text-sm font-bold text-gray-700 text-center">{opt.credits}</div>
