@@ -409,6 +409,8 @@ export default function CourseSelectionPage() {
     const [selectedOptions, setSelectedOptions] = useState<CourseOption[]>([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [activeCourseCode, setActiveCourseCode] = useState<string | null>(null);
+    const [pendingOption, setPendingOption] = useState<CourseOption | null>(null);
+    const [teacherSearchTerm, setTeacherSearchTerm] = useState('');
     const [focusedIndex, setFocusedIndex] = useState<number>(-1);
     const [showDropdown, setShowDropdown] = useState(false);
     const searchContainerRef = useRef<HTMLDivElement>(null);
@@ -424,6 +426,17 @@ export default function CourseSelectionPage() {
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, []);
+
+    // Reset teacher search term when active course switches
+    useEffect(() => {
+        setTeacherSearchTerm('');
+        if (activeCourseCode) {
+            const confirmed = selectedOptions.find(o => o.courseCode === activeCourseCode);
+            setPendingOption(confirmed || null);
+        } else {
+            setPendingOption(null);
+        }
+    }, [activeCourseCode, selectedOptions]);
 
     const [loaded, setLoaded] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -1008,9 +1021,21 @@ export default function CourseSelectionPage() {
         return options;
     }, [activeCourseRecords]);
 
+    // Filter active course options based on teacherSearchTerm matching facultyName, theorySlot, or labSlot
+    const filteredCourseOptions = useMemo(() => {
+        if (!teacherSearchTerm.trim()) return activeCourseOptions;
+        const query = teacherSearchTerm.toLowerCase().trim();
+        return activeCourseOptions.filter((opt) => {
+            const matchesName = opt.facultyName.toLowerCase().includes(query);
+            const matchesTheory = opt.theorySlot ? opt.theorySlot.toLowerCase().includes(query) : false;
+            const matchesLab = opt.labSlot ? opt.labSlot.toLowerCase().includes(query) : false;
+            return matchesName || matchesTheory || matchesLab;
+        });
+    }, [activeCourseOptions, teacherSearchTerm]);
+
     // Dynamically calculate grid columns based on teacher options count
     const gridColsClass = useMemo(() => {
-        const count = activeCourseOptions.length;
+        const count = filteredCourseOptions.length;
         if (count <= 4) {
             return "grid-cols-1 sm:grid-cols-2";
         } else if (count <= 8) {
@@ -1018,7 +1043,7 @@ export default function CourseSelectionPage() {
         } else {
             return "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4";
         }
-    }, [activeCourseOptions.length]);
+    }, [filteredCourseOptions.length]);
 
     // Live timetable generation combination details
     const currentCombination = useMemo(() => {
@@ -1375,40 +1400,77 @@ export default function CourseSelectionPage() {
                     {/* Active Course Selections */}
                     {activeCourseCode && (
                         <div className="bg-white rounded-3xl p-5 md:p-6 shadow-[0_8px_30px_rgb(0,0,0,0.015)] border border-[#eaeaea]/80 flex flex-col gap-4 animate-fade-slide-down">
-                            <div className="flex justify-between items-start gap-4">
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                                 <div className="flex-1 flex flex-col gap-1">
-                                    <span className="text-xs font-bold text-[#3B5BDB] uppercase tracking-wider">{activeCourseCode}</span>
+                                    <span className="text-[13px] font-bold text-[#3B5BDB] uppercase tracking-wider">{activeCourseCode}</span>
                                     <h3 className="text-xl font-bold text-black leading-tight">{activeCourseName}</h3>
                                 </div>
-                                <button
-                                    onClick={() => {
-                                        setActiveCourseCode(null);
-                                        setSearchTerm('');
-                                    }}
-                                    className="w-7 h-7 rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 hover:bg-red-50 hover:border-red-100 transition-all cursor-pointer text-sm font-bold"
-                                    title="Close"
-                                    aria-label="Close"
-                                >
-                                    ✕
-                                </button>
+                                <div className="flex items-center gap-3 w-full sm:w-auto">
+                                    {/* Teacher/Slot Search Input */}
+                                    <div className="relative w-full sm:w-64">
+                                        <input
+                                            type="text"
+                                            value={teacherSearchTerm}
+                                            onChange={(e) => setTeacherSearchTerm(e.target.value)}
+                                            placeholder="Search teachers or slots..."
+                                            className="w-full py-2 bg-gray-50 border border-gray-200 text-black placeholder-gray-400 text-sm rounded-xl focus:outline-none focus:border-[#3B5BDB] focus:bg-white transition-all"
+                                            style={{ paddingLeft: '2.75rem', paddingRight: '2.25rem' }}
+                                        />
+                                        <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                                <circle cx="11" cy="11" r="8" />
+                                                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                            </svg>
+                                        </div>
+                                        {teacherSearchTerm && (
+                                            <button
+                                                type="button"
+                                                onClick={() => setTeacherSearchTerm('')}
+                                                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors p-0.5 cursor-pointer"
+                                            >
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                                    <line x1="18" y1="6" x2="6" y2="18" />
+                                                    <line x1="6" y1="6" x2="18" y2="18" />
+                                                </svg>
+                                            </button>
+                                        )}
+                                    </div>
+                                    <button
+                                        onClick={() => {
+                                            setActiveCourseCode(null);
+                                            setSearchTerm('');
+                                        }}
+                                        className="w-7 h-7 rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 hover:bg-red-50 hover:border-red-100 transition-all cursor-pointer text-sm font-bold shrink-0"
+                                        title="Close"
+                                        aria-label="Close"
+                                    >
+                                        ✕
+                                    </button>
+                                </div>
                             </div>
 
                             <div className="w-full h-px bg-gray-100" />
 
                             {/* Slot Cards Grid */}
                             <div className={`grid ${gridColsClass} gap-3 pr-1`}>
-                                {activeCourseOptions.length === 0 ? (
-                                    <p className="text-sm font-medium text-gray-400 text-center py-4 col-span-2">No faculties listed for this course.</p>
+                                {filteredCourseOptions.length === 0 ? (
+                                    <p className="text-sm font-medium text-gray-400 text-center py-4 col-span-full">
+                                        {activeCourseOptions.length === 0 ? "No faculties listed for this course." : "No matching teachers or slots found."}
+                                    </p>
                                 ) : (
-                                    activeCourseOptions.map((opt) => {
+                                    filteredCourseOptions.map((opt) => {
                                         const isSelected = isOptionSelected(opt.id);
+                                        const isPending = pendingOption?.id === opt.id;
                                         return (
                                             <div
                                                 key={opt.id}
-                                                className={`w-full border rounded-2xl p-4 transition-all duration-300 flex items-center justify-between gap-3 ${
-                                                    isSelected
-                                                        ? 'bg-[#F4FBF7] border-[#D4F4E6] shadow-sm'
-                                                        : 'bg-white border-gray-100 hover:border-gray-200'
+                                                onClick={() => setPendingOption(opt)}
+                                                className={`group w-full border rounded-2xl p-4 transition-all duration-300 flex items-center justify-between gap-3 cursor-pointer ${
+                                                    isPending
+                                                        ? 'bg-[#EBF1FF] border-[#3B5BDB] shadow-sm ring-1 ring-[#3B5BDB]'
+                                                        : isSelected
+                                                            ? 'bg-[#F4FBF7] border-[#D4F4E6] shadow-sm hover:border-[#bbf1d9]'
+                                                            : 'bg-white border-gray-100 hover:border-gray-200 hover:shadow-sm'
                                                 }`}
                                             >
                                                 <div className="flex-1 min-w-0">
@@ -1428,24 +1490,76 @@ export default function CourseSelectionPage() {
                                                         )}
                                                     </div>
                                                 </div>
-
-                                                <div className="shrink-0 flex items-center">
-                                                    <button
-                                                        type="button"
-                                                        onClick={() => handleToggleOption(opt)}
-                                                        className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                                                            isSelected
-                                                                ? 'bg-red-500 hover:bg-red-650 text-white'
-                                                                : 'border border-[#3B5BDB] text-[#3B5BDB] hover:bg-[#3B5BDB]/5'
-                                                        }`}
-                                                    >
-                                                        {isSelected ? 'Remove' : 'Select'}
-                                                    </button>
-                                                </div>
                                             </div>
                                         );
                                     })
                                 )}
+                            </div>
+                            
+                            {/* Bottom Selection Actions Panel */}
+                            <div className="w-full h-px bg-gray-100 my-2" />
+                            
+                            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-gray-50/70 p-4 rounded-2xl border border-gray-100">
+                                <div className="flex items-center gap-3">
+                                    <div className="flex-1 flex flex-col gap-0.5">
+                                        <span className="text-[11px] font-bold text-gray-500 uppercase tracking-wider">
+                                            {pendingOption ? "Selected Faculty Preview" : "Selection Status"}
+                                        </span>
+                                        <div className="flex items-center gap-2">
+                                            {pendingOption ? (
+                                                <>
+                                                    <span className="font-bold text-sm text-gray-900">
+                                                        {pendingOption.facultyName}
+                                                    </span>
+                                                    <span className="text-xs text-gray-500">
+                                                        ({pendingOption.theorySlot ? `T: ${pendingOption.theorySlot}` : ''}
+                                                         {pendingOption.theorySlot && pendingOption.labSlot ? ' + ' : ''}
+                                                         {pendingOption.labSlot ? `L: ${pendingOption.labSlot}` : ''})
+                                                    </span>
+                                                </>
+                                            ) : (
+                                                <span className="text-sm font-medium text-gray-500 italic">
+                                                    No teacher selected for preview. Click on a teacher card above.
+                                                </span>
+                                            )}
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div className="flex items-center gap-2.5 w-full sm:w-auto justify-end">
+                                    <button
+                                        type="button"
+                                        onClick={() => {
+                                            setActiveCourseCode(null);
+                                            setPendingOption(null);
+                                        }}
+                                        className="px-4 py-2.5 border border-gray-200 text-gray-600 hover:bg-gray-100 bg-white font-bold text-xs rounded-xl transition-all cursor-pointer flex items-center gap-1.5"
+                                    >
+                                        Cancel
+                                    </button>
+                                    <button
+                                        type="button"
+                                        disabled={!pendingOption}
+                                        onClick={() => {
+                                            if (pendingOption) {
+                                                // Check if it's already selected to avoid duplicating toggles
+                                                const exists = selectedOptions.some(o => o.id === pendingOption.id);
+                                                if (!exists) {
+                                                    setSelectedOptions(prev => {
+                                                        const filtered = prev.filter(o => o.courseCode !== pendingOption.courseCode);
+                                                        return [...filtered, pendingOption];
+                                                    });
+                                                }
+                                                showToast(`Selected ${pendingOption.facultyName} for ${activeCourseCode}`, 'success');
+                                                setActiveCourseCode(null);
+                                                setPendingOption(null);
+                                            }
+                                        }}
+                                        className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 disabled:bg-gray-200 disabled:text-gray-400 text-white font-bold text-xs rounded-xl transition-all shadow-sm flex items-center gap-1.5 cursor-pointer disabled:cursor-not-allowed"
+                                    >
+                                        Select
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     )}
@@ -1638,7 +1752,9 @@ export default function CourseSelectionPage() {
                             <h2 className="text-xl font-bold text-black flex items-center gap-2">
                                 Timetable Preview
                             </h2>
-                            <p className="text-xs text-gray-500 mt-0.5">Updates instantly on selection changes</p>
+                            <p className="text-xs text-gray-500 mt-0.5">
+                                Updates instantly on selection changes. Click on a timetable slot to view details.
+                            </p>
                         </div>
                     </div>
 
