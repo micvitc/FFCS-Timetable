@@ -238,27 +238,87 @@ export function isEveningSlot(slot: string): boolean {
 }
 
 /**
+ * Checks if a lab slot name belongs to the extra mural hours (Block 3 in morning: L5, L11, L17, L23, L29).
+ */
+export function isExtraMuralLabSlot(slot: string): boolean {
+    const parts = slot.split('+').map(s => s.trim().toUpperCase());
+    for (const part of parts) {
+        if (part.startsWith('L')) {
+            const numMatch = part.match(/\d+/);
+            if (numMatch) {
+                const num = parseInt(numMatch[0], 10);
+                if ([5, 11, 17, 23, 29].includes(num)) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
+}
+
+/**
+ * Pairs a list of theory slots with a list of lab slots for a faculty.
+ * Ensures 1-to-1 mapping where possible and prioritizes session-based and extra-mural pairing.
+ * Returns a Map of theorySlot -> labSlot.
+ */
+export function pairTheoryAndLabSlots(theorySlots: string[], labSlots: string[]): Map<string, string> {
+    const pairings = new Map<string, string>();
+    if (theorySlots.length === 0 || labSlots.length === 0) return pairings;
+    const usedLabs = new Set<string>();
+
+    // Pass 1: Try to find perfect session/extra-mural matches
+    for (const theorySlot of theorySlots) {
+        const isTheoryMorning = isMorningSlot(theorySlot);
+        const isTheoryEvening = isEveningSlot(theorySlot);
+
+        let matchedLab: string | undefined;
+        if (isTheoryMorning) {
+            // First priority: Look for an unused evening lab slot
+            matchedLab = labSlots.find(slot => !usedLabs.has(slot) && isEveningSlot(slot));
+            
+            // Second priority: Look for an unused extra-mural morning lab slot
+            if (!matchedLab) {
+                matchedLab = labSlots.find(slot => !usedLabs.has(slot) && isMorningSlot(slot) && isExtraMuralLabSlot(slot));
+            }
+        } else if (isTheoryEvening) {
+            // First priority: Look for an unused standard morning lab slot (non-extra-mural morning lab)
+            matchedLab = labSlots.find(slot => !usedLabs.has(slot) && isMorningSlot(slot) && !isExtraMuralLabSlot(slot));
+            
+            // Second priority: Look for any unused morning lab slot
+            if (!matchedLab) {
+                matchedLab = labSlots.find(slot => !usedLabs.has(slot) && isMorningSlot(slot));
+            }
+        }
+
+        if (matchedLab) {
+            pairings.set(theorySlot, matchedLab);
+            usedLabs.add(matchedLab);
+        }
+    }
+
+    // Pass 2: For any remaining unpaired theory slots, match them with any remaining unused lab slots
+    for (const theorySlot of theorySlots) {
+        if (!pairings.has(theorySlot)) {
+            const unmatchedLab = labSlots.find(slot => !usedLabs.has(slot));
+            if (unmatchedLab) {
+                pairings.set(theorySlot, unmatchedLab);
+                usedLabs.add(unmatchedLab);
+            }
+        }
+    }
+
+    return pairings;
+}
+
+/**
  * Finds the corresponding lab slot for a given theory slot based on morning/evening session pairing.
- * - Morning theory -> Evening lab
+ * - Morning theory -> Evening lab (or extra-mural)
  * - Evening theory -> Morning lab
  */
 export function findMatchingLabSlot(theorySlot: string, labSlots: string[]): string | undefined {
     if (labSlots.length === 0) return undefined;
-    
-    const isTheoryMorning = isMorningSlot(theorySlot);
-    const isTheoryEvening = isEveningSlot(theorySlot);
-
-    if (isTheoryMorning) {
-        // Look for an evening lab slot
-        const match = labSlots.find(slot => isEveningSlot(slot));
-        if (match) return match;
-    } else if (isTheoryEvening) {
-        // Look for a morning lab slot
-        const match = labSlots.find(slot => isMorningSlot(slot));
-        if (match) return match;
-    }
-
-    // Fallback: if no session-matched lab slot is found, return the first lab slot
-    return labSlots[0];
+    const pairings = pairTheoryAndLabSlots([theorySlot], labSlots);
+    return pairings.get(theorySlot) || labSlots[0];
 }
+
 

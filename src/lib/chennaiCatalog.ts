@@ -1,6 +1,6 @@
 import chennaiCourses from '@/data/all_data_chennai';
 import type { fullCourseData } from '@/lib/type';
-import { findMatchingLabSlot } from './slots';
+import { findMatchingLabSlot, pairTheoryAndLabSlots } from './slots';
 import { isSessionBasedSlotPairingEnabled } from './featureFlags';
 
 export type ChennaiCourseRecord = (typeof chennaiCourses)[number];
@@ -162,6 +162,17 @@ export function buildPreferenceCoursesFromChennaiSelection(
             let hasLabSelected = false;
             let hasAutoPairedLab = false;
 
+            const facultyPairings = new Map<string, Map<string, string>>();
+            if (isSessionBasedSlotPairingEnabled()) {
+                const faculties = new Set<string>();
+                subjectRecords.forEach(r => faculties.add(r.FACULTY));
+                faculties.forEach(facultyName => {
+                    const theorySlots = subjectRecords.filter(r => r.FACULTY === facultyName && isTheoryType(r.TYPE)).map(r => r.SLOT);
+                    const labSlots = subjectRecords.filter(r => r.FACULTY === facultyName && isLabType(r.TYPE)).map(r => r.SLOT);
+                    facultyPairings.set(facultyName, pairTheoryAndLabSlots(theorySlots, labSlots));
+                });
+            }
+
             const courseSlots = Array.from(slotFacultyMap.entries()).map(([slotName, facultiesSet]) => {
                 // Find the actual TYPE for this slot from the records
                 const matchingRecord = subjectRecords.find(
@@ -183,8 +194,7 @@ export function buildPreferenceCoursesFromChennaiSelection(
 
                         if (isSessionBasedSlotPairingEnabled()) {
                             if (labRecords.length > 0) {
-                                const labSlots = labRecords.map(r => r.SLOT);
-                                const matched = findMatchingLabSlot(slotName, labSlots);
+                                const matched = facultyPairings.get(facultyName)?.get(slotName);
                                 if (matched) {
                                     facultyLabSlot = matched;
                                     hasAutoPairedLab = true;
