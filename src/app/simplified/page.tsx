@@ -409,6 +409,7 @@ export default function CourseSelectionPage() {
     const [selectedOptions, setSelectedOptions] = useState<CourseOption[]>([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [activeCourseCode, setActiveCourseCode] = useState<string | null>(null);
+    const [focusedIndex, setFocusedIndex] = useState<number>(-1);
     const [loaded, setLoaded] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [showUserMenu, setShowUserMenu] = useState(false);
@@ -810,6 +811,67 @@ export default function CourseSelectionPage() {
         ).slice(0, 8); // limit for overlay layout
     }, [uniqueCourses, searchTerm]);
 
+    // Precompute the count of unique faculties for each course code
+    const courseFacultyCounts = useMemo(() => {
+        const counts = new Map<string, number>();
+        const facultiesMap = new Map<string, Set<string>>();
+        (chennaiCourses as any).forEach((record: any) => {
+            if (!facultiesMap.has(record.CODE)) {
+                facultiesMap.set(record.CODE, new Set<string>());
+            }
+            if (record.FACULTY) {
+                facultiesMap.get(record.CODE)!.add(record.FACULTY.trim());
+            }
+        });
+        facultiesMap.forEach((faculties, code) => {
+            counts.set(code, faculties.size);
+        });
+        return counts;
+    }, []);
+
+    // Helper to highlight matching text in search results
+    const highlightMatch = useCallback((text: string, query: string) => {
+        if (!query.trim()) return text;
+        const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        const parts = text.split(new RegExp(`(${escapedQuery})`, 'gi'));
+        return (
+            <>
+                {parts.map((part, index) => 
+                    part.toLowerCase() === query.toLowerCase() ? (
+                        <mark key={index} className="bg-[#FFE78A] text-black font-extrabold rounded px-0.5">{part}</mark>
+                    ) : (
+                        part
+                    )
+                )}
+            </>
+        );
+    }, []);
+
+    // Handle search keydown events (ArrowUp, ArrowDown, Enter, Escape)
+    const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (searchResults.length === 0) return;
+
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            setFocusedIndex(prev => (prev + 1) % searchResults.length);
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            setFocusedIndex(prev => (prev - 1 + searchResults.length) % searchResults.length);
+        } else if (e.key === 'Enter') {
+            e.preventDefault();
+            const selectedIndex = focusedIndex >= 0 ? focusedIndex : 0;
+            const target = searchResults[selectedIndex];
+            if (target) {
+                setActiveCourseCode(target.code);
+                setSearchTerm('');
+                setFocusedIndex(-1);
+            }
+        } else if (e.key === 'Escape') {
+            setSearchTerm('');
+            setFocusedIndex(-1);
+        }
+    }, [searchResults, focusedIndex]);
+
     // Active course records
     const activeCourseRecords = useMemo(() => {
         if (!activeCourseCode) return [];
@@ -1191,47 +1253,97 @@ export default function CourseSelectionPage() {
                             <p className="text-xs text-gray-500 mt-0.5">Type the course code or title (e.g. CSE1001 or Data Structures)</p>
                         </div>
 
-                        <div className="relative">
-                            <input
-                                type="text"
-                                value={searchTerm}
-                                onChange={(e) => setSearchTerm(e.target.value)}
-                                placeholder="Search by code or title..."
-                                className="w-full bg-[#FAFAFA] border border-[#eadcc5]/80 rounded-2xl px-4 py-3.5 text-sm font-medium text-black focus:outline-none focus:ring-2 focus:ring-[#3B5BDB]/60"
-                            />
-                            {searchTerm && (
-                                <button
-                                    onClick={() => setSearchTerm('')}
-                                    className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-black text-lg font-medium"
-                                >
-                                    ✕
-                                </button>
-                            )}
+                        <div className="flex gap-2 w-full">
+                            <div className="relative flex-1 group">
+                                <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none group-focus-within:text-[#3B5BDB] transition-colors duration-200">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                        <circle cx="11" cy="11" r="8" />
+                                        <path d="m21 21-4.3-4.3" />
+                                    </svg>
+                                </span>
+                                <input
+                                    type="text"
+                                    value={searchTerm}
+                                    onChange={(e) => {
+                                        setSearchTerm(e.target.value);
+                                        setFocusedIndex(-1);
+                                    }}
+                                    onKeyDown={handleKeyDown}
+                                    placeholder="Search by code or title..."
+                                    className="w-full bg-[#FAFAFA] border border-[#eadcc5]/80 rounded-2xl pl-11 pr-12 py-3.5 text-sm font-medium text-black focus:outline-none focus:ring-2 focus:ring-[#3B5BDB]/60 transition-all duration-200 focus:bg-white focus:border-[#3B5BDB]/60 focus:shadow-[0_0_15px_rgba(59,91,219,0.08)]"
+                                />
+                                {searchTerm && (
+                                    <button
+                                        onClick={() => {
+                                            setSearchTerm('');
+                                            setFocusedIndex(-1);
+                                        }}
+                                        className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-black transition-all duration-200 text-xs font-semibold"
+                                        title="Clear search"
+                                    >
+                                        ✕
+                                    </button>
+                                )}
 
-                            {/* Search Results Dropdown Overlay */}
-                            {searchResults.length > 0 && (
-                                <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-[#eadcc5]/80 rounded-2xl shadow-xl z-30 max-h-72 overflow-y-auto custom-scrollbar p-2 animate-in fade-in slide-in-from-top-2 duration-200">
-                                    {searchResults.map((result) => (
-                                        <button
-                                            key={result.code}
-                                            onClick={() => {
-                                                setActiveCourseCode(result.code);
-                                                setSearchTerm('');
-                                            }}
-                                            className="w-full text-left px-4 py-3 hover:bg-[#F5E6D3]/40 rounded-xl transition-colors flex flex-col gap-0.5 cursor-pointer"
-                                        >
-                                            <span className="font-bold text-xs text-[#3B5BDB] uppercase tracking-wider">{result.code}</span>
-                                            <span className="font-bold text-sm text-gray-900 line-clamp-1">{result.title}</span>
-                                        </button>
-                                    ))}
-                                </div>
-                            )}
+                                {/* Search Results Dropdown Overlay */}
+                                {searchResults.length > 0 && (
+                                    <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 backdrop-blur-md border border-gray-200 rounded-2xl shadow-[0_12px_30px_rgba(0,0,0,0.1)] z-30 max-h-72 overflow-y-auto custom-scrollbar p-2 animate-in fade-in slide-in-from-top-2 duration-200">
+                                        {searchResults.map((result, idx) => {
+                                            const isFocused = idx === focusedIndex;
+                                            const facultyCount = courseFacultyCounts.get(result.code) || 0;
+                                            return (
+                                                <button
+                                                    key={result.code}
+                                                    onClick={() => {
+                                                        setActiveCourseCode(result.code);
+                                                        setSearchTerm('');
+                                                        setFocusedIndex(-1);
+                                                    }}
+                                                    onMouseEnter={() => setFocusedIndex(idx)}
+                                                    className={`w-full text-left px-4 py-3 rounded-xl transition-colors flex items-center justify-between gap-3 cursor-pointer ${
+                                                        isFocused
+                                                            ? 'bg-[#3B5BDB]/10 text-black border border-[#3B5BDB]/20'
+                                                            : 'hover:bg-gray-50 border border-transparent'
+                                                    }`}
+                                                >
+                                                    <div className="flex flex-col gap-0.5 min-w-0">
+                                                        <span className="font-extrabold text-xs text-[#3B5BDB] uppercase tracking-wider">
+                                                            {highlightMatch(result.code, searchTerm)}
+                                                        </span>
+                                                        <span className="font-bold text-sm text-gray-900 line-clamp-1">
+                                                            {highlightMatch(result.title, searchTerm)}
+                                                        </span>
+                                                    </div>
+                                                    <span className="shrink-0 text-[10px] font-bold px-2 py-1 bg-gray-100 text-gray-600 rounded-full border border-gray-200">
+                                                        {facultyCount} {facultyCount === 1 ? 'Faculty' : 'Faculties'}
+                                                    </span>
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                )}
+                            </div>
+                            <button
+                                type="button"
+                                onClick={() => {
+                                    if (searchResults.length > 0) {
+                                        const selectedIndex = focusedIndex >= 0 && focusedIndex < searchResults.length ? focusedIndex : 0;
+                                        setActiveCourseCode(searchResults[selectedIndex].code);
+                                        setSearchTerm('');
+                                        setFocusedIndex(-1);
+                                    }
+                                }}
+                                disabled={!searchTerm.trim() || searchResults.length === 0}
+                                className="px-6 py-3.5 bg-[#3B5BDB] hover:bg-[#2B4BBD] disabled:bg-gray-200 disabled:text-gray-400 text-white font-bold text-sm rounded-2xl transition-all duration-200 shadow-sm hover:shadow-[0_4px_12px_rgba(59,91,219,0.2)] disabled:shadow-none flex items-center gap-2 cursor-pointer disabled:cursor-not-allowed shrink-0"
+                            >
+                                Search
+                            </button>
                         </div>
                     </div>
 
                     {/* Active Course Selections */}
                     {activeCourseCode && (
-                        <div className="bg-white rounded-3xl p-5 md:p-6 shadow-[0_8px_30px_rgb(0,0,0,0.015)] border border-[#eaeaea]/80 flex flex-col gap-4">
+                        <div className="bg-white rounded-3xl p-5 md:p-6 shadow-[0_8px_30px_rgb(0,0,0,0.015)] border border-[#eaeaea]/80 flex flex-col gap-4 animate-fade-slide-down">
                             <div className="flex justify-between items-start gap-4">
                                 <div className="flex-1">
                                     <span className="text-[10px] font-black tracking-wider text-[#3B5BDB] uppercase bg-[#3B5BDB]/10 px-2.5 py-1 rounded-full">{activeCourseCode}</span>
@@ -1239,9 +1351,11 @@ export default function CourseSelectionPage() {
                                 </div>
                                 <button
                                     onClick={() => setActiveCourseCode(null)}
-                                    className="text-xs font-bold text-gray-400 hover:text-red-500 cursor-pointer"
+                                    className="w-7 h-7 rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 hover:bg-red-50 hover:border-red-100 transition-all cursor-pointer text-sm font-bold"
+                                    title="Close"
+                                    aria-label="Close"
                                 >
-                                    Close
+                                    ✕
                                 </button>
                             </div>
 
@@ -1339,7 +1453,7 @@ export default function CourseSelectionPage() {
                                 </div>
                             ) : (
                                 <div className="min-w-[900px] flex flex-col h-full">
-                                    <div className="grid grid-cols-[40px_50px_minmax(120px,1fr)_minmax(200px,1.4fr)_minmax(180px,1.2fr)_minmax(100px,1fr)_60px_120px] border-b border-[#ededed] bg-[#fcfcfc] text-[#1f1f1f] shrink-0">
+                                    <div className="grid grid-cols-[40px_50px_minmax(120px,1fr)_minmax(200px,1.4fr)_minmax(180px,1.2fr)_minmax(100px,1fr)_60px_160px] border-b border-[#ededed] bg-[#fcfcfc] text-[#1f1f1f] shrink-0">
                                         <div className="px-4 py-3 text-sm font-bold"></div>
                                         <div className="px-4 py-3 text-sm font-bold">No</div>
                                         <div className="px-4 py-3 text-sm font-bold">Course Code</div>
@@ -1353,7 +1467,7 @@ export default function CourseSelectionPage() {
                                         {selectedOptions.map((opt, index) => (
                                             <div
                                                 key={opt.id}
-                                                className={`grid grid-cols-[40px_50px_minmax(120px,1fr)_minmax(200px,1.4fr)_minmax(180px,1.2fr)_minmax(100px,1fr)_60px_120px] border-b border-[#f0f0f0] items-center transition-colors ${!allSubjectsMode && disabledOptions.has(opt.id) ? 'opacity-50 bg-gray-50' : 'bg-white hover:bg-[#f8f8f8]'}`}
+                                                className={`grid grid-cols-[40px_50px_minmax(120px,1fr)_minmax(200px,1.4fr)_minmax(180px,1.2fr)_minmax(100px,1fr)_60px_160px] border-b border-[#f0f0f0] items-center transition-colors ${!allSubjectsMode && disabledOptions.has(opt.id) ? 'opacity-50 bg-gray-50' : 'bg-white hover:bg-[#3B5BDB]/5'}`}
                                             >
                                                 <div className="px-4 py-4 flex items-center justify-center">
                                                     <input 
@@ -1372,17 +1486,55 @@ export default function CourseSelectionPage() {
                                                     />
                                                 </div>
                                                 <div className="px-4 py-4 text-sm font-semibold text-[#1f1f1f]">{index + 1}</div>
-                                                <div className="px-4 py-4 text-sm font-semibold font-mono text-[#1f1f1f]">{opt.courseCode}</div>
-                                                <div className="px-4 py-4 text-sm leading-relaxed text-[#1f1f1f]">{opt.courseName}</div>
-                                                <div className="px-4 py-4 text-sm leading-relaxed text-[#1f1f1f]">{opt.facultyName}</div>
-                                                <div className="px-4 py-4 text-sm font-semibold text-[#1f1f1f]">
+                                                <div 
+                                                    onClick={() => setActiveCourseCode(opt.courseCode)}
+                                                    className="px-4 py-4 text-sm font-semibold font-mono text-[#3B5BDB] hover:underline cursor-pointer"
+                                                    title="Click to edit course slots/faculties"
+                                                >
+                                                    {opt.courseCode}
+                                                </div>
+                                                <div 
+                                                    onClick={() => setActiveCourseCode(opt.courseCode)}
+                                                    className="px-4 py-4 text-sm leading-relaxed text-[#1f1f1f] hover:text-[#3B5BDB] cursor-pointer"
+                                                    title="Click to edit course slots/faculties"
+                                                >
+                                                    {opt.courseName}
+                                                </div>
+                                                <div 
+                                                    onClick={() => setActiveCourseCode(opt.courseCode)}
+                                                    className="px-4 py-4 text-sm leading-relaxed text-[#1f1f1f] hover:text-[#3B5BDB] cursor-pointer"
+                                                    title="Click to edit course slots/faculties"
+                                                >
+                                                    {opt.facultyName}
+                                                </div>
+                                                <div 
+                                                    onClick={() => setActiveCourseCode(opt.courseCode)}
+                                                    className="px-4 py-4 text-sm font-semibold text-[#1f1f1f] hover:text-[#3B5BDB] cursor-pointer"
+                                                    title="Click to edit course slots/faculties"
+                                                >
                                                     <div className="flex flex-col gap-0.5">
                                                         {opt.theorySlot && <span className="font-bold">T: {opt.theorySlot}</span>}
                                                         {opt.labSlot && <span className="font-bold">L: {opt.labSlot}</span>}
                                                     </div>
                                                 </div>
-                                                <div className="px-4 py-4 text-sm font-bold text-gray-700 text-center">{opt.credits}</div>
+                                                <div 
+                                                    onClick={() => setActiveCourseCode(opt.courseCode)}
+                                                    className="px-4 py-4 text-sm font-bold text-gray-700 text-center hover:text-[#3B5BDB] cursor-pointer"
+                                                    title="Click to edit course slots/faculties"
+                                                >
+                                                    {opt.credits}
+                                                </div>
                                                 <div className="px-4 py-4 flex items-center justify-end gap-2">
+                                                    <button
+                                                        onClick={() => setActiveCourseCode(opt.courseCode)}
+                                                        title="Edit Faculty / Slot"
+                                                        className="w-8 h-8 flex items-center justify-center rounded border border-[#D0D5F2] text-[#3B5BDB] hover:bg-[#3B5BDB]/5 cursor-pointer transition-all shrink-0"
+                                                    >
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                                            <path d="M12 20h9" />
+                                                            <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+                                                        </svg>
+                                                    </button>
                                                     <button
                                                         onClick={() => handleMoveUp(index)}
                                                         disabled={index <= 0}
