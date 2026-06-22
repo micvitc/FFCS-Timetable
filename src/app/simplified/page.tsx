@@ -410,6 +410,21 @@ export default function CourseSelectionPage() {
     const [searchTerm, setSearchTerm] = useState('');
     const [activeCourseCode, setActiveCourseCode] = useState<string | null>(null);
     const [focusedIndex, setFocusedIndex] = useState<number>(-1);
+    const [showDropdown, setShowDropdown] = useState(false);
+    const searchContainerRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        function handleClickOutside(event: MouseEvent) {
+            if (searchContainerRef.current && !searchContainerRef.current.contains(event.target as Node)) {
+                setShowDropdown(false);
+            }
+        }
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
     const [loaded, setLoaded] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [showUserMenu, setShowUserMenu] = useState(false);
@@ -853,9 +868,11 @@ export default function CourseSelectionPage() {
 
         if (e.key === 'ArrowDown') {
             e.preventDefault();
+            setShowDropdown(true);
             setFocusedIndex(prev => (prev + 1) % searchResults.length);
         } else if (e.key === 'ArrowUp') {
             e.preventDefault();
+            setShowDropdown(true);
             setFocusedIndex(prev => (prev - 1 + searchResults.length) % searchResults.length);
         } else if (e.key === 'Enter') {
             e.preventDefault();
@@ -863,11 +880,12 @@ export default function CourseSelectionPage() {
             const target = searchResults[selectedIndex];
             if (target) {
                 setActiveCourseCode(target.code);
-                setSearchTerm('');
+                setSearchTerm(`${target.code} - ${target.title}`);
+                setShowDropdown(false);
                 setFocusedIndex(-1);
             }
         } else if (e.key === 'Escape') {
-            setSearchTerm('');
+            setShowDropdown(false);
             setFocusedIndex(-1);
         }
     }, [searchResults, focusedIndex]);
@@ -1254,7 +1272,7 @@ export default function CourseSelectionPage() {
                         </div>
 
                         <div className="flex gap-2 w-full">
-                            <div className="relative flex-1 group">
+                            <div ref={searchContainerRef} className="relative flex-1 group">
                                 <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none group-focus-within:text-[#3B5BDB] transition-colors duration-200">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                         <circle cx="11" cy="11" r="8" />
@@ -1267,7 +1285,9 @@ export default function CourseSelectionPage() {
                                     onChange={(e) => {
                                         setSearchTerm(e.target.value);
                                         setFocusedIndex(-1);
+                                        setShowDropdown(true);
                                     }}
+                                    onFocus={() => setShowDropdown(true)}
                                     onKeyDown={handleKeyDown}
                                     placeholder="Search by code or title..."
                                     style={{ paddingLeft: '2.75rem', paddingRight: '3rem' }}
@@ -1278,6 +1298,7 @@ export default function CourseSelectionPage() {
                                         onClick={() => {
                                             setSearchTerm('');
                                             setFocusedIndex(-1);
+                                            setShowDropdown(false);
                                         }}
                                         className="absolute right-4 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center rounded-full bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-black transition-all duration-200 text-xs font-semibold"
                                         title="Clear search"
@@ -1287,7 +1308,7 @@ export default function CourseSelectionPage() {
                                 )}
 
                                 {/* Search Results Dropdown Overlay */}
-                                {searchResults.length > 0 && (
+                                {showDropdown && searchResults.length > 0 && (
                                     <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 backdrop-blur-md border border-gray-200 rounded-2xl shadow-[0_12px_30px_rgba(0,0,0,0.1)] z-30 max-h-72 overflow-y-auto custom-scrollbar p-2 animate-in fade-in slide-in-from-top-2 duration-200">
                                         {searchResults.map((result, idx) => {
                                             const isFocused = idx === focusedIndex;
@@ -1296,7 +1317,8 @@ export default function CourseSelectionPage() {
                                                     key={result.code}
                                                     onClick={() => {
                                                         setActiveCourseCode(result.code);
-                                                        setSearchTerm('');
+                                                        setSearchTerm(`${result.code} - ${result.title}`);
+                                                        setShowDropdown(false);
                                                         setFocusedIndex(-1);
                                                     }}
                                                     onMouseEnter={() => setFocusedIndex(idx)}
@@ -1323,8 +1345,10 @@ export default function CourseSelectionPage() {
                                 onClick={() => {
                                     if (searchResults.length > 0) {
                                         const selectedIndex = focusedIndex >= 0 && focusedIndex < searchResults.length ? focusedIndex : 0;
-                                        setActiveCourseCode(searchResults[selectedIndex].code);
-                                        setSearchTerm('');
+                                        const target = searchResults[selectedIndex];
+                                        setActiveCourseCode(target.code);
+                                        setSearchTerm(`${target.code} - ${target.title}`);
+                                        setShowDropdown(false);
                                         setFocusedIndex(-1);
                                     }
                                 }}
@@ -1341,11 +1365,15 @@ export default function CourseSelectionPage() {
                         <div className="bg-white rounded-3xl p-5 md:p-6 shadow-[0_8px_30px_rgb(0,0,0,0.015)] border border-[#eaeaea]/80 flex flex-col gap-4 animate-fade-slide-down">
                             <div className="flex justify-between items-start gap-4">
                                 <div className="flex-1">
-                                    <span className="text-[10px] font-black tracking-wider text-[#3B5BDB] uppercase bg-[#3B5BDB]/10 px-2.5 py-1 rounded-full">{activeCourseCode}</span>
-                                    <h3 className="text-lg font-bold text-black mt-2 leading-tight">{activeCourseName}</h3>
+                                    <h3 className="text-lg font-bold text-black leading-tight">
+                                        <span className="text-[#3B5BDB]">{activeCourseCode}</span> - {activeCourseName}
+                                    </h3>
                                 </div>
                                 <button
-                                    onClick={() => setActiveCourseCode(null)}
+                                    onClick={() => {
+                                        setActiveCourseCode(null);
+                                        setSearchTerm('');
+                                    }}
                                     className="w-7 h-7 rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center text-gray-400 hover:text-red-500 hover:bg-red-50 hover:border-red-100 transition-all cursor-pointer text-sm font-bold"
                                     title="Close"
                                     aria-label="Close"
@@ -1357,7 +1385,7 @@ export default function CourseSelectionPage() {
                             <div className="w-full h-px bg-gray-100" />
 
                             {/* Slot Cards Grid */}
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-80 overflow-y-auto custom-scrollbar pr-1">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pr-1">
                                 {activeCourseOptions.length === 0 ? (
                                     <p className="text-sm font-medium text-gray-400 text-center py-4 col-span-2">No faculties listed for this course.</p>
                                 ) : (
@@ -1375,9 +1403,6 @@ export default function CourseSelectionPage() {
                                                 <div className="flex-1 min-w-0">
                                                     <div className="flex flex-col">
                                                         <span className="font-extrabold text-sm text-gray-900 truncate leading-tight">{opt.facultyName}</span>
-                                                        <span className="text-[10px] font-bold text-[#8c6b5e] uppercase mt-0.5">
-                                                            {opt.credits} Credits
-                                                        </span>
                                                     </div>
                                                     <div className="flex flex-col gap-1 mt-2.5">
                                                         {opt.theorySlot && (
