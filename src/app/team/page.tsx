@@ -141,9 +141,9 @@ const TEAM_MEMBERS: TeamMember[] = [
     category: "fullstack",
     tagline: "Clash-detection logic & built the Timetable section.",
     gradient: "from-[#D3F9D8] to-[#2B8A3E]",
-    photo: "https://h8z6stjynz.ufs.sh/f/dummy_souptik",
+    photo: "https://h8z6stjynz.ufs.sh/f/nEev6VX4XfKEgDOldMxCcbBRfFZyJP8ADeMUoQmwL9pYdraI",
     github: "https://github.com/TabasKo0",
-    linkedin: "https://linkedin.com/in/dummy"
+    linkedin: "https://www.linkedin.com/in/souptik-dam-712610287"
   },
   {
     name: "Akash Vishnu P",

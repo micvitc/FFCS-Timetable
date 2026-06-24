@@ -464,7 +464,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 2,
     "VENUE": "AB1-607",
-    "SLOT": "L1+L2+L19",
+    "SLOT": "L1+L2+L19+L20",
     "FACULTY": "ANGELINE EZHILARASI G"
   },
   {
@@ -1292,7 +1292,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 2,
     "VENUE": "AB3-302",
-    "SLOT": "L37+L38+L",
+    "SLOT": "L37+L38+L49+L50",
     "FACULTY": "BALRAJ E"
   },
   {
@@ -3668,7 +3668,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 3,
     "VENUE": "ADB - 801",
-    "SLOT": "L31+L32+L",
+    "SLOT": "L31+L32+L49+L50+L55+L56",
     "FACULTY": "5C6HARMINI B"
   },
   {
@@ -3704,7 +3704,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 3,
     "VENUE": "ADB - 802",
-    "SLOT": "L33+L34+L",
+    "SLOT": "L33+L34+L51+L52+L57+L58",
     "FACULTY": "5R8AJA BALASARASWATHI S"
   },
   {
@@ -3740,7 +3740,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 3,
     "VENUE": "ADB - 802",
-    "SLOT": "L3+L4+L19",
+    "SLOT": "L3+L4+L19+L20+L43+L44",
     "FACULTY": "MAANVIZHI M"
   },
   {
@@ -3767,7 +3767,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 3,
     "VENUE": "ADB-706",
-    "SLOT": "L33+L34+L",
+    "SLOT": "L33+L34+L45+L46+L57+L58",
     "FACULTY": "5V8ASANTH KUMAR"
   },
   {
@@ -3794,7 +3794,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 3,
     "VENUE": "ADB - 801",
-    "SLOT": "L11+L12+L",
+    "SLOT": "L11+L12+L37+L38+L43+L44",
     "FACULTY": "4R4AJESH KUMAR K"
   },
   {
@@ -3875,7 +3875,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 3,
     "VENUE": "ADB - 802",
-    "SLOT": "L23+L24+L",
+    "SLOT": "L23+L24+L29+L30+L55+L56",
     "FACULTY": "5S6AROJ K M"
   },
   {
@@ -3884,7 +3884,7 @@ const data = [
     "TYPE": "LO",
     "CREDITS": 4,
     "VENUE": "ADB - 801",
-    "SLOT": "L9+L10+L1",
+    "SLOT": "L9+L10+L13+L14+L23+L24+L29+L30",
     "FACULTY": "4B+HL2U9V+ALN30ESHWARI"
   },
   {
