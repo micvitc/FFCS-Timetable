@@ -4,6 +4,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-103",
     "SLOT": "F1+TF1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -12,6 +13,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-104",
     "SLOT": "F1+TF1",
     "FACULTY": "FACE (APT)"
   },
@@ -20,6 +22,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-105",
     "SLOT": "F1+TF1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -28,6 +31,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-106",
     "SLOT": "F1+TF1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -36,6 +40,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-107",
     "SLOT": "F1+TF1",
     "FACULTY": "FACE (APT)"
   },
@@ -44,6 +49,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-108",
     "SLOT": "F1+TF1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -52,6 +58,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-109",
     "SLOT": "F1+TF1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -60,30 +67,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
-    "SLOT": "F1+TF1",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BASTS101",
-    "TITLE": "Qualitative and Quantitative Skills Practice I",
-    "TYPE": "SS",
-    "CREDITS": 1,
-    "SLOT": "F1+TF1",
-    "FACULTY": "SIXPHRASE(APT)"
-  },
-  {
-    "CODE": "BASTS101",
-    "TITLE": "Qualitative and Quantitative Skills Practice I",
-    "TYPE": "SS",
-    "CREDITS": 1,
-    "SLOT": "F1+TF1",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BASTS101",
-    "TITLE": "Qualitative and Quantitative Skills Practice I",
-    "TYPE": "SS",
-    "CREDITS": 1,
+    "VENUE": "AB3-203",
     "SLOT": "F1+TF1",
     "FACULTY": "FACE (APT)"
   },
@@ -92,6 +76,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-204",
     "SLOT": "F1+TF1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -100,6 +85,34 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-205",
+    "SLOT": "F1+TF1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1,
+    "VENUE": "AB3-206",
+    "SLOT": "F1+TF1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1,
+    "VENUE": "AB3-207",
+    "SLOT": "F1+TF1",
+    "FACULTY": "SIXPHRASE(APT)"
+  },
+  {
+    "CODE": "BASTS101",
+    "TITLE": "Qualitative and Quantitative Skills Practice I",
+    "TYPE": "SS",
+    "CREDITS": 1,
+    "VENUE": "AB3-103",
     "SLOT": "F2+TF2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -108,6 +121,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-104",
     "SLOT": "F2+TF2",
     "FACULTY": "FACE (APT)"
   },
@@ -116,6 +130,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-105",
     "SLOT": "F2+TF2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -124,6 +139,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-106",
     "SLOT": "F2+TF2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -132,6 +148,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-107",
     "SLOT": "F2+TF2",
     "FACULTY": "FACE (APT)"
   },
@@ -140,6 +157,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-108",
     "SLOT": "F2+TF2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -148,6 +166,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-109",
     "SLOT": "F2+TF2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -156,6 +175,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-203",
     "SLOT": "F2+TF2",
     "FACULTY": "FACE (APT)"
   },
@@ -164,6 +184,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-204",
     "SLOT": "F2+TF2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -172,6 +193,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-205",
     "SLOT": "F2+TF2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -180,6 +202,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-206",
     "SLOT": "F2+TF2",
     "FACULTY": "FACE (APT)"
   },
@@ -188,6 +211,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-207",
     "SLOT": "F2+TF2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -196,6 +220,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-208",
     "SLOT": "F2+TF2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -204,6 +229,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-301",
     "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)"
   },
@@ -212,6 +238,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-302",
     "SLOT": "B1+TB1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -220,6 +247,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-303",
     "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -228,6 +256,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-402",
     "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)"
   },
@@ -236,6 +265,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-408",
     "SLOT": "B1+TB1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -244,6 +274,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-301",
     "SLOT": "B2+TB2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -252,6 +283,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-302",
     "SLOT": "B2+TB2",
     "FACULTY": "FACE (APT)"
   },
@@ -260,6 +292,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-402",
     "SLOT": "B2+TB2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -268,6 +301,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-301",
     "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -276,6 +310,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-302",
     "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)"
   },
@@ -284,6 +319,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-308",
     "SLOT": "B1+TB1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -292,6 +328,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-309",
     "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -300,6 +337,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-608",
     "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)"
   },
@@ -308,6 +346,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-609",
     "SLOT": "B1+TB1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -316,6 +355,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-610",
     "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -324,6 +364,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB4-514",
     "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)"
   },
@@ -332,6 +373,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-301",
     "SLOT": "B2+TB2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -340,6 +382,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-302",
     "SLOT": "B2+TB2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -348,6 +391,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-308",
     "SLOT": "B2+TB2",
     "FACULTY": "FACE (APT)"
   },
@@ -356,6 +400,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-309",
     "SLOT": "B2+TB2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -364,6 +409,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-608",
     "SLOT": "B2+TB2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -372,6 +418,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-609",
     "SLOT": "B2+TB2",
     "FACULTY": "FACE (APT)"
   },
@@ -380,6 +427,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB1-702",
     "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -388,6 +436,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-401",
     "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)"
   },
@@ -396,6 +445,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-402",
     "SLOT": "B1+TB1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -404,6 +454,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-406",
     "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -412,6 +463,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-401",
     "SLOT": "B2+TB2",
     "FACULTY": "FACE (APT)"
   },
@@ -420,6 +472,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-402",
     "SLOT": "B2+TB2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -428,6 +481,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "ADB-702",
     "SLOT": "B1+TB1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -436,6 +490,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-208",
     "SLOT": "E1+TE1",
     "FACULTY": "FACE (APT)"
   },
@@ -444,6 +499,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-209",
     "SLOT": "E1+TE1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -452,6 +508,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-211",
     "SLOT": "E1+TE1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -460,6 +517,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-303",
     "SLOT": "E1+TE1",
     "FACULTY": "FACE (APT)"
   },
@@ -468,6 +526,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-304",
     "SLOT": "E1+TE1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -476,6 +535,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-305",
     "SLOT": "E1+TE1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -484,6 +544,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-306",
     "SLOT": "E1+TE1",
     "FACULTY": "FACE (APT)"
   },
@@ -492,6 +553,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-307",
     "SLOT": "E1+TE1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -500,6 +562,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-308",
     "SLOT": "E1+TE1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -508,6 +571,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-309",
     "SLOT": "E1+TE1",
     "FACULTY": "FACE (APT)"
   },
@@ -516,6 +580,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-313",
     "SLOT": "E1+TE1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -524,6 +589,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-403",
     "SLOT": "E1+TE1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -532,6 +598,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-404",
     "SLOT": "E1+TE1",
     "FACULTY": "FACE (APT)"
   },
@@ -540,6 +607,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-209",
     "SLOT": "E2+TE2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -548,6 +616,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-211",
     "SLOT": "E2+TE2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -556,6 +625,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-303",
     "SLOT": "E2+TE2",
     "FACULTY": "FACE (APT)"
   },
@@ -564,6 +634,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-304",
     "SLOT": "E2+TE2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -572,6 +643,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-305",
     "SLOT": "E2+TE2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -580,6 +652,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-306",
     "SLOT": "E2+TE2",
     "FACULTY": "FACE (APT)"
   },
@@ -588,6 +661,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-307",
     "SLOT": "E2+TE2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -596,6 +670,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-308",
     "SLOT": "E2+TE2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -604,6 +679,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-309",
     "SLOT": "E2+TE2",
     "FACULTY": "FACE (APT)"
   },
@@ -612,6 +688,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB3-313",
     "SLOT": "E2+TE2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -620,6 +697,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB2-406",
     "SLOT": "B2+TB2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -627,7 +705,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-304",
     "SLOT": "D1+TD1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -635,7 +714,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-305",
     "SLOT": "D1+TD1",
     "FACULTY": "FACE (APT)"
   },
@@ -643,7 +723,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-306",
     "SLOT": "D1+TD1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -651,7 +732,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB1-409",
     "SLOT": "D1+TD1",
     "FACULTY": "FACE (APT)"
   },
@@ -659,7 +741,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB1-410",
     "SLOT": "D1+TD1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -667,7 +750,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-304",
     "SLOT": "D2+TD2",
     "FACULTY": "FACE (APT)"
   },
@@ -675,7 +759,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-305",
     "SLOT": "D2+TD2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -683,79 +768,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D2+TD2",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D1+TD1",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB1-409",
     "SLOT": "D2+TD2",
     "FACULTY": "FACE (APT)"
   },
@@ -763,55 +777,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D2+TD2",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D2+TD2",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D2+TD2",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D2+TD2",
-    "FACULTY": "FACE (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D2+TD2",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
-    "SLOT": "D2+TD2",
-    "FACULTY": "ETHNUS (APT)"
-  },
-  {
-    "CODE": "BSTS301P",
-    "TITLE": "Advanced Competitive Coding - I",
-    "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB1-611",
     "SLOT": "D1+TD1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -819,7 +786,143 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB1-710",
+    "SLOT": "D1+TD1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-711",
+    "SLOT": "D1+TD1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-801",
+    "SLOT": "D1+TD1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-802",
+    "SLOT": "D1+TD1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-808",
+    "SLOT": "D1+TD1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-809",
+    "SLOT": "D1+TD1",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB4-516",
+    "SLOT": "D1+TD1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-611",
+    "SLOT": "D2+TD2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-710",
+    "SLOT": "D2+TD2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-711",
+    "SLOT": "D2+TD2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-801",
+    "SLOT": "D2+TD2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-802",
+    "SLOT": "D2+TD2",
+    "FACULTY": "FACE (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-808",
+    "SLOT": "D2+TD2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-809",
+    "SLOT": "D2+TD2",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB1-708",
+    "SLOT": "D1+TD1",
+    "FACULTY": "ETHNUS (APT)"
+  },
+  {
+    "CODE": "BSTS301P",
+    "TITLE": "Advanced Competitive Coding - I",
+    "TYPE": "SS",
+    "CREDITS": "1.5",
+    "VENUE": "AB3-405",
     "SLOT": "G1+TG1",
     "FACULTY": "FACE (APT)"
   },
@@ -827,7 +930,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-406",
     "SLOT": "G1+TG1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -835,7 +939,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-407",
     "SLOT": "G1+TG1",
     "FACULTY": "FACE (APT)"
   },
@@ -843,7 +948,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-409",
     "SLOT": "G1+TG1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -851,7 +957,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-413",
     "SLOT": "G1+TG1",
     "FACULTY": "FACE (APT)"
   },
@@ -859,7 +966,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-503",
     "SLOT": "G1+TG1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -867,7 +975,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-504",
     "SLOT": "G1+TG1",
     "FACULTY": "FACE (APT)"
   },
@@ -875,7 +984,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-505",
     "SLOT": "G1+TG1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -883,7 +993,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-506",
     "SLOT": "G1+TG1",
     "FACULTY": "FACE (APT)"
   },
@@ -891,7 +1002,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-507",
     "SLOT": "G1+TG1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -899,7 +1011,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-403",
     "SLOT": "G2+TG2",
     "FACULTY": "FACE (APT)"
   },
@@ -907,7 +1020,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-404",
     "SLOT": "G2+TG2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -915,7 +1029,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-405",
     "SLOT": "G2+TG2",
     "FACULTY": "FACE (APT)"
   },
@@ -923,7 +1038,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-406",
     "SLOT": "G2+TG2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -931,7 +1047,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-407",
     "SLOT": "G2+TG2",
     "FACULTY": "FACE (APT)"
   },
@@ -939,7 +1056,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-408",
     "SLOT": "G2+TG2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -947,7 +1065,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-409",
     "SLOT": "G2+TG2",
     "FACULTY": "FACE (APT)"
   },
@@ -955,7 +1074,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-413",
     "SLOT": "G2+TG2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -963,7 +1083,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-503",
     "SLOT": "G2+TG2",
     "FACULTY": "FACE (APT)"
   },
@@ -971,7 +1092,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-504",
     "SLOT": "G2+TG2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -979,7 +1101,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-505",
     "SLOT": "G2+TG2",
     "FACULTY": "FACE (APT)"
   },
@@ -987,7 +1110,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-506",
     "SLOT": "G2+TG2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -995,7 +1119,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-403",
     "SLOT": "D1+TD1",
     "FACULTY": "FACE (APT)"
   },
@@ -1003,7 +1128,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-404",
     "SLOT": "D1+TD1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1011,7 +1137,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-407",
     "SLOT": "D1+TD1",
     "FACULTY": "FACE (APT)"
   },
@@ -1019,7 +1146,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-403",
     "SLOT": "D2+TD2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1027,7 +1155,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB2-404",
     "SLOT": "D2+TD2",
     "FACULTY": "FACE (APT)"
   },
@@ -1035,7 +1164,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-508",
     "SLOT": "C1+TC1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1043,7 +1173,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-509",
     "SLOT": "C1+TC1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1051,7 +1182,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-513",
     "SLOT": "C1+TC1",
     "FACULTY": "FACE (APT)"
   },
@@ -1059,7 +1191,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-603",
     "SLOT": "C1+TC1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1067,7 +1200,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-604",
     "SLOT": "C1+TC1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1075,7 +1209,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-605",
     "SLOT": "C1+TC1",
     "FACULTY": "FACE (APT)"
   },
@@ -1083,7 +1218,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-606",
     "SLOT": "C1+TC1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1091,7 +1227,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-607",
     "SLOT": "C1+TC1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1099,7 +1236,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-608",
     "SLOT": "C1+TC1",
     "FACULTY": "FACE (APT)"
   },
@@ -1107,7 +1245,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-609",
     "SLOT": "C1+TC1",
     "FACULTY": "FACE (APT)"
   },
@@ -1115,7 +1254,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-613",
     "SLOT": "C1+TC1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1123,7 +1263,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-703",
     "SLOT": "C1+TC1",
     "FACULTY": "FACE (APT)"
   },
@@ -1131,7 +1272,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-704",
     "SLOT": "C1+TC1",
     "FACULTY": "FACE (APT)"
   },
@@ -1139,7 +1281,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-508",
     "SLOT": "C2+TC2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1147,7 +1290,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-509",
     "SLOT": "C2+TC2",
     "FACULTY": "FACE (APT)"
   },
@@ -1155,7 +1299,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-513",
     "SLOT": "C2+TC2",
     "FACULTY": "FACE (APT)"
   },
@@ -1163,7 +1308,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-603",
     "SLOT": "C2+TC2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1171,7 +1317,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-604",
     "SLOT": "C2+TC2",
     "FACULTY": "FACE (APT)"
   },
@@ -1179,7 +1326,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-605",
     "SLOT": "C2+TC2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1187,7 +1335,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-606",
     "SLOT": "C2+TC2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1195,7 +1344,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-607",
     "SLOT": "C2+TC2",
     "FACULTY": "FACE (APT)"
   },
@@ -1203,7 +1353,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-608",
     "SLOT": "C2+TC2",
     "FACULTY": "FACE (APT)"
   },
@@ -1211,7 +1362,8 @@ const data = [
     "CODE": "BSTS301P",
     "TITLE": "Advanced Competitive Coding - I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-609",
     "SLOT": "C2+TC2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1220,6 +1372,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB4-504",
     "SLOT": "F1+TF1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1228,6 +1381,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB4-505",
     "SLOT": "F1+TF1",
     "FACULTY": "FACE (APT)"
   },
@@ -1236,6 +1390,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB4-502",
     "SLOT": "F1+TF1",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -1244,6 +1399,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB4-503",
     "SLOT": "F1+TF1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1252,6 +1408,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB4-504",
     "SLOT": "F2+TF2",
     "FACULTY": "FACE (APT)"
   },
@@ -1260,6 +1417,7 @@ const data = [
     "TITLE": "Qualitative and Quantitative Skills Practice I",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "AB4-502",
     "SLOT": "F2+TF2",
     "FACULTY": "SIXPHRASE(APT)"
   },
@@ -1267,7 +1425,8 @@ const data = [
     "CODE": "ISTS301P",
     "TITLE": "Advanced Competitive Coding – I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB4-506",
     "SLOT": "F1+TF1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1275,7 +1434,8 @@ const data = [
     "CODE": "ISTS301P",
     "TITLE": "Advanced Competitive Coding – I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB4-512",
     "SLOT": "F1+TF1",
     "FACULTY": "FACE (APT)"
   },
@@ -1283,7 +1443,8 @@ const data = [
     "CODE": "ISTS301P",
     "TITLE": "Advanced Competitive Coding – I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB4-513",
     "SLOT": "F1+TF1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1291,7 +1452,8 @@ const data = [
     "CODE": "ISTS301P",
     "TITLE": "Advanced Competitive Coding – I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB4-506",
     "SLOT": "F2+TF2",
     "FACULTY": "FACE (APT)"
   },
@@ -1299,7 +1461,8 @@ const data = [
     "CODE": "ISTS301P",
     "TITLE": "Advanced Competitive Coding – I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB4-513",
     "SLOT": "F2+TF2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1308,6 +1471,7 @@ const data = [
     "TITLE": "Preparedness for External Opportunities",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "MAB3-103",
     "SLOT": "E1+TE1",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1316,6 +1480,7 @@ const data = [
     "TITLE": "Preparedness for External Opportunities",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "MAB3-103",
     "SLOT": "E2+TE2",
     "FACULTY": "ETHNUS (APT)"
   },
@@ -1324,6 +1489,7 @@ const data = [
     "TITLE": "Preparedness for External Opportunities",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "MAB3-102",
     "SLOT": "E1+TE1",
     "FACULTY": "FACE (APT)"
   },
@@ -1331,7 +1497,8 @@ const data = [
     "CODE": "USTS301P",
     "TITLE": "Advanced Competitive Coding-I",
     "TYPE": "SS",
-    "CREDITS": 1.5,
+    "CREDITS": "1.5",
+    "VENUE": "AB3-706",
     "SLOT": "F1+TF1",
     "FACULTY": "FACE (APT)"
   },
@@ -1340,6 +1507,7 @@ const data = [
     "TITLE": "Organic Chemistry for Biotechnologists",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-208",
     "SLOT": "E1+TE1",
     "FACULTY": "SATHIYANARAYANAN K"
   },
@@ -1348,6 +1516,7 @@ const data = [
     "TITLE": "Organic Chemistry for Biotechnologists",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L5+L6",
     "FACULTY": "SATHIYANARAYANAN K"
   },
@@ -1356,6 +1525,7 @@ const data = [
     "TITLE": "Organic Chemistry for Biotechnologists",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L5+L6",
     "FACULTY": "SUBHAYAN DEY"
   },
@@ -1364,6 +1534,7 @@ const data = [
     "TITLE": "Chemistry for Civil Engineers",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-701",
     "SLOT": "E1+TE1",
     "FACULTY": "SANTOSH G"
   },
@@ -1372,6 +1543,7 @@ const data = [
     "TITLE": "Chemistry for Civil Engineers",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L11+L12",
     "FACULTY": "SANTOSH G"
   },
@@ -1380,6 +1552,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-319",
     "SLOT": "F1+TF1",
     "FACULTY": "TANUSHREE CHOUDHRY"
   },
@@ -1388,6 +1561,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L43+L44",
     "FACULTY": "TANUSHREE CHOUDHRY"
   },
@@ -1396,6 +1570,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-319",
     "SLOT": "F2+TF2",
     "FACULTY": "TANUSHREE CHOUDHRY"
   },
@@ -1404,6 +1579,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L29+L30",
     "FACULTY": "TANUSHREE CHOUDHRY"
   },
@@ -1412,6 +1588,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-320",
     "SLOT": "F1+TF1",
     "FACULTY": "KRISHNENDU BISWAS"
   },
@@ -1420,6 +1597,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L49+L50",
     "FACULTY": "KRISHNENDU BISWAS"
   },
@@ -1428,6 +1606,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-320",
     "SLOT": "F2+TF2",
     "FACULTY": "KRISHNENDU BISWAS"
   },
@@ -1436,6 +1615,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L23+L24",
     "FACULTY": "KRISHNENDU BISWAS"
   },
@@ -1444,6 +1624,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-401",
     "SLOT": "F1+TF1",
     "FACULTY": "MILIND SHRINIVAS DANGATE"
   },
@@ -1452,6 +1633,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L49+L50",
     "FACULTY": "MILIND SHRINIVAS DANGATE"
   },
@@ -1460,6 +1642,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-401",
     "SLOT": "F2+TF2",
     "FACULTY": "MILIND SHRINIVAS DANGATE"
   },
@@ -1468,6 +1651,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L13+L14",
     "FACULTY": "MILIND SHRINIVAS DANGATE"
   },
@@ -1476,6 +1660,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-402",
     "SLOT": "F1+TF1",
     "FACULTY": "SHYAMAPADA NANDI"
   },
@@ -1484,6 +1669,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L51+L52",
     "FACULTY": "SHYAMAPADA NANDI"
   },
@@ -1492,6 +1678,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-402",
     "SLOT": "F2+TF2",
     "FACULTY": "SHYAMAPADA NANDI"
   },
@@ -1500,6 +1687,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L3+L4",
     "FACULTY": "SHYAMAPADA NANDI"
   },
@@ -1508,6 +1696,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-403",
     "SLOT": "F1+TF1",
     "FACULTY": "KIRAN KUMAR TADI"
   },
@@ -1516,6 +1705,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L33+L34",
     "FACULTY": "KIRAN KUMAR TADI"
   },
@@ -1524,6 +1714,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-403",
     "SLOT": "F2+TF2",
     "FACULTY": "KIRAN KUMAR TADI"
   },
@@ -1532,6 +1723,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L7+L8",
     "FACULTY": "KIRAN KUMAR TADI"
   },
@@ -1540,6 +1732,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-404",
     "SLOT": "F1+TF1",
     "FACULTY": "SAHELI KARMAKAR"
   },
@@ -1548,6 +1741,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L51+L52",
     "FACULTY": "SAHELI KARMAKAR"
   },
@@ -1556,6 +1750,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-404",
     "SLOT": "F2+TF2",
     "FACULTY": "SAHELI KARMAKAR"
   },
@@ -1564,6 +1759,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L3+L4",
     "FACULTY": "SAHELI KARMAKAR"
   },
@@ -1572,6 +1768,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-405",
     "SLOT": "F1+TF1",
     "FACULTY": "KARTHIKA PICHAIMUTHU"
   },
@@ -1580,6 +1777,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L53+L54",
     "FACULTY": "KARTHIKA PICHAIMUTHU"
   },
@@ -1588,6 +1786,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-405",
     "SLOT": "F2+TF2",
     "FACULTY": "KARTHIKA PICHAIMUTHU"
   },
@@ -1596,6 +1795,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L21+L22",
     "FACULTY": "KARTHIKA PICHAIMUTHU"
   },
@@ -1604,6 +1804,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-317",
     "SLOT": "F1+TF1",
     "FACULTY": "SANTOSH G"
   },
@@ -1612,6 +1813,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L45+L46",
     "FACULTY": "SANTOSH G"
   },
@@ -1620,6 +1822,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-318",
     "SLOT": "F1+TF1",
     "FACULTY": "ILAIYARAJA PERUMAL"
   },
@@ -1628,6 +1831,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L5+L6",
     "FACULTY": "ILAIYARAJA PERUMAL"
   },
@@ -1636,6 +1840,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-406",
     "SLOT": "F1+TF1",
     "FACULTY": "SUJOY SARKAR"
   },
@@ -1644,6 +1849,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L33+L34",
     "FACULTY": "SUJOY SARKAR"
   },
@@ -1652,6 +1858,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-406",
     "SLOT": "F2+TF2",
     "FACULTY": "BUTHANAPALLI RAMAKRISHNA"
   },
@@ -1660,6 +1867,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L13+L14",
     "FACULTY": "BUTHANAPALLI RAMAKRISHNA"
   },
@@ -1668,6 +1876,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-412",
     "SLOT": "F1+TF1",
     "FACULTY": "GANESAN"
   },
@@ -1676,6 +1885,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L41+L42",
     "FACULTY": "GANESAN"
   },
@@ -1684,6 +1894,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-413",
     "SLOT": "F1+TF1",
     "FACULTY": "VINU MOHAN A M"
   },
@@ -1692,6 +1903,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L39+L40",
     "FACULTY": "VINU MOHAN A M"
   },
@@ -1700,6 +1912,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-417",
     "SLOT": "F1+TF1",
     "FACULTY": "JAYANTA PARUI"
   },
@@ -1708,6 +1921,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L37+L38",
     "FACULTY": "JAYANTA PARUI"
   },
@@ -1716,6 +1930,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-417",
     "SLOT": "F2+TF2",
     "FACULTY": "RAJESHKUMAR T"
   },
@@ -1724,6 +1939,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L9+L10",
     "FACULTY": "RAJESHKUMAR T"
   },
@@ -1732,6 +1948,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-416",
     "SLOT": "F1+TF1",
     "FACULTY": "PERUMAL D"
   },
@@ -1740,6 +1957,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L47+L48",
     "FACULTY": "PERUMAL D"
   },
@@ -1748,6 +1966,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-416",
     "SLOT": "F2+TF2",
     "FACULTY": "PERUMAL D"
   },
@@ -1756,6 +1975,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L25+L26",
     "FACULTY": "PERUMAL D"
   },
@@ -1764,6 +1984,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-414",
     "SLOT": "F1+TF1",
     "FACULTY": "SIVASUBRAMANIAN R"
   },
@@ -1772,6 +1993,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L35+L36",
     "FACULTY": "SIVASUBRAMANIAN R"
   },
@@ -1780,6 +2002,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-414",
     "SLOT": "F2+TF2",
     "FACULTY": "SIVASUBRAMANIAN R"
   },
@@ -1788,6 +2011,7 @@ const data = [
     "TITLE": "Applied Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L25+L26",
     "FACULTY": "SIVASUBRAMANIAN R"
   },
@@ -1796,6 +2020,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-204",
     "SLOT": "E2+TE2",
     "FACULTY": "SUBHAYAN DEY"
   },
@@ -1804,6 +2029,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L1+L2",
     "FACULTY": "SUBHAYAN DEY"
   },
@@ -1812,6 +2038,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-205",
     "SLOT": "E1+TE1",
     "FACULTY": "SARAVANAKUMAR R"
   },
@@ -1820,6 +2047,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L37+L38",
     "FACULTY": "SARAVANAKUMAR R"
   },
@@ -1828,6 +2056,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-205",
     "SLOT": "E2+TE2",
     "FACULTY": "SARAVANAKUMAR R"
   },
@@ -1836,6 +2065,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L29+L30",
     "FACULTY": "SARAVANAKUMAR R"
   },
@@ -1844,6 +2074,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-206",
     "SLOT": "E1+TE1",
     "FACULTY": "LAKKOJI SATISH"
   },
@@ -1852,6 +2083,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L31+L32",
     "FACULTY": "LAKKOJI SATISH"
   },
@@ -1860,6 +2092,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-206",
     "SLOT": "E2+TE2",
     "FACULTY": "LAKKOJI SATISH"
   },
@@ -1868,6 +2101,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L27+L28",
     "FACULTY": "LAKKOJI SATISH"
   },
@@ -1876,6 +2110,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-204",
     "SLOT": "E1+TE1",
     "FACULTY": "RAMACHANDRAN"
   },
@@ -1884,6 +2119,7 @@ const data = [
     "TITLE": "Chemistry for Electrical and Electronics Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L1+L2",
     "FACULTY": "RAMACHANDRAN"
   },
@@ -1892,6 +2128,7 @@ const data = [
     "TITLE": "Chemistry for Textile Technology",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "ADB-604",
     "SLOT": "E2+TE2",
     "FACULTY": "MAHALAKSHMI S"
   },
@@ -1900,6 +2137,7 @@ const data = [
     "TITLE": "Chemistry for Textile Technology",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L23+L24",
     "FACULTY": "MAHALAKSHMI S"
   },
@@ -1908,7 +2146,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-208",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "RAJESH KUMAR MOHAPATRA"
   },
   {
@@ -1916,7 +2155,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-304",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "RADHA S"
   },
   {
@@ -1924,7 +2164,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-208",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "ASHISH KUMAR"
   },
   {
@@ -1932,7 +2173,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-305",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "PADMAJA N"
   },
   {
@@ -1940,7 +2182,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-306",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "ASHIS BERA"
   },
   {
@@ -1948,7 +2191,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-313",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "AVINASH KUMAR MITTAL"
   },
   {
@@ -1956,7 +2200,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-307",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "BASUA DEBANANDA"
   },
   {
@@ -1964,7 +2209,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-211",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "SANKARSAN TARAI"
   },
   {
@@ -1972,7 +2218,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-304",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "RADHA S"
   },
   {
@@ -1980,7 +2227,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-309",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "MUTHUNAGAI"
   },
   {
@@ -1988,7 +2236,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-309",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "PULAK KONAR"
   },
   {
@@ -1996,7 +2245,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-313",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "AVINASH KUMAR MITTAL"
   },
   {
@@ -2004,7 +2254,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-404",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "SRIRAMAN R"
   },
   {
@@ -2012,7 +2263,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-209",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "NATHIYA N"
   },
   {
@@ -2020,7 +2272,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-303",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "RAJIVGANTHI"
   },
   {
@@ -2028,7 +2281,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-305",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "SUKAVANAM N"
   },
   {
@@ -2036,7 +2290,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-306",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "DAVID MAXIM GURURAJ A"
   },
   {
@@ -2044,7 +2299,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-307",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "UMA MAHESWARI S"
   },
   {
@@ -2052,7 +2308,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-308",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "DHANASEKAR S"
   },
   {
@@ -2060,7 +2317,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-209",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "RUPCHAND SUTRADHAR"
   },
   {
@@ -2068,7 +2326,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-211",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "MEGALA M"
   },
   {
@@ -2076,7 +2335,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-303",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "SHARATH JOSE"
   },
   {
@@ -2084,7 +2344,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-403",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "DHANASEKAR S"
   },
   {
@@ -2092,7 +2353,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-308",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "SARANYA G"
   },
   {
@@ -2100,7 +2362,8 @@ const data = [
     "TITLE": "Mathematical Foundations for Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB1-608",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "SOMNATH BERA"
   },
   {
@@ -2108,7 +2371,8 @@ const data = [
     "TITLE": "Mathematical Foundations for Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB1-609",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "DHIVYA P"
   },
   {
@@ -2116,7 +2380,8 @@ const data = [
     "TITLE": "Mathematical Foundations for Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB1-610",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "NATHIYA N"
   },
   {
@@ -2124,7 +2389,8 @@ const data = [
     "TITLE": "Mathematical Foundations for Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB1-608",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "DEVI YAMINI S"
   },
   {
@@ -2132,7 +2398,8 @@ const data = [
     "TITLE": "Mathematical Foundations for Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB1-609",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "ABHISHEK KUMAR SINGH"
   },
   {
@@ -2140,6 +2407,7 @@ const data = [
     "TITLE": "Environmental Sciences",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "SUNIT KUMAR"
   },
@@ -2148,6 +2416,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "F2+TF2",
     "FACULTY": "BALAJI"
   },
@@ -2156,6 +2425,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "F2+TF2",
     "FACULTY": "PAVITHRA R"
   },
@@ -2164,6 +2434,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "F2+TF2",
     "FACULTY": "JAYAGOPAL R"
   },
@@ -2172,6 +2443,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "F2+TF2",
     "FACULTY": "KARTHIK S"
   },
@@ -2180,6 +2452,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "F2+TF2",
     "FACULTY": "RAJESH KUMAR MOHAPATRA"
   },
@@ -2188,6 +2461,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "F2+TF2",
     "FACULTY": "THARASI DILLESWAR"
   },
@@ -2196,6 +2470,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "F2+TF2",
     "FACULTY": "KRISHNA KUMAR"
   },
@@ -2204,6 +2479,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "F2+TF2",
     "FACULTY": "SANDIP"
   },
@@ -2212,6 +2488,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "F2+TF2",
     "FACULTY": "SURATH"
   },
@@ -2220,6 +2497,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "F2+TF2",
     "FACULTY": "JAGANATHAN B"
   },
@@ -2228,6 +2506,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "F2+TF2",
     "FACULTY": "AMIT KUMAR RAHUL"
   },
@@ -2236,6 +2515,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "F1+TF1",
     "FACULTY": "PAVITHRA R"
   },
@@ -2244,6 +2524,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "F1+TF1",
     "FACULTY": "JAYAGOPAL R"
   },
@@ -2252,6 +2533,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "F1+TF1",
     "FACULTY": "BALAJI"
   },
@@ -2260,6 +2542,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "F1+TF1",
     "FACULTY": "THANGARAJ M"
   },
@@ -2268,6 +2551,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "F1+TF1",
     "FACULTY": "THARASI DILLESWAR"
   },
@@ -2276,6 +2560,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "F1+TF1",
     "FACULTY": "SANDIP"
   },
@@ -2284,6 +2569,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "F1+TF1",
     "FACULTY": "SURATH"
   },
@@ -2292,6 +2578,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "F1+TF1",
     "FACULTY": "JAGANATHAN B"
   },
@@ -2300,6 +2587,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "F1+TF1",
     "FACULTY": "BERIN GREENI A"
   },
@@ -2308,6 +2596,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "F1+TF1",
     "FACULTY": "AMIT KUMAR RAHUL"
   },
@@ -2316,6 +2605,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "F1+TF1",
     "FACULTY": "KRISHNA KUMAR"
   },
@@ -2324,6 +2614,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "F1+TF1",
     "FACULTY": "MOHANA N"
   },
@@ -2332,6 +2623,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "F1+TF1",
     "FACULTY": "PULAK KONAR"
   },
@@ -2340,6 +2632,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "E1+TE1",
     "FACULTY": "RAJESH KUMAR MOHAPATRA"
   },
@@ -2348,6 +2641,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "E1+TE1",
     "FACULTY": "MYTHILI G Y"
   },
@@ -2356,6 +2650,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "E1+TE1",
     "FACULTY": "SETHUKUMARASAMY"
   },
@@ -2364,6 +2659,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "E2+TE2",
     "FACULTY": "THANGARAJ M"
   },
@@ -2372,6 +2668,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "E2+TE2",
     "FACULTY": "KARTHIK S"
   },
@@ -2380,6 +2677,7 @@ const data = [
     "TITLE": "Probability and Statistics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "E2+TE2",
     "FACULTY": "SETHUKUMARASAMY"
   },
@@ -2388,6 +2686,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L7+L8",
     "FACULTY": "AMIT KUMAR RAHUL"
   },
@@ -2396,6 +2695,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-613",
     "SLOT": "L51+L52",
     "FACULTY": "AMIT KUMAR RAHUL"
   },
@@ -2404,6 +2704,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L21+L22",
     "FACULTY": "BALAJI"
   },
@@ -2412,6 +2713,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L51+L52",
     "FACULTY": "BALAJI"
   },
@@ -2420,6 +2722,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L31+L32",
     "FACULTY": "BERIN GREENI A"
   },
@@ -2428,6 +2731,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L19+L20",
     "FACULTY": "JAGANATHAN B"
   },
@@ -2436,6 +2740,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L39+L40",
     "FACULTY": "JAGANATHAN B"
   },
@@ -2444,6 +2749,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L37+L38",
     "FACULTY": "JAYAGOPAL R"
   },
@@ -2452,6 +2758,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L7+L8",
     "FACULTY": "JAYAGOPAL R"
   },
@@ -2460,6 +2767,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L15+L16",
     "FACULTY": "KARTHIK S"
   },
@@ -2468,6 +2776,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L21+L22",
     "FACULTY": "KRISHNA KUMAR"
   },
@@ -2476,6 +2785,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L37+L38",
     "FACULTY": "KRISHNA KUMAR"
   },
@@ -2484,6 +2794,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L31+L32",
     "FACULTY": "MOHANA N"
   },
@@ -2492,6 +2803,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L49+L50",
     "FACULTY": "PAVITHRA R"
   },
@@ -2500,6 +2812,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L9+L10",
     "FACULTY": "PAVITHRA R"
   },
@@ -2508,6 +2821,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-613",
     "SLOT": "L37+L38",
     "FACULTY": "PULAK KONAR"
   },
@@ -2516,6 +2830,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L13+L14",
     "FACULTY": "RAJESH KUMAR MOHAPATRA"
   },
@@ -2524,6 +2839,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-613",
     "SLOT": "L19+L20",
     "FACULTY": "SANDIP"
   },
@@ -2532,6 +2848,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L51+L52",
     "FACULTY": "SANDIP"
   },
@@ -2540,6 +2857,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L25+L26",
     "FACULTY": "SURATH"
   },
@@ -2548,6 +2866,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L49+L50",
     "FACULTY": "SURATH"
   },
@@ -2556,6 +2875,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L43+L44",
     "FACULTY": "THANGARAJ M"
   },
@@ -2564,6 +2884,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L19+L20",
     "FACULTY": "THARASI DILLESWAR"
   },
@@ -2572,6 +2893,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L39+L40",
     "FACULTY": "THARASI DILLESWAR"
   },
@@ -2580,6 +2902,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L11+L12",
     "FACULTY": "MYTHILI G Y"
   },
@@ -2588,6 +2911,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L33+L34",
     "FACULTY": "SETHUKUMARASAMY"
   },
@@ -2596,6 +2920,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505A",
     "SLOT": "L11+L12",
     "FACULTY": "SETHUKUMARASAMY"
   },
@@ -2604,6 +2929,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-505",
     "SLOT": "L23+L24",
     "FACULTY": "KARTHIK S"
   },
@@ -2612,6 +2938,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-606A",
     "SLOT": "L37+L38",
     "FACULTY": "RAJESH KUMAR MOHAPATRA"
   },
@@ -2620,6 +2947,7 @@ const data = [
     "TITLE": "Probability and Statistics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-606A",
     "SLOT": "L19+L20",
     "FACULTY": "THANGARAJ M"
   },
@@ -2628,7 +2956,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-405",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "THANGARAJ M"
   },
   {
@@ -2636,7 +2965,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-406",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "BERIN GREENI A"
   },
   {
@@ -2644,7 +2974,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-407",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "KALYAN"
   },
   {
@@ -2652,7 +2983,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-408",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "OM NAMHA SHIVAY"
   },
   {
@@ -2660,7 +2992,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-409",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SANDIP"
   },
   {
@@ -2668,7 +3001,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-413",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "AMIT KUMAR RAHUL"
   },
   {
@@ -2676,7 +3010,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-503",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SOUMENDU ROY"
   },
   {
@@ -2684,7 +3019,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-504",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "KRITI ARYA"
   },
   {
@@ -2692,7 +3028,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-505",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "JAYAGOPAL R"
   },
   {
@@ -2700,7 +3037,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-506",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "JAGANATHAN B"
   },
   {
@@ -2708,7 +3046,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-507",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "PULAK KONAR"
   },
   {
@@ -2716,7 +3055,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-407",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "PROSENJIT"
   },
   {
@@ -2724,7 +3064,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-406",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "BERIN GREENI A"
   },
   {
@@ -2732,7 +3073,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-405",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "PROSENJIT"
   },
   {
@@ -2740,7 +3082,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-407",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "DHIVYA P"
   },
   {
@@ -2748,7 +3091,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-408",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SAURABH CHANDRA MAURY"
   },
   {
@@ -2756,7 +3100,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-409",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "ANKIT KUMAR"
   },
   {
@@ -2764,7 +3109,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-413",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SURATH"
   },
   {
@@ -2772,7 +3118,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-503",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SANDIP DALUI"
   },
   {
@@ -2780,7 +3127,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-504",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SANDIP KUMAR DAS"
   },
   {
@@ -2788,7 +3136,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-505",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SAGITHYA"
   },
   {
@@ -2796,7 +3145,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-506",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "P MOHAN"
   },
   {
@@ -2804,7 +3154,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-403",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "KOMAL KUMAR"
   },
   {
@@ -2812,7 +3163,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-404",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "MOHIT KUMAR"
   },
   {
@@ -2820,6 +3172,7 @@ const data = [
     "TITLE": "Environmental Sciences",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ARULMANI S"
   },
@@ -2828,6 +3181,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-419",
     "SLOT": "G1+TG1",
     "FACULTY": "JAYANTA PARUI"
   },
@@ -2836,6 +3190,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L31+L32",
     "FACULTY": "JAYANTA PARUI"
   },
@@ -2844,6 +3199,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-501",
     "SLOT": "G1+TG1",
     "FACULTY": "ARULMANI S"
   },
@@ -2852,6 +3208,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L55+L56",
     "FACULTY": "ARULMANI S"
   },
@@ -2860,6 +3217,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-418",
     "SLOT": "G1+TG1",
     "FACULTY": "SUNIT KUMAR"
   },
@@ -2868,6 +3226,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L43+L44",
     "FACULTY": "SUNIT KUMAR"
   },
@@ -2876,6 +3235,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-418",
     "SLOT": "G2+TG2",
     "FACULTY": "SUNIT KUMAR"
   },
@@ -2884,6 +3244,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L9+L10",
     "FACULTY": "SUNIT KUMAR"
   },
@@ -2892,6 +3253,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-420",
     "SLOT": "G1+TG1",
     "FACULTY": "RAJESHKUMAR T"
   },
@@ -2900,6 +3262,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102L",
     "SLOT": "L55+L56",
     "FACULTY": "RAJESHKUMAR T"
   },
@@ -2908,6 +3271,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-420",
     "SLOT": "G2+TG2",
     "FACULTY": "ACAD FACULTY"
   },
@@ -2916,6 +3280,7 @@ const data = [
     "TITLE": "Engineering Chemistry",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-102",
     "SLOT": "L15+L16",
     "FACULTY": "ACAD FACULTY"
   },
@@ -2924,7 +3289,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB4-502",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "MOHD IMRAN IDRISI"
   },
   {
@@ -2932,7 +3298,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB4-503",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "BHARANIDHARAN R"
   },
   {
@@ -2940,7 +3307,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB4-504",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "NAZEER ANSARI"
   },
   {
@@ -2948,7 +3316,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB4-505",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "POULOMI DE"
   },
   {
@@ -2956,7 +3325,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB4-502",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "KARTHICK G"
   },
   {
@@ -2964,7 +3334,8 @@ const data = [
     "TITLE": "Discrete Mathematics and Graph Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB4-504",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "ARNAB KAYAL"
   },
   {
@@ -2972,6 +3343,7 @@ const data = [
     "TITLE": "Environmental Sciences",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "VINU MOHAN A M"
   },
@@ -2980,7 +3352,8 @@ const data = [
     "TITLE": "Complex Variables and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "MAB3-101",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "MANIMARAN J"
   },
   {
@@ -2988,7 +3361,8 @@ const data = [
     "TITLE": "Complex Variables and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "MAB3-102",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "HANNAH GRACE G"
   },
   {
@@ -2996,7 +3370,8 @@ const data = [
     "TITLE": "Complex Variables and Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "MAB3-101",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "MANIMARAN J"
   },
   {
@@ -3004,6 +3379,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -3012,6 +3388,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -3020,6 +3397,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -3028,6 +3406,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -3036,6 +3415,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -3044,6 +3424,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -3052,6 +3433,7 @@ const data = [
     "TITLE": "Environmental Studies",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-605",
     "SLOT": "E1+TE1",
     "FACULTY": "SUBHAYAN DEY"
   },
@@ -3060,6 +3442,7 @@ const data = [
     "TITLE": "Linear Algebra",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-708",
     "SLOT": "G1+TG1",
     "FACULTY": "KARTHIK S"
   },
@@ -3068,7 +3451,8 @@ const data = [
     "TITLE": "Food, Nutrition and Health",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-405",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "JAYARAMAN G"
   },
   {
@@ -3076,7 +3460,8 @@ const data = [
     "TITLE": "Food, Nutrition and Health",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB3-405",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "SIVAKAMAVALLI J"
   },
   {
@@ -3084,6 +3469,7 @@ const data = [
     "TITLE": "Bioinspired Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-303",
     "SLOT": "G1+TG1",
     "FACULTY": "UNNIKRISHNAN B S"
   },
@@ -3092,6 +3478,7 @@ const data = [
     "TITLE": "Bioinspired Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-303",
     "SLOT": "G2+TG2",
     "FACULTY": "UNNIKRISHNAN B S"
   },
@@ -3100,6 +3487,7 @@ const data = [
     "TITLE": "Bioinspired Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-303",
     "SLOT": "F2+TF2",
     "FACULTY": "UNNIKRISHNAN B S"
   },
@@ -3108,6 +3496,7 @@ const data = [
     "TITLE": "Food, Nutrition and Health",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-304",
     "SLOT": "G1+TG1",
     "FACULTY": "YASHAVANTH P R"
   },
@@ -3116,6 +3505,7 @@ const data = [
     "TITLE": "Food, Nutrition and Health",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-304",
     "SLOT": "G2+TG2",
     "FACULTY": "YASHAVANTH P R"
   },
@@ -3124,6 +3514,7 @@ const data = [
     "TITLE": "Food, Nutrition and Health",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-303",
     "SLOT": "F1+TF1",
     "FACULTY": "YASHAVANTH P R"
   },
@@ -3132,6 +3523,7 @@ const data = [
     "TITLE": "Environmental Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-709",
     "SLOT": "E1+TE1",
     "FACULTY": "ANJALI GOPAKUMAR"
   },
@@ -3140,6 +3532,7 @@ const data = [
     "TITLE": "Environmental Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-703",
     "SLOT": "L49+L50",
     "FACULTY": "ANJALI GOPAKUMAR"
   },
@@ -3148,6 +3541,7 @@ const data = [
     "TITLE": "Environmental Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-703",
     "SLOT": "L37+L38",
     "FACULTY": "ANJALI GOPAKUMAR"
   },
@@ -3156,6 +3550,7 @@ const data = [
     "TITLE": "Waste Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-702",
     "SLOT": "F1+TF1",
     "FACULTY": "SENTHILPANDIAN M"
   },
@@ -3164,6 +3559,7 @@ const data = [
     "TITLE": "Fluid Mechanics and Hydraulic Machines",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-702",
     "SLOT": "D1+TD1",
     "FACULTY": "GOPIKA RAJAGOPAL"
   },
@@ -3172,6 +3568,7 @@ const data = [
     "TITLE": "Fluid Mechanics and Hydraulic Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L23+L24",
     "FACULTY": "GOPIKA RAJAGOPAL"
   },
@@ -3180,6 +3577,7 @@ const data = [
     "TITLE": "Fluid Mechanics and Hydraulic Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L33+L34",
     "FACULTY": "GOPIKA RAJAGOPAL"
   },
@@ -3188,6 +3586,7 @@ const data = [
     "TITLE": "Concrete Technology",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-702",
     "SLOT": "C1+TC1",
     "FACULTY": "ARUN KUMAR A"
   },
@@ -3196,6 +3595,7 @@ const data = [
     "TITLE": "Concrete Technology",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-003",
     "SLOT": "L43+L44",
     "FACULTY": "ARUN KUMAR A"
   },
@@ -3204,7 +3604,8 @@ const data = [
     "TITLE": "Engineering Geology",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB1-702",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "MOHAN K"
   },
   {
@@ -3212,6 +3613,7 @@ const data = [
     "TITLE": "Building Information Modelling in Construction",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-709",
     "SLOT": "C1+TC1",
     "FACULTY": "VASUGI V"
   },
@@ -3220,14 +3622,16 @@ const data = [
     "TITLE": "Building Information Modelling in Construction",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-703",
     "SLOT": "L43+L44",
     "FACULTY": "VASUGI V"
   },
   {
     "CODE": "BACLE422",
-    "TITLE": "Critical Thinking, Design Thinking, Leadership & Teamwork",
-    "TYPE": "TH",
+    "TITLE": "Critical Thinking, Design Thinking, Leadership & Team",
+    "TYPE": "TwHork",
     "CREDITS": 2,
+    "VENUE": "AB1-709",
     "SLOT": "A1",
     "FACULTY": "SARAVANAN K"
   },
@@ -3236,6 +3640,7 @@ const data = [
     "TITLE": "AI in Civil Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-708",
     "SLOT": "E1+TE1",
     "FACULTY": "VASUGI K"
   },
@@ -3244,6 +3649,7 @@ const data = [
     "TITLE": "Urban Planning and Development",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-709",
     "SLOT": "F1+TF1",
     "FACULTY": "SHANMUGA SUNDARAM"
   },
@@ -3252,6 +3658,7 @@ const data = [
     "TITLE": "Global Warming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-405",
     "SLOT": "G1+TG1",
     "FACULTY": "HELEN SANTHI M"
   },
@@ -3260,6 +3667,7 @@ const data = [
     "TITLE": "Global Warming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-411",
     "SLOT": "F1+TF1",
     "FACULTY": "ARUN KUMAR A"
   },
@@ -3268,6 +3676,7 @@ const data = [
     "TITLE": "Global Warming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-313",
     "SLOT": "G2+TG2",
     "FACULTY": "K PALANIVELU"
   },
@@ -3276,6 +3685,7 @@ const data = [
     "TITLE": "Waste Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "G2+TG2",
     "FACULTY": "SABUMON P C"
   },
@@ -3284,6 +3694,7 @@ const data = [
     "TITLE": "Waste Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-313",
     "SLOT": "G1+TG1",
     "FACULTY": "KARTHIYAINI S"
   },
@@ -3292,6 +3703,7 @@ const data = [
     "TITLE": "Waste Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-405",
     "SLOT": "F2+TF2",
     "FACULTY": "SENTHILPANDIAN M"
   },
@@ -3300,6 +3712,7 @@ const data = [
     "TITLE": "Water Resource Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "G1+TG1",
     "FACULTY": "ELAVENIL S"
   },
@@ -3308,6 +3721,7 @@ const data = [
     "TITLE": "Water Resource Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-411",
     "SLOT": "F2+TF2",
     "FACULTY": "YAMINI SREEVALLI I"
   },
@@ -3316,6 +3730,7 @@ const data = [
     "TITLE": "Foundation Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-708",
     "SLOT": "G1+TG1",
     "FACULTY": "GOPIKA RAJAGOPAL"
   },
@@ -3324,6 +3739,7 @@ const data = [
     "TITLE": "Design of Reinforced Concrete Structures",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-708",
     "SLOT": "A1+TA1",
     "FACULTY": "KARTHIKEYAN K"
   },
@@ -3332,6 +3748,7 @@ const data = [
     "TITLE": "Reinforced Concrete Structures Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-514",
     "SLOT": "L31+L32",
     "FACULTY": "KARTHIKEYAN K"
   },
@@ -3340,6 +3757,7 @@ const data = [
     "TITLE": "Transportation Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-708",
     "SLOT": "B1+TB1",
     "FACULTY": "VENKADAVARAHAN"
   },
@@ -3348,6 +3766,7 @@ const data = [
     "TITLE": "Construction Practices and Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-708",
     "SLOT": "F1+TF1",
     "FACULTY": "KARTHIYAINI S"
   },
@@ -3356,6 +3775,7 @@ const data = [
     "TITLE": "Building Information Modeling",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-708",
     "SLOT": "TC1",
     "FACULTY": "SENTHILPANDIAN M"
   },
@@ -3364,6 +3784,7 @@ const data = [
     "TITLE": "Building Information Modeling",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-514",
     "SLOT": "L37+L38",
     "FACULTY": "SENTHILPANDIAN M"
   },
@@ -3372,6 +3793,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -3380,6 +3802,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -3388,6 +3811,7 @@ const data = [
     "TITLE": "Project I",
     "TYPE": "PJT",
     "CREDITS": 14,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -3396,6 +3820,7 @@ const data = [
     "TITLE": "Project I",
     "TYPE": "PJT",
     "CREDITS": 14,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -3404,6 +3829,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -3412,6 +3838,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -3420,7 +3847,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L19+L20",
+    "VENUE": "AB1-607",
+    "SLOT": "L1+L2+L19",
     "FACULTY": "ANGELINE EZHILARASI G"
   },
   {
@@ -3428,7 +3856,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "AB1-506A",
+    "SLOT": "L31+L32+L",
     "FACULTY": "ANUSOOYA G"
   },
   {
@@ -3436,7 +3865,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L9+L10+L27+L28",
+    "VENUE": "AB3-511",
+    "SLOT": "L9+L10+L2",
     "FACULTY": "ANUSOOYA G"
   },
   {
@@ -3444,7 +3874,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L51+L52+L55+L56",
+    "VENUE": "AB3-511",
+    "SLOT": "L51+L52+L",
     "FACULTY": "JANAKI MEENA M"
   },
   {
@@ -3452,7 +3883,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L19+L20",
+    "VENUE": "AB3-511",
+    "SLOT": "L1+L2+L19",
     "FACULTY": "PRADEEP K"
   },
   {
@@ -3460,7 +3892,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "AB3-202",
+    "SLOT": "L31+L32+L",
     "FACULTY": "RADHA R"
   },
   {
@@ -3468,7 +3901,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L51+L52+L55+L56",
+    "VENUE": "AB3-602",
+    "SLOT": "L51+L52+L",
     "FACULTY": "INDRA PRIYADHARSHINI"
   },
   {
@@ -3476,7 +3910,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L9+L10",
+    "VENUE": "AB1-208",
+    "SLOT": "L1+L2+L9+L",
     "FACULTY": "INDRA PRIYADHARSHINI"
   },
   {
@@ -3484,7 +3919,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "AB3 - 412",
+    "SLOT": "L31+L32+L",
     "FACULTY": "JOSHAN"
   },
   {
@@ -3492,7 +3928,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "AB3-511",
+    "SLOT": "L31+L32+L",
     "FACULTY": "MANSOOR HUSSAIN D"
   },
   {
@@ -3500,7 +3937,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L27+L28",
+    "VENUE": "AB1-313",
+    "SLOT": "L1+L2+L27",
     "FACULTY": "MANSOOR HUSSAIN D"
   },
   {
@@ -3508,7 +3946,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "AB3-612",
+    "SLOT": "L31+L32+L",
     "FACULTY": "DINAKARAN M"
   },
   {
@@ -3516,7 +3955,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L9+L10+L19+L20",
+    "VENUE": "AB3 - 402",
+    "SLOT": "L9+L10+L1",
     "FACULTY": "DOMINIC SAVIO M"
   },
   {
@@ -3524,7 +3964,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "AB3 - 402",
+    "SLOT": "L31+L32+L",
     "FACULTY": "PALANI THANARAJ K"
   },
   {
@@ -3532,7 +3973,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L9+L10",
+    "VENUE": "AB1-209",
+    "SLOT": "L1+L2+L9+L",
     "FACULTY": "PALANI THANARAJ K"
   },
   {
@@ -3540,7 +3982,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L9+L10",
+    "VENUE": "AB1-210",
+    "SLOT": "L1+L2+L9+L",
     "FACULTY": "SENTHIL PRAKASH P N"
   },
   {
@@ -3548,7 +3991,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L19+L20",
+    "VENUE": "AB3-612",
+    "SLOT": "L1+L2+L19",
     "FACULTY": "KANNIGA DEVI R"
   },
   {
@@ -3556,7 +4000,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L27+L28",
+    "VENUE": "AB3-602",
+    "SLOT": "L1+L2+L27",
     "FACULTY": "KARTHIKEYAN N"
   },
   {
@@ -3564,7 +4009,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "AB3-611",
+    "SLOT": "L31+L32+L",
     "FACULTY": "KABILAN K"
   },
   {
@@ -3572,7 +4018,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L27+L28",
+    "VENUE": "AB3-611",
+    "SLOT": "L1+L2+L27",
     "FACULTY": "SARAVANAN P"
   },
   {
@@ -3580,7 +4027,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L9+L10+L19+L20",
+    "VENUE": "AB3 - 412",
+    "SLOT": "L9+L10+L1",
     "FACULTY": "SARAVANAN P"
   },
   {
@@ -3588,7 +4036,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L45+L46+L51+L52",
+    "VENUE": "AB3-410",
+    "SLOT": "L45+L46+L",
     "FACULTY": "MARIMUTHU M"
   },
   {
@@ -3596,7 +4045,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L51+L52+L55+L56",
+    "VENUE": "AB3-612",
+    "SLOT": "L51+L52+L",
     "FACULTY": "LEKSHMI K"
   },
   {
@@ -3604,7 +4054,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L9+L10",
+    "VENUE": "AB3-310",
+    "SLOT": "L1+L2+L9+L",
     "FACULTY": "LEKSHMI K"
   },
   {
@@ -3612,7 +4063,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L9+L10",
+    "VENUE": "AB1-605B",
+    "SLOT": "L1+L2+L9+L",
     "FACULTY": "JAI VINITA L"
   },
   {
@@ -3620,7 +4072,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L51+L52+L55+L56",
+    "VENUE": "AB3-611",
+    "SLOT": "L51+L52+L",
     "FACULTY": "SRINIVASAN B"
   },
   {
@@ -3628,7 +4081,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L37+L38+L43+L44",
+    "VENUE": "AB3-612",
+    "SLOT": "L37+L38+L",
     "FACULTY": "PRADEEP K V"
   },
   {
@@ -3636,7 +4090,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L13+L14+L25+L26",
+    "VENUE": "AB1-313",
+    "SLOT": "L13+L14+L",
     "FACULTY": "PRADEEP K V"
   },
   {
@@ -3644,7 +4099,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L7+L8+L15+L16",
+    "VENUE": "AB3-302",
+    "SLOT": "L7+L8+L15",
     "FACULTY": "JANAKI MEENA M"
   },
   {
@@ -3652,7 +4108,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L13+L14+L25+L26",
+    "VENUE": "AB3 - 412",
+    "SLOT": "L13+L14+L",
     "FACULTY": "VIJAYAKUMAR K P"
   },
   {
@@ -3660,7 +4117,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L5+L6+L37+L38",
+    "VENUE": "AB3-511",
+    "SLOT": "L5+L6+L37",
     "FACULTY": "VIJAYAKUMAR K P"
   },
   {
@@ -3668,7 +4126,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L13+L14+L25+L26",
+    "VENUE": "AB3-511",
+    "SLOT": "L13+L14+L",
     "FACULTY": "RADHA R"
   },
   {
@@ -3676,7 +4135,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L13+L14+L27+L28",
+    "VENUE": "AB3-612",
+    "SLOT": "L13+L14+L",
     "FACULTY": "SHERLY A"
   },
   {
@@ -3684,7 +4144,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L39+L40+L55+L56",
+    "VENUE": "AB3-202",
+    "SLOT": "L39+L40+L",
     "FACULTY": "SHERLY A"
   },
   {
@@ -3692,7 +4153,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L13+L14+L25+L26",
+    "VENUE": "AB3-611",
+    "SLOT": "L13+L14+L",
     "FACULTY": "JOSHAN"
   },
   {
@@ -3700,7 +4162,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L45+L46+L57+L58",
+    "VENUE": "AB3-202",
+    "SLOT": "L45+L46+L",
     "FACULTY": "DINAKARAN M"
   },
   {
@@ -3708,7 +4171,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L39+L40+L57+L58",
+    "VENUE": "AB3-611",
+    "SLOT": "L39+L40+L",
     "FACULTY": "DOMINIC SAVIO M"
   },
   {
@@ -3716,7 +4180,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L45+L46+L57+L58",
+    "VENUE": "AB3 - 412",
+    "SLOT": "L45+L46+L",
     "FACULTY": "S JAHANGEER SIDIQ"
   },
   {
@@ -3724,7 +4189,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L7+L8+L15+L16",
+    "VENUE": "AB3-511",
+    "SLOT": "L7+L8+L15",
     "FACULTY": "S JAHANGEER SIDIQ"
   },
   {
@@ -3732,7 +4198,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L5+L6+L37+L38",
+    "VENUE": "AB3-611",
+    "SLOT": "L5+L6+L37",
     "FACULTY": "SENTHIL PRAKASH P N"
   },
   {
@@ -3740,7 +4207,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L37+L38+L43+L44",
+    "VENUE": "AB3-311",
+    "SLOT": "L37+L38+L",
     "FACULTY": "KANNIGA DEVI R"
   },
   {
@@ -3748,7 +4216,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L39+L40+L55+L56",
+    "VENUE": "AB3 - 412",
+    "SLOT": "L39+L40+L",
     "FACULTY": "KARTHIKEYAN N"
   },
   {
@@ -3756,7 +4225,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L45+L46+L57+L58",
+    "VENUE": "AB3-302",
+    "SLOT": "L45+L46+L",
     "FACULTY": "KABILAN K"
   },
   {
@@ -3764,7 +4234,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L7+L8+L13+L14",
+    "VENUE": "AB3-410",
+    "SLOT": "L7+L8+L13",
     "FACULTY": "SIVAKAMI R"
   },
   {
@@ -3772,7 +4243,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L5+L6+L21+L22",
+    "VENUE": "AB3-612",
+    "SLOT": "L5+L6+L21",
     "FACULTY": "SIVAKAMI R"
   },
   {
@@ -3780,7 +4252,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L39+L40+L55+L56",
+    "VENUE": "AB3-302",
+    "SLOT": "L39+L40+L",
     "FACULTY": "DHAVAKUMAR P"
   },
   {
@@ -3788,7 +4261,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L5+L6+L19+L20",
+    "VENUE": "AB3-410",
+    "SLOT": "L5+L6+L19",
     "FACULTY": "DHAVAKUMAR P"
   },
   {
@@ -3796,7 +4270,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L39+L40+L55+L56",
+    "VENUE": "AB3 - 402",
+    "SLOT": "L39+L40+L",
     "FACULTY": "MARIMUTHU M"
   },
   {
@@ -3804,7 +4279,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L45+L46+L57+L58",
+    "VENUE": "AB3 - 402",
+    "SLOT": "L45+L46+L",
     "FACULTY": "JAI VINITA L"
   },
   {
@@ -3812,7 +4288,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L5+L6+L13+L14",
+    "VENUE": "AB3-602",
+    "SLOT": "L5+L6+L13",
     "FACULTY": "SRINIVASAN B"
   },
   {
@@ -3820,7 +4297,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L37+L38",
+    "VENUE": "AB1-607B",
+    "SLOT": "L31+L32+L",
     "FACULTY": "SHEENA CHRISTABEL PRAVIN"
   },
   {
@@ -3828,7 +4306,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L3+L4+L15+L16",
+    "VENUE": "AB1-607B",
+    "SLOT": "L3+L4+L15",
     "FACULTY": "SHEENA CHRISTABEL PRAVIN"
   },
   {
@@ -3836,7 +4315,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L39+L40+L57+L58",
+    "VENUE": "AB1-607B",
+    "SLOT": "L39+L40+L",
     "FACULTY": "KIRUTHIKA"
   },
   {
@@ -3844,7 +4324,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L5+L6+L43+L44",
+    "VENUE": "AB1-607B",
+    "SLOT": "L5+L6+L43",
     "FACULTY": "KIRUTHIKA"
   },
   {
@@ -3852,7 +4333,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L13+L14+L27+L28",
+    "VENUE": "AB1-607B",
+    "SLOT": "L13+L14+L",
     "FACULTY": "KIRUTHIKA"
   },
   {
@@ -3860,7 +4342,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L11+L12+L23+L24",
+    "VENUE": "AB1-603A",
+    "SLOT": "L11+L12+L",
     "FACULTY": "CHENDUR KUMARAN R"
   },
   {
@@ -3868,6 +4351,7 @@ const data = [
     "TITLE": "Computation Structures",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-207",
     "SLOT": "G1+TG1",
     "FACULTY": "NITHYA DARISINI P S"
   },
@@ -3876,6 +4360,7 @@ const data = [
     "TITLE": "Computation Structures",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-207",
     "SLOT": "L43+L44",
     "FACULTY": "NITHYA DARISINI P S"
   },
@@ -3884,6 +4369,7 @@ const data = [
     "TITLE": "Computation Structures",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "C2+TC2",
     "FACULTY": "NIVEDITA M"
   },
@@ -3892,6 +4378,7 @@ const data = [
     "TITLE": "Computation Structures",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-207",
     "SLOT": "L5+L6",
     "FACULTY": "NIVEDITA M"
   },
@@ -3900,6 +4387,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L31+L32",
     "FACULTY": "ANGELINE EZHILARASI G"
   },
@@ -3908,6 +4396,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-406",
     "SLOT": "C1+TC1",
     "FACULTY": "ANGELINE EZHILARASI G"
   },
@@ -3916,6 +4405,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-406",
     "SLOT": "C2+TC2",
     "FACULTY": "CHENDUR KUMARAN R"
   },
@@ -3924,6 +4414,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-607",
     "SLOT": "L25+L26",
     "FACULTY": "CHENDUR KUMARAN R"
   },
@@ -3932,6 +4423,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-609",
     "SLOT": "F1+TF1",
     "FACULTY": "MERCY RAJASELVI BEAULAH P"
   },
@@ -3940,6 +4432,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-608",
     "SLOT": "F1+TF1",
     "FACULTY": "SANTHI V"
   },
@@ -3948,6 +4441,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-610",
     "SLOT": "F1+TF1",
     "FACULTY": "ANANDAN P"
   },
@@ -3956,6 +4450,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-607B",
     "SLOT": "L51+L52",
     "FACULTY": "SANTHI V"
   },
@@ -3964,6 +4459,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-607B",
     "SLOT": "L49+L50",
     "FACULTY": "ANANDAN P"
   },
@@ -3972,6 +4468,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-608",
     "SLOT": "F2+TF2",
     "FACULTY": "SANTHI V"
   },
@@ -3980,6 +4477,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-609",
     "SLOT": "F2+TF2",
     "FACULTY": "POONKODI"
   },
@@ -3988,6 +4486,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-607B",
     "SLOT": "L9+L10",
     "FACULTY": "SANTHI V"
   },
@@ -3996,6 +4495,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L7+L8",
     "FACULTY": "POONKODI"
   },
@@ -4004,6 +4504,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-607B",
     "SLOT": "L11+L12",
     "FACULTY": "MERCY RAJASELVI BEAULAH P"
   },
@@ -4012,6 +4513,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-204",
     "SLOT": "E1+TE1",
     "FACULTY": "SIVAGAMI M"
   },
@@ -4020,6 +4522,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-107",
     "SLOT": "E2+TE2",
     "FACULTY": "SIVAGAMI M"
   },
@@ -4028,6 +4531,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L43+L44",
     "FACULTY": "SIVAGAMI M"
   },
@@ -4036,6 +4540,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-103",
     "SLOT": "E1+TE1",
     "FACULTY": "THOMAS ABRAHAM J V"
   },
@@ -4044,6 +4549,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-104",
     "SLOT": "E1+TE1",
     "FACULTY": "RABINDRA KUMAR SINGH"
   },
@@ -4052,6 +4558,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-204",
     "SLOT": "E2+TE2",
     "FACULTY": "RABINDRA KUMAR SINGH"
   },
@@ -4060,6 +4567,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-106",
     "SLOT": "E1+TE1",
     "FACULTY": "SHOLA USHA RANI"
   },
@@ -4068,6 +4576,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L33+L34",
     "FACULTY": "SHOLA USHA RANI"
   },
@@ -4076,6 +4585,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-203",
     "SLOT": "E1+TE1",
     "FACULTY": "RAJALAKSHMI R"
   },
@@ -4084,6 +4594,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L43+L44",
     "FACULTY": "RAJALAKSHMI R"
   },
@@ -4092,6 +4603,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-107",
     "SLOT": "E1+TE1",
     "FACULTY": "V. MUTHUMANIKANDAN"
   },
@@ -4100,6 +4612,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L43+L44",
     "FACULTY": "V. MUTHUMANIKANDAN"
   },
@@ -4108,6 +4621,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-108",
     "SLOT": "E2+TE2",
     "FACULTY": "SK AYESHA"
   },
@@ -4116,6 +4630,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-108",
     "SLOT": "E1+TE1",
     "FACULTY": "MENAKA PUSHPA A"
   },
@@ -4124,6 +4639,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-205",
     "SLOT": "E2+TE2",
     "FACULTY": "SANDEEP KUMAR SATAPATHY"
   },
@@ -4132,6 +4648,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-106",
     "SLOT": "E2+TE2",
     "FACULTY": "SUDHA"
   },
@@ -4140,6 +4657,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L13+L14",
     "FACULTY": "SUDHA"
   },
@@ -4148,6 +4666,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-103",
     "SLOT": "E2+TE2",
     "FACULTY": "MERCY RAJASELVI BEAULAH P"
   },
@@ -4156,30 +4675,34 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "JEEVAKUMARI"
+    "VENUE": "AB3-205",
+    "SLOT": "E1+TE1",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
   },
   {
     "CODE": "BACSE106",
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "JEEVAKUMARI"
+    "VENUE": "AB3-105",
+    "SLOT": "E2+TE2",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
   },
   {
     "CODE": "BACSE106",
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "A",
-    "FACULTY": "JEEVAKUMARI"
+    "VENUE": "AB3 - 402",
+    "SLOT": "L13+L14",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
   },
   {
     "CODE": "BACSE106",
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-206",
     "SLOT": "E1+TE1",
     "FACULTY": "MONICA"
   },
@@ -4188,6 +4711,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-104",
     "SLOT": "E2+TE2",
     "FACULTY": "RAJAKUMAR R"
   },
@@ -4196,6 +4720,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-105",
     "SLOT": "E1+TE1",
     "FACULTY": "SANKARI M"
   },
@@ -4204,6 +4729,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L33+L34",
     "FACULTY": "SANKARI M"
   },
@@ -4212,6 +4738,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-109",
     "SLOT": "E1+TE1",
     "FACULTY": "RAVICHANDRAN M"
   },
@@ -4220,6 +4747,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-511",
     "SLOT": "L33+L34",
     "FACULTY": "RAVICHANDRAN M"
   },
@@ -4228,6 +4756,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-307",
     "SLOT": "C1+TC1",
     "FACULTY": "RENUKA DEVI S"
   },
@@ -4236,6 +4765,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-308",
     "SLOT": "C1+TC1",
     "FACULTY": "MARY SHAMALA L"
   },
@@ -4244,6 +4774,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-309",
     "SLOT": "C1+TC1",
     "FACULTY": "T RAJA SREE"
   },
@@ -4252,6 +4783,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-208",
     "SLOT": "C1+TC1",
     "FACULTY": "VATCHALA S"
   },
@@ -4260,6 +4792,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-209",
     "SLOT": "C1+TC1",
     "FACULTY": "SUGANYA R"
   },
@@ -4268,6 +4801,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-211",
     "SLOT": "C1+TC1",
     "FACULTY": "RAJESH R"
   },
@@ -4276,6 +4810,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-306",
     "SLOT": "C2+TC2",
     "FACULTY": "RAJESH R"
   },
@@ -4284,6 +4819,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-303",
     "SLOT": "C1+TC1",
     "FACULTY": "ANUBHA PEARLINE S"
   },
@@ -4292,6 +4828,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-304",
     "SLOT": "C1+TC1",
     "FACULTY": "AVUTHU AVINASH REDDY"
   },
@@ -4300,6 +4837,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-307",
     "SLOT": "C2+TC2",
     "FACULTY": "AVUTHU AVINASH REDDY"
   },
@@ -4308,6 +4846,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-305",
     "SLOT": "C1+TC1",
     "FACULTY": "PADMANABAN R"
   },
@@ -4316,6 +4855,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-305",
     "SLOT": "C2+TC2",
     "FACULTY": "PADMANABAN R"
   },
@@ -4324,6 +4864,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "C1+TC1",
     "FACULTY": "SREEJA P S"
   },
@@ -4332,6 +4873,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-306",
     "SLOT": "C1+TC1",
     "FACULTY": "SAMBATH M"
   },
@@ -4340,6 +4882,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-309",
     "SLOT": "C2+TC2",
     "FACULTY": "SAMBATH M"
   },
@@ -4348,6 +4891,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-313",
     "SLOT": "C1+TC1",
     "FACULTY": "LINDA JOSEPH"
   },
@@ -4356,6 +4900,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-313",
     "SLOT": "C2+TC2",
     "FACULTY": "LINDA JOSEPH"
   },
@@ -4364,6 +4909,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-403",
     "SLOT": "C1+TC1",
     "FACULTY": "SRIMATHI C"
   },
@@ -4372,6 +4918,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "C2+TC2",
     "FACULTY": "SRIMATHI C"
   },
@@ -4380,6 +4927,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L5+L6",
     "FACULTY": "RENUKA DEVI S"
   },
@@ -4388,6 +4936,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-609",
     "SLOT": "C1+TC1",
     "FACULTY": "LOGESH R"
   },
@@ -4396,6 +4945,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-610",
     "SLOT": "C1+TC1",
     "FACULTY": "SUDHAKARAN"
   },
@@ -4404,6 +4954,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L5+L6",
     "FACULTY": "LOGESH R"
   },
@@ -4412,6 +4963,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L33+L34",
     "FACULTY": "SUDHAKARAN"
   },
@@ -4420,6 +4972,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-608",
     "SLOT": "C2+TC2",
     "FACULTY": "SUGANTHI K"
   },
@@ -4428,6 +4981,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L1+L2",
     "FACULTY": "SUGANTHI K"
   },
@@ -4436,6 +4990,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-609",
     "SLOT": "C2+TC2",
     "FACULTY": "SUDHAKARAN"
   },
@@ -4444,6 +4999,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L21+L22",
     "FACULTY": "SUDHAKARAN"
   },
@@ -4452,6 +5008,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-207",
     "SLOT": "E1+TE1",
     "FACULTY": "SHYAMALA L"
   },
@@ -4460,6 +5017,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-203",
     "SLOT": "E2+TE2",
     "FACULTY": "SHOLA USHA RANI"
   },
@@ -4468,6 +5026,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-208",
     "SLOT": "E2+TE2",
     "FACULTY": "MENAKA PUSHPA A"
   },
@@ -4476,6 +5035,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-207",
     "SLOT": "E2+TE2",
     "FACULTY": "MONICA"
   },
@@ -4484,6 +5044,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-109",
     "SLOT": "E2+TE2",
     "FACULTY": "SANKARI M"
   },
@@ -4492,6 +5053,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-206",
     "SLOT": "E2+TE2",
     "FACULTY": "RAVICHANDRAN M"
   },
@@ -4500,6 +5062,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-308",
     "SLOT": "C2+TC2",
     "FACULTY": "SANGEETHA N"
   },
@@ -4508,6 +5071,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-303",
     "SLOT": "C2+TC2",
     "FACULTY": "MARY SHAMALA L"
   },
@@ -4516,6 +5080,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-304",
     "SLOT": "C2+TC2",
     "FACULTY": "T RAJA SREE"
   },
@@ -4524,6 +5089,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-209",
     "SLOT": "C2+TC2",
     "FACULTY": "VATCHALA S"
   },
@@ -4532,6 +5098,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-608",
     "SLOT": "C1+TC1",
     "FACULTY": "KARTHIK R"
   },
@@ -4540,6 +5107,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-211",
     "SLOT": "C2+TC2",
     "FACULTY": "SUGANYA R"
   },
@@ -4548,6 +5116,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L55+L56",
     "FACULTY": "KARTHIK R"
   },
@@ -4556,6 +5125,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L15+L16",
     "FACULTY": "SIVAGAMI M"
   },
@@ -4564,6 +5134,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605A",
     "SLOT": "L33+L34",
     "FACULTY": "THOMAS ABRAHAM J V"
   },
@@ -4572,6 +5143,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L43+L44",
     "FACULTY": "RABINDRA KUMAR SINGH"
   },
@@ -4580,6 +5152,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L15+L16",
     "FACULTY": "RABINDRA KUMAR SINGH"
   },
@@ -4588,6 +5161,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L13+L14",
     "FACULTY": "SHOLA USHA RANI"
   },
@@ -4596,6 +5170,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L43+L44",
     "FACULTY": "SHYAMALA L"
   },
@@ -4604,6 +5179,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L21+L22",
     "FACULTY": "SK AYESHA"
   },
@@ -4612,6 +5188,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L13+L14",
     "FACULTY": "MENAKA PUSHPA A"
   },
@@ -4620,6 +5197,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L21+L22",
     "FACULTY": "SANDEEP KUMAR SATAPATHY"
   },
@@ -4628,6 +5206,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L21+L22",
     "FACULTY": "MERCY RAJASELVI BEAULAH P"
   },
@@ -4636,14 +5215,16 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "A",
-    "FACULTY": "JEEVAKUMARI"
+    "VENUE": "AB3 - 402",
+    "SLOT": "L33+L34",
+    "FACULTY": "S A AMUTHA JEEVAKUMARI"
   },
   {
     "CODE": "BACSE106",
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L43+L44",
     "FACULTY": "MONICA"
   },
@@ -4652,6 +5233,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L21+L22",
     "FACULTY": "RAJAKUMAR R"
   },
@@ -4660,6 +5242,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L15+L16",
     "FACULTY": "MONICA"
   },
@@ -4668,6 +5251,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L13+L14",
     "FACULTY": "SANKARI M"
   },
@@ -4676,6 +5260,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L33+L34",
     "FACULTY": "MENAKA PUSHPA A"
   },
@@ -4684,6 +5269,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L13+L14",
     "FACULTY": "RAVICHANDRAN M"
   },
@@ -4692,6 +5278,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L1+L2",
     "FACULTY": "T RAJA SREE"
   },
@@ -4700,6 +5287,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L1+L2",
     "FACULTY": "VATCHALA S"
   },
@@ -4708,6 +5296,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L1+L2",
     "FACULTY": "SUGANYA R"
   },
@@ -4716,6 +5305,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L1+L2",
     "FACULTY": "RAJESH R"
   },
@@ -4724,6 +5314,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L1+L2",
     "FACULTY": "AVUTHU AVINASH REDDY"
   },
@@ -4732,6 +5323,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L3+L4",
     "FACULTY": "SANGEETHA N"
   },
@@ -4740,6 +5332,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L3+L4",
     "FACULTY": "MARY SHAMALA L"
   },
@@ -4748,6 +5341,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L3+L4",
     "FACULTY": "PADMANABAN R"
   },
@@ -4756,6 +5350,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-511",
     "SLOT": "L3+L4",
     "FACULTY": "SAMBATH M"
   },
@@ -4764,6 +5359,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L3+L4",
     "FACULTY": "LINDA JOSEPH"
   },
@@ -4772,6 +5368,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L3+L4",
     "FACULTY": "SRIMATHI C"
   },
@@ -4780,6 +5377,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L33+L34",
     "FACULTY": "MARY SHAMALA L"
   },
@@ -4788,6 +5386,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L33+L34",
     "FACULTY": "PADMANABAN R"
   },
@@ -4796,6 +5395,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L33+L34",
     "FACULTY": "SREEJA P S"
   },
@@ -4804,6 +5404,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L33+L34",
     "FACULTY": "SAMBATH M"
   },
@@ -4812,6 +5413,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L33+L34",
     "FACULTY": "LINDA JOSEPH"
   },
@@ -4820,6 +5422,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-206",
     "SLOT": "L33+L34",
     "FACULTY": "SRIMATHI C"
   },
@@ -4828,6 +5431,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L5+L6",
     "FACULTY": "T RAJA SREE"
   },
@@ -4836,6 +5440,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L5+L6",
     "FACULTY": "VATCHALA S"
   },
@@ -4844,6 +5449,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L5+L6",
     "FACULTY": "SUGANYA R"
   },
@@ -4852,6 +5458,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L5+L6",
     "FACULTY": "RAJESH R"
   },
@@ -4860,6 +5467,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L5+L6",
     "FACULTY": "ANUBHA PEARLINE S"
   },
@@ -4868,6 +5476,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L5+L6",
     "FACULTY": "AVUTHU AVINASH REDDY"
   },
@@ -4876,7 +5485,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-104",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "SATHYARAJASEKARAN K"
   },
   {
@@ -4884,7 +5494,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-103",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "SUGANYA G"
   },
   {
@@ -4892,7 +5503,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-205",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "RENJITH"
   },
   {
@@ -4900,7 +5512,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-206",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "SURESHKUMAR WI"
   },
   {
@@ -4908,7 +5521,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-206",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "SURESHKUMAR WI"
   },
   {
@@ -4916,7 +5530,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-207",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "KIRUTHIKA"
   },
   {
@@ -4924,7 +5539,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-207",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "KIRUTHIKA"
   },
   {
@@ -4932,7 +5548,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-106",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "MODIGARI NARENDRA"
   },
   {
@@ -4940,7 +5557,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-106",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "MODIGARI NARENDRA"
   },
   {
@@ -4948,7 +5566,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-108",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "AMUTHA S"
   },
   {
@@ -4956,7 +5575,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-108",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "AMUTHA S"
   },
   {
@@ -4964,7 +5584,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-104",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "SUBITHA D"
   },
   {
@@ -4972,7 +5593,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-208",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "SUBITHA D"
   },
   {
@@ -4980,7 +5602,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-107",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "KAVITHA J C"
   },
   {
@@ -4988,7 +5611,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-107",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "KAVITHA J C"
   },
   {
@@ -4996,7 +5620,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-103",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "SARAVANAN P"
   },
   {
@@ -5004,7 +5629,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-109",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "PADMA J"
   },
   {
@@ -5012,7 +5638,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-109",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "PADMA J"
   },
   {
@@ -5020,7 +5647,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-203",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "SHREE PRAKASH"
   },
   {
@@ -5028,7 +5656,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-203",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "SHREE PRAKASH"
   },
   {
@@ -5036,7 +5665,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-205",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "DEVI K"
   },
   {
@@ -5044,7 +5674,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-105",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "MADURA MEENAKSHI R"
   },
   {
@@ -5052,7 +5683,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-105",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "MADURA MEENAKSHI R"
   },
   {
@@ -5060,7 +5692,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-204",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "LAKSHMANAN K"
   },
   {
@@ -5068,7 +5701,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-204",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "LAKSHMANAN K"
   },
   {
@@ -5076,7 +5710,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-208",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "UMMITY SRINIVASA RAO"
   },
   {
@@ -5084,7 +5719,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-209",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "UMMITY SRINIVASA RAO"
   },
   {
@@ -5092,7 +5728,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-209",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "KARMEL A"
   },
   {
@@ -5100,7 +5737,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-211",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "JANI ANBARASI L"
   },
   {
@@ -5108,7 +5746,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-211",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "JANI ANBARASI L"
   },
   {
@@ -5116,7 +5755,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-303",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "VENKATRAMAN S"
   },
   {
@@ -5124,7 +5764,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-303",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "ANITA X"
   },
   {
@@ -5132,7 +5773,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-304",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "ANITA X"
   },
   {
@@ -5140,7 +5782,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-304",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "PRAKASH P"
   },
   {
@@ -5148,7 +5791,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-305",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "PADMAVATHY T V"
   },
   {
@@ -5156,7 +5800,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-306",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "MANJU G"
   },
   {
@@ -5164,7 +5809,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-306",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "MANJU G"
   },
   {
@@ -5172,7 +5818,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-307",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "JANNATH NISHA O S"
   },
   {
@@ -5180,7 +5827,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-307",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "JANNATH NISHA O S"
   },
   {
@@ -5188,7 +5836,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-308",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "DEEPA NIVETHIKA"
   },
   {
@@ -5196,7 +5845,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-308",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "DEEPA NIVETHIKA"
   },
   {
@@ -5204,7 +5854,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-309",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "SANDHYA"
   },
   {
@@ -5212,7 +5863,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-309",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "SANDHYA"
   },
   {
@@ -5220,7 +5872,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-313",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "TAHIR MUJTABA"
   },
   {
@@ -5228,7 +5881,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-313",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "TAHIR MUJTABA"
   },
   {
@@ -5236,7 +5890,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-403",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "BALRAJ E"
   },
   {
@@ -5244,7 +5899,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-404",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "KSHMA TRIVEDI"
   },
   {
@@ -5252,7 +5908,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-507",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "KSHMA TRIVEDI"
   },
   {
@@ -5260,7 +5917,8 @@ const data = [
     "TITLE": "Models of Computation",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB3-505",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "PRAKASH P"
   },
   {
@@ -5268,6 +5926,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-103",
     "SLOT": "D1+TD1",
     "FACULTY": "S.A.SAJIDHA"
   },
@@ -5276,6 +5935,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L29+L30",
     "FACULTY": "S.A.SAJIDHA"
   },
@@ -5284,6 +5944,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-107",
     "SLOT": "D2+TD2",
     "FACULTY": "S.A.SAJIDHA"
   },
@@ -5292,6 +5953,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-203",
     "SLOT": "D2+TD2",
     "FACULTY": "SIVABALAKRISHNAN M"
   },
@@ -5300,6 +5962,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-207",
     "SLOT": "D1+TD1",
     "FACULTY": "GEETHA S"
   },
@@ -5308,6 +5971,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-104",
     "SLOT": "D1+TD1",
     "FACULTY": "M. BRAVEEN"
   },
@@ -5316,6 +5980,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-204",
     "SLOT": "D2+TD2",
     "FACULTY": "M. BRAVEEN"
   },
@@ -5324,6 +5989,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-105",
     "SLOT": "D1+TD1",
     "FACULTY": "BHUVANESWARI"
   },
@@ -5332,6 +5998,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-205",
     "SLOT": "D2+TD2",
     "FACULTY": "BHUVANESWARI"
   },
@@ -5340,6 +6007,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-106",
     "SLOT": "D1+TD1",
     "FACULTY": "A SWAMINATHAN"
   },
@@ -5348,6 +6016,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-206",
     "SLOT": "D2+TD2",
     "FACULTY": "A SWAMINATHAN"
   },
@@ -5356,6 +6025,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-103",
     "SLOT": "D2+TD2",
     "FACULTY": "SAHAYA BENI PRATHIBA B"
   },
@@ -5364,6 +6034,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L7+L8",
     "FACULTY": "SAHAYA BENI PRATHIBA B"
   },
@@ -5372,6 +6043,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-107",
     "SLOT": "D1+TD1",
     "FACULTY": "BRINDHA"
   },
@@ -5380,6 +6052,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L37+L38",
     "FACULTY": "BRINDHA"
   },
@@ -5388,6 +6061,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-104",
     "SLOT": "D2+TD2",
     "FACULTY": "BRINDHA"
   },
@@ -5396,6 +6070,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L7+L8",
     "FACULTY": "BRINDHA"
   },
@@ -5404,6 +6079,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-108",
     "SLOT": "D1+TD1",
     "FACULTY": "JOE DHANITH"
   },
@@ -5412,6 +6088,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L39+L40",
     "FACULTY": "JOE DHANITH"
   },
@@ -5420,6 +6097,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-105",
     "SLOT": "D2+TD2",
     "FACULTY": "JOE DHANITH"
   },
@@ -5428,6 +6106,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-109",
     "SLOT": "D1+TD1",
     "FACULTY": "REENA ROY R"
   },
@@ -5436,6 +6115,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L39+L40",
     "FACULTY": "REENA ROY R"
   },
@@ -5444,6 +6124,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-106",
     "SLOT": "D2+TD2",
     "FACULTY": "REENA ROY R"
   },
@@ -5452,6 +6133,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-203",
     "SLOT": "D1+TD1",
     "FACULTY": "SOBITHA AHILA S"
   },
@@ -5460,6 +6142,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L39+L40",
     "FACULTY": "SOBITHA AHILA S"
   },
@@ -5468,6 +6151,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-108",
     "SLOT": "D2+TD2",
     "FACULTY": "SOBITHA AHILA S"
   },
@@ -5476,6 +6160,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-204",
     "SLOT": "D1+TD1",
     "FACULTY": "MALATHI D"
   },
@@ -5484,6 +6169,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L39+L40",
     "FACULTY": "MALATHI D"
   },
@@ -5492,6 +6178,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-109",
     "SLOT": "D2+TD2",
     "FACULTY": "MALATHI D"
   },
@@ -5500,6 +6187,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-205",
     "SLOT": "D1+TD1",
     "FACULTY": "RAMA PARVATHY L"
   },
@@ -5508,6 +6196,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L29+L30",
     "FACULTY": "RAMA PARVATHY L"
   },
@@ -5516,6 +6205,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-206",
     "SLOT": "D1+TD1",
     "FACULTY": "SHARMILADEVI S"
   },
@@ -5524,6 +6214,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L37+L38",
     "FACULTY": "SHARMILADEVI S"
   },
@@ -5532,6 +6223,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-207",
     "SLOT": "D2+TD2",
     "FACULTY": "SHARMILADEVI S"
   },
@@ -5540,6 +6232,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L7+L8",
     "FACULTY": "SHARMILADEVI S"
   },
@@ -5548,6 +6241,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-306",
     "SLOT": "F2+TF2",
     "FACULTY": "RAJESH M"
   },
@@ -5556,6 +6250,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L19+L20",
     "FACULTY": "RAJESH M"
   },
@@ -5564,6 +6259,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-309",
     "SLOT": "F1+TF1",
     "FACULTY": "RAJESH M"
   },
@@ -5572,6 +6268,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L23+L24",
     "FACULTY": "RAJESH M"
   },
@@ -5580,6 +6277,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-308",
     "SLOT": "F1+TF1",
     "FACULTY": "SHIVANI GUPTA"
   },
@@ -5588,6 +6286,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L51+L52",
     "FACULTY": "SHIVANI GUPTA"
   },
@@ -5596,6 +6295,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-307",
     "SLOT": "F2+TF2",
     "FACULTY": "SHIVANI GUPTA"
   },
@@ -5604,6 +6304,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L21+L22",
     "FACULTY": "SHIVANI GUPTA"
   },
@@ -5612,6 +6313,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-211",
     "SLOT": "F1+TF1",
     "FACULTY": "LENINISHA SHANMUGAM"
   },
@@ -5620,6 +6322,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L23+L24",
     "FACULTY": "LENINISHA SHANMUGAM"
   },
@@ -5628,6 +6331,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-209",
     "SLOT": "F2+TF2",
     "FACULTY": "LENINISHA SHANMUGAM"
   },
@@ -5636,6 +6340,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L19+L20",
     "FACULTY": "LENINISHA SHANMUGAM"
   },
@@ -5644,6 +6349,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-305",
     "SLOT": "F1+TF1",
     "FACULTY": "PRIYADARSHINI R"
   },
@@ -5652,6 +6358,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L23+L24",
     "FACULTY": "PRIYADARSHINI R"
   },
@@ -5660,6 +6367,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-208",
     "SLOT": "F1+TF1",
     "FACULTY": "SUJITHRA @ KANMANI R"
   },
@@ -5668,6 +6376,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L23+L24",
     "FACULTY": "SUJITHRA @ KANMANI R"
   },
@@ -5676,6 +6385,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "F2+TF2",
     "FACULTY": "SUJITHRA @ KANMANI R"
   },
@@ -5684,6 +6394,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L19+L20",
     "FACULTY": "SUJITHRA @ KANMANI R"
   },
@@ -5692,6 +6403,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-209",
     "SLOT": "F1+TF1",
     "FACULTY": "V BRINDHA"
   },
@@ -5700,6 +6412,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L23+L24",
     "FACULTY": "V BRINDHA"
   },
@@ -5708,6 +6421,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-308",
     "SLOT": "F2+TF2",
     "FACULTY": "V BRINDHA"
   },
@@ -5716,6 +6430,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L19+L20",
     "FACULTY": "V BRINDHA"
   },
@@ -5724,6 +6439,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-306",
     "SLOT": "F1+TF1",
     "FACULTY": "KANIMOZHI S"
   },
@@ -5732,6 +6448,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L51+L52",
     "FACULTY": "KANIMOZHI S"
   },
@@ -5740,6 +6457,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-313",
     "SLOT": "F2+TF2",
     "FACULTY": "KANIMOZHI S"
   },
@@ -5748,6 +6466,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L21+L22",
     "FACULTY": "KANIMOZHI S"
   },
@@ -5756,6 +6475,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-305",
     "SLOT": "F2+TF2",
     "FACULTY": "REVATHI A R"
   },
@@ -5764,6 +6484,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L19+L20",
     "FACULTY": "REVATHI A R"
   },
@@ -5772,6 +6493,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-313",
     "SLOT": "F1+TF1",
     "FACULTY": "REVATHI A R"
   },
@@ -5780,6 +6502,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L23+L24",
     "FACULTY": "REVATHI A R"
   },
@@ -5788,6 +6511,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-211",
     "SLOT": "F2+TF2",
     "FACULTY": "BENILA S"
   },
@@ -5796,6 +6520,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L19+L20",
     "FACULTY": "BENILA S"
   },
@@ -5804,6 +6529,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-304",
     "SLOT": "F1+TF1",
     "FACULTY": "HEMALATHA K"
   },
@@ -5812,6 +6538,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L51+L52",
     "FACULTY": "HEMALATHA K"
   },
@@ -5820,6 +6547,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-307",
     "SLOT": "F1+TF1",
     "FACULTY": "KOWSIGAN M"
   },
@@ -5828,6 +6556,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L51+L52",
     "FACULTY": "KOWSIGAN M"
   },
@@ -5836,6 +6565,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-309",
     "SLOT": "F2+TF2",
     "FACULTY": "KOWSIGAN M"
   },
@@ -5844,6 +6574,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L21+L22",
     "FACULTY": "KOWSIGAN M"
   },
@@ -5852,6 +6583,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-304",
     "SLOT": "F2+TF2",
     "FACULTY": "SUHAIL K"
   },
@@ -5860,6 +6592,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L21+L22",
     "FACULTY": "SUHAIL K"
   },
@@ -5868,6 +6601,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "F1+TF1",
     "FACULTY": "SUHAIL K"
   },
@@ -5876,6 +6610,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L49+L50",
     "FACULTY": "SUHAIL K"
   },
@@ -5884,6 +6619,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "F1+TF1",
     "FACULTY": "RAJALAKSHMI V"
   },
@@ -5892,6 +6628,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L51+L52",
     "FACULTY": "RAJALAKSHMI V"
   },
@@ -5900,6 +6637,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-705",
     "SLOT": "F1+TF1",
     "FACULTY": "BENILA S"
   },
@@ -5908,6 +6646,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "F2+TF2",
     "FACULTY": "HEMALATHA K"
   },
@@ -5916,6 +6655,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L21+L22",
     "FACULTY": "HEMALATHA K"
   },
@@ -5924,6 +6664,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L49+L50",
     "FACULTY": "BENILA S"
   },
@@ -5932,6 +6673,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L7+L8",
     "FACULTY": "S.A.SAJIDHA"
   },
@@ -5940,6 +6682,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L7+L8",
     "FACULTY": "SIVABALAKRISHNAN M"
   },
@@ -5948,6 +6691,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L7+L8",
     "FACULTY": "M. BRAVEEN"
   },
@@ -5956,6 +6700,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L7+L8",
     "FACULTY": "BHUVANESWARI"
   },
@@ -5964,6 +6709,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L29+L30",
     "FACULTY": "GEETHA S"
   },
@@ -5972,6 +6718,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L37+L38",
     "FACULTY": "M. BRAVEEN"
   },
@@ -5980,6 +6727,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L39+L40",
     "FACULTY": "A SWAMINATHAN"
   },
@@ -5988,6 +6736,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L25+L26",
     "FACULTY": "A SWAMINATHAN"
   },
@@ -5996,6 +6745,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L25+L26",
     "FACULTY": "JOE DHANITH"
   },
@@ -6004,6 +6754,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L25+L26",
     "FACULTY": "REENA ROY R"
   },
@@ -6012,6 +6763,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L25+L26",
     "FACULTY": "SOBITHA AHILA S"
   },
@@ -6020,6 +6772,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L25+L26",
     "FACULTY": "MALATHI D"
   },
@@ -6028,6 +6781,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L37+L38",
     "FACULTY": "BHUVANESWARI"
   },
@@ -6036,6 +6790,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-707",
     "SLOT": "D2+TD2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -6044,6 +6799,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L7+L8",
     "FACULTY": "VISWANATHAN V"
   },
@@ -6052,6 +6808,7 @@ const data = [
     "TITLE": "Innovative Design Project",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -6060,6 +6817,7 @@ const data = [
     "TITLE": "Innovative Design Project",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -6068,6 +6826,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-105",
     "SLOT": "C2+TC2",
     "FACULTY": "PRIYAADHARSHINI M"
   },
@@ -6076,6 +6835,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L15+L16",
     "FACULTY": "PRIYAADHARSHINI M"
   },
@@ -6084,6 +6844,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-104",
     "SLOT": "C1+TC1",
     "FACULTY": "SRIDHAR R"
   },
@@ -6092,6 +6853,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L23+L24",
     "FACULTY": "SRIDHAR R"
   },
@@ -6100,6 +6862,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-104",
     "SLOT": "C2+TC2",
     "FACULTY": "SRIDHAR R"
   },
@@ -6108,6 +6871,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L19+L20",
     "FACULTY": "SRIDHAR R"
   },
@@ -6116,6 +6880,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-103",
     "SLOT": "C1+TC1",
     "FACULTY": "SIVAKUMAR"
   },
@@ -6124,6 +6889,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L33+L34",
     "FACULTY": "SIVAKUMAR"
   },
@@ -6132,6 +6898,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-103",
     "SLOT": "C2+TC2",
     "FACULTY": "SIVAKUMAR"
   },
@@ -6140,6 +6907,7 @@ const data = [
     "TITLE": "Fundamentals of Augmented and Virtual Reality",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L1+L2",
     "FACULTY": "SIVAKUMAR"
   },
@@ -6148,7 +6916,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-203",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "ABDUL QUADIR MD"
   },
   {
@@ -6156,7 +6925,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-204",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "ANANDAN P"
   },
   {
@@ -6164,7 +6934,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-205",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SANDOSH"
   },
   {
@@ -6172,7 +6943,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-205",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "PRASSANNA J"
   },
   {
@@ -6180,7 +6952,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-207",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SENTHIL KUMAR A M"
   },
   {
@@ -6188,7 +6961,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-208",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "YOGESH C"
   },
   {
@@ -6196,7 +6970,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-204",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "MANIKANDAN P"
   },
   {
@@ -6204,7 +6979,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-206",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "BHULAKSHMI BONTHU"
   },
   {
@@ -6212,7 +6988,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-206",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "BHULAKSHMI BONTHU"
   },
   {
@@ -6220,7 +6997,8 @@ const data = [
     "TITLE": "Cloud Infrastructure and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-207",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "MEIGNANAMOORTHI D"
   },
   {
@@ -6228,7 +7006,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-106",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "MALATHI G"
   },
   {
@@ -6236,7 +7015,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-105",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "GANESAN R"
   },
   {
@@ -6244,7 +7024,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-109",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SANDHYA P"
   },
   {
@@ -6252,7 +7033,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-108",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SANDHYA P"
   },
   {
@@ -6260,7 +7042,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-106",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "NOEL JEYGAR ROBERT V"
   },
   {
@@ -6268,7 +7051,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-109",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SENTHIL PRAKASH P N"
   },
   {
@@ -6276,7 +7060,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-108",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "PRIYANKA MISHRA"
   },
   {
@@ -6284,7 +7069,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-107",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SARANYA M"
   },
   {
@@ -6292,7 +7078,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-107",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "VISWANATHAN V"
   },
   {
@@ -6300,7 +7087,8 @@ const data = [
     "TITLE": "Blockchain Architecture and Design",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB3-203",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "VISWANATHAN V"
   },
   {
@@ -6308,6 +7096,7 @@ const data = [
     "TITLE": "Computer Programming: Java",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "MAB3-202",
     "SLOT": "TCC1",
     "FACULTY": "VISWANATHAN V"
   },
@@ -6316,7 +7105,8 @@ const data = [
     "TITLE": "Computer Programming: Java",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L7+L8+L19+L20",
+    "VENUE": "AB3-202",
+    "SLOT": "L7+L8+L19",
     "FACULTY": "VISWANATHAN V"
   },
   {
@@ -6324,6 +7114,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-302",
     "SLOT": "A1+TA1",
     "FACULTY": "AMRIT PAL"
   },
@@ -6332,6 +7123,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L51+L52",
     "FACULTY": "AMRIT PAL"
   },
@@ -6340,6 +7132,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "A1+TA1",
     "FACULTY": "OM KUMAR C U"
   },
@@ -6348,6 +7141,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "A2+TA2",
     "FACULTY": "OM KUMAR C U"
   },
@@ -6356,6 +7150,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "A1+TA1",
     "FACULTY": "SUDHEER KUMAR E"
   },
@@ -6364,6 +7159,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "A2+TA2",
     "FACULTY": "AARTHI B"
   },
@@ -6372,6 +7168,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "A1+TA1",
     "FACULTY": "PRAVIN RENOLD A"
   },
@@ -6380,6 +7177,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "A2+TA2",
     "FACULTY": "BALASARASWATHI"
   },
@@ -6388,6 +7186,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "A1+TA1",
     "FACULTY": "RAJAKUMAR ARUL"
   },
@@ -6396,6 +7195,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "A2+TA2",
     "FACULTY": "VALARMATHI K"
   },
@@ -6404,6 +7204,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "A1+TA1",
     "FACULTY": "KAVIPRIYA G"
   },
@@ -6412,6 +7213,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "A1+TA1",
     "FACULTY": "KALAIPRIYAN"
   },
@@ -6420,6 +7222,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-406",
     "SLOT": "A1+TA1",
     "FACULTY": "SAKTHIVEL R"
   },
@@ -6428,6 +7231,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "A1+TA1",
     "FACULTY": "JEIPRATHA P N"
   },
@@ -6436,6 +7240,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "A1+TA1",
     "FACULTY": "K UMA MAHESWARI"
   },
@@ -6444,6 +7249,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "A1+TA1",
     "FACULTY": "JOSHUA SUNDER DAVID REDDIPOGU"
   },
@@ -6452,6 +7258,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "A1+TA1",
     "FACULTY": "SUDHA C"
   },
@@ -6460,6 +7267,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-403",
     "SLOT": "A2+TA2",
     "FACULTY": "KALAIPRIYAN"
   },
@@ -6468,6 +7276,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "A2+TA2",
     "FACULTY": "SAKTHIVEL R"
   },
@@ -6476,6 +7285,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "A2+TA2",
     "FACULTY": "JEIPRATHA P N"
   },
@@ -6484,6 +7294,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-406",
     "SLOT": "A2+TA2",
     "FACULTY": "K UMA MAHESWARI"
   },
@@ -6492,6 +7303,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "A2+TA2",
     "FACULTY": "JOSHUA SUNDER DAVID REDDIPOGU"
   },
@@ -6500,6 +7312,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "A2+TA2",
     "FACULTY": "SUDHA C"
   },
@@ -6508,6 +7321,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "A2+TA2",
     "FACULTY": "SUDHEER KUMAR E"
   },
@@ -6516,6 +7330,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "A1+TA1",
     "FACULTY": "VALARMATHI K"
   },
@@ -6524,6 +7339,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "A1+TA1",
     "FACULTY": "MALINI A"
   },
@@ -6532,6 +7348,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "A1+TA1",
     "FACULTY": "BALASARASWATHI"
   },
@@ -6540,6 +7357,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "A2+TA2",
     "FACULTY": "SELVAM D"
   },
@@ -6548,6 +7366,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "A2+TA2",
     "FACULTY": "PRAVIN RENOLD A"
   },
@@ -6556,6 +7375,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "A2+TA2",
     "FACULTY": "KAJA MOHIDEEN A"
   },
@@ -6564,6 +7384,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "A1+TA1",
     "FACULTY": "JAYARAM B"
   },
@@ -6572,6 +7393,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "A2+TA2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -6580,6 +7402,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "A1+TA1",
     "FACULTY": "AARTHI B"
   },
@@ -6588,6 +7411,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "A1+TA1",
     "FACULTY": "PANDIYARAJU V"
   },
@@ -6596,6 +7420,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "A2+TA2",
     "FACULTY": "MALINI A"
   },
@@ -6604,6 +7429,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "A1+TA1",
     "FACULTY": "SELVAM D"
   },
@@ -6612,6 +7438,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "A1+TA1",
     "FACULTY": "MANIMEGALAI"
   },
@@ -6620,6 +7447,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L51+L52",
     "FACULTY": "OM KUMAR C U"
   },
@@ -6628,6 +7456,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L19+L20",
     "FACULTY": "OM KUMAR C U"
   },
@@ -6636,6 +7465,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L51+L52",
     "FACULTY": "SUDHEER KUMAR E"
   },
@@ -6644,6 +7474,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L3+L4",
     "FACULTY": "AARTHI B"
   },
@@ -6652,6 +7483,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L49+L50",
     "FACULTY": "PRAVIN RENOLD A"
   },
@@ -6660,6 +7492,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L3+L4",
     "FACULTY": "BALASARASWATHI"
   },
@@ -6668,6 +7501,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L23+L24",
     "FACULTY": "RAJAKUMAR ARUL"
   },
@@ -6676,6 +7510,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605A",
     "SLOT": "L19+L20",
     "FACULTY": "VALARMATHI K"
   },
@@ -6684,6 +7519,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L23+L24",
     "FACULTY": "KAVIPRIYA G"
   },
@@ -6692,6 +7528,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L11+L12",
     "FACULTY": "KALAIPRIYAN"
   },
@@ -6700,6 +7537,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L11+L12",
     "FACULTY": "SAKTHIVEL R"
   },
@@ -6708,6 +7546,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L11+L12",
     "FACULTY": "JEIPRATHA P N"
   },
@@ -6716,6 +7555,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L11+L12",
     "FACULTY": "K UMA MAHESWARI"
   },
@@ -6724,6 +7564,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L39+L40",
     "FACULTY": "JOSHUA SUNDER DAVID REDDIPOGU"
   },
@@ -6732,6 +7573,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L39+L40",
     "FACULTY": "SUDHA C"
   },
@@ -6740,6 +7582,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L3+L4",
     "FACULTY": "KALAIPRIYAN"
   },
@@ -6748,6 +7591,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L7+L8",
     "FACULTY": "SAKTHIVEL R"
   },
@@ -6756,6 +7600,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L3+L4",
     "FACULTY": "JEIPRATHA P N"
   },
@@ -6764,6 +7609,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L7+L8",
     "FACULTY": "K UMA MAHESWARI"
   },
@@ -6772,6 +7618,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L19+L20",
     "FACULTY": "JOSHUA SUNDER DAVID REDDIPOGU"
   },
@@ -6780,6 +7627,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L19+L20",
     "FACULTY": "SUDHA C"
   },
@@ -6788,6 +7636,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L3+L4",
     "FACULTY": "SUDHEER KUMAR E"
   },
@@ -6796,6 +7645,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L23+L24",
     "FACULTY": "VALARMATHI K"
   },
@@ -6804,6 +7654,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L49+L50",
     "FACULTY": "MALINI A"
   },
@@ -6812,6 +7663,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L23+L24",
     "FACULTY": "BALASARASWATHI"
   },
@@ -6820,6 +7672,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L9+L10",
     "FACULTY": "SELVAM D"
   },
@@ -6828,6 +7681,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L3+L4",
     "FACULTY": "PRAVIN RENOLD A"
   },
@@ -6836,6 +7690,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L7+L8",
     "FACULTY": "KAJA MOHIDEEN A"
   },
@@ -6844,6 +7699,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L23+L24",
     "FACULTY": "JAYARAM B"
   },
@@ -6852,6 +7708,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605A",
     "SLOT": "L3+L4",
     "FACULTY": "VISWANATHAN V"
   },
@@ -6860,6 +7717,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L37+L38",
     "FACULTY": "AARTHI B"
   },
@@ -6868,6 +7726,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L39+L40",
     "FACULTY": "PANDIYARAJU V"
   },
@@ -6876,6 +7735,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-511",
     "SLOT": "L21+L22",
     "FACULTY": "MALINI A"
   },
@@ -6884,6 +7744,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L37+L38",
     "FACULTY": "SELVAM D"
   },
@@ -6892,6 +7753,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-511",
     "SLOT": "L23+L24",
     "FACULTY": "MANIMEGALAI"
   },
@@ -6900,6 +7762,7 @@ const data = [
     "TITLE": "Computer Architecture and Organization",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-401",
     "SLOT": "E1+TE1",
     "FACULTY": "PUNITHA K"
   },
@@ -6908,6 +7771,7 @@ const data = [
     "TITLE": "Foundations of Data Science",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "B1+TB1",
     "FACULTY": "VIJAYARAJ J"
   },
@@ -6916,6 +7780,7 @@ const data = [
     "TITLE": "Foundations of Data Science",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "B2+TB2",
     "FACULTY": "SARANYA M"
   },
@@ -6924,6 +7789,7 @@ const data = [
     "TITLE": "Programming for Data Science",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-604",
     "SLOT": "G2",
     "FACULTY": "VIJAYALAKSHMI A"
   },
@@ -6932,6 +7798,7 @@ const data = [
     "TITLE": "Programming for Data Science",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-607",
     "SLOT": "G1",
     "FACULTY": "MEIGNANAMOORTHI D"
   },
@@ -6940,6 +7807,7 @@ const data = [
     "TITLE": "Programming for Data Science",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-604",
     "SLOT": "G1",
     "FACULTY": "AMRIT PAL"
   },
@@ -6948,6 +7816,7 @@ const data = [
     "TITLE": "Programming for Data Science Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L25+L26",
     "FACULTY": "VIJAYALAKSHMI A"
   },
@@ -6956,6 +7825,7 @@ const data = [
     "TITLE": "Programming for Data Science Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L51+L52",
     "FACULTY": "MEIGNANAMOORTHI D"
   },
@@ -6964,6 +7834,7 @@ const data = [
     "TITLE": "Programming for Data Science Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L11+L12",
     "FACULTY": "AMRIT PAL"
   },
@@ -6972,6 +7843,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "B2+TB2",
     "FACULTY": "MAHESWARI N"
   },
@@ -6980,6 +7852,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "B1+TB1",
     "FACULTY": "PRAKASH B"
   },
@@ -6988,6 +7861,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "B2+TB2",
     "FACULTY": "ABDUL QUADIR MD"
   },
@@ -6996,6 +7870,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "B1+TB1",
     "FACULTY": "R JOTHI"
   },
@@ -7004,6 +7879,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "B2+TB2",
     "FACULTY": "SALEENA B"
   },
@@ -7012,6 +7888,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "B1+TB1",
     "FACULTY": "SHRIDEVI S"
   },
@@ -7020,6 +7897,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "B2+TB2",
     "FACULTY": "SRIDEVI S"
   },
@@ -7028,6 +7906,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-705",
     "SLOT": "B1+TB1",
     "FACULTY": "TULASI PRASAD SARIKI"
   },
@@ -7036,6 +7915,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "B1+TB1",
     "FACULTY": "PRIYADARSHINI J"
   },
@@ -7044,6 +7924,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L25+L26",
     "FACULTY": "MAHESWARI N"
   },
@@ -7052,6 +7933,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L43+L44",
     "FACULTY": "PRAKASH B"
   },
@@ -7060,6 +7942,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L15+L16",
     "FACULTY": "ABDUL QUADIR MD"
   },
@@ -7068,6 +7951,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L43+L44",
     "FACULTY": "R JOTHI"
   },
@@ -7076,6 +7960,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L15+L16",
     "FACULTY": "SALEENA B"
   },
@@ -7084,6 +7969,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L45+L46",
     "FACULTY": "SHRIDEVI S"
   },
@@ -7092,6 +7978,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L13+L14",
     "FACULTY": "SRIDEVI S"
   },
@@ -7100,6 +7987,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L45+L46",
     "FACULTY": "TULASI PRASAD SARIKI"
   },
@@ -7108,6 +7996,7 @@ const data = [
     "TITLE": "Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L31+L32",
     "FACULTY": "PRIYADARSHINI J"
   },
@@ -7116,6 +8005,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "D1+TD1",
     "FACULTY": "ALOK CHAUHAN"
   },
@@ -7124,6 +8014,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "D2+TD2",
     "FACULTY": "ELAKYA R"
   },
@@ -7132,6 +8023,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "D1+TD1",
     "FACULTY": "BERIN SHALU S"
   },
@@ -7140,6 +8032,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "D2+TD2",
     "FACULTY": "ILAVENDHAN A"
   },
@@ -7148,6 +8041,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "D1+TD1",
     "FACULTY": "ELAKIYA E"
   },
@@ -7156,6 +8050,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "D2+TD2",
     "FACULTY": "ALOK CHAUHAN"
   },
@@ -7164,6 +8059,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "D1+TD1",
     "FACULTY": "KUMARAN K"
   },
@@ -7172,6 +8068,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "D2+TD2",
     "FACULTY": "SRISAKTHI SARAVANAN"
   },
@@ -7180,6 +8077,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "D1+TD1",
     "FACULTY": "LAKSHMI HARIKA PALIVELA"
   },
@@ -7188,6 +8086,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "D2+TD2",
     "FACULTY": "KARTHIKA S K"
   },
@@ -7196,6 +8095,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "D1+TD1",
     "FACULTY": "ELAKYA R"
   },
@@ -7204,6 +8104,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "D1+TD1",
     "FACULTY": "ILAVENDHAN A"
   },
@@ -7212,6 +8113,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "D2+TD2",
     "FACULTY": "ELAKIYA E"
   },
@@ -7220,6 +8122,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "D1+TD1",
     "FACULTY": "V. SAKTHIVEL"
   },
@@ -7228,6 +8131,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "D1+TD1",
     "FACULTY": "PRABHAKARAN R"
   },
@@ -7236,6 +8140,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "B1+TB1",
     "FACULTY": "KAVITHA"
   },
@@ -7244,14 +8149,16 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "K ILAVARASI"
+    "VENUE": "AB3-406",
+    "SLOT": "B1+TB1",
+    "FACULTY": "A. K ILAVARASI"
   },
   {
     "CODE": "BCSE301L",
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "B1+TB1",
     "FACULTY": "ILAKIYASELVAN N"
   },
@@ -7260,6 +8167,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "B1+TB1",
     "FACULTY": "PARKAVI K"
   },
@@ -7268,6 +8176,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "B1+TB1",
     "FACULTY": "SUGANESHWARI"
   },
@@ -7276,6 +8185,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "B1+TB1",
     "FACULTY": "REVATHI M"
   },
@@ -7284,6 +8194,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-403",
     "SLOT": "B2+TB2",
     "FACULTY": "KAVITHA"
   },
@@ -7292,6 +8203,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "B2+TB2",
     "FACULTY": "ILAKIYASELVAN N"
   },
@@ -7300,6 +8212,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "B2+TB2",
     "FACULTY": "REVATHI M"
   },
@@ -7308,14 +8221,16 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "K ILAVARASI"
+    "VENUE": "AB3-406",
+    "SLOT": "B2+TB2",
+    "FACULTY": "A. K ILAVARASI"
   },
   {
     "CODE": "BCSE301L",
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "B2+TB2",
     "FACULTY": "PARKAVI K"
   },
@@ -7324,6 +8239,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "B2+TB2",
     "FACULTY": "SUGANESHWARI"
   },
@@ -7332,6 +8248,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "D1+TD1",
     "FACULTY": "KARTHIKA S K"
   },
@@ -7340,6 +8257,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "D2+TD2",
     "FACULTY": "LAKSHMI HARIKA PALIVELA"
   },
@@ -7348,6 +8266,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "D1+TD1",
     "FACULTY": "PRAVEEN JOE I R"
   },
@@ -7356,6 +8275,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "D1+TD1",
     "FACULTY": "SOFTYA SEBASTIAN"
   },
@@ -7364,6 +8284,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "D1+TD1",
     "FACULTY": "SRISAKTHI SARAVANAN"
   },
@@ -7372,6 +8293,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "D2+TD2",
     "FACULTY": "PRABHAKARAN R"
   },
@@ -7380,6 +8302,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "D2+TD2",
     "FACULTY": "SOFTYA SEBASTIAN"
   },
@@ -7388,6 +8311,7 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "D2+TD2",
     "FACULTY": "KUMARAN K"
   },
@@ -7396,6 +8320,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L11+L12",
     "FACULTY": "ALOK CHAUHAN"
   },
@@ -7404,6 +8329,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L9+L10",
     "FACULTY": "ELAKYA R"
   },
@@ -7412,6 +8338,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-511",
     "SLOT": "L11+L12",
     "FACULTY": "BERIN SHALU S"
   },
@@ -7420,6 +8347,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L27+L28",
     "FACULTY": "ILAVENDHAN A"
   },
@@ -7428,6 +8356,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L57+L58",
     "FACULTY": "ELAKIYA E"
   },
@@ -7436,6 +8365,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L27+L28",
     "FACULTY": "ALOK CHAUHAN"
   },
@@ -7444,6 +8374,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L57+L58",
     "FACULTY": "KUMARAN K"
   },
@@ -7452,6 +8383,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-611",
     "SLOT": "L21+L22",
     "FACULTY": "SRISAKTHI SARAVANAN"
   },
@@ -7460,6 +8392,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L57+L58",
     "FACULTY": "LAKSHMI HARIKA PALIVELA"
   },
@@ -7468,6 +8401,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L9+L10",
     "FACULTY": "KARTHIKA S K"
   },
@@ -7476,6 +8410,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L29+L30",
     "FACULTY": "ELAKYA R"
   },
@@ -7484,6 +8419,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L57+L58",
     "FACULTY": "ILAVENDHAN A"
   },
@@ -7492,6 +8428,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L27+L28",
     "FACULTY": "ELAKIYA E"
   },
@@ -7500,6 +8437,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-511",
     "SLOT": "L29+L30",
     "FACULTY": "V. SAKTHIVEL"
   },
@@ -7508,6 +8446,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L55+L56",
     "FACULTY": "PRABHAKARAN R"
   },
@@ -7516,6 +8455,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L29+L30",
     "FACULTY": "KAVITHA"
   },
@@ -7524,14 +8464,16 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
-    "SLOT": "A",
-    "FACULTY": "K ILAVARASI"
+    "VENUE": "AB1-313",
+    "SLOT": "L31+L32",
+    "FACULTY": "A. K ILAVARASI"
   },
   {
     "CODE": "BCSE301P",
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L45+L46",
     "FACULTY": "ILAKIYASELVAN N"
   },
@@ -7540,6 +8482,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L45+L46",
     "FACULTY": "PARKAVI K"
   },
@@ -7548,6 +8491,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L45+L46",
     "FACULTY": "SUGANESHWARI"
   },
@@ -7556,6 +8500,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L29+L30",
     "FACULTY": "REVATHI M"
   },
@@ -7564,6 +8509,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605A",
     "SLOT": "L25+L26",
     "FACULTY": "KAVITHA"
   },
@@ -7572,6 +8518,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L15+L16",
     "FACULTY": "ILAKIYASELVAN N"
   },
@@ -7580,6 +8527,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L25+L26",
     "FACULTY": "REVATHI M"
   },
@@ -7588,14 +8536,16 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
-    "SLOT": "A",
-    "FACULTY": "K ILAVARASI"
+    "VENUE": "AB1-307",
+    "SLOT": "L13+L14",
+    "FACULTY": "A. K ILAVARASI"
   },
   {
     "CODE": "BCSE301P",
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L25+L26",
     "FACULTY": "PARKAVI K"
   },
@@ -7604,6 +8554,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L15+L16",
     "FACULTY": "SUGANESHWARI"
   },
@@ -7612,6 +8563,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L57+L58",
     "FACULTY": "KARTHIKA S K"
   },
@@ -7620,6 +8572,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L27+L28",
     "FACULTY": "LAKSHMI HARIKA PALIVELA"
   },
@@ -7628,6 +8581,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L29+L30",
     "FACULTY": "PRAVEEN JOE I R"
   },
@@ -7636,6 +8590,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L55+L56",
     "FACULTY": "SOFTYA SEBASTIAN"
   },
@@ -7644,6 +8599,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L55+L56",
     "FACULTY": "SRISAKTHI SARAVANAN"
   },
@@ -7652,6 +8608,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L27+L28",
     "FACULTY": "PRABHAKARAN R"
   },
@@ -7660,6 +8617,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L27+L28",
     "FACULTY": "SOFTYA SEBASTIAN"
   },
@@ -7668,6 +8626,7 @@ const data = [
     "TITLE": "Software Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L9+L10",
     "FACULTY": "KUMARAN K"
   },
@@ -7676,6 +8635,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-407",
     "SLOT": "G1+TG1",
     "FACULTY": "ANIK GOSWAMI"
   },
@@ -7684,6 +8644,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "A1+TA1",
     "FACULTY": "ROLLA SUBRAHMANYAM"
   },
@@ -7692,6 +8653,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "A1+TA1",
     "FACULTY": "SANKAR P"
   },
@@ -7700,6 +8662,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "A1+TA1",
     "FACULTY": "HELEN VIJITHA P"
   },
@@ -7708,6 +8671,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "A1+TA1",
     "FACULTY": "PARVATHY A K"
   },
@@ -7716,6 +8680,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "A1+TA1",
     "FACULTY": "SIVARANJANI N"
   },
@@ -7724,6 +8689,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "A2+TA2",
     "FACULTY": "ROLLA SUBRAHMANYAM"
   },
@@ -7732,6 +8698,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "A2+TA2",
     "FACULTY": "SANKAR P"
   },
@@ -7740,6 +8707,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "A2+TA2",
     "FACULTY": "HELEN VIJITHA P"
   },
@@ -7748,6 +8716,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "A2+TA2",
     "FACULTY": "PARVATHY A K"
   },
@@ -7756,6 +8725,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-305",
     "SLOT": "A2+TA2",
     "FACULTY": "SIVARANJANI N"
   },
@@ -7764,6 +8734,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "A2+TA2",
     "FACULTY": "GAYATHRI DEVI S"
   },
@@ -7772,6 +8743,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "F1+TF1",
     "FACULTY": "AKKARAPAKKAM SUNEESH JACOB"
   },
@@ -7780,6 +8752,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-811",
     "SLOT": "F1+TF1",
     "FACULTY": "RISHIKESHAN C A"
   },
@@ -7788,6 +8761,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-812",
     "SLOT": "F1+TF1",
     "FACULTY": "RADHIKA R"
   },
@@ -7796,6 +8770,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "F2+TF2",
     "FACULTY": "AKKARAPAKKAM SUNEESH JACOB"
   },
@@ -7804,6 +8779,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-811",
     "SLOT": "F2+TF2",
     "FACULTY": "RISHIKESHAN C A"
   },
@@ -7812,6 +8788,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-812",
     "SLOT": "F2+TF2",
     "FACULTY": "RADHIKA R"
   },
@@ -7820,6 +8797,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L29+L30",
     "FACULTY": "ANIK GOSWAMI"
   },
@@ -7828,6 +8806,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L11+L12",
     "FACULTY": "ROLLA SUBRAHMANYAM"
   },
@@ -7836,6 +8815,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L11+L12",
     "FACULTY": "SANKAR P"
   },
@@ -7844,6 +8824,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L11+L12",
     "FACULTY": "HELEN VIJITHA P"
   },
@@ -7852,6 +8833,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L11+L12",
     "FACULTY": "PARVATHY A K"
   },
@@ -7860,6 +8842,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L39+L40",
     "FACULTY": "SIVARANJANI N"
   },
@@ -7868,6 +8851,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L19+L20",
     "FACULTY": "ROLLA SUBRAHMANYAM"
   },
@@ -7876,6 +8860,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L19+L20",
     "FACULTY": "SANKAR P"
   },
@@ -7884,6 +8869,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L7+L8",
     "FACULTY": "HELEN VIJITHA P"
   },
@@ -7892,6 +8878,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L7+L8",
     "FACULTY": "PARVATHY A K"
   },
@@ -7900,6 +8887,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L3+L4",
     "FACULTY": "SIVARANJANI N"
   },
@@ -7908,6 +8896,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L3+L4",
     "FACULTY": "GAYATHRI DEVI S"
   },
@@ -7916,6 +8905,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L51+L52",
     "FACULTY": "RISHIKESHAN C A"
   },
@@ -7924,6 +8914,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L49+L50",
     "FACULTY": "AKKARAPAKKAM SUNEESH JACOB"
   },
@@ -7932,6 +8923,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L21+L22",
     "FACULTY": "RISHIKESHAN C A"
   },
@@ -7940,6 +8932,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L23+L24",
     "FACULTY": "RADHIKA R"
   },
@@ -7948,6 +8941,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-607B",
     "SLOT": "L7+L8",
     "FACULTY": "AKKARAPAKKAM SUNEESH JACOB"
   },
@@ -7956,6 +8950,7 @@ const data = [
     "TITLE": "Database Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L19+L20",
     "FACULTY": "RADHIKA R"
   },
@@ -7964,6 +8959,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-403",
     "SLOT": "D2+TD2",
     "FACULTY": "SHARON GIFTSY A L"
   },
@@ -7972,6 +8968,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-208",
     "SLOT": "G1+TG1",
     "FACULTY": "BALAKRISHNAN R"
   },
@@ -7980,6 +8977,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-208",
     "SLOT": "G2+TG2",
     "FACULTY": "BALAKRISHNAN R"
   },
@@ -7988,6 +8986,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "D2+TD2",
     "FACULTY": "BALAKRISHNAN R"
   },
@@ -7996,6 +8995,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "D1+TD1",
     "FACULTY": "CHANTHINI BASKAR"
   },
@@ -8004,6 +9004,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-406",
     "SLOT": "D2+TD2",
     "FACULTY": "CHANTHINI BASKAR"
   },
@@ -8012,6 +9013,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-209",
     "SLOT": "G1+TG1",
     "FACULTY": "CHANTHINI BASKAR"
   },
@@ -8020,6 +9022,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-211",
     "SLOT": "G1+TG1",
     "FACULTY": "DHANUSH R"
   },
@@ -8028,6 +9031,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-209",
     "SLOT": "G2+TG2",
     "FACULTY": "DHANUSH R"
   },
@@ -8036,6 +9040,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "D2+TD2",
     "FACULTY": "DHANUSH R"
   },
@@ -8044,6 +9049,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "D1+TD1",
     "FACULTY": "KARTHIKEYAN P R"
   },
@@ -8052,6 +9058,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "D2+TD2",
     "FACULTY": "KARTHIKEYAN P R"
   },
@@ -8060,6 +9067,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-211",
     "SLOT": "G2+TG2",
     "FACULTY": "KARTHIKEYAN P R"
   },
@@ -8068,6 +9076,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "D1+TD1",
     "FACULTY": "KIRAN KUMAR M"
   },
@@ -8076,6 +9085,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "D2+TD2",
     "FACULTY": "KIRAN KUMAR M"
   },
@@ -8084,6 +9094,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-305",
     "SLOT": "G2+TG2",
     "FACULTY": "KIRAN KUMAR M"
   },
@@ -8092,6 +9103,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "D1+TD1",
     "FACULTY": "MOHAMMED AARIF K O"
   },
@@ -8100,6 +9112,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "D2+TD2",
     "FACULTY": "MOHAMMED AARIF K O"
   },
@@ -8108,6 +9121,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "D2+TD2",
     "FACULTY": "SINDHUJA M"
   },
@@ -8116,6 +9130,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-305",
     "SLOT": "G1+TG1",
     "FACULTY": "SINDHUJA M"
   },
@@ -8124,6 +9139,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "D2+TD2",
     "FACULTY": "SUHASINI S"
   },
@@ -8132,6 +9148,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-306",
     "SLOT": "G1+TG1",
     "FACULTY": "SUHASINI S"
   },
@@ -8140,6 +9157,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-403",
     "SLOT": "G1+TG1",
     "FACULTY": "VENKATESAN C"
   },
@@ -8148,6 +9166,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-306",
     "SLOT": "G2+TG2",
     "FACULTY": "VENKATESAN C"
   },
@@ -8156,6 +9175,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "D2+TD2",
     "FACULTY": "BIBHUTI BHUSAN PRADHAN"
   },
@@ -8164,6 +9184,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "D2+TD2",
     "FACULTY": "MANIGANDAN M"
   },
@@ -8172,6 +9193,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-705",
     "SLOT": "D2+TD2",
     "FACULTY": "REVATHI S"
   },
@@ -8180,6 +9202,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "D1+TD1",
     "FACULTY": "SINDHUJA M"
   },
@@ -8188,6 +9211,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "D1+TD1",
     "FACULTY": "SUHASINI S"
   },
@@ -8196,6 +9220,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "D1+TD1",
     "FACULTY": "BIBHUTI BHUSAN PRADHAN"
   },
@@ -8204,6 +9229,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "D1+TD1",
     "FACULTY": "MANIGANDAN M"
   },
@@ -8212,6 +9238,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-201",
     "SLOT": "D1+TD1",
     "FACULTY": "REVATHI S"
   },
@@ -8220,6 +9247,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-202",
     "SLOT": "D1+TD1",
     "FACULTY": "SRITAMA ROY"
   },
@@ -8228,6 +9256,7 @@ const data = [
     "TITLE": "Embedded Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-203",
     "SLOT": "D1+TD1",
     "FACULTY": "ABHIJIT MISHRA"
   },
@@ -8236,6 +9265,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "B2+TB2",
     "FACULTY": "PREETHA EVANGELINE D"
   },
@@ -8244,6 +9274,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "B2+TB2",
     "FACULTY": "DOMINIC SAVIO M"
   },
@@ -8252,6 +9283,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "B1+TB1",
     "FACULTY": "BHAVADHARINI R M"
   },
@@ -8260,6 +9292,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "B2+TB2",
     "FACULTY": "VIJAYAPRABAKARAN K"
   },
@@ -8268,6 +9301,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "B1+TB1",
     "FACULTY": "VIJAYAPRABAKARAN K"
   },
@@ -8276,6 +9310,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "B1+TB1",
     "FACULTY": "RAJIV VINCENT"
   },
@@ -8284,6 +9319,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "B1+TB1",
     "FACULTY": "AFRUZA BEGUM"
   },
@@ -8292,6 +9328,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "B1+TB1",
     "FACULTY": "DEVI K"
   },
@@ -8300,6 +9337,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "B1+TB1",
     "FACULTY": "RATHNA"
   },
@@ -8308,6 +9346,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "B1+TB1",
     "FACULTY": "ARAVINDKUMAR S"
   },
@@ -8316,6 +9355,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "B1+TB1",
     "FACULTY": "RAJA M"
   },
@@ -8324,6 +9364,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "B1+TB1",
     "FACULTY": "INDIRA B"
   },
@@ -8332,6 +9373,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "B1+TB1",
     "FACULTY": "PANKAJA LAKSHMI P"
   },
@@ -8340,6 +9382,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "B2+TB2",
     "FACULTY": "RATHNA"
   },
@@ -8348,6 +9391,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "B2+TB2",
     "FACULTY": "ARAVINDKUMAR S"
   },
@@ -8356,6 +9400,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "B2+TB2",
     "FACULTY": "RAJA M"
   },
@@ -8364,6 +9409,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "B2+TB2",
     "FACULTY": "INDIRA B"
   },
@@ -8372,6 +9418,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "B2+TB2",
     "FACULTY": "MANAS RANJAN PRUSTY"
   },
@@ -8380,6 +9427,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "B2+TB2",
     "FACULTY": "DEEPIKA R"
   },
@@ -8388,6 +9436,7 @@ const data = [
     "TITLE": "Compiler Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "B2+TB2",
     "FACULTY": "AFRUZA BEGUM"
   },
@@ -8396,6 +9445,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L45+L46",
     "FACULTY": "AFRUZA BEGUM"
   },
@@ -8404,6 +9454,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L43+L44",
     "FACULTY": "DEVI K"
   },
@@ -8412,6 +9463,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L29+L30",
     "FACULTY": "RATHNA"
   },
@@ -8420,6 +9472,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L45+L46",
     "FACULTY": "ARAVINDKUMAR S"
   },
@@ -8428,6 +9481,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L45+L46",
     "FACULTY": "RAJA M"
   },
@@ -8436,6 +9490,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3 - 402",
     "SLOT": "L29+L30",
     "FACULTY": "INDIRA B"
   },
@@ -8444,6 +9499,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L43+L44",
     "FACULTY": "PANKAJA LAKSHMI P"
   },
@@ -8452,6 +9508,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L25+L26",
     "FACULTY": "RATHNA"
   },
@@ -8460,6 +9517,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L15+L16",
     "FACULTY": "ARAVINDKUMAR S"
   },
@@ -8468,6 +9526,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605A",
     "SLOT": "L15+L16",
     "FACULTY": "RAJA M"
   },
@@ -8476,6 +9535,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L25+L26",
     "FACULTY": "INDIRA B"
   },
@@ -8484,6 +9544,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L27+L28",
     "FACULTY": "MANAS RANJAN PRUSTY"
   },
@@ -8492,6 +9553,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L9+L10",
     "FACULTY": "AFRUZA BEGUM"
   },
@@ -8500,6 +9562,7 @@ const data = [
     "TITLE": "Compiler Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L27+L28",
     "FACULTY": "DEEPIKA R"
   },
@@ -8508,6 +9571,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-407",
     "SLOT": "A1+TA1",
     "FACULTY": "MEENAKSHI J"
   },
@@ -8516,6 +9580,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "A1+TA1",
     "FACULTY": "HEMANTH C"
   },
@@ -8524,6 +9589,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "A1+TA1",
     "FACULTY": "JAYA VIGNESH T"
   },
@@ -8532,6 +9598,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "A1+TA1",
     "FACULTY": "SARANYA NAIR M"
   },
@@ -8540,6 +9607,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "A2+TA2",
     "FACULTY": "HEMANTH C"
   },
@@ -8548,6 +9616,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "A2+TA2",
     "FACULTY": "JAYA VIGNESH T"
   },
@@ -8556,6 +9625,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "A2+TA2",
     "FACULTY": "LATHA P"
   },
@@ -8564,6 +9634,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-607",
     "SLOT": "L11+L12",
     "FACULTY": "MEENAKSHI J"
   },
@@ -8572,6 +9643,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L49+L50",
     "FACULTY": "HEMANTH C"
   },
@@ -8580,6 +9652,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L37+L38",
     "FACULTY": "JAYA VIGNESH T"
   },
@@ -8588,6 +9661,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L39+L40",
     "FACULTY": "SARANYA NAIR M"
   },
@@ -8596,6 +9670,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L3+L4",
     "FACULTY": "HEMANTH C"
   },
@@ -8604,6 +9679,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L9+L10",
     "FACULTY": "JAYA VIGNESH T"
   },
@@ -8612,6 +9688,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-407",
     "SLOT": "L7+L8",
     "FACULTY": "LATHA P"
   },
@@ -8620,6 +9697,7 @@ const data = [
     "TITLE": "Cryptography and Network Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "B2+TB2",
     "FACULTY": "KARTHIKA V"
   },
@@ -8628,6 +9706,7 @@ const data = [
     "TITLE": "Cryptography and Network Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "B1+TB1",
     "FACULTY": "NITHYANANDAM P"
   },
@@ -8636,6 +9715,7 @@ const data = [
     "TITLE": "Cryptography and Network Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "B1+TB1",
     "FACULTY": "KARTHIKA V"
   },
@@ -8644,6 +9724,7 @@ const data = [
     "TITLE": "Cryptography and Network Security Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L15+L16",
     "FACULTY": "KARTHIKA V"
   },
@@ -8652,6 +9733,7 @@ const data = [
     "TITLE": "Cryptography and Network Security Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-602",
     "SLOT": "L31+L32",
     "FACULTY": "NITHYANANDAM P"
   },
@@ -8660,6 +9742,7 @@ const data = [
     "TITLE": "Cryptography and Network Security Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-511",
     "SLOT": "L43+L44",
     "FACULTY": "KARTHIKA V"
   },
@@ -8668,6 +9751,7 @@ const data = [
     "TITLE": "Design of Smart Cities",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "F1+TF1",
     "FACULTY": "SUSEELA S"
   },
@@ -8676,6 +9760,7 @@ const data = [
     "TITLE": "Design of Smart Cities",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "F2+TF2",
     "FACULTY": "VALLIDEVI K"
   },
@@ -8684,6 +9769,7 @@ const data = [
     "TITLE": "Design of Smart Cities",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "F2+TF2",
     "FACULTY": "SUSEELA S"
   },
@@ -8692,6 +9778,7 @@ const data = [
     "TITLE": "Foundations of Blockchain Technology",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-518",
     "SLOT": "G2+TG2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -8700,6 +9787,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-303",
     "SLOT": "E1",
     "FACULTY": "PRETHIJA G"
   },
@@ -8708,6 +9796,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-302",
     "SLOT": "E2",
     "FACULTY": "VALARMATHI SUDHAKAR"
   },
@@ -8716,6 +9805,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L29+L30",
     "FACULTY": "PRETHIJA G"
   },
@@ -8724,6 +9814,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L23+L24",
     "FACULTY": "VALARMATHI SUDHAKAR"
   },
@@ -8732,6 +9823,7 @@ const data = [
     "TITLE": "Deep Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "C1+TC1",
     "FACULTY": "RENTA CHINTALA BHARGAVI"
   },
@@ -8740,6 +9832,7 @@ const data = [
     "TITLE": "Deep Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L31+L32",
     "FACULTY": "RENTA CHINTALA BHARGAVI"
   },
@@ -8748,14 +9841,16 @@ const data = [
     "TITLE": "Predictive Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "NAYEEMULLA KHAN"
+    "VENUE": "MAB3-202",
+    "SLOT": "B1+TB1",
+    "FACULTY": "A. NAYEEMULLA KHAN"
   },
   {
     "CODE": "BCSE334L",
     "TITLE": "Predictive Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "B1+TB1",
     "FACULTY": "PATTABIRAMAN V"
   },
@@ -8764,6 +9859,7 @@ const data = [
     "TITLE": "Predictive Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-202",
     "SLOT": "B2+TB2",
     "FACULTY": "DHANALAKSHMI R"
   },
@@ -8772,6 +9868,7 @@ const data = [
     "TITLE": "Predictive Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "B2+TB2",
     "FACULTY": "TAMILARASI K"
   },
@@ -8780,6 +9877,7 @@ const data = [
     "TITLE": "Predictive Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-303",
     "SLOT": "B1+TB1",
     "FACULTY": "DHANALAKSHMI R"
   },
@@ -8788,6 +9886,7 @@ const data = [
     "TITLE": "Healthcare Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-301",
     "SLOT": "B1+TB1",
     "FACULTY": "PUNITHA K"
   },
@@ -8796,6 +9895,7 @@ const data = [
     "TITLE": "Healthcare Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-302",
     "SLOT": "B1+TB1",
     "FACULTY": "ASWIGA"
   },
@@ -8804,6 +9904,7 @@ const data = [
     "TITLE": "Healthcare Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-302",
     "SLOT": "B2+TB2",
     "FACULTY": "PUNITHA K"
   },
@@ -8812,6 +9913,7 @@ const data = [
     "TITLE": "Healthcare Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-202",
     "SLOT": "A1+TA1",
     "FACULTY": "MAHESWARI S"
   },
@@ -8820,6 +9922,7 @@ const data = [
     "TITLE": "Healthcare Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-202",
     "SLOT": "A2+TA2",
     "FACULTY": "SUGUNA"
   },
@@ -8828,6 +9931,7 @@ const data = [
     "TITLE": "Healthcare Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-303",
     "SLOT": "B2+TB2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -8836,6 +9940,7 @@ const data = [
     "TITLE": "Financial Data Analytics",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-203",
     "SLOT": "F1",
     "FACULTY": "NACHIYAPPAN S"
   },
@@ -8844,6 +9949,7 @@ const data = [
     "TITLE": "Financial Data Analytics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-202",
     "SLOT": "L11+L12",
     "FACULTY": "NACHIYAPPAN S"
   },
@@ -8852,6 +9958,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "E1+TE1",
     "FACULTY": "PRADEEP K"
   },
@@ -8860,6 +9967,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "E2+TE2",
     "FACULTY": "SUGUNA"
   },
@@ -8868,6 +9976,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "E1+TE1",
     "FACULTY": "MAHESWARI S"
   },
@@ -8876,6 +9985,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-513",
     "SLOT": "E2+TE2",
     "FACULTY": "SENDHIL R"
   },
@@ -8884,6 +9994,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "E1+TE1",
     "FACULTY": "JAYANTHI R"
   },
@@ -8892,6 +10003,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "E2+TE2",
     "FACULTY": "TAMILARASI K"
   },
@@ -8900,6 +10012,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "E1+TE1",
     "FACULTY": "MANSOOR HUSSAIN D"
   },
@@ -8908,6 +10021,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "E2+TE2",
     "FACULTY": "PRADEEP K"
   },
@@ -8916,6 +10030,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "E1+TE1",
     "FACULTY": "TAMILARASI K"
   },
@@ -8924,6 +10039,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "E1+TE1",
     "FACULTY": "SENDHIL R"
   },
@@ -8932,6 +10048,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "E1+TE1",
     "FACULTY": "SUGUNA"
   },
@@ -8940,6 +10057,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "E2+TE2",
     "FACULTY": "MAHESWARI S"
   },
@@ -8948,6 +10066,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "E2+TE2",
     "FACULTY": "KRITHIGA R"
   },
@@ -8956,6 +10075,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-607",
     "SLOT": "E2+TE2",
     "FACULTY": "JAYANTHI R"
   },
@@ -8964,6 +10084,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "E1+TE1",
     "FACULTY": "KANNIGA DEVI R"
   },
@@ -8972,6 +10093,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "E2+TE2",
     "FACULTY": "LOGESWARI G"
   },
@@ -8980,6 +10102,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "E1+TE1",
     "FACULTY": "KARTHIKEYAN N"
   },
@@ -8988,6 +10111,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-613",
     "SLOT": "E1+TE1",
     "FACULTY": "MARIMUTHU M"
   },
@@ -8996,6 +10120,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "E2+TE2",
     "FACULTY": "S JAHANGEER SIDIQ"
   },
@@ -9004,6 +10129,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "E1+TE1",
     "FACULTY": "THANIKACHALAM V"
   },
@@ -9012,6 +10138,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "E1+TE1",
     "FACULTY": "SIVA PRIYA M S"
   },
@@ -9020,6 +10147,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "E1+TE1",
     "FACULTY": "SELLAM V"
   },
@@ -9028,6 +10156,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-406",
     "SLOT": "E1+TE1",
     "FACULTY": "OMANA J"
   },
@@ -9036,6 +10165,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "E1+TE1",
     "FACULTY": "VIVEKANANDAN M"
   },
@@ -9044,6 +10174,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "E1+TE1",
     "FACULTY": "POORNIMA S"
   },
@@ -9052,6 +10183,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "E1+TE1",
     "FACULTY": "S VIGNESHWARI"
   },
@@ -9060,6 +10192,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "E1+TE1",
     "FACULTY": "PREETHA EVANGELINE D"
   },
@@ -9068,6 +10201,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "E1+TE1",
     "FACULTY": "MAHESWARI P"
   },
@@ -9076,6 +10210,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "E1+TE1",
     "FACULTY": "PREMANAND V"
   },
@@ -9084,6 +10219,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "E1+TE1",
     "FACULTY": "VISWANATHAN V"
   },
@@ -9092,6 +10228,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "E1+TE1",
     "FACULTY": "VIJAYARAJ J"
   },
@@ -9100,6 +10237,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "E1+TE1",
     "FACULTY": "RAJKUMAR R"
   },
@@ -9108,6 +10246,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-403",
     "SLOT": "E2+TE2",
     "FACULTY": "SELLAM V"
   },
@@ -9116,6 +10255,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "E2+TE2",
     "FACULTY": "OMANA J"
   },
@@ -9124,6 +10264,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "E2+TE2",
     "FACULTY": "VIVEKANANDAN M"
   },
@@ -9132,6 +10273,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-406",
     "SLOT": "E2+TE2",
     "FACULTY": "VIJAYARAJ J"
   },
@@ -9140,6 +10282,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "E2+TE2",
     "FACULTY": "PREETHA EVANGELINE D"
   },
@@ -9148,6 +10291,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "E2+TE2",
     "FACULTY": "PREMANAND V"
   },
@@ -9156,6 +10300,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "E2+TE2",
     "FACULTY": "MAHESWARI P"
   },
@@ -9164,6 +10309,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "E2+TE2",
     "FACULTY": "RAJKUMAR R"
   },
@@ -9172,6 +10318,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "E2+TE2",
     "FACULTY": "S VIGNESHWARI"
   },
@@ -9180,6 +10327,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "E2+TE2",
     "FACULTY": "POORNIMA S"
   },
@@ -9188,6 +10336,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-705",
     "SLOT": "E1+TE1",
     "FACULTY": "KRITHIGA R"
   },
@@ -9196,6 +10345,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "E2+TE2",
     "FACULTY": "PALANI THANARAJ K"
   },
@@ -9204,6 +10354,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-413",
     "SLOT": "E2+TE2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -9212,6 +10363,7 @@ const data = [
     "TITLE": "Cloud Architecture Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "E2+TE2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -9220,6 +10372,7 @@ const data = [
     "TITLE": "Summer Industrial Internship",
     "TYPE": "PJT",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -9228,6 +10381,7 @@ const data = [
     "TITLE": "Big Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-518",
     "SLOT": "E1+TE1",
     "FACULTY": "SRINIVASAN B"
   },
@@ -9236,6 +10390,7 @@ const data = [
     "TITLE": "Big Data Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-518",
     "SLOT": "E2+TE2",
     "FACULTY": "DHARINI R"
   },
@@ -9244,6 +10399,7 @@ const data = [
     "TITLE": "Internet and Web Programming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-518",
     "SLOT": "C1+TC1",
     "FACULTY": "SINDHU RAVINDRAN"
   },
@@ -9252,6 +10408,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-301",
     "SLOT": "D2+TD2",
     "FACULTY": "GEETHA S"
   },
@@ -9260,6 +10417,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-302",
     "SLOT": "D1+TD1",
     "FACULTY": "MANJULA V"
   },
@@ -9268,6 +10426,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-302",
     "SLOT": "D2+TD2",
     "FACULTY": "SELLAM V"
   },
@@ -9276,6 +10435,7 @@ const data = [
     "TITLE": "Computer vision",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-518",
     "SLOT": "C2+TC2",
     "FACULTY": "KULANDAI JOSEPHINE JULINA J"
   },
@@ -9284,6 +10444,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "D1+TD1",
     "FACULTY": "DINAKARAN M"
   },
@@ -9292,6 +10453,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-202",
     "SLOT": "D1+TD1",
     "FACULTY": "RAJKUMAR R"
   },
@@ -9300,6 +10462,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "D2+TD2",
     "FACULTY": "INDRA PRIYADHARSHINI"
   },
@@ -9308,6 +10471,7 @@ const data = [
     "TITLE": "Natural Language Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "F2+TF2",
     "FACULTY": "VIJAYAPRABAKARAN K"
   },
@@ -9316,6 +10480,7 @@ const data = [
     "TITLE": "Natural Language Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-505",
     "SLOT": "F2+TF2",
     "FACULTY": "JANAKI MEENA M"
   },
@@ -9324,6 +10489,7 @@ const data = [
     "TITLE": "Natural Language Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-504",
     "SLOT": "F1+TF1",
     "FACULTY": "KRITHIGA R"
   },
@@ -9332,6 +10498,7 @@ const data = [
     "TITLE": "Cyber Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "F1+TF1",
     "FACULTY": "JAYASUDHA M"
   },
@@ -9340,6 +10507,7 @@ const data = [
     "TITLE": "Cyber Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "F1+TF1",
     "FACULTY": "VIJAYAKUMAR K P"
   },
@@ -9348,6 +10516,7 @@ const data = [
     "TITLE": "Cyber Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "F2+TF2",
     "FACULTY": "SUBBULAKSHMI T"
   },
@@ -9356,6 +10525,7 @@ const data = [
     "TITLE": "Human Computer Interaction",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "D1+TD1",
     "FACULTY": "ANITA CHRISTALINE J"
   },
@@ -9364,6 +10534,7 @@ const data = [
     "TITLE": "Human Computer Interaction",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-301",
     "SLOT": "D1+TD1",
     "FACULTY": "KABILAN K"
   },
@@ -9372,6 +10543,7 @@ const data = [
     "TITLE": "Human Computer Interaction",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-202",
     "SLOT": "D2+TD2",
     "FACULTY": "ANITA CHRISTALINE J"
   },
@@ -9380,6 +10552,7 @@ const data = [
     "TITLE": "Human Computer Interaction",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "D2+TD2",
     "FACULTY": "PREMANAND V"
   },
@@ -9388,6 +10561,7 @@ const data = [
     "TITLE": "Game Programming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "A2+TA2",
     "FACULTY": "MANIMEGALAI"
   },
@@ -9396,6 +10570,7 @@ const data = [
     "TITLE": "Game Programming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "A1+TA1",
     "FACULTY": "SANGEETHA N"
   },
@@ -9404,6 +10579,7 @@ const data = [
     "TITLE": "Game Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L19+L20",
     "FACULTY": "MANIMEGALAI"
   },
@@ -9412,6 +10588,7 @@ const data = [
     "TITLE": "Game Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L51+L52",
     "FACULTY": "SANGEETHA N"
   },
@@ -9420,6 +10597,7 @@ const data = [
     "TITLE": "Machine vision",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-401",
     "SLOT": "B1+TB1",
     "FACULTY": "RAJARAJESWARI S"
   },
@@ -9428,6 +10606,7 @@ const data = [
     "TITLE": "Machine vision",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-402",
     "SLOT": "B1+TB1",
     "FACULTY": "BALASUNDARAM A"
   },
@@ -9436,6 +10615,7 @@ const data = [
     "TITLE": "Machine vision",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-401",
     "SLOT": "B2+TB2",
     "FACULTY": "RAJARAJESWARI S"
   },
@@ -9444,6 +10624,7 @@ const data = [
     "TITLE": "Machine Vision Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L23+L24",
     "FACULTY": "RAJARAJESWARI S"
   },
@@ -9452,6 +10633,7 @@ const data = [
     "TITLE": "Machine Vision Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L55+L56",
     "FACULTY": "BALASUNDARAM A"
   },
@@ -9460,6 +10642,7 @@ const data = [
     "TITLE": "Machine Vision Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L1+L2",
     "FACULTY": "RAJARAJESWARI S"
   },
@@ -9468,6 +10651,7 @@ const data = [
     "TITLE": "Explainable Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-201",
     "SLOT": "F2",
     "FACULTY": "POORNIMA S"
   },
@@ -9476,6 +10660,7 @@ const data = [
     "TITLE": "Speech and Language Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "F1+TF1",
     "FACULTY": "PRIYADARSHINI J"
   },
@@ -9484,6 +10669,7 @@ const data = [
     "TITLE": "Speech and Language Processing lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L57+L58",
     "FACULTY": "PRIYADARSHINI J"
   },
@@ -9492,6 +10678,7 @@ const data = [
     "TITLE": "Robotics: Kinematics, Dynamics and Motion Control",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-609",
     "SLOT": "G1+TG1",
     "FACULTY": "EDWARD JERO"
   },
@@ -9500,6 +10687,7 @@ const data = [
     "TITLE": "Robotics: Kinematics, Dynamics and Motion Control",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-509",
     "SLOT": "G2+TG2",
     "FACULTY": "ARUNKUMAR"
   },
@@ -9508,6 +10696,7 @@ const data = [
     "TITLE": "Robotics: Kinematics, Dynamics and Motion Control",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "G1+TG1",
     "FACULTY": "ARUNKUMAR"
   },
@@ -9516,6 +10705,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-301",
     "SLOT": "C1",
     "FACULTY": "GANALA SANTOSHI"
   },
@@ -9524,6 +10714,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-302",
     "SLOT": "C1",
     "FACULTY": "PRABHA B"
   },
@@ -9532,6 +10723,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-203",
     "SLOT": "C2",
     "FACULTY": "PRABHA B"
   },
@@ -9540,6 +10732,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-301",
     "SLOT": "C2",
     "FACULTY": "GANALA SANTOSHI"
   },
@@ -9548,6 +10741,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L33+L34",
     "FACULTY": "GANALA SANTOSHI"
   },
@@ -9556,6 +10750,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L31+L32",
     "FACULTY": "PRABHA B"
   },
@@ -9564,6 +10759,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L1+L2",
     "FACULTY": "PRABHA B"
   },
@@ -9572,6 +10768,7 @@ const data = [
     "TITLE": "Robot Modeling and Simulation Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L3+L4",
     "FACULTY": "GANALA SANTOSHI"
   },
@@ -9580,6 +10777,7 @@ const data = [
     "TITLE": "Robot Programming",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-606",
     "SLOT": "G2",
     "FACULTY": "SARANYARAJ D"
   },
@@ -9588,6 +10786,7 @@ const data = [
     "TITLE": "Robot Programming",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-608",
     "SLOT": "G1",
     "FACULTY": "GANALA SANTOSHI"
   },
@@ -9596,6 +10795,7 @@ const data = [
     "TITLE": "Robot Programming",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-605",
     "SLOT": "G2",
     "FACULTY": "SUVIDHA RUPESH KUMAR"
   },
@@ -9604,6 +10804,7 @@ const data = [
     "TITLE": "Robot Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L15+L16",
     "FACULTY": "SARANYARAJ D"
   },
@@ -9612,6 +10813,7 @@ const data = [
     "TITLE": "Robot Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L11+L12",
     "FACULTY": "GANALA SANTOSHI"
   },
@@ -9620,6 +10822,7 @@ const data = [
     "TITLE": "Robot Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L15+L16",
     "FACULTY": "SUVIDHA RUPESH KUMAR"
   },
@@ -9628,6 +10831,7 @@ const data = [
     "TITLE": "Robotic Perception",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-403",
     "SLOT": "B1+TB1",
     "FACULTY": "SARANYARAJ D"
   },
@@ -9636,6 +10840,7 @@ const data = [
     "TITLE": "Robotic Perception",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-403",
     "SLOT": "B2+TB2",
     "FACULTY": "MUTHUKUMARAN K"
   },
@@ -9644,6 +10849,7 @@ const data = [
     "TITLE": "Robotic Perception",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-103",
     "SLOT": "B1+TB1",
     "FACULTY": "PREM SANKAR"
   },
@@ -9652,6 +10858,7 @@ const data = [
     "TITLE": "Robotic Perception Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L29+L30",
     "FACULTY": "SARANYARAJ D"
   },
@@ -9660,6 +10867,7 @@ const data = [
     "TITLE": "Robotic Perception Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L21+L22",
     "FACULTY": "MUTHUKUMARAN K"
   },
@@ -9668,6 +10876,7 @@ const data = [
     "TITLE": "Robotic Perception Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L55+L56",
     "FACULTY": "PREM SANKAR"
   },
@@ -9676,6 +10885,7 @@ const data = [
     "TITLE": "Robotic Process Automation",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-303",
     "SLOT": "C1",
     "FACULTY": "UMESH K"
   },
@@ -9684,6 +10894,7 @@ const data = [
     "TITLE": "Robotic Process Automation",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-302",
     "SLOT": "C2",
     "FACULTY": "REKHA D"
   },
@@ -9692,6 +10903,7 @@ const data = [
     "TITLE": "Robotic Process Automation Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L9+L10",
     "FACULTY": "UMESH K"
   },
@@ -9700,6 +10912,7 @@ const data = [
     "TITLE": "Robotic Process Automation Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L13+L14",
     "FACULTY": "REKHA D"
   },
@@ -9708,6 +10921,7 @@ const data = [
     "TITLE": "Cognitive Robotics",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-401",
     "SLOT": "D1",
     "FACULTY": "PAVITHRA S"
   },
@@ -9716,6 +10930,7 @@ const data = [
     "TITLE": "Cognitive Robotics",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-402",
     "SLOT": "D1",
     "FACULTY": "UMESH K"
   },
@@ -9724,6 +10939,7 @@ const data = [
     "TITLE": "Cognitive Robotics",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-401",
     "SLOT": "D2",
     "FACULTY": "UMESH K"
   },
@@ -9732,6 +10948,7 @@ const data = [
     "TITLE": "Cognitive Robotics",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-403",
     "SLOT": "D1",
     "FACULTY": "HARINI S"
   },
@@ -9740,6 +10957,7 @@ const data = [
     "TITLE": "Cognitive Robotics",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-403",
     "SLOT": "D2",
     "FACULTY": "PAVITHRA L K"
   },
@@ -9748,6 +10966,7 @@ const data = [
     "TITLE": "Cognitive Robotics",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-402",
     "SLOT": "D2",
     "FACULTY": "PAVITHRA S"
   },
@@ -9756,6 +10975,7 @@ const data = [
     "TITLE": "Cognitive Robotics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L39+L40",
     "FACULTY": "PAVITHRA S"
   },
@@ -9764,6 +10984,7 @@ const data = [
     "TITLE": "Cognitive Robotics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L37+L38",
     "FACULTY": "UMESH K"
   },
@@ -9772,6 +10993,7 @@ const data = [
     "TITLE": "Cognitive Robotics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L21+L22",
     "FACULTY": "UMESH K"
   },
@@ -9780,6 +11002,7 @@ const data = [
     "TITLE": "Cognitive Robotics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L23+L24",
     "FACULTY": "HARINI S"
   },
@@ -9788,6 +11011,7 @@ const data = [
     "TITLE": "Cognitive Robotics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L27+L28",
     "FACULTY": "PAVITHRA L K"
   },
@@ -9796,6 +11020,7 @@ const data = [
     "TITLE": "Cognitive Robotics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L9+L10",
     "FACULTY": "PAVITHRA S"
   },
@@ -9804,6 +11029,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-201",
     "SLOT": "C1",
     "FACULTY": "VENKATRAMAN S"
   },
@@ -9812,6 +11038,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-202",
     "SLOT": "C1",
     "FACULTY": "NOEL JEYGAR ROBERT V"
   },
@@ -9820,6 +11047,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-201",
     "SLOT": "C2",
     "FACULTY": "SUVIDHA RUPESH KUMAR"
   },
@@ -9828,6 +11056,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-202",
     "SLOT": "C2",
     "FACULTY": "SANDOSH"
   },
@@ -9836,6 +11065,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-202",
     "SLOT": "F1",
     "FACULTY": "MARIA ANU"
   },
@@ -9844,6 +11074,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-301",
     "SLOT": "B2",
     "FACULTY": "V. MUTHUMANIKANDAN"
   },
@@ -9852,6 +11083,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-104",
     "SLOT": "B1",
     "FACULTY": "SATHIAN D"
   },
@@ -9860,6 +11092,7 @@ const data = [
     "TITLE": "Autonomous Drones",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-105",
     "SLOT": "B1",
     "FACULTY": "PRASAD M"
   },
@@ -9868,6 +11101,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L11+L12",
     "FACULTY": "VENKATRAMAN S"
   },
@@ -9876,6 +11110,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L37+L38",
     "FACULTY": "NOEL JEYGAR ROBERT V"
   },
@@ -9884,6 +11119,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L33+L34",
     "FACULTY": "VENKATRAMAN S"
   },
@@ -9892,6 +11128,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L45+L46",
     "FACULTY": "NOEL JEYGAR ROBERT V"
   },
@@ -9900,6 +11137,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L9+L10",
     "FACULTY": "SUVIDHA RUPESH KUMAR"
   },
@@ -9908,6 +11146,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L25+L26",
     "FACULTY": "SUVIDHA RUPESH KUMAR"
   },
@@ -9916,6 +11155,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L7+L8",
     "FACULTY": "SANDOSH"
   },
@@ -9924,6 +11164,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L3+L4",
     "FACULTY": "SANDOSH"
   },
@@ -9932,6 +11173,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L51+L52",
     "FACULTY": "MARIA ANU"
   },
@@ -9940,6 +11182,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L43+L44",
     "FACULTY": "MARIA ANU"
   },
@@ -9948,6 +11191,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L15+L16",
     "FACULTY": "V. MUTHUMANIKANDAN"
   },
@@ -9956,6 +11200,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L19+L20",
     "FACULTY": "V. MUTHUMANIKANDAN"
   },
@@ -9964,6 +11209,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L27+L28",
     "FACULTY": "SATHIAN D"
   },
@@ -9972,6 +11218,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L55+L56",
     "FACULTY": "SATHIAN D"
   },
@@ -9980,6 +11227,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L29+L30",
     "FACULTY": "PRASAD M"
   },
@@ -9988,6 +11236,7 @@ const data = [
     "TITLE": "Autonomous Drones Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L49+L50",
     "FACULTY": "PRASAD M"
   },
@@ -9996,6 +11245,7 @@ const data = [
     "TITLE": "Cyber Physical Systems Design",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-303",
     "SLOT": "D1",
     "FACULTY": "PRADEEP KUMAR T S"
   },
@@ -10004,6 +11254,7 @@ const data = [
     "TITLE": "Cyber Physical System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L29+L30",
     "FACULTY": "PRADEEP KUMAR T S"
   },
@@ -10012,6 +11263,7 @@ const data = [
     "TITLE": "Distributed Real Time Systems",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-201",
     "SLOT": "G1",
     "FACULTY": "RADHA R"
   },
@@ -10020,6 +11272,7 @@ const data = [
     "TITLE": "Distributed Real Time Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-612",
     "SLOT": "L23+L24",
     "FACULTY": "RADHA R"
   },
@@ -10028,6 +11281,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "E1+TE1",
     "FACULTY": "BHARADWAJA KUMAR"
   },
@@ -10036,6 +11290,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-202",
     "SLOT": "E1+TE1",
     "FACULTY": "NATARAJAN B"
   },
@@ -10044,6 +11299,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "E1+TE1",
     "FACULTY": "KISHOR KISAN INGLE"
   },
@@ -10052,6 +11308,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-201",
     "SLOT": "E2+TE2",
     "FACULTY": "BHARADWAJA KUMAR"
   },
@@ -10060,6 +11317,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-202",
     "SLOT": "E2+TE2",
     "FACULTY": "KISHOR KISAN INGLE"
   },
@@ -10068,6 +11326,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "E2+TE2",
     "FACULTY": "NATARAJAN B"
   },
@@ -10076,14 +11335,16 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "D",
-    "FACULTY": "MALA"
+    "VENUE": "MAB3-301",
+    "SLOT": "E1+TE1",
+    "FACULTY": "D JEYA MALA"
   },
   {
     "CODE": "BCSE432E",
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L31+L32",
     "FACULTY": "NATARAJAN B"
   },
@@ -10092,6 +11353,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L31+L32",
     "FACULTY": "KISHOR KISAN INGLE"
   },
@@ -10100,6 +11362,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L13+L14",
     "FACULTY": "BHARADWAJA KUMAR"
   },
@@ -10108,6 +11371,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-605B",
     "SLOT": "L13+L14",
     "FACULTY": "KISHOR KISAN INGLE"
   },
@@ -10116,6 +11380,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L15+L16",
     "FACULTY": "NATARAJAN B"
   },
@@ -10124,14 +11389,16 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "D",
-    "FACULTY": "MALA"
+    "VENUE": "AB3-611",
+    "SLOT": "L29+L30",
+    "FACULTY": "D JEYA MALA"
   },
   {
     "CODE": "BCSE432E",
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L29+L30",
     "FACULTY": "BHARADWAJA KUMAR"
   },
@@ -10140,6 +11407,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-302",
     "SLOT": "E1+TE1",
     "FACULTY": "RAJESH KUMAR"
   },
@@ -10148,14 +11416,16 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "D",
-    "FACULTY": "MALA"
+    "VENUE": "MAB3-301",
+    "SLOT": "E2+TE2",
+    "FACULTY": "D JEYA MALA"
   },
   {
     "CODE": "BCSE432E",
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L55+L56",
     "FACULTY": "RAJESH KUMAR"
   },
@@ -10164,14 +11434,16 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "D",
-    "FACULTY": "MALA"
+    "VENUE": "AB3-310",
+    "SLOT": "L15+L16",
+    "FACULTY": "D JEYA MALA"
   },
   {
     "CODE": "BCSE432E",
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-303",
     "SLOT": "D2+TD2",
     "FACULTY": "RAJESH KUMAR"
   },
@@ -10180,6 +11452,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-410",
     "SLOT": "L27+L28",
     "FACULTY": "RAJESH KUMAR"
   },
@@ -10188,6 +11461,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "D1+TD1",
     "FACULTY": "SUJATHA M"
   },
@@ -10196,6 +11470,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-204",
     "SLOT": "D1+TD1",
     "FACULTY": "SARANYA G"
   },
@@ -10204,6 +11479,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3 - 412",
     "SLOT": "L37+L38",
     "FACULTY": "SUJATHA M"
   },
@@ -10212,6 +11488,7 @@ const data = [
     "TITLE": "Reinforcement Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-302",
     "SLOT": "L11+L12",
     "FACULTY": "SARANYA G"
   },
@@ -10220,6 +11497,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -10228,6 +11506,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -10236,6 +11515,7 @@ const data = [
     "TITLE": "Project - II / Internship",
     "TYPE": "PJT",
     "CREDITS": 5,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -10244,6 +11524,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "MAB3-103",
     "SLOT": "TCC1",
     "FACULTY": "KARTHIKA V"
   },
@@ -10252,6 +11533,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "KARTHIKA V"
   },
@@ -10260,6 +11542,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "MAB3-201",
     "SLOT": "TCC1",
     "FACULTY": "VISWANATHAN V"
   },
@@ -10268,6 +11551,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "VISWANATHAN V"
   },
@@ -10276,6 +11560,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "MAB3-103",
     "SLOT": "TCC2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -10284,6 +11569,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "VISWANATHAN V"
   },
@@ -10292,6 +11578,7 @@ const data = [
     "TITLE": "Mini Project",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -10300,6 +11587,7 @@ const data = [
     "TITLE": "Mini Project",
     "TYPE": "PJT",
     "CREDITS": 4,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -10308,7 +11596,8 @@ const data = [
     "TITLE": "Sequential and Spatial data mining",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "MAB3-103",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "SARANYA G"
   },
   {
@@ -10316,7 +11605,8 @@ const data = [
     "TITLE": "Sequential and Spatial data mining",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB4-518",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "VIGNESH U"
   },
   {
@@ -10324,6 +11614,7 @@ const data = [
     "TITLE": "Real-Time Analytics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-103",
     "SLOT": "D1+TD1",
     "FACULTY": "SIVAKAMI R"
   },
@@ -10332,6 +11623,7 @@ const data = [
     "TITLE": "Real-Time Analytics",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "SIVAKAMI R"
   },
@@ -10340,6 +11632,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "MAB3-103",
     "SLOT": "A1",
     "FACULTY": "GAYATHRI DEVI S"
   },
@@ -10348,6 +11641,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L11+L12",
     "FACULTY": "GAYATHRI DEVI S"
   },
@@ -10356,6 +11650,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "GAYATHRI DEVI S"
   },
@@ -10364,6 +11659,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "MAB3-103",
     "SLOT": "A2",
     "FACULTY": "ABISHI CHOWDHURY"
   },
@@ -10372,6 +11668,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L3+L4",
     "FACULTY": "ABISHI CHOWDHURY"
   },
@@ -10380,6 +11677,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ABISHI CHOWDHURY"
   },
@@ -10388,6 +11686,7 @@ const data = [
     "TITLE": "Data Privacy",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-517",
     "SLOT": "B1+TB1",
     "FACULTY": "JAI VINITA L"
   },
@@ -10396,6 +11695,7 @@ const data = [
     "TITLE": "Foundations of Data Analytics",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "MAB3-103",
     "SLOT": "G2",
     "FACULTY": "RENTA CHINTALA BHARGAVI"
   },
@@ -10404,6 +11704,7 @@ const data = [
     "TITLE": "Foundations of Data Analytics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L21+L22",
     "FACULTY": "RENTA CHINTALA BHARGAVI"
   },
@@ -10412,6 +11713,7 @@ const data = [
     "TITLE": "Foundations of Data Analytics",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "RENTA CHINTALA BHARGAVI"
   },
@@ -10420,6 +11722,7 @@ const data = [
     "TITLE": "Foundations of Data Analytics",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "MAB3-103",
     "SLOT": "G1",
     "FACULTY": "ABINAYA S"
   },
@@ -10428,6 +11731,7 @@ const data = [
     "TITLE": "Foundations of Data Analytics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L5+L6",
     "FACULTY": "ABINAYA S"
   },
@@ -10436,6 +11740,7 @@ const data = [
     "TITLE": "Foundations of Data Analytics",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ABINAYA S"
   },
@@ -10444,6 +11749,7 @@ const data = [
     "TITLE": "Healthcare Analytics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-103",
     "SLOT": "C1+TC1",
     "FACULTY": "DEEPIKA ROSELIND J"
   },
@@ -10452,6 +11758,7 @@ const data = [
     "TITLE": "Healthcare Analytics",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "DEEPIKA ROSELIND J"
   },
@@ -10460,6 +11767,7 @@ const data = [
     "TITLE": "Forensics analytics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-103",
     "SLOT": "C2+TC2",
     "FACULTY": "JOHANAN JOYSINGH S"
   },
@@ -10468,6 +11776,7 @@ const data = [
     "TITLE": "Forensics analytics",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "JOHANAN JOYSINGH S"
   },
@@ -10476,6 +11785,7 @@ const data = [
     "TITLE": "Forensics analytics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-401",
     "SLOT": "C1+TC1",
     "FACULTY": "VISWANATHAN V"
   },
@@ -10484,6 +11794,7 @@ const data = [
     "TITLE": "Forensics analytics",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "VISWANATHAN V"
   },
@@ -10492,6 +11803,7 @@ const data = [
     "TITLE": "Image and Video Analytics",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "MAB3-101",
     "SLOT": "G1",
     "FACULTY": "ASNATH VICTY PHAMILA Y"
   },
@@ -10500,6 +11812,7 @@ const data = [
     "TITLE": "Image and Video Analytics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L5+L6",
     "FACULTY": "ASNATH VICTY PHAMILA Y"
   },
@@ -10508,6 +11821,7 @@ const data = [
     "TITLE": "Image and Video Analytics",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ASNATH VICTY PHAMILA Y"
   },
@@ -10516,6 +11830,7 @@ const data = [
     "TITLE": "Recommender Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-301",
     "SLOT": "A1+TA1",
     "FACULTY": "S VIGNESHWARI"
   },
@@ -10524,6 +11839,7 @@ const data = [
     "TITLE": "Recommender Systems",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "S VIGNESHWARI"
   },
@@ -10532,6 +11848,7 @@ const data = [
     "TITLE": "Blockchain Technologies",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-103",
     "SLOT": "B1+TB1",
     "FACULTY": "JAYANTHI R"
   },
@@ -10540,6 +11857,7 @@ const data = [
     "TITLE": "Blockchain Technologies",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-103",
     "SLOT": "B2+TB2",
     "FACULTY": "BENIL T"
   },
@@ -10548,7 +11866,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L37+L38+L49+L50",
+    "VENUE": "AB3-302",
+    "SLOT": "L37+L38+L",
     "FACULTY": "BALRAJ E"
   },
   {
@@ -10556,7 +11875,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L43+L44+L55+L56",
+    "VENUE": "AB1-506A",
+    "SLOT": "L43+L44+L",
     "FACULTY": "BHAVADHARINI R M"
   },
   {
@@ -10564,7 +11884,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L9+L10+L27+L28",
+    "VENUE": "AB1-506A",
+    "SLOT": "L9+L10+L2",
     "FACULTY": "BHAVADHARINI R M"
   },
   {
@@ -10572,7 +11893,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L43+L44",
+    "VENUE": "AB1-208",
+    "SLOT": "L31+L32+L",
     "FACULTY": "BALRAJ E"
   },
   {
@@ -10580,7 +11902,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L3+L4+L15+L16",
+    "VENUE": "AB1-208",
+    "SLOT": "L3+L4+L15",
     "FACULTY": "UMA MAHESWARI"
   },
   {
@@ -10588,7 +11911,8 @@ const data = [
     "TITLE": "Problem Solving Using Java",
     "TYPE": "LO",
     "CREDITS": 2,
-    "SLOT": "L29+L30+L33+L34",
+    "VENUE": "AB1-506A",
+    "SLOT": "L29+L30+L",
     "FACULTY": "UMA MAHESWARI"
   },
   {
@@ -10596,6 +11920,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-504",
     "SLOT": "D1+TD1",
     "FACULTY": "KAVIPRIYA G"
   },
@@ -10604,6 +11929,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L49+L50",
     "FACULTY": "KAVIPRIYA G"
   },
@@ -10612,6 +11938,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-505",
     "SLOT": "D1+TD1",
     "FACULTY": "SIVARAMAKRISHNAN N"
   },
@@ -10620,6 +11947,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L37+L38",
     "FACULTY": "SIVARAMAKRISHNAN N"
   },
@@ -10628,6 +11956,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-504",
     "SLOT": "D2+TD2",
     "FACULTY": "SIVARAMAKRISHNAN N"
   },
@@ -10636,6 +11965,7 @@ const data = [
     "TITLE": "Design and Analysis of Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L9+L10",
     "FACULTY": "SIVARAMAKRISHNAN N"
   },
@@ -10644,7 +11974,8 @@ const data = [
     "TITLE": "Advanced Computer Architecture and Organization",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB4-504",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "VERGIN RAJA SAROBIN M"
   },
   {
@@ -10652,7 +11983,8 @@ const data = [
     "TITLE": "Advanced Computer Architecture and Organization",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB4-505",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "KHADAR NAWAS K"
   },
   {
@@ -10660,7 +11992,8 @@ const data = [
     "TITLE": "Advanced Computer Architecture and Organization",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB4-504",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "VERGIN RAJA SAROBIN M"
   },
   {
@@ -10668,6 +12001,7 @@ const data = [
     "TITLE": "Database Systems Design",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-504",
     "SLOT": "E1+TE1",
     "FACULTY": "TRILOK NATH PANDEY"
   },
@@ -10676,6 +12010,7 @@ const data = [
     "TITLE": "Database Systems Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L49+L50",
     "FACULTY": "TRILOK NATH PANDEY"
   },
@@ -10684,6 +12019,7 @@ const data = [
     "TITLE": "Database Systems Design",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-505",
     "SLOT": "E1+TE1",
     "FACULTY": "MARIA ANU"
   },
@@ -10692,6 +12028,7 @@ const data = [
     "TITLE": "Database Systems Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L37+L38",
     "FACULTY": "MARIA ANU"
   },
@@ -10700,6 +12037,7 @@ const data = [
     "TITLE": "Database Systems Design",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-504",
     "SLOT": "E2+TE2",
     "FACULTY": "APPALARAJU MURALIDHAR"
   },
@@ -10708,6 +12046,7 @@ const data = [
     "TITLE": "Database Systems Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L21+L22",
     "FACULTY": "APPALARAJU MURALIDHAR"
   },
@@ -10716,7 +12055,8 @@ const data = [
     "TITLE": "Requirements Engineering and Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB4-502",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "RAMA PRABHA"
   },
   {
@@ -10724,7 +12064,8 @@ const data = [
     "TITLE": "Requirements Engineering and Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB4-502",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "RAMA PRABHA"
   },
   {
@@ -10732,7 +12073,8 @@ const data = [
     "TITLE": "Requirements Engineering and Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB4-503",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "PRAKASH B"
   },
   {
@@ -10740,7 +12082,8 @@ const data = [
     "TITLE": "Computer Architecture and Organization",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB4-502",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "JOSHAN"
   },
   {
@@ -10748,7 +12091,8 @@ const data = [
     "TITLE": "Computer Architecture and Organization",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB4-502",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "LEKSHMI K"
   },
   {
@@ -10756,14 +12100,16 @@ const data = [
     "TITLE": "Computer Architecture and Organization",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A",
-    "FACULTY": "S S PRABHAKAR RAO"
+    "VENUE": "AB4-503",
+    "SLOT": "D1+TD1+T",
+    "FACULTY": "B V A N S S PRABHAKAR RAO"
   },
   {
     "CODE": "IASWE206",
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-502",
     "SLOT": "B1+TB1",
     "FACULTY": "M. PREMALATHA"
   },
@@ -10772,6 +12118,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L31+L32",
     "FACULTY": "M. PREMALATHA"
   },
@@ -10780,6 +12127,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-502",
     "SLOT": "B2+TB2",
     "FACULTY": "ASHA JERLIN M"
   },
@@ -10788,6 +12136,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L15+L16",
     "FACULTY": "ASHA JERLIN M"
   },
@@ -10796,6 +12145,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-503",
     "SLOT": "B1+TB1",
     "FACULTY": "ASHA JERLIN M"
   },
@@ -10804,6 +12154,7 @@ const data = [
     "TITLE": "Database Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-209",
     "SLOT": "L43+L44",
     "FACULTY": "ASHA JERLIN M"
   },
@@ -10812,6 +12163,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "B1+TB1",
     "FACULTY": "MAHESWARI N"
   },
@@ -10820,6 +12172,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "B2+TB2",
     "FACULTY": "PRETHIJA G"
   },
@@ -10828,6 +12181,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-518",
     "SLOT": "B1+TB1",
     "FACULTY": "VALARMATHI SUDHAKAR"
   },
@@ -10836,6 +12190,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L29+L30",
     "FACULTY": "MAHESWARI N"
   },
@@ -10844,6 +12199,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L3+L4",
     "FACULTY": "PRETHIJA G"
   },
@@ -10852,6 +12208,7 @@ const data = [
     "TITLE": "Exploratory Data Analysis Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L11+L12",
     "FACULTY": "VALARMATHI SUDHAKAR"
   },
@@ -10860,6 +12217,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-514",
     "SLOT": "F1+TF1",
     "FACULTY": "DEEPIKA ROSELIND J"
   },
@@ -10868,6 +12226,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-514",
     "SLOT": "F2+TF2",
     "FACULTY": "DEEPIKA ROSELIND J"
   },
@@ -10876,6 +12235,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-512",
     "SLOT": "F2+TF2",
     "FACULTY": "SHERLY A"
   },
@@ -10884,6 +12244,7 @@ const data = [
     "TITLE": "Information Visualization",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "C1+TC1",
     "FACULTY": "PARVATHI R"
   },
@@ -10892,6 +12253,7 @@ const data = [
     "TITLE": "Information Visualization",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "C2+TC2",
     "FACULTY": "ANUBHA PEARLINE S"
   },
@@ -10900,6 +12262,7 @@ const data = [
     "TITLE": "Information Visualization",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-517",
     "SLOT": "C1+TC1",
     "FACULTY": "SHRUTI MISHRA"
   },
@@ -10908,6 +12271,7 @@ const data = [
     "TITLE": "Information Visualization Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L55+L56",
     "FACULTY": "PARVATHI R"
   },
@@ -10916,6 +12280,7 @@ const data = [
     "TITLE": "Information Visualization Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-208",
     "SLOT": "L21+L22",
     "FACULTY": "ANUBHA PEARLINE S"
   },
@@ -10924,6 +12289,7 @@ const data = [
     "TITLE": "Information Visualization Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L49+L50",
     "FACULTY": "SHRUTI MISHRA"
   },
@@ -10932,6 +12298,7 @@ const data = [
     "TITLE": "Introduction to Business Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "D2+TD2",
     "FACULTY": "ANU C H"
   },
@@ -10940,6 +12307,7 @@ const data = [
     "TITLE": "Introduction to Business Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "D1+TD1",
     "FACULTY": "ANBUMATHI R"
   },
@@ -10948,6 +12316,7 @@ const data = [
     "TITLE": "Introduction to Business Analytics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-519",
     "SLOT": "D1+TD1",
     "FACULTY": "BALAJI J"
   },
@@ -10956,6 +12325,7 @@ const data = [
     "TITLE": "Production and Operations Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-517",
     "SLOT": "E1+TE1",
     "FACULTY": "STEPHAN THANGAIAH"
   },
@@ -10964,6 +12334,7 @@ const data = [
     "TITLE": "Production and Operations Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-512",
     "SLOT": "E2+TE2",
     "FACULTY": "WAQAS NIAZI"
   },
@@ -10972,6 +12343,7 @@ const data = [
     "TITLE": "Production and Operations Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-519",
     "SLOT": "E1+TE1",
     "FACULTY": "RIJAS B M"
   },
@@ -10980,6 +12352,7 @@ const data = [
     "TITLE": "Financial Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "A1+TA1",
     "FACULTY": "SHARON SOPHIA"
   },
@@ -10988,6 +12361,7 @@ const data = [
     "TITLE": "Financial Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-517",
     "SLOT": "A1+TA1",
     "FACULTY": "SREEYA B"
   },
@@ -10996,6 +12370,7 @@ const data = [
     "TITLE": "Financial Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "A2+TA2",
     "FACULTY": "BUVANESH"
   },
@@ -11004,6 +12379,7 @@ const data = [
     "TITLE": "Human Recourse Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "G1+TG1",
     "FACULTY": "BHAVANI J"
   },
@@ -11012,6 +12388,7 @@ const data = [
     "TITLE": "Human Recourse Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-517",
     "SLOT": "G1+TG1",
     "FACULTY": "TISHA MERIAM CHERIAN"
   },
@@ -11020,6 +12397,7 @@ const data = [
     "TITLE": "Human Recourse Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-513",
     "SLOT": "G2+TG2",
     "FACULTY": "TISHA MERIAM CHERIAN"
   },
@@ -11028,6 +12406,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "B1+TB1",
     "FACULTY": "SUBBULAKSHMI P"
   },
@@ -11036,6 +12415,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-512",
     "SLOT": "B1+TB1",
     "FACULTY": "KANCHANA DEVI V"
   },
@@ -11044,6 +12424,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "B2+TB2",
     "FACULTY": "VISWANATHAN V"
   },
@@ -11052,6 +12433,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L43+L44",
     "FACULTY": "SUBBULAKSHMI P"
   },
@@ -11060,6 +12442,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L55+L56",
     "FACULTY": "KANCHANA DEVI V"
   },
@@ -11068,6 +12451,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L27+L28",
     "FACULTY": "VISWANATHAN V"
   },
@@ -11076,6 +12460,7 @@ const data = [
     "TITLE": "Optimization Techniques",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "E2+TE2",
     "FACULTY": "PADMAVATHY T V"
   },
@@ -11084,6 +12469,7 @@ const data = [
     "TITLE": "Optimization Techniques",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "G1+TG1",
     "FACULTY": "PADMAVATHY T V"
   },
@@ -11092,6 +12478,7 @@ const data = [
     "TITLE": "Optimization Techniques",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "G2+TG2",
     "FACULTY": "SARASWATHI D"
   },
@@ -11100,6 +12487,7 @@ const data = [
     "TITLE": "Optimization Techniques",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-201",
     "SLOT": "E1+TE1",
     "FACULTY": "SARASWATHI D"
   },
@@ -11108,6 +12496,7 @@ const data = [
     "TITLE": "R for Data Science",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-512",
     "SLOT": "G1+TG1",
     "FACULTY": "PRADEEP K V"
   },
@@ -11116,6 +12505,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "A1+TA1",
     "FACULTY": "ABISHI CHOWDHURY"
   },
@@ -11124,6 +12514,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "A2+TA2",
     "FACULTY": "KHADAR NAWAS K"
   },
@@ -11132,6 +12523,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-512",
     "SLOT": "A1+TA1",
     "FACULTY": "SENTHIL KUMAR A M"
   },
@@ -11140,6 +12532,7 @@ const data = [
     "TITLE": "Artificial Intelligence Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L11+L12",
     "FACULTY": "ABISHI CHOWDHURY"
   },
@@ -11148,6 +12541,7 @@ const data = [
     "TITLE": "Artificial Intelligence Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L21+L22",
     "FACULTY": "KHADAR NAWAS K"
   },
@@ -11156,6 +12550,7 @@ const data = [
     "TITLE": "Artificial Intelligence Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L31+L32",
     "FACULTY": "SENTHIL KUMAR A M"
   },
@@ -11164,6 +12559,7 @@ const data = [
     "TITLE": "Software Architecture",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "E1+TE1",
     "FACULTY": "RENUKA DEVI R"
   },
@@ -11172,6 +12568,7 @@ const data = [
     "TITLE": "Software Architecture",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "E2+TE2",
     "FACULTY": "MALINI DEEPIKA"
   },
@@ -11180,6 +12577,7 @@ const data = [
     "TITLE": "Software Architecture",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-512",
     "SLOT": "E1+TE1",
     "FACULTY": "MALINI DEEPIKA"
   },
@@ -11188,6 +12586,7 @@ const data = [
     "TITLE": "Software Testing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "D1+TD1",
     "FACULTY": "SRINIVASA PERUMAL R"
   },
@@ -11196,6 +12595,7 @@ const data = [
     "TITLE": "Software Testing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "D2+TD2",
     "FACULTY": "PRAVEEN JOE I R"
   },
@@ -11204,6 +12604,7 @@ const data = [
     "TITLE": "Software Testing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-512",
     "SLOT": "D1+TD1",
     "FACULTY": "UMAMAHESWARI E"
   },
@@ -11212,6 +12613,7 @@ const data = [
     "TITLE": "Software Testing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L49+L50",
     "FACULTY": "SRINIVASA PERUMAL R"
   },
@@ -11220,6 +12622,7 @@ const data = [
     "TITLE": "Software Testing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L9+L10",
     "FACULTY": "PRAVEEN JOE I R"
   },
@@ -11228,6 +12631,7 @@ const data = [
     "TITLE": "Software Testing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L23+L24",
     "FACULTY": "UMAMAHESWARI E"
   },
@@ -11236,6 +12640,7 @@ const data = [
     "TITLE": "Software Project Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-506",
     "SLOT": "C1+TC1",
     "FACULTY": "DHAVAKUMAR P"
   },
@@ -11244,22 +12649,25 @@ const data = [
     "TITLE": "Software Project Management",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "S S PRABHAKAR RAO"
+    "VENUE": "AB4-506",
+    "SLOT": "C2+TC2",
+    "FACULTY": "B V A N S S PRABHAKAR RAO"
   },
   {
     "CODE": "ISWE306L",
     "TITLE": "Software Project Management",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "S S PRABHAKAR RAO"
+    "VENUE": "AB4-512",
+    "SLOT": "C1+TC1",
+    "FACULTY": "B V A N S S PRABHAKAR RAO"
   },
   {
     "CODE": "ISWE310L",
     "TITLE": "Natural Language Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "E1+TE1",
     "FACULTY": "RAJARAJESWARI S"
   },
@@ -11268,6 +12676,7 @@ const data = [
     "TITLE": "Embedded Systems and IoT",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "F1+TF1",
     "FACULTY": "MANIMARAN P"
   },
@@ -11276,6 +12685,7 @@ const data = [
     "TITLE": "Embedded Systems and IoT",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "F2+TF2",
     "FACULTY": "MANIMARAN P"
   },
@@ -11284,6 +12694,7 @@ const data = [
     "TITLE": "Embedded Systems and IoT",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-102",
     "SLOT": "F1+TF1",
     "FACULTY": "PRAKASH V"
   },
@@ -11292,6 +12703,7 @@ const data = [
     "TITLE": "Embedded Systems and IoT Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L5+L6",
     "FACULTY": "MANIMARAN P"
   },
@@ -11300,6 +12712,7 @@ const data = [
     "TITLE": "Embedded Systems and IoT Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L49+L50",
     "FACULTY": "PRAKASH V"
   },
@@ -11308,6 +12721,7 @@ const data = [
     "TITLE": "Embedded Systems and IoT Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L21+L22",
     "FACULTY": "MANIMARAN P"
   },
@@ -11316,6 +12730,7 @@ const data = [
     "TITLE": "Network and Information Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "B1+TB1",
     "FACULTY": "SENDHIL R"
   },
@@ -11324,22 +12739,25 @@ const data = [
     "TITLE": "Network and Information Security",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "E",
-    "FACULTY": "NEHRU"
+    "VENUE": "MAB3-101",
+    "SLOT": "B2+TB2",
+    "FACULTY": "E INIYA NEHRU"
   },
   {
     "CODE": "ISWE405L",
     "TITLE": "Network and Information Security",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "E",
-    "FACULTY": "NEHRU"
+    "VENUE": "MAB3-102",
+    "SLOT": "B1+TB1",
+    "FACULTY": "E INIYA NEHRU"
   },
   {
     "CODE": "ISWE406L",
     "TITLE": "Agile Development Process and Devops",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "A1+TA1",
     "FACULTY": "GANESH N"
   },
@@ -11348,6 +12766,7 @@ const data = [
     "TITLE": "Agile Development Process and Devops",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "A2+TA2",
     "FACULTY": "GANESH N"
   },
@@ -11356,6 +12775,7 @@ const data = [
     "TITLE": "Agile Development Process and Devops",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-102",
     "SLOT": "A1+TA1",
     "FACULTY": "KAJA MOHIDEEN A"
   },
@@ -11364,6 +12784,7 @@ const data = [
     "TITLE": "Agile Development Process and Devops Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L37+L38",
     "FACULTY": "GANESH N"
   },
@@ -11372,6 +12793,7 @@ const data = [
     "TITLE": "Agile Development Process and Devops Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L9+L10",
     "FACULTY": "GANESH N"
   },
@@ -11380,6 +12802,7 @@ const data = [
     "TITLE": "Agile Development Process and Devops Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L11+L12",
     "FACULTY": "KAJA MOHIDEEN A"
   },
@@ -11388,6 +12811,7 @@ const data = [
     "TITLE": "UI and UX Programming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "D1+TD1",
     "FACULTY": "MALATHI G"
   },
@@ -11396,6 +12820,7 @@ const data = [
     "TITLE": "UI and UX Programming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-101",
     "SLOT": "D2+TD2",
     "FACULTY": "NEELANARAYANAN V"
   },
@@ -11404,6 +12829,7 @@ const data = [
     "TITLE": "UI and UX Programming",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-102",
     "SLOT": "D1+TD1",
     "FACULTY": "SIVABALAKRISHNAN M"
   },
@@ -11412,6 +12838,7 @@ const data = [
     "TITLE": "UI and UX Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L55+L56",
     "FACULTY": "MALATHI G"
   },
@@ -11420,6 +12847,7 @@ const data = [
     "TITLE": "UI and UX Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L3+L4",
     "FACULTY": "NEELANARAYANAN V"
   },
@@ -11428,6 +12856,7 @@ const data = [
     "TITLE": "UI and UX Programming Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L29+L30",
     "FACULTY": "SIVABALAKRISHNAN M"
   },
@@ -11436,6 +12865,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -11444,6 +12874,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -11452,6 +12883,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -11460,6 +12892,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -11468,6 +12901,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB4-506",
     "SLOT": "TCC1",
     "FACULTY": "M. PREMALATHA"
   },
@@ -11476,6 +12910,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "M. PREMALATHA"
   },
@@ -11484,6 +12919,7 @@ const data = [
     "TITLE": "Comprehensive Examination",
     "TYPE": "PJT",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -11492,6 +12928,7 @@ const data = [
     "TITLE": "Comprehensive Examination",
     "TYPE": "PJT",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -11500,6 +12937,7 @@ const data = [
     "TITLE": "Software Design and Development Project",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -11508,6 +12946,7 @@ const data = [
     "TITLE": "Software Design and Development Project",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -11516,6 +12955,7 @@ const data = [
     "TITLE": "Storage Technologies",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-402",
     "SLOT": "C1+TC1",
     "FACULTY": "AHADIT"
   },
@@ -11524,6 +12964,7 @@ const data = [
     "TITLE": "Linux Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-303",
     "SLOT": "A1+TA1",
     "FACULTY": "VISWANATHAN V"
   },
@@ -11532,6 +12973,7 @@ const data = [
     "TITLE": "Linux Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-003",
     "SLOT": "L3+L4",
     "FACULTY": "VISWANATHAN V"
   },
@@ -11540,6 +12982,7 @@ const data = [
     "TITLE": "Programming in Python",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-705",
     "SLOT": "C1+TC1",
     "FACULTY": "MUTHUKUMARAN K"
   },
@@ -11548,6 +12991,7 @@ const data = [
     "TITLE": "Programming in Python",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-506A",
     "SLOT": "L5+L6",
     "FACULTY": "MUTHUKUMARAN K"
   },
@@ -11556,7 +13000,8 @@ const data = [
     "TITLE": "Computer Organization and Architecture",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-705",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "POONKODI"
   },
   {
@@ -11564,7 +13009,8 @@ const data = [
     "TITLE": "Software Engineering",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-705",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "SUDHARSON S"
   },
   {
@@ -11572,6 +13018,7 @@ const data = [
     "TITLE": "Operating Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-706",
     "SLOT": "B1+TB1",
     "FACULTY": "SREEJA P S"
   },
@@ -11580,6 +13027,7 @@ const data = [
     "TITLE": "Operating Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L55+L56",
     "FACULTY": "SREEJA P S"
   },
@@ -11588,6 +13036,7 @@ const data = [
     "TITLE": "Computer Networks",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-706",
     "SLOT": "E1+TE1",
     "FACULTY": "RUKMANI P"
   },
@@ -11596,6 +13045,7 @@ const data = [
     "TITLE": "Computer Networks Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L11+L12",
     "FACULTY": "RUKMANI P"
   },
@@ -11604,6 +13054,7 @@ const data = [
     "TITLE": "Programming in Java",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-706",
     "SLOT": "C1+TC1",
     "FACULTY": "JENILA LIVINGSTON L M"
   },
@@ -11612,6 +13063,7 @@ const data = [
     "TITLE": "Programming in Java Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605A",
     "SLOT": "L49+L50",
     "FACULTY": "JENILA LIVINGSTON L M"
   },
@@ -11620,6 +13072,7 @@ const data = [
     "TITLE": "Full Stack Application Development",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-707",
     "SLOT": "B1+TB1",
     "FACULTY": "RAJKUMAR S"
   },
@@ -11628,6 +13081,7 @@ const data = [
     "TITLE": "Full Stack Application Development Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L43+L44",
     "FACULTY": "RAJKUMAR S"
   },
@@ -11636,6 +13090,7 @@ const data = [
     "TITLE": "Software Testing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-707",
     "SLOT": "F1+TF1",
     "FACULTY": "RENJITH"
   },
@@ -11644,6 +13099,7 @@ const data = [
     "TITLE": "Software Testing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-210",
     "SLOT": "L37+L38",
     "FACULTY": "RENJITH"
   },
@@ -11652,7 +13108,8 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-406",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "CHRISTOPHER COLUMBUS C"
   },
   {
@@ -11660,6 +13117,7 @@ const data = [
     "TITLE": "Deep Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-707",
     "SLOT": "A1+TA1",
     "FACULTY": "RAJALAKSHMI R"
   },
@@ -11668,6 +13126,7 @@ const data = [
     "TITLE": "Deep Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-311",
     "SLOT": "L49+L50",
     "FACULTY": "RAJALAKSHMI R"
   },
@@ -11676,7 +13135,8 @@ const data = [
     "TITLE": "Human Computer Interaction",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB3-708",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "VIDHYA LAKSHMI M"
   },
   {
@@ -11684,7 +13144,8 @@ const data = [
     "TITLE": "Computer Vision",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-707",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "NIVEDITA M"
   },
   {
@@ -11692,7 +13153,8 @@ const data = [
     "TITLE": "Data Visualization",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB3-706",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "YOGESH C"
   },
   {
@@ -11700,6 +13162,7 @@ const data = [
     "TITLE": "NoSQL Databases",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-707",
     "SLOT": "C1+TC1",
     "FACULTY": "RAJALAKSHMI V"
   },
@@ -11708,6 +13171,7 @@ const data = [
     "TITLE": "NoSQL Databases Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-313",
     "SLOT": "L5+L6",
     "FACULTY": "RAJALAKSHMI V"
   },
@@ -11716,7 +13180,8 @@ const data = [
     "TITLE": "Social Network Analytics",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB3-708",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "JAYARAM B"
   },
   {
@@ -11724,6 +13189,7 @@ const data = [
     "TITLE": "Applied Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-706",
     "SLOT": "D1+TD1",
     "FACULTY": "VISWANATHAN V"
   },
@@ -11732,6 +13198,7 @@ const data = [
     "TITLE": "Applied Machine Learning Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-605A",
     "SLOT": "L31+L32",
     "FACULTY": "VISWANATHAN V"
   },
@@ -11740,6 +13207,7 @@ const data = [
     "TITLE": "Summer Internship",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -11748,6 +13216,7 @@ const data = [
     "TITLE": "Summer Internship",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -11756,6 +13225,7 @@ const data = [
     "TITLE": "Circuit Theory",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-408",
     "SLOT": "D1+TD1",
     "FACULTY": "VIT USER"
   },
@@ -11764,6 +13234,7 @@ const data = [
     "TITLE": "Circuit Theory",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-016",
     "SLOT": "L29+L30",
     "FACULTY": "VIT USER"
   },
@@ -11772,6 +13243,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "F2+TF2",
     "FACULTY": "FEBIN DAYA J L"
   },
@@ -11780,6 +13252,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L9+L10",
     "FACULTY": "FEBIN DAYA J L"
   },
@@ -11788,6 +13261,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "F2+TF2",
     "FACULTY": "SUBBULEKSHMI D"
   },
@@ -11796,6 +13270,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L15+L16",
     "FACULTY": "SUBBULEKSHMI D"
   },
@@ -11804,6 +13279,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "F1+TF1",
     "FACULTY": "BINU BEN JOSE D R"
   },
@@ -11812,6 +13288,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L55+L56",
     "FACULTY": "BINU BEN JOSE D R"
   },
@@ -11820,6 +13297,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-406",
     "SLOT": "F2+TF2",
     "FACULTY": "ARAVIND C K"
   },
@@ -11828,6 +13306,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L3+L4",
     "FACULTY": "ARAVIND C K"
   },
@@ -11836,6 +13315,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "F1+TF1",
     "FACULTY": "SEBINA YESMIN"
   },
@@ -11844,6 +13324,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L49+L50",
     "FACULTY": "SEBINA YESMIN"
   },
@@ -11852,22 +13333,25 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "D",
-    "FACULTY": "SUDARSANREDDY"
+    "VENUE": "AB2-406",
+    "SLOT": "F1+TF1",
+    "FACULTY": "D V SUDARSANREDDY"
   },
   {
     "CODE": "BAEEE103",
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "D",
-    "FACULTY": "SUDARSANREDDY"
+    "VENUE": "AB1-306",
+    "SLOT": "L51+L52",
+    "FACULTY": "D V SUDARSANREDDY"
   },
   {
     "CODE": "BAEEE201",
     "TITLE": "Digital Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-408",
     "SLOT": "B2+TB2",
     "FACULTY": "VIT USER"
   },
@@ -11876,6 +13360,7 @@ const data = [
     "TITLE": "Digital Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L45+L46",
     "FACULTY": "VIT USER"
   },
@@ -11884,6 +13369,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "A1+TA1",
     "FACULTY": "DEEPA T"
   },
@@ -11892,6 +13378,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L5+L6",
     "FACULTY": "DEEPA T"
   },
@@ -11900,6 +13387,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "A2+TA2",
     "FACULTY": "JAYAPRAGASH R"
   },
@@ -11908,6 +13396,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L13+L14",
     "FACULTY": "JAYAPRAGASH R"
   },
@@ -11916,6 +13405,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "A1+TA1",
     "FACULTY": "MOHAMED IMRAN A"
   },
@@ -11924,6 +13414,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L39+L40",
     "FACULTY": "MOHAMED IMRAN A"
   },
@@ -11932,6 +13423,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "A2+TA2",
     "FACULTY": "ANGALAESWARI S"
   },
@@ -11940,6 +13432,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L27+L28",
     "FACULTY": "ANGALAESWARI S"
   },
@@ -11948,6 +13441,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-406",
     "SLOT": "A2+TA2",
     "FACULTY": "MITHU SARKAR"
   },
@@ -11956,6 +13450,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L21+L22",
     "FACULTY": "MITHU SARKAR"
   },
@@ -11964,6 +13459,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-406",
     "SLOT": "A1+TA1",
     "FACULTY": "ARNAB PAL"
   },
@@ -11972,6 +13468,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L29+L30",
     "FACULTY": "ARNAB PAL"
   },
@@ -11980,6 +13477,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "C2+TC2",
     "FACULTY": "SUMATHI V"
   },
@@ -11988,6 +13486,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L1+L2",
     "FACULTY": "SUMATHI V"
   },
@@ -11996,6 +13495,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "C2+TC2",
     "FACULTY": "SRIMATHI R"
   },
@@ -12004,6 +13504,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L25+L26",
     "FACULTY": "SRIMATHI R"
   },
@@ -12012,6 +13513,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "C1+TC1",
     "FACULTY": "VIJAYAPRIYA R"
   },
@@ -12020,6 +13522,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L43+L44",
     "FACULTY": "VIJAYAPRIYA R"
   },
@@ -12028,6 +13531,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "C1+TC1",
     "FACULTY": "INAYATHULLAAH ABDUL KAREEM"
   },
@@ -12036,6 +13540,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L45+L46",
     "FACULTY": "INAYATHULLAAH ABDUL KAREEM"
   },
@@ -12044,6 +13549,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "D2+TD2",
     "FACULTY": "BINU BEN JOSE D R"
   },
@@ -12052,6 +13558,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L25+L26",
     "FACULTY": "BINU BEN JOSE D R"
   },
@@ -12060,6 +13567,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L41+L42",
     "FACULTY": "BINU BEN JOSE D R"
   },
@@ -12068,6 +13576,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-401",
     "SLOT": "D1+TD1",
     "FACULTY": "UMAYAL C"
   },
@@ -12076,6 +13585,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L43+L44",
     "FACULTY": "UMAYAL C"
   },
@@ -12084,6 +13594,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L11+L12",
     "FACULTY": "UMAYAL C"
   },
@@ -12092,6 +13603,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "D1+TD1",
     "FACULTY": "ANANTHA KRISHNAN V"
   },
@@ -12100,6 +13612,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L37+L38",
     "FACULTY": "ANANTHA KRISHNAN V"
   },
@@ -12108,6 +13621,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L23+L24",
     "FACULTY": "ANANTHA KRISHNAN V"
   },
@@ -12116,6 +13630,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-406",
     "SLOT": "D1+TD1",
     "FACULTY": "GANESH M"
   },
@@ -12124,6 +13639,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L29+L30",
     "FACULTY": "GANESH M"
   },
@@ -12132,6 +13648,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L49+L50",
     "FACULTY": "GANESH M"
   },
@@ -12140,6 +13657,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-402",
     "SLOT": "D2+TD2",
     "FACULTY": "KAMAL C"
   },
@@ -12148,6 +13666,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L19+L20",
     "FACULTY": "KAMAL C"
   },
@@ -12156,6 +13675,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L35+L36",
     "FACULTY": "KAMAL C"
   },
@@ -12164,6 +13684,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-406",
     "SLOT": "D2+TD2",
     "FACULTY": "SUBHENDU SEKHAR SAHOO"
   },
@@ -12172,6 +13693,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L7+L8",
     "FACULTY": "SUBHENDU SEKHAR SAHOO"
   },
@@ -12180,6 +13702,7 @@ const data = [
     "TITLE": "Electrical Machines",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L53+L54",
     "FACULTY": "SUBHENDU SEKHAR SAHOO"
   },
@@ -12188,6 +13711,7 @@ const data = [
     "TITLE": "Power Electronics and Drives",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-407",
     "SLOT": "E1+TE1",
     "FACULTY": "NILANJAN TEWARI"
   },
@@ -12196,6 +13720,7 @@ const data = [
     "TITLE": "Power Electronics and Drives Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603",
     "SLOT": "L49+L50",
     "FACULTY": "NILANJAN TEWARI"
   },
@@ -12204,6 +13729,7 @@ const data = [
     "TITLE": "Power Electronics and Drives Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603",
     "SLOT": "L43+L44",
     "FACULTY": "NILANJAN TEWARI"
   },
@@ -12212,6 +13738,7 @@ const data = [
     "TITLE": "Computer aided Power System Analysis",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-407",
     "SLOT": "F1+TF1",
     "FACULTY": "NAWIN RA"
   },
@@ -12220,6 +13747,7 @@ const data = [
     "TITLE": "Computer aided Power System Analysis Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-607",
     "SLOT": "L37+L38",
     "FACULTY": "NAWIN RA"
   },
@@ -12228,6 +13756,7 @@ const data = [
     "TITLE": "Smart Cities: Trans Disciplinary Perspective",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-408",
     "SLOT": "E1+TE1",
     "FACULTY": "SENTHIL KUMAR N"
   },
@@ -12236,6 +13765,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -12244,6 +13774,7 @@ const data = [
     "TITLE": "Electromagnetic Theory",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-408",
     "SLOT": "D2+TD2",
     "FACULTY": "ANANTHA KRISHNAN V"
   },
@@ -12252,6 +13783,7 @@ const data = [
     "TITLE": "VLSI Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB2-405",
     "SLOT": "F1",
     "FACULTY": "GIRIJA SHANKAR SAHOO"
   },
@@ -12260,6 +13792,7 @@ const data = [
     "TITLE": "VLSI Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L23+L24",
     "FACULTY": "GIRIJA SHANKAR SAHOO"
   },
@@ -12268,6 +13801,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "E1+TE1",
     "FACULTY": "UMAYAL C"
   },
@@ -12276,6 +13810,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "E1+TE1",
     "FACULTY": "BALAMURUGAN P"
   },
@@ -12284,6 +13819,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "E2+TE2",
     "FACULTY": "DEEPA T"
   },
@@ -12292,6 +13828,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "E2+TE2",
     "FACULTY": "IYSWARYA ANNAPOORANI K"
   },
@@ -12300,6 +13837,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L39+L40",
     "FACULTY": "UMAYAL C"
   },
@@ -12308,6 +13846,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L37+L38",
     "FACULTY": "BALAMURUGAN P"
   },
@@ -12316,6 +13855,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L7+L8",
     "FACULTY": "DEEPA T"
   },
@@ -12324,6 +13864,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L9+L10",
     "FACULTY": "IYSWARYA ANNAPOORANI K"
   },
@@ -12332,6 +13873,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-605",
     "SLOT": "B2+TB2",
     "FACULTY": "NITHYA VENKATESAN"
   },
@@ -12340,6 +13882,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-604",
     "SLOT": "B1+TB1",
     "FACULTY": "SUBBULEKSHMI D"
   },
@@ -12348,6 +13891,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L23+L24",
     "FACULTY": "NITHYA VENKATESAN"
   },
@@ -12356,6 +13900,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-306",
     "SLOT": "L11+L12",
     "FACULTY": "SUBBULEKSHMI D"
   },
@@ -12364,7 +13909,8 @@ const data = [
     "TITLE": "Power Systems Engineering",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB2-403",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "MEERA P S"
   },
   {
@@ -12372,7 +13918,8 @@ const data = [
     "TITLE": "Power Systems Engineering",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB2-404",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "LAVANYA V"
   },
   {
@@ -12380,7 +13927,8 @@ const data = [
     "TITLE": "Power Systems Engineering",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB2-403",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "ARUL R"
   },
   {
@@ -12388,7 +13936,8 @@ const data = [
     "TITLE": "Power Systems Engineering",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB2-404",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "KURUSEELAN S"
   },
   {
@@ -12396,6 +13945,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "B2+TB2",
     "FACULTY": "KANIMOZHI G"
   },
@@ -12404,6 +13954,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "B1+TB1",
     "FACULTY": "VIJAYAPRIYA R"
   },
@@ -12412,6 +13963,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "B1+TB1",
     "FACULTY": "INAYATHULLAAH ABDUL KAREEM"
   },
@@ -12420,6 +13972,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "B2+TB2",
     "FACULTY": "PRITAM"
   },
@@ -12428,6 +13981,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L19+L20",
     "FACULTY": "KANIMOZHI G"
   },
@@ -12436,6 +13990,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L51+L52",
     "FACULTY": "VIJAYAPRIYA R"
   },
@@ -12444,6 +13999,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L49+L50",
     "FACULTY": "INAYATHULLAAH ABDUL KAREEM"
   },
@@ -12452,6 +14008,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L21+L22",
     "FACULTY": "PRITAM"
   },
@@ -12460,6 +14017,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-403",
     "SLOT": "G2",
     "FACULTY": "JAMUNA K"
   },
@@ -12468,6 +14026,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-403",
     "SLOT": "G1",
     "FACULTY": "SRI RAMALAKSHMI P"
   },
@@ -12476,6 +14035,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-404",
     "SLOT": "G1",
     "FACULTY": "JYOTISMITA MISHRA"
   },
@@ -12484,6 +14044,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-404",
     "SLOT": "G2",
     "FACULTY": "RUPA MISHRA"
   },
@@ -12492,6 +14053,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L13+L14",
     "FACULTY": "JAMUNA K"
   },
@@ -12500,6 +14062,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L27+L28",
     "FACULTY": "JAMUNA K"
   },
@@ -12508,6 +14071,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L31+L32",
     "FACULTY": "SRI RAMALAKSHMI P"
   },
@@ -12516,6 +14080,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L45+L46",
     "FACULTY": "SRI RAMALAKSHMI P"
   },
@@ -12524,6 +14089,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L5+L6",
     "FACULTY": "JYOTISMITA MISHRA"
   },
@@ -12532,6 +14098,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L55+L56",
     "FACULTY": "JYOTISMITA MISHRA"
   },
@@ -12540,6 +14107,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L1+L2",
     "FACULTY": "RUPA MISHRA"
   },
@@ -12548,6 +14116,7 @@ const data = [
     "TITLE": "AC Machines",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-002",
     "SLOT": "L15+L16",
     "FACULTY": "RUPA MISHRA"
   },
@@ -12556,6 +14125,7 @@ const data = [
     "TITLE": "FACTS and HVDC",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-405",
     "SLOT": "B1+TB1",
     "FACULTY": "VAITHILINGAM C"
   },
@@ -12564,6 +14134,7 @@ const data = [
     "TITLE": "Robotics and Control",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "F1+TF1",
     "FACULTY": "SWETHA R KUMAR"
   },
@@ -12572,6 +14143,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "F2+TF2",
     "FACULTY": "SENTHIL KUMAR R"
   },
@@ -12580,6 +14152,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "F1+TF1",
     "FACULTY": "KRISHNA KUMBA"
   },
@@ -12588,6 +14161,7 @@ const data = [
     "TITLE": "Sensors and Actuators",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-401",
     "SLOT": "A1",
     "FACULTY": "E MANIKANDAN"
   },
@@ -12596,6 +14170,7 @@ const data = [
     "TITLE": "Sensors and Actuators Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L5+L6",
     "FACULTY": "E MANIKANDAN"
   },
@@ -12604,6 +14179,7 @@ const data = [
     "TITLE": "Electric Vehicles",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-405",
     "SLOT": "D1+TD1",
     "FACULTY": "BALAMURUGAN P"
   },
@@ -12612,6 +14188,7 @@ const data = [
     "TITLE": "Industrial IoT",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-408",
     "SLOT": "F2+TF2",
     "FACULTY": "MORLA LAKSHMI SIVA SAI KUMAR"
   },
@@ -12620,6 +14197,7 @@ const data = [
     "TITLE": "Industrial IoT",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-603A",
     "SLOT": "L15+L16",
     "FACULTY": "MORLA LAKSHMI SIVA SAI KUMAR"
   },
@@ -12628,6 +14206,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -12636,6 +14215,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-408",
     "SLOT": "TG1",
     "FACULTY": "ANGELINE EZHILARASI G"
   },
@@ -12644,6 +14224,7 @@ const data = [
     "TITLE": "Technical Answers for Real World Problems (TARP)",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ANGELINE EZHILARASI G"
   },
@@ -12652,6 +14233,7 @@ const data = [
     "TITLE": "Electric Motor Drives",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-705",
     "SLOT": "C2+TC2",
     "FACULTY": "INAYATHULLAAH ABDUL KAREEM"
   },
@@ -12660,6 +14242,7 @@ const data = [
     "TITLE": "Electric Motor Drives",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-016",
     "SLOT": "L33+L34",
     "FACULTY": "INAYATHULLAAH ABDUL KAREEM"
   },
@@ -12668,6 +14251,7 @@ const data = [
     "TITLE": "Artificial Intelligence for Electric Mobility",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-705",
     "SLOT": "A2+TA2",
     "FACULTY": "BALAMURUGAN P"
   },
@@ -12676,6 +14260,7 @@ const data = [
     "TITLE": "Artificial Intelligence for Electric Mobility",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-016",
     "SLOT": "L45+L46",
     "FACULTY": "BALAMURUGAN P"
   },
@@ -12684,6 +14269,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -12692,7 +14278,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB1-301",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "MOHANAPRASAD K"
   },
   {
@@ -12700,7 +14287,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB1-302",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "SANKAR GANESH"
   },
   {
@@ -12708,7 +14296,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB1-308",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "IDAYACHANDRAN G"
   },
   {
@@ -12716,7 +14305,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB1-309",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "KALAIVANAN K"
   },
   {
@@ -12724,7 +14314,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB1-301",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "IDAYACHANDRAN G"
   },
   {
@@ -12732,7 +14323,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB1-302",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "KALAIVANAN K"
   },
   {
@@ -12740,7 +14332,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB1-308",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "MARKKANDAN"
   },
   {
@@ -12748,7 +14341,8 @@ const data = [
     "TITLE": "Probability Theory and Random Processes",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB1-309",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "VETRIVELAN P"
   },
   {
@@ -12756,6 +14350,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-301",
     "SLOT": "A1+TA1",
     "FACULTY": "V.R BALAJI"
   },
@@ -12764,6 +14359,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-302",
     "SLOT": "A1+TA1",
     "FACULTY": "BINDU B"
   },
@@ -12772,6 +14368,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-308",
     "SLOT": "A1+TA1",
     "FACULTY": "BRINTHA THERESE A"
   },
@@ -12780,6 +14377,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-309",
     "SLOT": "A1+TA1",
     "FACULTY": "CHANDRAMAULESHWAR ROY"
   },
@@ -12788,6 +14386,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-608",
     "SLOT": "A1+TA1",
     "FACULTY": "SANGEETHA R G"
   },
@@ -12796,6 +14395,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-609",
     "SLOT": "A1+TA1",
     "FACULTY": "SATHYA SREE J"
   },
@@ -12804,14 +14404,16 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
-    "SLOT": "B",
-    "FACULTY": "KUMAR"
+    "VENUE": "AB1-610",
+    "SLOT": "A1+TA1",
+    "FACULTY": "B PRASHANTH KUMAR"
   },
   {
     "CODE": "BAECE203",
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-301",
     "SLOT": "A2+TA2",
     "FACULTY": "LAKSHMI B"
   },
@@ -12820,6 +14422,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-302",
     "SLOT": "A2+TA2",
     "FACULTY": "BRINTHA THERESE A"
   },
@@ -12828,6 +14431,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-309",
     "SLOT": "A2+TA2",
     "FACULTY": "CHANDRAMAULESHWAR ROY"
   },
@@ -12836,6 +14440,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-608",
     "SLOT": "A2+TA2",
     "FACULTY": "RAHUL NARASIMHAN"
   },
@@ -12844,6 +14449,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-609",
     "SLOT": "A2+TA2",
     "FACULTY": "SANGEETHA R G"
   },
@@ -12852,6 +14458,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-610",
     "SLOT": "A2+TA2",
     "FACULTY": "SATHYA SREE J"
   },
@@ -12860,6 +14467,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L31+L32",
     "FACULTY": "V.R BALAJI"
   },
@@ -12868,6 +14476,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L31+L32",
     "FACULTY": "GIRIJA SHANKAR SAHOO"
   },
@@ -12876,6 +14485,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L23+L24",
     "FACULTY": "BINDU B"
   },
@@ -12884,6 +14494,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L23+L24",
     "FACULTY": "PAPANASAM E"
   },
@@ -12892,6 +14503,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L11+L12",
     "FACULTY": "BRINTHA THERESE A"
   },
@@ -12900,6 +14512,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L11+L12",
     "FACULTY": "JEAN JENIFER NESAM J"
   },
@@ -12908,6 +14521,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L39+L40",
     "FACULTY": "CHANDRAMAULESHWAR ROY"
   },
@@ -12916,6 +14530,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L39+L40",
     "FACULTY": "VIJAYAKUMAR P"
   },
@@ -12924,6 +14539,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L37+L38",
     "FACULTY": "SANGEETHA R G"
   },
@@ -12932,6 +14548,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L37+L38",
     "FACULTY": "S SHOBA"
   },
@@ -12940,6 +14557,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L49+L50",
     "FACULTY": "SATHYA SREE J"
   },
@@ -12948,6 +14566,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L49+L50",
     "FACULTY": "PRATHIBA A"
   },
@@ -12956,14 +14575,16 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "B",
-    "FACULTY": "KUMAR"
+    "VENUE": "AB1-307A",
+    "SLOT": "L45+L46",
+    "FACULTY": "B PRASHANTH KUMAR"
   },
   {
     "CODE": "BAECE203",
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L45+L46",
     "FACULTY": "ABHIJIT MISHRA"
   },
@@ -12972,6 +14593,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L29+L30",
     "FACULTY": "LAKSHMI B"
   },
@@ -12980,6 +14602,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L29+L30",
     "FACULTY": "SRIDHAR C"
   },
@@ -12988,6 +14611,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L3+L4",
     "FACULTY": "BRINTHA THERESE A"
   },
@@ -12996,6 +14620,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L3+L4",
     "FACULTY": "FLORENCE GNANA POOVATHY J"
   },
@@ -13004,6 +14629,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L9+L10",
     "FACULTY": "CHANDRAMAULESHWAR ROY"
   },
@@ -13012,6 +14638,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L9+L10",
     "FACULTY": "TANMOY MAJUMDER"
   },
@@ -13020,6 +14647,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L21+L22",
     "FACULTY": "RAHUL NARASIMHAN"
   },
@@ -13028,14 +14656,16 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "G",
-    "FACULTY": "PRIYA"
+    "VENUE": "AB1-307A",
+    "SLOT": "L21+L22",
+    "FACULTY": "G LAKSHMI PRIYA"
   },
   {
     "CODE": "BAECE203",
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L7+L8",
     "FACULTY": "SANGEETHA R G"
   },
@@ -13044,14 +14674,16 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
-    "SLOT": "A",
-    "FACULTY": "SANKAR"
+    "VENUE": "AB1-307A",
+    "SLOT": "L7+L8",
+    "FACULTY": "A BHARATHI SANKAR"
   },
   {
     "CODE": "BAECE203",
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L19+L20",
     "FACULTY": "SATHYA SREE J"
   },
@@ -13060,6 +14692,7 @@ const data = [
     "TITLE": "Analog Electronics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L19+L20",
     "FACULTY": "E MANIKANDAN"
   },
@@ -13068,6 +14701,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-517",
     "SLOT": "F1+TF1",
     "FACULTY": "MANOJ KUMAR R"
   },
@@ -13076,6 +14710,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-302",
     "SLOT": "F1+TF1",
     "FACULTY": "BERLIN HENCY V"
   },
@@ -13084,6 +14719,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-308",
     "SLOT": "F1+TF1",
     "FACULTY": "JOHN SAHAYA RANI ALEX"
   },
@@ -13092,6 +14728,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-309",
     "SLOT": "F1+TF1",
     "FACULTY": "VIGNESWARAN T"
   },
@@ -13100,6 +14737,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-301",
     "SLOT": "F1+TF1",
     "FACULTY": "VYDEKI D"
   },
@@ -13108,6 +14746,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L49+L50",
     "FACULTY": "MANOJ KUMAR R"
   },
@@ -13116,6 +14755,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L11+L12",
     "FACULTY": "BERLIN HENCY V"
   },
@@ -13124,6 +14764,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L55+L56",
     "FACULTY": "JOHN SAHAYA RANI ALEX"
   },
@@ -13132,6 +14773,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L51+L52",
     "FACULTY": "VIGNESWARAN T"
   },
@@ -13140,6 +14782,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L37+L38",
     "FACULTY": "VYDEKI D"
   },
@@ -13148,6 +14791,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-302",
     "SLOT": "F2+TF2",
     "FACULTY": "BERLIN HENCY V"
   },
@@ -13156,6 +14800,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-301",
     "SLOT": "F2+TF2",
     "FACULTY": "JOHN SAHAYA RANI ALEX"
   },
@@ -13164,6 +14809,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-308",
     "SLOT": "F2+TF2",
     "FACULTY": "VIGNESWARAN T"
   },
@@ -13172,6 +14818,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-309",
     "SLOT": "F2+TF2",
     "FACULTY": "VYDEKI D"
   },
@@ -13180,6 +14827,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L19+L20",
     "FACULTY": "BERLIN HENCY V"
   },
@@ -13188,6 +14836,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L5+L6",
     "FACULTY": "JOHN SAHAYA RANI ALEX"
   },
@@ -13196,6 +14845,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L23+L24",
     "FACULTY": "VIGNESWARAN T"
   },
@@ -13204,6 +14854,7 @@ const data = [
     "TITLE": "Microcontrollers and Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L9+L10",
     "FACULTY": "VYDEKI D"
   },
@@ -13212,7 +14863,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB1-301",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "NITISH KATAL"
   },
   {
@@ -13220,7 +14872,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-302",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SOFANA REKA S"
   },
   {
@@ -13228,7 +14881,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-308",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "NIRAJ KUMAR"
   },
   {
@@ -13236,7 +14890,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-309",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "PRIYANKA DAS"
   },
   {
@@ -13244,7 +14899,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB4-514",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SOUMYA RANJAN MAHAPATRO"
   },
   {
@@ -13252,7 +14908,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-301",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SUNIL KUMAR PRADHAN"
   },
   {
@@ -13260,7 +14917,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB1-302",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "NIRAJ KUMAR"
   },
   {
@@ -13268,7 +14926,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB1-308",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "PRIYANKA DAS"
   },
   {
@@ -13276,7 +14935,8 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB1-309",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SOUMYA RANJAN MAHAPATRO"
   },
   {
@@ -13284,6 +14944,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-301",
     "SLOT": "G1+TG1",
     "FACULTY": "ASHOK"
   },
@@ -13292,6 +14953,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L37+L38",
     "FACULTY": "ASHOK"
   },
@@ -13300,6 +14962,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-301",
     "SLOT": "G2+TG2",
     "FACULTY": "SATHIYA NARAYANAN S"
   },
@@ -13308,6 +14971,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L25+L26",
     "FACULTY": "SATHIYA NARAYANAN S"
   },
@@ -13316,6 +14980,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-302",
     "SLOT": "G1+TG1",
     "FACULTY": "ANNIS FATHIMA A"
   },
@@ -13324,6 +14989,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-308",
     "SLOT": "G1+TG1",
     "FACULTY": "RAMESH R"
   },
@@ -13332,6 +14998,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-309",
     "SLOT": "G1+TG1",
     "FACULTY": "SOURABH PAUL"
   },
@@ -13340,6 +15007,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L55+L56",
     "FACULTY": "ANNIS FATHIMA A"
   },
@@ -13348,6 +15016,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L43+L44",
     "FACULTY": "RAMESH R"
   },
@@ -13356,6 +15025,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L45+L46",
     "FACULTY": "SOURABH PAUL"
   },
@@ -13364,6 +15034,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-302",
     "SLOT": "G2+TG2",
     "FACULTY": "ANNIS FATHIMA A"
   },
@@ -13372,6 +15043,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-308",
     "SLOT": "G2+TG2",
     "FACULTY": "RAMESH R"
   },
@@ -13380,6 +15052,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-309",
     "SLOT": "G2+TG2",
     "FACULTY": "SOURABH PAUL"
   },
@@ -13388,6 +15061,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L29+L30",
     "FACULTY": "ANNIS FATHIMA A"
   },
@@ -13396,6 +15070,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L13+L14",
     "FACULTY": "RAMESH R"
   },
@@ -13404,6 +15079,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L15+L16",
     "FACULTY": "SOURABH PAUL"
   },
@@ -13412,6 +15088,7 @@ const data = [
     "TITLE": "Electronic Circuits",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-514",
     "SLOT": "G1+TG1",
     "FACULTY": "MANIKANDAN P"
   },
@@ -13420,6 +15097,7 @@ const data = [
     "TITLE": "Electronic Circuits",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-514",
     "SLOT": "G2+TG2",
     "FACULTY": "MANIKANDAN P"
   },
@@ -13428,6 +15106,7 @@ const data = [
     "TITLE": "Electronic Circuits",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L55+L56",
     "FACULTY": "MANIKANDAN P"
   },
@@ -13436,6 +15115,7 @@ const data = [
     "TITLE": "Electronic Circuits",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L55+L56",
     "FACULTY": "MD SADULLAH"
   },
@@ -13444,6 +15124,7 @@ const data = [
     "TITLE": "Electronic Circuits",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L25+L26",
     "FACULTY": "MANIKANDAN P"
   },
@@ -13452,6 +15133,7 @@ const data = [
     "TITLE": "Electronic Circuits",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L25+L26",
     "FACULTY": "PUGAZHENTHI R"
   },
@@ -13460,7 +15142,8 @@ const data = [
     "TITLE": "Communication Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB4-514",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "S SELVENDRAN"
   },
   {
@@ -13468,7 +15151,8 @@ const data = [
     "TITLE": "Communication Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D2+TD2+TDD2",
+    "VENUE": "AB4-514",
+    "SLOT": "D2+TD2+T",
     "FACULTY": "AMIT KUMAR"
   },
   {
@@ -13476,6 +15160,7 @@ const data = [
     "TITLE": "Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-514",
     "SLOT": "A1+TA1",
     "FACULTY": "SUCHETHA M"
   },
@@ -13484,6 +15169,7 @@ const data = [
     "TITLE": "Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L49+L50",
     "FACULTY": "SUCHETHA M"
   },
@@ -13492,6 +15178,7 @@ const data = [
     "TITLE": "Signal Processing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB4-514",
     "SLOT": "A2+TA2",
     "FACULTY": "PRANABA KUMAR MISHRO"
   },
@@ -13500,6 +15187,7 @@ const data = [
     "TITLE": "Signal Processing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L21+L22",
     "FACULTY": "PRANABA KUMAR MISHRO"
   },
@@ -13508,6 +15196,7 @@ const data = [
     "TITLE": "Analog and Digital Electronics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-410",
     "SLOT": "F2+TF2",
     "FACULTY": "SHAIK AHMADSAIDULU"
   },
@@ -13516,6 +15205,7 @@ const data = [
     "TITLE": "Analog and Digital Electronics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-307A",
     "SLOT": "L59+L60",
     "FACULTY": "SHAIK AHMADSAIDULU"
   },
@@ -13524,7 +15214,8 @@ const data = [
     "TITLE": "Circuit Theory",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-811",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "CHANDRASEKARAN N"
   },
   {
@@ -13532,6 +15223,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB4-101",
     "SLOT": "D1+TD1",
     "FACULTY": "JAGANNATH M"
   },
@@ -13540,6 +15232,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "MAB3-102",
     "SLOT": "D2+TD2",
     "FACULTY": "SIVASUBRAMANIAN A"
   },
@@ -13548,6 +15241,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-207",
     "SLOT": "L11+L12",
     "FACULTY": "JAGANNATH M"
   },
@@ -13556,6 +15250,7 @@ const data = [
     "TITLE": "Microprocessors and Microcontrollers Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-207",
     "SLOT": "L23+L24",
     "FACULTY": "SIVASUBRAMANIAN A"
   },
@@ -13564,6 +15259,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-809",
     "SLOT": "G2",
     "FACULTY": "BIBHUTI BHUSAN PRADHAN"
   },
@@ -13572,6 +15268,7 @@ const data = [
     "TITLE": "Data Structures and Algorithms",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L13+L14",
     "FACULTY": "BIBHUTI BHUSAN PRADHAN"
   },
@@ -13580,6 +15277,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "E1+TE1",
     "FACULTY": "RANJEET KUMAR"
   },
@@ -13588,6 +15286,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "E1+TE1",
     "FACULTY": "RAVI TIWARI"
   },
@@ -13596,6 +15295,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "E1+TE1",
     "FACULTY": "S SIVAKUMAR"
   },
@@ -13604,6 +15304,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "E1+TE1",
     "FACULTY": "SRIVATSAN K"
   },
@@ -13612,6 +15313,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "E2+TE2",
     "FACULTY": "RANJEET KUMAR"
   },
@@ -13620,6 +15322,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "E2+TE2",
     "FACULTY": "RAVI TIWARI"
   },
@@ -13628,6 +15331,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "E2+TE2",
     "FACULTY": "S SIVAKUMAR"
   },
@@ -13636,6 +15340,7 @@ const data = [
     "TITLE": "Digital Signal Processing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "E2+TE2",
     "FACULTY": "SRIVATSAN K"
   },
@@ -13644,6 +15349,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L5+L6",
     "FACULTY": "RANJEET KUMAR"
   },
@@ -13652,6 +15358,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L33+L34",
     "FACULTY": "RAVI TIWARI"
   },
@@ -13660,6 +15367,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L31+L32",
     "FACULTY": "S SIVAKUMAR"
   },
@@ -13668,6 +15376,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L11+L12",
     "FACULTY": "SRIVATSAN K"
   },
@@ -13676,6 +15385,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L1+L2",
     "FACULTY": "RANJEET KUMAR"
   },
@@ -13684,6 +15394,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L19+L20",
     "FACULTY": "RAVI TIWARI"
   },
@@ -13692,6 +15403,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L27+L28",
     "FACULTY": "S SIVAKUMAR"
   },
@@ -13700,6 +15412,7 @@ const data = [
     "TITLE": "Digital Signal Processing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707",
     "SLOT": "L3+L4",
     "FACULTY": "SRIVATSAN K"
   },
@@ -13708,6 +15421,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "B1+TB1",
     "FACULTY": "AKASH KUMAR PRADHAN"
   },
@@ -13716,6 +15430,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "B2+TB2",
     "FACULTY": "AKASH KUMAR PRADHAN"
   },
@@ -13724,6 +15439,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "B1+TB1",
     "FACULTY": "DHEEREN KU MAHAPATRA"
   },
@@ -13732,6 +15448,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "B2+TB2",
     "FACULTY": "DHEEREN KU MAHAPATRA"
   },
@@ -13740,6 +15457,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "B1+TB1",
     "FACULTY": "MANMOHAN SHARMA"
   },
@@ -13748,6 +15466,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "B2+TB2",
     "FACULTY": "MANMOHAN SHARMA"
   },
@@ -13756,6 +15475,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "B1+TB1",
     "FACULTY": "RAJU PATEL"
   },
@@ -13764,6 +15484,7 @@ const data = [
     "TITLE": "Control Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "B2+TB2",
     "FACULTY": "RAJU PATEL"
   },
@@ -13772,6 +15493,7 @@ const data = [
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "B1+TB1",
     "FACULTY": "RAVI SANKAR A"
   },
@@ -13780,6 +15502,7 @@ const data = [
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-811",
     "SLOT": "B1+TB1",
     "FACULTY": "SARAVANA KUMAR R"
   },
@@ -13788,6 +15511,7 @@ const data = [
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "B1+TB1",
     "FACULTY": "VELMATHI G"
   },
@@ -13796,6 +15520,7 @@ const data = [
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "B1+TB1",
     "FACULTY": "PAPANASAM E"
   },
@@ -13804,6 +15529,7 @@ const data = [
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "B2+TB2",
     "FACULTY": "SASIPRIYA P"
   },
@@ -13812,6 +15538,7 @@ const data = [
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "B2+TB2",
     "FACULTY": "UMADEVI S"
   },
@@ -13820,14 +15547,16 @@ const data = [
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "B",
-    "FACULTY": "KUMAR"
+    "VENUE": "AB1-802",
+    "SLOT": "B2+TB2",
+    "FACULTY": "B PRASHANTH KUMAR"
   },
   {
     "CODE": "BECE303L",
     "TITLE": "VLSI System Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-811",
     "SLOT": "B2+TB2",
     "FACULTY": "SARAVANA KUMAR R"
   },
@@ -13836,6 +15565,7 @@ const data = [
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L37+L38",
     "FACULTY": "RAVI SANKAR A"
   },
@@ -13844,6 +15574,7 @@ const data = [
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L13+L14",
     "FACULTY": "SASIPRIYA P"
   },
@@ -13852,6 +15583,7 @@ const data = [
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L25+L26",
     "FACULTY": "UMADEVI S"
   },
@@ -13860,6 +15592,7 @@ const data = [
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L39+L40",
     "FACULTY": "VELMATHI G"
   },
@@ -13868,14 +15601,16 @@ const data = [
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
-    "SLOT": "B",
-    "FACULTY": "KUMAR"
+    "VENUE": "AB3-312",
+    "SLOT": "L9+L10",
+    "FACULTY": "B PRASHANTH KUMAR"
   },
   {
     "CODE": "BECE303P",
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L15+L16",
     "FACULTY": "SARAVANA KUMAR R"
   },
@@ -13884,6 +15619,7 @@ const data = [
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L31+L32",
     "FACULTY": "SARAVANA KUMAR R"
   },
@@ -13892,6 +15628,7 @@ const data = [
     "TITLE": "VLSI System Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L55+L56",
     "FACULTY": "PAPANASAM E"
   },
@@ -13900,6 +15637,7 @@ const data = [
     "TITLE": "Analog Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-811",
     "SLOT": "A1+TA1",
     "FACULTY": "DESU MOULIKA"
   },
@@ -13908,6 +15646,7 @@ const data = [
     "TITLE": "Analog Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-410",
     "SLOT": "L29+L30",
     "FACULTY": "DESU MOULIKA"
   },
@@ -13916,6 +15655,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "A1+TA1",
     "FACULTY": "THIRIPURASUNDARI D"
   },
@@ -13924,6 +15664,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "A1+TA1",
     "FACULTY": "USHA KIRAN KOMMURI"
   },
@@ -13932,6 +15673,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "A1+TA1",
     "FACULTY": "RICHARDS JOE STANISLAUS"
   },
@@ -13940,6 +15682,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "A1+TA1",
     "FACULTY": "PRASAD JONES CHRISTYDASS S"
   },
@@ -13948,6 +15691,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "A2+TA2",
     "FACULTY": "RAVI PRAKASH DWIVEDI"
   },
@@ -13956,6 +15700,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "A2+TA2",
     "FACULTY": "USHA KIRAN KOMMURI"
   },
@@ -13964,6 +15709,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "A2+TA2",
     "FACULTY": "RICHARDS JOE STANISLAUS"
   },
@@ -13972,6 +15718,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "A2+TA2",
     "FACULTY": "PRASAD JONES CHRISTYDASS S"
   },
@@ -13980,6 +15727,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L43+L44",
     "FACULTY": "THIRIPURASUNDARI D"
   },
@@ -13988,6 +15736,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L43+L44",
     "FACULTY": "AMIT KUMAR"
   },
@@ -13996,6 +15745,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L29+L30",
     "FACULTY": "USHA KIRAN KOMMURI"
   },
@@ -14004,6 +15754,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L29+L30",
     "FACULTY": "MARKKANDAN"
   },
@@ -14012,6 +15763,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L37+L38",
     "FACULTY": "RICHARDS JOE STANISLAUS"
   },
@@ -14020,6 +15772,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L37+L38",
     "FACULTY": "RALPH SAMUEL THANGARAJ"
   },
@@ -14028,6 +15781,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L39+L40",
     "FACULTY": "PRASAD JONES CHRISTYDASS S"
   },
@@ -14036,6 +15790,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L39+L40",
     "FACULTY": "DHEEREN KU MAHAPATRA"
   },
@@ -14044,6 +15799,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L27+L28",
     "FACULTY": "RAVI PRAKASH DWIVEDI"
   },
@@ -14052,6 +15808,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L27+L28",
     "FACULTY": "SUMAN SAHA"
   },
@@ -14060,6 +15817,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L7+L8",
     "FACULTY": "USHA KIRAN KOMMURI"
   },
@@ -14068,6 +15826,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L7+L8",
     "FACULTY": "SHARON GIFTSY A L"
   },
@@ -14076,6 +15835,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L3+L4",
     "FACULTY": "RICHARDS JOE STANISLAUS"
   },
@@ -14084,6 +15844,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L3+L4",
     "FACULTY": "RALPH SAMUEL THANGARAJ"
   },
@@ -14092,6 +15853,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L21+L22",
     "FACULTY": "PRASAD JONES CHRISTYDASS S"
   },
@@ -14100,6 +15862,7 @@ const data = [
     "TITLE": "Antenna and Microwave Engineering Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-G02",
     "SLOT": "L21+L22",
     "FACULTY": "DHEEREN KU MAHAPATRA"
   },
@@ -14108,14 +15871,16 @@ const data = [
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "B",
-    "FACULTY": "NAGAJAYANTHI"
+    "VENUE": "AB1-611",
+    "SLOT": "F1+TF1",
+    "FACULTY": "B. NAGAJAYANTHI"
   },
   {
     "CODE": "BECE306L",
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "F1+TF1",
     "FACULTY": "P NIRMALA"
   },
@@ -14124,6 +15889,7 @@ const data = [
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "F1+TF1",
     "FACULTY": "ILAVARASAN T"
   },
@@ -14132,6 +15898,7 @@ const data = [
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "F1+TF1",
     "FACULTY": "USHA RANI S"
   },
@@ -14140,14 +15907,16 @@ const data = [
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "B",
-    "FACULTY": "NAGAJAYANTHI"
+    "VENUE": "AB1-611",
+    "SLOT": "F2+TF2",
+    "FACULTY": "B. NAGAJAYANTHI"
   },
   {
     "CODE": "BECE306L",
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "F2+TF2",
     "FACULTY": "P NIRMALA"
   },
@@ -14156,6 +15925,7 @@ const data = [
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "F2+TF2",
     "FACULTY": "USHA RANI S"
   },
@@ -14164,6 +15934,7 @@ const data = [
     "TITLE": "Digital Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "F2+TF2",
     "FACULTY": "ILAVARASAN T"
   },
@@ -14172,14 +15943,16 @@ const data = [
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
-    "SLOT": "B",
-    "FACULTY": "NAGAJAYANTHI"
+    "VENUE": "AB4-410",
+    "SLOT": "L51+L52",
+    "FACULTY": "B. NAGAJAYANTHI"
   },
   {
     "CODE": "BECE306P",
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-410",
     "SLOT": "L23+L24",
     "FACULTY": "P NIRMALA"
   },
@@ -14188,6 +15961,7 @@ const data = [
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-410",
     "SLOT": "L55+L56",
     "FACULTY": "USHA RANI S"
   },
@@ -14196,6 +15970,7 @@ const data = [
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-410",
     "SLOT": "L49+L50",
     "FACULTY": "ILAVARASAN T"
   },
@@ -14204,14 +15979,16 @@ const data = [
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
-    "SLOT": "B",
-    "FACULTY": "NAGAJAYANTHI"
+    "VENUE": "AB4-410",
+    "SLOT": "L9+L10",
+    "FACULTY": "B. NAGAJAYANTHI"
   },
   {
     "CODE": "BECE306P",
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-410",
     "SLOT": "L7+L8",
     "FACULTY": "P NIRMALA"
   },
@@ -14220,6 +15997,7 @@ const data = [
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-410",
     "SLOT": "L19+L20",
     "FACULTY": "USHA RANI S"
   },
@@ -14228,6 +16006,7 @@ const data = [
     "TITLE": "Digital Communication Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-410",
     "SLOT": "L25+L26",
     "FACULTY": "ILAVARASAN T"
   },
@@ -14236,6 +16015,7 @@ const data = [
     "TITLE": "Artificial Intelligence and Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "G1+TG1",
     "FACULTY": "VIJAYARAJAN R"
   },
@@ -14244,6 +16024,7 @@ const data = [
     "TITLE": "Artificial Intelligence and Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "G2+TG2",
     "FACULTY": "VIJAYARAJAN R"
   },
@@ -14252,6 +16033,7 @@ const data = [
     "TITLE": "Artificial Intelligence and Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-811",
     "SLOT": "G1+TG1",
     "FACULTY": "S SHOBA"
   },
@@ -14260,6 +16042,7 @@ const data = [
     "TITLE": "Artificial Intelligence and Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "G1+TG1",
     "FACULTY": "PRAVEEN JARAUT"
   },
@@ -14268,6 +16051,7 @@ const data = [
     "TITLE": "Artificial Intelligence and Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "G2+TG2",
     "FACULTY": "PRAVEEN JARAUT"
   },
@@ -14276,6 +16060,7 @@ const data = [
     "TITLE": "Artificial Intelligence and Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "G1+TG1",
     "FACULTY": "SUKRITI"
   },
@@ -14284,6 +16069,7 @@ const data = [
     "TITLE": "Artificial Intelligence and Machine Learning",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "G2+TG2",
     "FACULTY": "SUKRITI"
   },
@@ -14292,14 +16078,16 @@ const data = [
     "TITLE": "Robotics and Automation",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "A",
-    "FACULTY": "SANKAR"
+    "VENUE": "AB1-811",
+    "SLOT": "E2+TE2",
+    "FACULTY": "A BHARATHI SANKAR"
   },
   {
     "CODE": "BECE313L",
     "TITLE": "Information Theory and Coding",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-811",
     "SLOT": "E1+TE1",
     "FACULTY": "MARKKANDAN"
   },
@@ -14308,6 +16096,7 @@ const data = [
     "TITLE": "Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-611",
     "SLOT": "G1",
     "FACULTY": "FLORENCE GNANA POOVATHY J"
   },
@@ -14316,6 +16105,7 @@ const data = [
     "TITLE": "Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L45+L46",
     "FACULTY": "FLORENCE GNANA POOVATHY J"
   },
@@ -14324,6 +16114,7 @@ const data = [
     "TITLE": "Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-711",
     "SLOT": "G2",
     "FACULTY": "MANOJ KUMAR R"
   },
@@ -14332,6 +16123,7 @@ const data = [
     "TITLE": "Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L5+L6",
     "FACULTY": "MANOJ KUMAR R"
   },
@@ -14340,6 +16132,7 @@ const data = [
     "TITLE": "Embedded C Programming",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-710",
     "SLOT": "G1",
     "FACULTY": "PUGAZHENTHI R"
   },
@@ -14348,6 +16141,7 @@ const data = [
     "TITLE": "Embedded C Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-102",
     "SLOT": "L43+L44",
     "FACULTY": "PUGAZHENTHI R"
   },
@@ -14356,6 +16150,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "C2+TC2",
     "FACULTY": "GNANA SWATHIKA O V"
   },
@@ -14364,6 +16159,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "C2+TC2",
     "FACULTY": "SITHARTHAN R"
   },
@@ -14372,6 +16168,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-403",
     "SLOT": "C1+TC1",
     "FACULTY": "SUSEELA S"
   },
@@ -14380,6 +16177,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-407",
     "SLOT": "B1+TB1",
     "FACULTY": "PRABHA B"
   },
@@ -14388,6 +16186,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "C1+TC1",
     "FACULTY": "UMA MAHESWARI"
   },
@@ -14396,6 +16195,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "C1+TC1",
     "FACULTY": "ROHITH G"
   },
@@ -14404,6 +16204,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-611",
     "SLOT": "C2+TC2",
     "FACULTY": "TANMOY MAJUMDER"
   },
@@ -14412,6 +16213,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "C1+TC1",
     "FACULTY": "ARIVARASI A"
   },
@@ -14420,6 +16222,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-710",
     "SLOT": "C2+TC2",
     "FACULTY": "ARIVARASI A"
   },
@@ -14428,6 +16231,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "C1+TC1",
     "FACULTY": "UPENDER P"
   },
@@ -14436,6 +16240,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-711",
     "SLOT": "C2+TC2",
     "FACULTY": "UPENDER P"
   },
@@ -14444,6 +16249,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "C1+TC1",
     "FACULTY": "PRASANNA BHARATHI"
   },
@@ -14452,6 +16258,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-801",
     "SLOT": "C2+TC2",
     "FACULTY": "PRASANNA BHARATHI"
   },
@@ -14460,6 +16267,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-802",
     "SLOT": "C1+TC1",
     "FACULTY": "RAJU PATEL"
   },
@@ -14468,6 +16276,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "C1+TC1",
     "FACULTY": "SRITAMA ROY"
   },
@@ -14476,6 +16285,7 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-808",
     "SLOT": "C2+TC2",
     "FACULTY": "SRITAMA ROY"
   },
@@ -14484,38 +16294,43 @@ const data = [
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "C1+TC1",
-    "FACULTY": "SCOPE1 LTI SCOPE1"
+    "FACULTY": "LTI SCOPE1"
   },
   {
     "CODE": "BECE355L",
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-809",
     "SLOT": "C2+TC2",
-    "FACULTY": "SCOPE1 LTI SCOPE1"
+    "FACULTY": "LTI SCOPE1"
   },
   {
     "CODE": "BECE355L",
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "C1+TC1",
-    "FACULTY": "SCOPE2 LTI SCOPE2"
+    "FACULTY": "LTI SCOPE2"
   },
   {
     "CODE": "BECE355L",
     "TITLE": "Advanced Cloud Computing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "C2+TC2",
-    "FACULTY": "SCOPE2 LTI SCOPE2"
+    "FACULTY": "LTI SCOPE2"
   },
   {
     "CODE": "BECE402L",
     "TITLE": "Communication for Cyber Physical Systems",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB3-102",
     "SLOT": "B2",
     "FACULTY": "KANCHANA DEVI V"
   },
@@ -14524,6 +16339,7 @@ const data = [
     "TITLE": "Communication for Cyber Physical Systems",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "MAB4-101",
     "SLOT": "B1",
     "FACULTY": "PRIYADARSHINI R"
   },
@@ -14532,6 +16348,7 @@ const data = [
     "TITLE": "Communication for Cyber Physical Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L27+L28",
     "FACULTY": "KANCHANA DEVI V"
   },
@@ -14540,6 +16357,7 @@ const data = [
     "TITLE": "Communication for Cyber Physical Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB3-310",
     "SLOT": "L37+L38",
     "FACULTY": "PRIYADARSHINI R"
   },
@@ -14548,6 +16366,7 @@ const data = [
     "TITLE": "Embedded Systems Design",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-610",
     "SLOT": "G1+TG1",
     "FACULTY": "MUTHULAKSHMI S"
   },
@@ -14556,6 +16375,7 @@ const data = [
     "TITLE": "Embedded Systems Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-411",
     "SLOT": "L11+L12",
     "FACULTY": "MUTHULAKSHMI S"
   },
@@ -14564,6 +16384,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-808",
     "SLOT": "F1",
     "FACULTY": "HARIHARAN"
   },
@@ -14572,6 +16393,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-808",
     "SLOT": "F2",
     "FACULTY": "HARIHARAN"
   },
@@ -14580,6 +16402,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-409",
     "SLOT": "L11+L12",
     "FACULTY": "HARIHARAN"
   },
@@ -14588,6 +16411,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-409",
     "SLOT": "L21+L22",
     "FACULTY": "HARIHARAN"
   },
@@ -14596,6 +16420,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-809",
     "SLOT": "G1",
     "FACULTY": "JEAN JENIFER NESAM J"
   },
@@ -14604,6 +16429,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-409",
     "SLOT": "L43+L44",
     "FACULTY": "JEAN JENIFER NESAM J"
   },
@@ -14612,6 +16438,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-801",
     "SLOT": "G2",
     "FACULTY": "JEAN JENIFER NESAM J"
   },
@@ -14620,6 +16447,7 @@ const data = [
     "TITLE": "FPGA Based System Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB4-409",
     "SLOT": "L27+L28",
     "FACULTY": "JEAN JENIFER NESAM J"
   },
@@ -14628,6 +16456,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-801",
     "SLOT": "G1",
     "FACULTY": "PRATHIBA A"
   },
@@ -14636,6 +16465,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L43+L44",
     "FACULTY": "PRATHIBA A"
   },
@@ -14644,6 +16474,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-802",
     "SLOT": "F1",
     "FACULTY": "PRITAM BHATTACHARJEE"
   },
@@ -14652,6 +16483,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L29+L30",
     "FACULTY": "PRITAM BHATTACHARJEE"
   },
@@ -14660,6 +16492,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-802",
     "SLOT": "F2",
     "FACULTY": "PRITAM BHATTACHARJEE"
   },
@@ -14668,6 +16501,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-312",
     "SLOT": "L19+L20",
     "FACULTY": "PRITAM BHATTACHARJEE"
   },
@@ -14676,6 +16510,7 @@ const data = [
     "TITLE": "Cryptography and Network Security",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-518",
     "SLOT": "G1+TG1",
     "FACULTY": "VIJAYAKUMAR P"
   },
@@ -14684,6 +16519,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -14692,6 +16528,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -14700,6 +16537,7 @@ const data = [
     "TITLE": "Augmented and Virtual Reality",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "MAB3-203",
     "SLOT": "A1+TA1",
     "FACULTY": "PRIYAADHARSHINI M"
   },
@@ -14708,6 +16546,7 @@ const data = [
     "TITLE": "Augmented and Virtual Reality",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-307",
     "SLOT": "L51+L52",
     "FACULTY": "PRIYAADHARSHINI M"
   },
@@ -14716,6 +16555,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -14724,6 +16564,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -14732,6 +16573,7 @@ const data = [
     "TITLE": "Computer Architecture",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "E1+TE1",
     "FACULTY": "MOHAMMED AARIF K O"
   },
@@ -14740,6 +16582,7 @@ const data = [
     "TITLE": "Computer Architecture",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "E2+TE2",
     "FACULTY": "PRITAM BHATTACHARJEE"
   },
@@ -14748,6 +16591,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "A1+TA1",
     "FACULTY": "SAKTHIVEL S M"
   },
@@ -14756,6 +16600,7 @@ const data = [
     "TITLE": "ASIC Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "A2+TA2",
     "FACULTY": "SAKTHIVEL S M"
   },
@@ -14764,6 +16609,7 @@ const data = [
     "TITLE": "ASIC Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-409",
     "SLOT": "L23+L24",
     "FACULTY": "SAKTHIVEL S M"
   },
@@ -14772,6 +16618,7 @@ const data = [
     "TITLE": "ASIC Design Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB4-409",
     "SLOT": "L29+L30",
     "FACULTY": "SAKTHIVEL S M"
   },
@@ -14780,6 +16627,7 @@ const data = [
     "TITLE": "Principles of Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "F1+TF1",
     "FACULTY": "RALPH SAMUEL THANGARAJ"
   },
@@ -14788,6 +16636,7 @@ const data = [
     "TITLE": "Principles of Communication Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "F2+TF2",
     "FACULTY": "RALPH SAMUEL THANGARAJ"
   },
@@ -14796,6 +16645,7 @@ const data = [
     "TITLE": "CAD for IC Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "G2+TG2",
     "FACULTY": "GIRIJA SHANKAR SAHOO"
   },
@@ -14804,6 +16654,7 @@ const data = [
     "TITLE": "CAD for IC Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-516",
     "SLOT": "G1+TG1",
     "FACULTY": "SRIDHAR C"
   },
@@ -14812,6 +16663,7 @@ const data = [
     "TITLE": "Testing of VLSI Circuits",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-517",
     "SLOT": "D2+TD2",
     "FACULTY": "PAPANASAM E"
   },
@@ -14820,14 +16672,16 @@ const data = [
     "TITLE": "AI and Machine Learning for IC",
     "TYPE": "TH",
     "CREDITS": 3,
-    "SLOT": "G",
-    "FACULTY": "PRIYA"
+    "VENUE": "AB4-517",
+    "SLOT": "D1+TD1",
+    "FACULTY": "G LAKSHMI PRIYA"
   },
   {
     "CODE": "BEVD497J",
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -14836,6 +16690,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -14844,7 +16699,8 @@ const data = [
     "TITLE": "Mechanical System Design and Analysis",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB1-402",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "DAVIDSON JEBASEELAN"
   },
   {
@@ -14852,7 +16708,8 @@ const data = [
     "TITLE": "Mechanical System Design and Analysis",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB1-402",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "KRISHANU GANGULY"
   },
   {
@@ -14860,7 +16717,8 @@ const data = [
     "TITLE": "Mechanical System Design and Analysis",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB1-408",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "ANAND KUMAR AGRAWAL"
   },
   {
@@ -14868,6 +16726,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-408",
     "SLOT": "D1+TD1",
     "FACULTY": "ESWARAN M"
   },
@@ -14876,6 +16735,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-402",
     "SLOT": "D2+TD2",
     "FACULTY": "BONDA ATCHUTA GANESH YUVA RAJU"
   },
@@ -14884,6 +16744,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-402",
     "SLOT": "D1+TD1",
     "FACULTY": "SUGUMARAN"
   },
@@ -14892,6 +16753,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L13+L14",
     "FACULTY": "BONDA ATCHUTA GANESH YUVA RAJU"
   },
@@ -14900,6 +16762,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L27+L28",
     "FACULTY": "BONDA ATCHUTA GANESH YUVA RAJU"
   },
@@ -14908,6 +16771,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L29+L30",
     "FACULTY": "ESWARAN M"
   },
@@ -14916,6 +16780,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L49+L50",
     "FACULTY": "ESWARAN M"
   },
@@ -14924,6 +16789,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L31+L32",
     "FACULTY": "SUGUMARAN"
   },
@@ -14932,6 +16798,7 @@ const data = [
     "TITLE": "Sensors and Signals",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L37+L38",
     "FACULTY": "SUGUMARAN"
   },
@@ -14940,7 +16807,8 @@ const data = [
     "TITLE": "Intelligent Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-408",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "JEGADEESHWARAN R"
   },
   {
@@ -14948,7 +16816,8 @@ const data = [
     "TITLE": "Intelligent Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-402",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "MOGANA PRIYA C"
   },
   {
@@ -14956,7 +16825,8 @@ const data = [
     "TITLE": "Intelligent Systems",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB1-402",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "SANTHOSH N"
   },
   {
@@ -14964,6 +16834,7 @@ const data = [
     "TITLE": "Embedded Systems and Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-402",
     "SLOT": "F1+TF1",
     "FACULTY": "MAHESWARI C"
   },
@@ -14972,6 +16843,7 @@ const data = [
     "TITLE": "Embedded Systems and Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-402",
     "SLOT": "F2+TF2",
     "FACULTY": "MATHIYAZHAGAN R"
   },
@@ -14980,6 +16852,7 @@ const data = [
     "TITLE": "Embedded Systems and Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L9+L10",
     "FACULTY": "MATHIYAZHAGAN R"
   },
@@ -14988,6 +16861,7 @@ const data = [
     "TITLE": "Embedded Systems and Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L15+L16",
     "FACULTY": "MATHIYAZHAGAN R"
   },
@@ -14996,6 +16870,7 @@ const data = [
     "TITLE": "Embedded Systems and Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L39+L40",
     "FACULTY": "MAHESWARI C"
   },
@@ -15004,6 +16879,7 @@ const data = [
     "TITLE": "Embedded Systems and Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L43+L44",
     "FACULTY": "MAHESWARI C"
   },
@@ -15012,6 +16888,7 @@ const data = [
     "TITLE": "Fluid and Thermal Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-408",
     "SLOT": "F1+TF1",
     "FACULTY": "PRITAM DAS"
   },
@@ -15020,6 +16897,7 @@ const data = [
     "TITLE": "Fluid and Thermal Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-408",
     "SLOT": "F2+TF2",
     "FACULTY": "IMMANUEL SELWYN RAJ A"
   },
@@ -15028,6 +16906,7 @@ const data = [
     "TITLE": "Fluid and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L27+L28",
     "FACULTY": "IMMANUEL SELWYN RAJ A"
   },
@@ -15036,6 +16915,7 @@ const data = [
     "TITLE": "Fluid and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L41+L42",
     "FACULTY": "IMMANUEL SELWYN RAJ A"
   },
@@ -15044,6 +16924,7 @@ const data = [
     "TITLE": "Fluid and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L5+L6",
     "FACULTY": "PRITAM DAS"
   },
@@ -15052,6 +16933,7 @@ const data = [
     "TITLE": "Fluid and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L45+L46",
     "FACULTY": "PRITAM DAS"
   },
@@ -15060,6 +16942,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-301",
     "SLOT": "D1+TD1",
     "FACULTY": "SREEKANTH DONDAPATI"
   },
@@ -15068,6 +16951,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-302",
     "SLOT": "D1+TD1",
     "FACULTY": "CHRISTO MICHAEL T"
   },
@@ -15076,6 +16960,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-303",
     "SLOT": "D1+TD1",
     "FACULTY": "JEYANTHI S"
   },
@@ -15084,6 +16969,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-301",
     "SLOT": "D2+TD2",
     "FACULTY": "JEYANTHI S"
   },
@@ -15092,6 +16978,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-302",
     "SLOT": "D2+TD2",
     "FACULTY": "AWANI BHUSHAN"
   },
@@ -15100,6 +16987,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L5+L6",
     "FACULTY": "SREEKANTH DONDAPATI"
   },
@@ -15108,6 +16996,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L49+L50",
     "FACULTY": "SREEKANTH DONDAPATI"
   },
@@ -15116,6 +17005,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L23+L24",
     "FACULTY": "CHRISTO MICHAEL T"
   },
@@ -15124,6 +17014,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L43+L44",
     "FACULTY": "CHRISTO MICHAEL T"
   },
@@ -15132,6 +17023,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L37+L38",
     "FACULTY": "JEYANTHI S"
   },
@@ -15140,6 +17032,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L51+L52",
     "FACULTY": "JEYANTHI S"
   },
@@ -15148,6 +17041,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L9+L10",
     "FACULTY": "JEYANTHI S"
   },
@@ -15156,6 +17050,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L13+L14",
     "FACULTY": "JEYANTHI S"
   },
@@ -15164,6 +17059,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L1+L2",
     "FACULTY": "AWANI BHUSHAN"
   },
@@ -15172,6 +17068,7 @@ const data = [
     "TITLE": "Mechanics of Materials",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-006",
     "SLOT": "L21+L22",
     "FACULTY": "AWANI BHUSHAN"
   },
@@ -15180,6 +17077,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-301",
     "SLOT": "F1+TF1",
     "FACULTY": "JOSEPH DANIEL"
   },
@@ -15188,6 +17086,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-302",
     "SLOT": "F1+TF1",
     "FACULTY": "FEROSKHAN M"
   },
@@ -15196,6 +17095,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-303",
     "SLOT": "F1+TF1",
     "FACULTY": "MANAVALLA SREEKANTH"
   },
@@ -15204,6 +17104,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-301",
     "SLOT": "F2+TF2",
     "FACULTY": "SAURABH YADAV"
   },
@@ -15212,6 +17113,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-302",
     "SLOT": "F2+TF2",
     "FACULTY": "AVADHESH KUMAR SHARMA"
   },
@@ -15220,6 +17122,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L5+L6",
     "FACULTY": "JOSEPH DANIEL"
   },
@@ -15228,6 +17131,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L49+L50",
     "FACULTY": "JOSEPH DANIEL"
   },
@@ -15236,6 +17140,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L23+L24",
     "FACULTY": "FEROSKHAN M"
   },
@@ -15244,6 +17149,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L43+L44",
     "FACULTY": "FEROSKHAN M"
   },
@@ -15252,6 +17158,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L37+L38",
     "FACULTY": "MANAVALLA SREEKANTH"
   },
@@ -15260,6 +17167,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L51+L52",
     "FACULTY": "MANAVALLA SREEKANTH"
   },
@@ -15268,6 +17176,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L1+L2",
     "FACULTY": "SAURABH YADAV"
   },
@@ -15276,6 +17185,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L21+L22",
     "FACULTY": "SAURABH YADAV"
   },
@@ -15284,6 +17194,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L3+L4",
     "FACULTY": "AVADHESH KUMAR SHARMA"
   },
@@ -15292,6 +17203,7 @@ const data = [
     "TITLE": "Thermodynamics and Thermal Systems",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-005",
     "SLOT": "L15+L16",
     "FACULTY": "AVADHESH KUMAR SHARMA"
   },
@@ -15300,6 +17212,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-302",
     "SLOT": "C1+TC1",
     "FACULTY": "LAKSHMI PATHI JAKKAMPUTI"
   },
@@ -15308,6 +17221,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-302",
     "SLOT": "C2+TC2",
     "FACULTY": "LAKSHMI PATHI JAKKAMPUTI"
   },
@@ -15316,6 +17230,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-406C",
     "SLOT": "L31+L32",
     "FACULTY": "LAKSHMI PATHI JAKKAMPUTI"
   },
@@ -15324,6 +17239,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-406C",
     "SLOT": "L19+L20",
     "FACULTY": "LAKSHMI PATHI JAKKAMPUTI"
   },
@@ -15332,6 +17248,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-301",
     "SLOT": "C1+TC1",
     "FACULTY": "N.GOBINATH"
   },
@@ -15340,6 +17257,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-406B",
     "SLOT": "L57+L58",
     "FACULTY": "N.GOBINATH"
   },
@@ -15348,6 +17266,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-303",
     "SLOT": "C1+TC1",
     "FACULTY": "LENIN BABU M C"
   },
@@ -15356,6 +17275,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-513",
     "SLOT": "L51+L52",
     "FACULTY": "LENIN BABU M C"
   },
@@ -15364,6 +17284,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-301",
     "SLOT": "C2+TC2",
     "FACULTY": "LENIN BABU M C"
   },
@@ -15372,6 +17293,7 @@ const data = [
     "TITLE": "Computational Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-406B",
     "SLOT": "L27+L28",
     "FACULTY": "LENIN BABU M C"
   },
@@ -15380,6 +17302,7 @@ const data = [
     "TITLE": "Vehicle Systems Engineering",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-303",
     "SLOT": "A1+TA1",
     "FACULTY": "TAMIL SELVAN P"
   },
@@ -15388,6 +17311,7 @@ const data = [
     "TITLE": "Vehicle Systems Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-004",
     "SLOT": "L31+L32",
     "FACULTY": "TAMIL SELVAN P"
   },
@@ -15396,6 +17320,7 @@ const data = [
     "TITLE": "Vehicle Systems Engineering",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-004",
     "SLOT": "L49+L50",
     "FACULTY": "TAMIL SELVAN P"
   },
@@ -15404,7 +17329,8 @@ const data = [
     "TITLE": "Production and Operations Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB2-302",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "JOHN RAJAN A"
   },
   {
@@ -15412,7 +17338,8 @@ const data = [
     "TITLE": "Production and Operations Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB2-302",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "JOHN RAJAN A"
   },
   {
@@ -15420,7 +17347,8 @@ const data = [
     "TITLE": "Production and Operations Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB2-301",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "DR.PADMANABHAN R"
   },
   {
@@ -15428,7 +17356,8 @@ const data = [
     "TITLE": "Production and Operations Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A2+TA2+TAA2",
+    "VENUE": "AB2-301",
+    "SLOT": "A2+TA2+TA",
     "FACULTY": "GAJANAND GUPTA"
   },
   {
@@ -15436,6 +17365,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "A2+TA2",
     "FACULTY": "VINAYAGAMURTHY G"
   },
@@ -15444,6 +17374,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "A1+TA1",
     "FACULTY": "SHYAM KUMAR M B"
   },
@@ -15452,6 +17383,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-410",
     "SLOT": "A1+TA1",
     "FACULTY": "SREEKANTH DONDAPATI"
   },
@@ -15460,6 +17392,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-007",
     "SLOT": "L31+L32",
     "FACULTY": "SHYAM KUMAR M B"
   },
@@ -15468,6 +17401,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-007",
     "SLOT": "L29+L30",
     "FACULTY": "SHYAM KUMAR M B"
   },
@@ -15476,6 +17410,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-007",
     "SLOT": "L43+L44",
     "FACULTY": "SREEKANTH DONDAPATI"
   },
@@ -15484,6 +17419,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-007",
     "SLOT": "L7+L8",
     "FACULTY": "VINAYAGAMURTHY G"
   },
@@ -15492,6 +17428,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-007",
     "SLOT": "L21+L22",
     "FACULTY": "VINAYAGAMURTHY G"
   },
@@ -15500,6 +17437,7 @@ const data = [
     "TITLE": "Kinematics and Dynamics of Machines Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-007",
     "SLOT": "L55+L56",
     "FACULTY": "SREEKANTH DONDAPATI"
   },
@@ -15508,6 +17446,7 @@ const data = [
     "TITLE": "Mechatronics and Measurement Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-307",
     "SLOT": "B1+TB1",
     "FACULTY": "GIRIDHARAN A"
   },
@@ -15516,6 +17455,7 @@ const data = [
     "TITLE": "Mechatronics and Measurement Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L5+L6",
     "FACULTY": "GIRIDHARAN A"
   },
@@ -15524,6 +17464,7 @@ const data = [
     "TITLE": "Mechatronics and Measurement Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-803A",
     "SLOT": "L51+L52",
     "FACULTY": "GIRIDHARAN A"
   },
@@ -15532,7 +17473,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-409",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "VENKATACHALAM G"
   },
   {
@@ -15540,7 +17482,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-305",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "AWANI BHUSHAN"
   },
   {
@@ -15548,7 +17491,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB2-305",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "TAPAN KUMAR MAHANTA"
   },
   {
@@ -15556,7 +17500,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB1-410",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "TAPAN KUMAR MAHANTA"
   },
   {
@@ -15564,7 +17509,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-304",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "BHASKARA RAO"
   },
   {
@@ -15572,7 +17518,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB2-304",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "BHASKARA RAO"
   },
   {
@@ -15580,7 +17527,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C2+TC2+TCC2",
+    "VENUE": "AB1-409",
+    "SLOT": "C2+TC2+TC",
     "FACULTY": "KRISHANU GANGULY"
   },
   {
@@ -15588,7 +17536,8 @@ const data = [
     "TITLE": "Design of Machine Elements",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-306",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "ANAND KUMAR AGRAWAL"
   },
   {
@@ -15596,6 +17545,7 @@ const data = [
     "TITLE": "Metal Forming and Machining",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-305",
     "SLOT": "A1+TA1",
     "FACULTY": "BHUPESH SINGH KATIYAR"
   },
@@ -15604,6 +17554,7 @@ const data = [
     "TITLE": "Metal Forming and Machining",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-306",
     "SLOT": "A1+TA1",
     "FACULTY": "ANSHUMAN DAS"
   },
@@ -15612,6 +17563,7 @@ const data = [
     "TITLE": "Metal Forming and Machining",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-304",
     "SLOT": "A1+TA1",
     "FACULTY": "MOHAN R"
   },
@@ -15620,6 +17572,7 @@ const data = [
     "TITLE": "Metal Forming and Machining",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-304",
     "SLOT": "A2+TA2",
     "FACULTY": "DEIVANATHAN R"
   },
@@ -15628,6 +17581,7 @@ const data = [
     "TITLE": "Metal Forming and Machining",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-305",
     "SLOT": "A2+TA2",
     "FACULTY": "PONNUSAMY P"
   },
@@ -15636,6 +17590,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L31+L32",
     "FACULTY": "BHUPESH SINGH KATIYAR"
   },
@@ -15644,6 +17599,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L37+L38",
     "FACULTY": "BHUPESH SINGH KATIYAR"
   },
@@ -15652,6 +17608,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L11+L12",
     "FACULTY": "ANSHUMAN DAS"
   },
@@ -15660,6 +17617,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L55+L56",
     "FACULTY": "ANSHUMAN DAS"
   },
@@ -15668,6 +17626,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L29+L30",
     "FACULTY": "MOHAN R"
   },
@@ -15676,6 +17635,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L49+L50",
     "FACULTY": "MOHAN R"
   },
@@ -15684,6 +17644,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L7+L8",
     "FACULTY": "DEIVANATHAN R"
   },
@@ -15692,6 +17653,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L19+L20",
     "FACULTY": "DEIVANATHAN R"
   },
@@ -15700,6 +17662,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L9+L10",
     "FACULTY": "PONNUSAMY P"
   },
@@ -15708,6 +17671,7 @@ const data = [
     "TITLE": "Metal Forming and Machining Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-003",
     "SLOT": "L21+L22",
     "FACULTY": "PONNUSAMY P"
   },
@@ -15716,6 +17680,7 @@ const data = [
     "TITLE": "Composite Materials",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-305",
     "SLOT": "F1+TF1",
     "FACULTY": "VENKATACHALAM G"
   },
@@ -15724,6 +17689,7 @@ const data = [
     "TITLE": "Internal Combustion Engines",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-305",
     "SLOT": "F2+TF2",
     "FACULTY": "VENUGOPAL T"
   },
@@ -15732,6 +17698,7 @@ const data = [
     "TITLE": "Power Plant Engineering",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-304",
     "SLOT": "F1+TF1",
     "FACULTY": "KARUNAMURTHY K"
   },
@@ -15740,6 +17707,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-306",
     "SLOT": "TAA1",
     "FACULTY": "RADHA"
   },
@@ -15748,7 +17716,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L51+L52",
+    "VENUE": "AB1-406B",
+    "SLOT": "L31+L32+L",
     "FACULTY": "RADHA"
   },
   {
@@ -15756,6 +17725,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-409",
     "SLOT": "TAA1",
     "FACULTY": "PRADEEP N"
   },
@@ -15764,6 +17734,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-409",
     "SLOT": "TAA2",
     "FACULTY": "PRADEEP N"
   },
@@ -15772,7 +17743,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L33+L34+L43+L44",
+    "VENUE": "AB1-406B",
+    "SLOT": "L33+L34+L",
     "FACULTY": "PRADEEP N"
   },
   {
@@ -15780,7 +17752,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L3+L4+L15+L16",
+    "VENUE": "AB1-406B",
+    "SLOT": "L3+L4+L15",
     "FACULTY": "PRADEEP N"
   },
   {
@@ -15788,6 +17761,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-410",
     "SLOT": "TAA1",
     "FACULTY": "ESWARAN M"
   },
@@ -15796,7 +17770,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L37+L38+L45+L46",
+    "VENUE": "AB1-406B",
+    "SLOT": "L37+L38+L",
     "FACULTY": "ESWARAN M"
   },
   {
@@ -15804,6 +17779,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-304",
     "SLOT": "TAA1",
     "FACULTY": "MANIMARAN R"
   },
@@ -15812,6 +17788,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-304",
     "SLOT": "TAA2",
     "FACULTY": "MANIMARAN R"
   },
@@ -15820,7 +17797,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L29+L30+L49+L50",
+    "VENUE": "AB1-406B",
+    "SLOT": "L29+L30+L",
     "FACULTY": "MANIMARAN R"
   },
   {
@@ -15828,7 +17806,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L5+L6+L19+L20",
+    "VENUE": "AB1-406B",
+    "SLOT": "L5+L6+L19",
     "FACULTY": "MANIMARAN R"
   },
   {
@@ -15836,6 +17815,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-305",
     "SLOT": "TAA1",
     "FACULTY": "RAGHUKIRAN NADIMPALLI"
   },
@@ -15844,6 +17824,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-305",
     "SLOT": "TAA2",
     "FACULTY": "RAGHUKIRAN NADIMPALLI"
   },
@@ -15852,7 +17833,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L39+L40+L55+L56",
+    "VENUE": "AB1-406B",
+    "SLOT": "L39+L40+L",
     "FACULTY": "RAGHUKIRAN NADIMPALLI"
   },
   {
@@ -15860,7 +17842,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L7+L8+L21+L22",
+    "VENUE": "AB1-406B",
+    "SLOT": "L7+L8+L21",
     "FACULTY": "RAGHUKIRAN NADIMPALLI"
   },
   {
@@ -15868,6 +17851,7 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-708",
     "SLOT": "TDD1",
     "FACULTY": "ANJALI GOPAKUMAR"
   },
@@ -15876,7 +17860,8 @@ const data = [
     "TITLE": "Cloud Computing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L43+L44+L55+L56",
+    "VENUE": "AB1-514",
+    "SLOT": "L43+L44+L",
     "FACULTY": "ANJALI GOPAKUMAR"
   },
   {
@@ -15884,6 +17869,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-706",
     "SLOT": "F1+TF1",
     "FACULTY": "DEIVANATHAN R"
   },
@@ -15892,6 +17878,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-707",
     "SLOT": "F1+TF1",
     "FACULTY": "JAFFERSON J M"
   },
@@ -15900,6 +17887,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-307",
     "SLOT": "F1+TF1",
     "FACULTY": "GAJANAND GUPTA"
   },
@@ -15908,6 +17896,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-307",
     "SLOT": "F2+TF2",
     "FACULTY": "GIRIDHARAN A"
   },
@@ -15916,6 +17905,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-406C",
     "SLOT": "L33+L34",
     "FACULTY": "DEIVANATHAN R"
   },
@@ -15924,6 +17914,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-406C",
     "SLOT": "L43+L44",
     "FACULTY": "JAFFERSON J M"
   },
@@ -15932,6 +17923,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-406C",
     "SLOT": "L29+L30",
     "FACULTY": "GAJANAND GUPTA"
   },
@@ -15940,6 +17932,7 @@ const data = [
     "TITLE": "Computer Integrated Manufacturing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-406B",
     "SLOT": "L9+L10",
     "FACULTY": "GIRIDHARAN A"
   },
@@ -15948,6 +17941,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-304",
     "SLOT": "B1+TB1",
     "FACULTY": "TAMIL SELVAN P"
   },
@@ -15956,6 +17950,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-305",
     "SLOT": "B1+TB1",
     "FACULTY": "JOSEPH DANIEL"
   },
@@ -15964,6 +17959,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-306",
     "SLOT": "B1+TB1",
     "FACULTY": "VENUGOPAL T"
   },
@@ -15972,6 +17968,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-304",
     "SLOT": "B2+TB2",
     "FACULTY": "HARISH R"
   },
@@ -15980,6 +17977,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-305",
     "SLOT": "B2+TB2",
     "FACULTY": "AVADHESH KUMAR SHARMA"
   },
@@ -15988,6 +17986,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L43+L44",
     "FACULTY": "TAMIL SELVAN P"
   },
@@ -15996,6 +17995,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L55+L56",
     "FACULTY": "TAMIL SELVAN P"
   },
@@ -16004,6 +18004,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L31+L32",
     "FACULTY": "JOSEPH DANIEL"
   },
@@ -16012,6 +18013,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L37+L38",
     "FACULTY": "JOSEPH DANIEL"
   },
@@ -16020,6 +18022,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L29+L30",
     "FACULTY": "VENUGOPAL T"
   },
@@ -16028,6 +18031,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L49+L50",
     "FACULTY": "VENUGOPAL T"
   },
@@ -16036,6 +18040,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L3+L4",
     "FACULTY": "HARISH R"
   },
@@ -16044,6 +18049,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L11+L12",
     "FACULTY": "HARISH R"
   },
@@ -16052,6 +18058,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L19+L20",
     "FACULTY": "AVADHESH KUMAR SHARMA"
   },
@@ -16060,6 +18067,7 @@ const data = [
     "TITLE": "Heat and Mass Transfer Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L7+L8",
     "FACULTY": "AVADHESH KUMAR SHARMA"
   },
@@ -16068,6 +18076,7 @@ const data = [
     "TITLE": "Design of Transmission Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-306",
     "SLOT": "F1+TF1",
     "FACULTY": "SASIKUMAR M"
   },
@@ -16076,6 +18085,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-307",
     "SLOT": "D1+TD1",
     "FACULTY": "DEVAPRAKASAM D"
   },
@@ -16084,6 +18094,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-307",
     "SLOT": "D2+TD2",
     "FACULTY": "DEVAPRAKASAM D"
   },
@@ -16092,6 +18103,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-706",
     "SLOT": "D1+TD1",
     "FACULTY": "MOHAN R"
   },
@@ -16100,6 +18112,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-410",
     "SLOT": "E1+TE1",
     "FACULTY": "MANOJ KUMAR R"
   },
@@ -16108,6 +18121,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "E1+TE1",
     "FACULTY": "ABHISHEK"
   },
@@ -16116,6 +18130,7 @@ const data = [
     "TITLE": "Artificial Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "E2+TE2",
     "FACULTY": "ABHISHEK"
   },
@@ -16124,6 +18139,7 @@ const data = [
     "TITLE": "Computational Fluid Dynamics",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB2-307",
     "SLOT": "A1",
     "FACULTY": "HARISH R"
   },
@@ -16132,6 +18148,7 @@ const data = [
     "TITLE": "Computational Fluid Dynamics",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-406B",
     "SLOT": "L23+L24",
     "FACULTY": "HARISH R"
   },
@@ -16140,14 +18157,16 @@ const data = [
     "TITLE": "Society 5.0",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-304",
     "SLOT": "F2+TF2",
     "FACULTY": "DAVIDSON JEBASEELAN"
   },
   {
     "CODE": "BMEE417L",
-    "TITLE": "Energy Storage and Management for Electric",
-    "TYPE": "VehiclesTH",
+    "TITLE": "Energy Storage and Management for Electric Vehicle",
+    "TYPE": "sTH",
     "CREDITS": 3,
+    "VENUE": "AB2-306",
     "SLOT": "G1+TG1",
     "FACULTY": "RADHA"
   },
@@ -16156,6 +18175,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -16164,6 +18184,7 @@ const data = [
     "TITLE": "Solid and Fluid Mechanics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-410",
     "SLOT": "B2+TB2",
     "FACULTY": "SAURABH YADAV"
   },
@@ -16172,6 +18193,7 @@ const data = [
     "TITLE": "Solid and Fluid Mechanics Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB2-014",
     "SLOT": "L47+L48",
     "FACULTY": "SAURABH YADAV"
   },
@@ -16180,6 +18202,7 @@ const data = [
     "TITLE": "Fluid Power Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "G1+TG1",
     "FACULTY": "ELANGO M"
   },
@@ -16188,6 +18211,7 @@ const data = [
     "TITLE": "Fluid Power Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "G2+TG2",
     "FACULTY": "ELANGO M"
   },
@@ -16196,6 +18220,7 @@ const data = [
     "TITLE": "Fluid Power Systems",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-410",
     "SLOT": "G1+TG1",
     "FACULTY": "SANTHOSH N"
   },
@@ -16204,6 +18229,7 @@ const data = [
     "TITLE": "Fluid Power Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L31+L32",
     "FACULTY": "SANTHOSH N"
   },
@@ -16212,6 +18238,7 @@ const data = [
     "TITLE": "Fluid Power Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L29+L30",
     "FACULTY": "SANTHOSH N"
   },
@@ -16220,6 +18247,7 @@ const data = [
     "TITLE": "Fluid Power Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L55+L56",
     "FACULTY": "ELANGO M"
   },
@@ -16228,6 +18256,7 @@ const data = [
     "TITLE": "Fluid Power Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L49+L50",
     "FACULTY": "ELANGO M"
   },
@@ -16236,6 +18265,7 @@ const data = [
     "TITLE": "Fluid Power Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L1+L2",
     "FACULTY": "ELANGO M"
   },
@@ -16244,6 +18274,7 @@ const data = [
     "TITLE": "Fluid Power Systems Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-707B",
     "SLOT": "L27+L28",
     "FACULTY": "ELANGO M"
   },
@@ -16252,6 +18283,7 @@ const data = [
     "TITLE": "Mechatronic Systems Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-411",
     "SLOT": "C1+TC1",
     "FACULTY": "SARAVANAKUMAR D"
   },
@@ -16260,6 +18292,7 @@ const data = [
     "TITLE": "Mechatronic Systems Design",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-411",
     "SLOT": "C2+TC2",
     "FACULTY": "ESWARAN M"
   },
@@ -16268,6 +18301,7 @@ const data = [
     "TITLE": "Machine Vision",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "B1+TB1",
     "FACULTY": "MATHIYAZHAGAN R"
   },
@@ -16276,6 +18310,7 @@ const data = [
     "TITLE": "Machine Vision",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "B2+TB2",
     "FACULTY": "MAHESWARI C"
   },
@@ -16284,6 +18319,7 @@ const data = [
     "TITLE": "Autonomous Mobile Robots",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB1-411",
     "SLOT": "G1+TG1",
     "FACULTY": "AROCKIA SELVAKUMAR"
   },
@@ -16292,6 +18328,7 @@ const data = [
     "TITLE": "Autonomous Mobile Robots",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-311",
     "SLOT": "L45+L46",
     "FACULTY": "AROCKIA SELVAKUMAR"
   },
@@ -16300,14 +18337,16 @@ const data = [
     "TITLE": "Biomechatronics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-411",
     "SLOT": "E2+TE2",
     "FACULTY": "G MURALIMOHAN"
   },
   {
     "CODE": "BMHA405L",
-    "TITLE": "Industrial Internet of Things and Smart",
-    "TYPE": "ManufacturingTH",
+    "TITLE": "Industrial Internet of Things and Smart Manufacturin",
+    "TYPE": "gTH",
     "CREDITS": 3,
+    "VENUE": "AB1-411",
     "SLOT": "E1+TE1",
     "FACULTY": "BONDA ATCHUTA GANESH YUVA RAJU"
   },
@@ -16316,6 +18355,7 @@ const data = [
     "TITLE": "Agriculture Automation",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB1-409",
     "SLOT": "F1+TF1",
     "FACULTY": "SAKTHIVEL G"
   },
@@ -16324,6 +18364,7 @@ const data = [
     "TITLE": "Unmanned Aerial Vehicles",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB1-409",
     "SLOT": "F2",
     "FACULTY": "PRADEEP N"
   },
@@ -16332,6 +18373,7 @@ const data = [
     "TITLE": "Unmanned Aerial Vehicles",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L5+L6",
     "FACULTY": "PRADEEP N"
   },
@@ -16340,6 +18382,7 @@ const data = [
     "TITLE": "Unmanned Aerial Vehicles",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB3-710",
     "SLOT": "L13+L14",
     "FACULTY": "PRADEEP N"
   },
@@ -16348,6 +18391,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -16356,6 +18400,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -16364,6 +18409,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -16372,6 +18418,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -16380,6 +18427,7 @@ const data = [
     "TITLE": "Internship I/ Dissertation I",
     "TYPE": "PJT",
     "CREDITS": 10,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -16388,6 +18436,7 @@ const data = [
     "TITLE": "Environmental Sciences",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "KARTHIKA PICHAIMUTHU"
   },
@@ -16396,6 +18445,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-309",
     "SLOT": "TB1",
     "FACULTY": "SAVARIAH XAVIER Y C"
   },
@@ -16404,6 +18454,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L37+L38",
     "FACULTY": "SAVARIAH XAVIER Y C"
   },
@@ -16412,6 +18463,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-313",
     "SLOT": "TB1",
     "FACULTY": "SHALINI SUPRIYA"
   },
@@ -16420,6 +18472,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L41+L42",
     "FACULTY": "SHALINI SUPRIYA"
   },
@@ -16428,6 +18481,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-403",
     "SLOT": "TB1",
     "FACULTY": "TRISHA"
   },
@@ -16436,6 +18490,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L53+L54",
     "FACULTY": "TRISHA"
   },
@@ -16444,6 +18499,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-309",
     "SLOT": "TB2",
     "FACULTY": "SAVARIAH XAVIER Y C"
   },
@@ -16452,6 +18508,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L7+L8",
     "FACULTY": "SAVARIAH XAVIER Y C"
   },
@@ -16460,6 +18517,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-313",
     "SLOT": "TB2",
     "FACULTY": "TRISHA"
   },
@@ -16468,6 +18526,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L27+L28",
     "FACULTY": "TRISHA"
   },
@@ -16476,6 +18535,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-208",
     "SLOT": "TB2",
     "FACULTY": "HALAVATH RAJESH"
   },
@@ -16484,6 +18544,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L23+L24",
     "FACULTY": "HALAVATH RAJESH"
   },
@@ -16492,6 +18553,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-702",
     "SLOT": "TE1",
     "FACULTY": "SAVARIAH XAVIER Y C"
   },
@@ -16500,6 +18562,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L47+L48",
     "FACULTY": "SAVARIAH XAVIER Y C"
   },
@@ -16508,6 +18571,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-301",
     "SLOT": "TE1",
     "FACULTY": "SHALINI SUPRIYA"
   },
@@ -16516,6 +18580,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L57+L58",
     "FACULTY": "SHALINI SUPRIYA"
   },
@@ -16524,6 +18589,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-302",
     "SLOT": "TE1",
     "FACULTY": "HALAVATH RAJESH"
   },
@@ -16532,6 +18598,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L59+L60",
     "FACULTY": "HALAVATH RAJESH"
   },
@@ -16540,6 +18607,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-402",
     "SLOT": "TE2",
     "FACULTY": "SHALINI SUPRIYA"
   },
@@ -16548,6 +18616,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L19+L20",
     "FACULTY": "SHALINI SUPRIYA"
   },
@@ -16556,6 +18625,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-401",
     "SLOT": "TE2",
     "FACULTY": "TRISHA"
   },
@@ -16564,6 +18634,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L1+L2",
     "FACULTY": "TRISHA"
   },
@@ -16572,6 +18643,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-402",
     "SLOT": "TE2",
     "FACULTY": "HALAVATH RAJESH"
   },
@@ -16580,6 +18652,7 @@ const data = [
     "TITLE": "Spanish Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L9+L10",
     "FACULTY": "HALAVATH RAJESH"
   },
@@ -16588,6 +18661,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-305",
     "SLOT": "TB1",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16596,6 +18670,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L47+L48",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16604,6 +18679,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-306",
     "SLOT": "TB1",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16612,6 +18688,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L39+L40",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16620,6 +18697,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-307",
     "SLOT": "TB1",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16628,6 +18706,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L57+L58",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16636,6 +18715,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-308",
     "SLOT": "TB1",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16644,6 +18724,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L59+L60",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16652,6 +18733,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-305",
     "SLOT": "TB2",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16660,6 +18742,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L5+L6",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16668,6 +18751,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-306",
     "SLOT": "TB2",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16676,6 +18760,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L1+L2",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16684,6 +18769,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-307",
     "SLOT": "TB2",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16692,6 +18778,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L25+L26",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16700,6 +18787,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-308",
     "SLOT": "TB2",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16708,6 +18796,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L23+L24",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16716,6 +18805,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-402",
     "SLOT": "TE1",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16724,6 +18814,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L37+L38",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16732,6 +18823,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-408",
     "SLOT": "TE1",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16740,6 +18832,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L49+L50",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16748,6 +18841,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-608",
     "SLOT": "TE1",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16756,6 +18850,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L35+L36",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16764,6 +18859,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-609",
     "SLOT": "TE1",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16772,6 +18868,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L55+L56",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16780,6 +18877,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-608",
     "SLOT": "TE2",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16788,6 +18886,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L7+L8",
     "FACULTY": "GOVINDARAJAN P"
   },
@@ -16796,6 +18895,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-609",
     "SLOT": "TE2",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16804,6 +18904,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L13+L14",
     "FACULTY": "CLARISSE ROUABAH"
   },
@@ -16812,6 +18913,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-301",
     "SLOT": "TE2",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16820,6 +18922,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L15+L16",
     "FACULTY": "LOKESH BISHNOI"
   },
@@ -16828,6 +18931,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-302",
     "SLOT": "TE2",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16836,6 +18940,7 @@ const data = [
     "TITLE": "French Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L11+L12",
     "FACULTY": "PRIYA SINGH"
   },
@@ -16844,6 +18949,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-209",
     "SLOT": "TB1",
     "FACULTY": "JAMUNARANI M"
   },
@@ -16852,6 +18958,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L31+L32",
     "FACULTY": "JAMUNARANI M"
   },
@@ -16860,6 +18967,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-211",
     "SLOT": "TB1",
     "FACULTY": "SUGUMAR G"
   },
@@ -16868,6 +18976,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L41+L42",
     "FACULTY": "SUGUMAR G"
   },
@@ -16876,6 +18985,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-303",
     "SLOT": "TB1",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -16884,6 +18994,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L35+L36",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -16892,6 +19003,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-304",
     "SLOT": "TB1",
     "FACULTY": "VEENA PANI"
   },
@@ -16900,6 +19012,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L39+L40",
     "FACULTY": "VEENA PANI"
   },
@@ -16908,6 +19021,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-211",
     "SLOT": "TB2",
     "FACULTY": "JAMUNARANI M"
   },
@@ -16916,6 +19030,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L9+L10",
     "FACULTY": "JAMUNARANI M"
   },
@@ -16924,6 +19039,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-209",
     "SLOT": "TB2",
     "FACULTY": "SUGUMAR G"
   },
@@ -16932,6 +19048,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L11+L12",
     "FACULTY": "SUGUMAR G"
   },
@@ -16940,6 +19057,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-303",
     "SLOT": "TB2",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -16948,6 +19066,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L19+L20",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -16956,6 +19075,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-304",
     "SLOT": "TB2",
     "FACULTY": "VEENA PANI"
   },
@@ -16964,6 +19084,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L27+L28",
     "FACULTY": "VEENA PANI"
   },
@@ -16972,6 +19093,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-301",
     "SLOT": "TE1",
     "FACULTY": "JAMUNARANI M"
   },
@@ -16980,6 +19102,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L43+L44",
     "FACULTY": "JAMUNARANI M"
   },
@@ -16988,6 +19111,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-302",
     "SLOT": "TE1",
     "FACULTY": "SUGUMAR G"
   },
@@ -16996,6 +19120,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L43+L44",
     "FACULTY": "SUGUMAR G"
   },
@@ -17004,6 +19129,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-308",
     "SLOT": "TE1",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -17012,6 +19138,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L45+L46",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -17020,6 +19147,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-309",
     "SLOT": "TE1",
     "FACULTY": "VEENA PANI"
   },
@@ -17028,6 +19156,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L53+L54",
     "FACULTY": "VEENA PANI"
   },
@@ -17036,6 +19165,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-301",
     "SLOT": "TE2",
     "FACULTY": "JAMUNARANI M"
   },
@@ -17044,6 +19174,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L13+L14",
     "FACULTY": "JAMUNARANI M"
   },
@@ -17052,6 +19183,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-302",
     "SLOT": "TE2",
     "FACULTY": "SUGUMAR G"
   },
@@ -17060,6 +19192,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L15+L16",
     "FACULTY": "SUGUMAR G"
   },
@@ -17068,6 +19201,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-308",
     "SLOT": "TE2",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -17076,6 +19210,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L29+L30",
     "FACULTY": "ASHUTOSH KUMAR TRIPATHI"
   },
@@ -17084,6 +19219,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-309",
     "SLOT": "TE2",
     "FACULTY": "VEENA PANI"
   },
@@ -17092,6 +19228,7 @@ const data = [
     "TITLE": "German Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L5+L6",
     "FACULTY": "VEENA PANI"
   },
@@ -17100,6 +19237,7 @@ const data = [
     "TITLE": "India Studies",
     "TYPE": "OC",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "SUBBU LAKSHMI M"
   },
@@ -17108,6 +19246,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-401",
     "SLOT": "G1",
     "FACULTY": "NITHYA VENKATESAN"
   },
@@ -17116,6 +19255,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-402",
     "SLOT": "G1",
     "FACULTY": "LENIN N C"
   },
@@ -17124,6 +19264,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-406",
     "SLOT": "G1",
     "FACULTY": "JANANI C"
   },
@@ -17132,6 +19273,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-401",
     "SLOT": "G2",
     "FACULTY": "PEER FATHIMA A"
   },
@@ -17140,6 +19282,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-402",
     "SLOT": "G2",
     "FACULTY": "PREMALATHA L"
   },
@@ -17148,6 +19291,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-406",
     "SLOT": "G2",
     "FACULTY": "SRI RAMALAKSHMI P"
   },
@@ -17156,6 +19300,7 @@ const data = [
     "TITLE": "Micro Economics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-204",
     "SLOT": "G2+TG2",
     "FACULTY": "MAGULSHA GEORGE"
   },
@@ -17164,6 +19309,7 @@ const data = [
     "TITLE": "Principles of Sociology",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-308",
     "SLOT": "G1+TG1",
     "FACULTY": "URJANI"
   },
@@ -17172,6 +19318,7 @@ const data = [
     "TITLE": "Principles of Sociology",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-308",
     "SLOT": "G2+TG2",
     "FACULTY": "URJANI"
   },
@@ -17180,6 +19327,7 @@ const data = [
     "TITLE": "Sustainability and Society",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-307",
     "SLOT": "G1+TG1",
     "FACULTY": "ROOPESH O B"
   },
@@ -17188,6 +19336,7 @@ const data = [
     "TITLE": "Sustainability and Society",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-307",
     "SLOT": "G2+TG2",
     "FACULTY": "ROOPESH O B"
   },
@@ -17196,6 +19345,7 @@ const data = [
     "TITLE": "Introduction to Psychology",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-508",
     "SLOT": "G2+TG2",
     "FACULTY": "MAYA RATHNASABAPATHY"
   },
@@ -17204,6 +19354,7 @@ const data = [
     "TITLE": "Indian Constitution",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-606",
     "SLOT": "G1+TG1",
     "FACULTY": "ARUN KUMAR G"
   },
@@ -17212,6 +19363,7 @@ const data = [
     "TITLE": "Indian Constitution",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-608",
     "SLOT": "G2+TG2",
     "FACULTY": "ARUN KUMAR G"
   },
@@ -17220,6 +19372,7 @@ const data = [
     "TITLE": "Japanese Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-208",
     "SLOT": "TB1",
     "FACULTY": "M JAYASHREE DASS"
   },
@@ -17228,6 +19381,7 @@ const data = [
     "TITLE": "Japanese Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L49+L50",
     "FACULTY": "M JAYASHREE DASS"
   },
@@ -17236,6 +19390,7 @@ const data = [
     "TITLE": "Japanese Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-206",
     "SLOT": "TB2",
     "FACULTY": "M JAYASHREE DASS"
   },
@@ -17244,6 +19399,7 @@ const data = [
     "TITLE": "Japanese Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404 A",
     "SLOT": "L29+L30",
     "FACULTY": "M JAYASHREE DASS"
   },
@@ -17252,6 +19408,7 @@ const data = [
     "TITLE": "Japanese Level I",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB1-610",
     "SLOT": "TE1",
     "FACULTY": "M JAYASHREE DASS"
   },
@@ -17260,6 +19417,7 @@ const data = [
     "TITLE": "Japanese Level I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB1-404B",
     "SLOT": "L45+L46",
     "FACULTY": "M JAYASHREE DASS"
   },
@@ -17268,6 +19426,7 @@ const data = [
     "TITLE": "Spanish I",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-604",
     "SLOT": "B2",
     "FACULTY": "TRISHA"
   },
@@ -17276,6 +19435,7 @@ const data = [
     "TITLE": "Spanish I",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-605",
     "SLOT": "B1",
     "FACULTY": "HALAVATH RAJESH"
   },
@@ -17284,6 +19444,7 @@ const data = [
     "TITLE": "French I",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-513",
     "SLOT": "E1",
     "FACULTY": "INL-FRENCH02"
   },
@@ -17292,6 +19453,7 @@ const data = [
     "TITLE": "French I",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-509",
     "SLOT": "E2",
     "FACULTY": "INL-FRENCH02"
   },
@@ -17300,6 +19462,7 @@ const data = [
     "TITLE": "German I",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-508",
     "SLOT": "B1",
     "FACULTY": "INL-GERMAN01"
   },
@@ -17308,6 +19471,7 @@ const data = [
     "TITLE": "German I",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB3-504",
     "SLOT": "B2",
     "FACULTY": "INL-GERMAN01"
   },
@@ -17316,6 +19480,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PREETHA R"
   },
@@ -17324,6 +19489,7 @@ const data = [
     "TITLE": "Micro Economics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-406",
     "SLOT": "F1+TF1",
     "FACULTY": "RAJA RAJESWARI G"
   },
@@ -17332,6 +19498,7 @@ const data = [
     "TITLE": "Macro Economics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-408",
     "SLOT": "F2+TF2",
     "FACULTY": "MUHAMMED NAJEEB K K"
   },
@@ -17340,6 +19507,7 @@ const data = [
     "TITLE": "URBAN COMMUNITY DEVELOPMENT",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-409",
     "SLOT": "F2+TF2",
     "FACULTY": "SWATI"
   },
@@ -17348,6 +19516,7 @@ const data = [
     "TITLE": "SOCIAL WORK AND SUSTAINABILITY",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-506",
     "SLOT": "F1+TF1",
     "FACULTY": "BINU SAHAYAM D"
   },
@@ -17356,6 +19525,7 @@ const data = [
     "TITLE": "SOCIAL WORK AND SUSTAINABILITY",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-404",
     "SLOT": "F2+TF2",
     "FACULTY": "BINU SAHAYAM D"
   },
@@ -17364,6 +19534,7 @@ const data = [
     "TITLE": "Cognitive Psychology",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-507",
     "SLOT": "F1+TF1",
     "FACULTY": "MAYA RATHNASABAPATHY"
   },
@@ -17372,6 +19543,7 @@ const data = [
     "TITLE": "International Relations",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-503",
     "SLOT": "F1+TF1",
     "FACULTY": "JUSTIN JOSEPH"
   },
@@ -17380,6 +19552,7 @@ const data = [
     "TITLE": "Essence of Traditional Knowledge",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ALAN G"
   },
@@ -17388,6 +19561,7 @@ const data = [
     "TITLE": "Indian Constitution",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "JAYA PRIYA S"
   },
@@ -17396,6 +19570,7 @@ const data = [
     "TITLE": "India Studies",
     "TYPE": "OC",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "TARANG MAHAJAN"
   },
@@ -17404,6 +19579,7 @@ const data = [
     "TITLE": "India Studies",
     "TYPE": "OC",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PREETHA R"
   },
@@ -17412,6 +19588,7 @@ const data = [
     "TITLE": "Micro Economics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-505",
     "SLOT": "G1+TG1",
     "FACULTY": "RAJA RAJESWARI G"
   },
@@ -17420,6 +19597,7 @@ const data = [
     "TITLE": "Macro Economics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-502",
     "SLOT": "G1+TG1",
     "FACULTY": "MALLIKA SINHA"
   },
@@ -17428,6 +19606,7 @@ const data = [
     "TITLE": "Macro Economics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-502",
     "SLOT": "G2+TG2",
     "FACULTY": "SHIWANGI"
   },
@@ -17436,6 +19615,7 @@ const data = [
     "TITLE": "Psychology in Everyday Life",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-504",
     "SLOT": "G1+TG1",
     "FACULTY": "VIJAYABANU U"
   },
@@ -17444,6 +19624,7 @@ const data = [
     "TITLE": "International Relations",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-503",
     "SLOT": "G1+TG1",
     "FACULTY": "RAJEESH C S"
   },
@@ -17452,6 +19633,7 @@ const data = [
     "TITLE": "International Relations",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB4-503",
     "SLOT": "G2+TG2",
     "FACULTY": "RAJEESH C S"
   },
@@ -17460,6 +19642,7 @@ const data = [
     "TITLE": "Ethics and Values",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "DAISY GOHAIN"
   },
@@ -17468,6 +19651,7 @@ const data = [
     "TITLE": "Behavioral Economics",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-605",
     "SLOT": "A2+TA2",
     "FACULTY": "MALLIKA SINHA"
   },
@@ -17476,6 +19660,7 @@ const data = [
     "TITLE": "Contemporary India",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-606",
     "SLOT": "A2+TA2",
     "FACULTY": "JUSTIN JOSEPH"
   },
@@ -17484,6 +19669,7 @@ const data = [
     "TITLE": "Essence of Traditional Knowledge",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ALLI P"
   },
@@ -17492,6 +19678,7 @@ const data = [
     "TITLE": "Indian Constitution",
     "TYPE": "OC",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "CHANDRIKA MEHTA"
   },
@@ -17500,6 +19687,7 @@ const data = [
     "TITLE": "Reasoning Skill Enhancement",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "ADB-701",
     "SLOT": "D1+TD1",
     "FACULTY": "FACE (APT)"
   },
@@ -17508,6 +19696,7 @@ const data = [
     "TITLE": "Soft Skills for Professional Development",
     "TYPE": "SS",
     "CREDITS": 1,
+    "VENUE": "ADB-403",
     "SLOT": "B1+TB1",
     "FACULTY": "FACE (APT)"
   },
@@ -17516,6 +19705,7 @@ const data = [
     "TITLE": "Conflict Management",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB2-605",
     "SLOT": "TD1",
     "FACULTY": "VIJAYABANU U"
   },
@@ -17524,6 +19714,7 @@ const data = [
     "TITLE": "Conflict Management",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-701A",
     "SLOT": "L49+L50",
     "FACULTY": "VIJAYABANU U"
   },
@@ -17532,7 +19723,8 @@ const data = [
     "TITLE": "Social Psychology",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-605",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "SUBASREE V"
   },
   {
@@ -17540,6 +19732,7 @@ const data = [
     "TITLE": "Psychology of Sports and Exercises",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "AB2-605",
     "SLOT": "F1",
     "FACULTY": "DURGA R P"
   },
@@ -17548,6 +19741,7 @@ const data = [
     "TITLE": "Psychology of Sports and Exercises",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-701A",
     "SLOT": "L37+L38",
     "FACULTY": "DURGA R P"
   },
@@ -17556,6 +19750,7 @@ const data = [
     "TITLE": "Adult and Gero Psychology",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-606",
     "SLOT": "A1+TA1",
     "FACULTY": "DURGA R P"
   },
@@ -17564,6 +19759,7 @@ const data = [
     "TITLE": "Adult and Gero Psychology",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-701A",
     "SLOT": "L29+L30",
     "FACULTY": "DURGA R P"
   },
@@ -17572,6 +19768,7 @@ const data = [
     "TITLE": "Counselling Skills",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-606",
     "SLOT": "B1+TB1",
     "FACULTY": "SUBASREE V"
   },
@@ -17580,6 +19777,7 @@ const data = [
     "TITLE": "Counselling Skills",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "AB2-701A",
     "SLOT": "L11+L12",
     "FACULTY": "SUBASREE V"
   },
@@ -17588,7 +19786,8 @@ const data = [
     "TITLE": "Organizational Psychology",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-606",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "MOHAMMAD ANAS"
   },
   {
@@ -17596,7 +19795,8 @@ const data = [
     "TITLE": "Psychological Inquiry",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB2-605",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "VIJAYABANU U"
   },
   {
@@ -17604,7 +19804,8 @@ const data = [
     "TITLE": "Statistics for Psychology",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "B1+TB1+TBB1",
+    "VENUE": "AB2-605",
+    "SLOT": "B1+TB1+TB",
     "FACULTY": "MAHARISHI R"
   },
   {
@@ -17612,6 +19813,7 @@ const data = [
     "TITLE": "Educational Psychology",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-606",
     "SLOT": "E1+TE1",
     "FACULTY": "MAYA RATHNASABAPATHY"
   },
@@ -17620,6 +19822,7 @@ const data = [
     "TITLE": "Community Psychology",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-606",
     "SLOT": "G1+TG1",
     "FACULTY": "DURGA R P"
   },
@@ -17628,6 +19831,7 @@ const data = [
     "TITLE": "R Programming",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-701",
     "SLOT": "C1+TC1",
     "FACULTY": "MANIKANDAN P"
   },
@@ -17636,6 +19840,7 @@ const data = [
     "TITLE": "R Programming",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "ADB - 404",
     "SLOT": "L33+L34",
     "FACULTY": "MANIKANDAN P"
   },
@@ -17644,6 +19849,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-701",
     "SLOT": "D1+TD1",
     "FACULTY": "PANDIYARAJU V"
   },
@@ -17652,6 +19858,7 @@ const data = [
     "TITLE": "Machine Learning",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "ADB - 404",
     "SLOT": "L57+L58",
     "FACULTY": "PANDIYARAJU V"
   },
@@ -17660,6 +19867,7 @@ const data = [
     "TITLE": "Time Series Analyses",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-701",
     "SLOT": "B1+TB1",
     "FACULTY": "MALLIKA SINHA"
   },
@@ -17668,6 +19876,7 @@ const data = [
     "TITLE": "Time Series Analyses",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "ADB - 404",
     "SLOT": "L45+L46",
     "FACULTY": "MALLIKA SINHA"
   },
@@ -17676,7 +19885,8 @@ const data = [
     "TITLE": "History of Economic Thought",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "B1+TB1+TBB1",
+    "VENUE": "AB2-608",
+    "SLOT": "B1+TB1+TB",
     "FACULTY": "SATHIS KUMAR G"
   },
   {
@@ -17684,7 +19894,8 @@ const data = [
     "TITLE": "Money and Banking",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB2-608",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "MAGULSHA GEORGE"
   },
   {
@@ -17692,7 +19903,8 @@ const data = [
     "TITLE": "Econometrics",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "AB2-608",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "MUHAMMED NAJEEB K K"
   },
   {
@@ -17700,7 +19912,8 @@ const data = [
     "TITLE": "Indian Economy",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-608",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "ALLI P"
   },
   {
@@ -17708,6 +19921,7 @@ const data = [
     "TITLE": "Operational Research",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-608",
     "SLOT": "E1+TE1",
     "FACULTY": "SUJATHA MANOHAR"
   },
@@ -17716,7 +19930,8 @@ const data = [
     "TITLE": "Derivatives and Risk Management",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "D1+TD1+TDD1",
+    "VENUE": "AB2-702",
+    "SLOT": "D1+TD1+T",
     "FACULTY": "NISHA R"
   },
   {
@@ -17724,6 +19939,7 @@ const data = [
     "TITLE": "Minor Project",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -17732,6 +19948,7 @@ const data = [
     "TITLE": "Minor Project",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "PAT"
   },
@@ -17740,7 +19957,8 @@ const data = [
     "TITLE": "International Finance",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "B1+TB1+TBB1",
+    "VENUE": "AB2-702",
+    "SLOT": "B1+TB1+TB",
     "FACULTY": "BHAVANI J"
   },
   {
@@ -17748,7 +19966,8 @@ const data = [
     "TITLE": "Mergers & Acquisitions",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "AB2-702",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "TISHA MERIAM CHERIAN"
   },
   {
@@ -17756,6 +19975,7 @@ const data = [
     "TITLE": "Technical English Communication",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB2-608",
     "SLOT": "G1",
     "FACULTY": "JAISHREE KARTHIGA R K"
   },
@@ -17764,6 +19984,7 @@ const data = [
     "TITLE": "Technical English Communication Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "AB1-405",
     "SLOT": "L43+L44",
     "FACULTY": "JAISHREE KARTHIGA R K"
   },
@@ -17772,6 +19993,7 @@ const data = [
     "TITLE": "International Economic Relations",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-608",
     "SLOT": "F1+TF1",
     "FACULTY": "JAYARAJ R"
   },
@@ -17780,6 +20002,7 @@ const data = [
     "TITLE": "Advertising and Branding",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-701",
     "SLOT": "F1+TF1",
     "FACULTY": "ASI VASU DEVA REDDY"
   },
@@ -17788,6 +20011,7 @@ const data = [
     "TITLE": "Garment Production Machinery",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "ADB-702",
     "SLOT": "F2",
     "FACULTY": "RATHINAMOORTHY R"
   },
@@ -17796,7 +20020,8 @@ const data = [
     "TITLE": "Garment Production Machinery",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L1+L2+L15+L16",
+    "VENUE": "ADB - 801",
+    "SLOT": "L1+L2+L15",
     "FACULTY": "RATHINAMOORTHY R"
   },
   {
@@ -17804,6 +20029,7 @@ const data = [
     "TITLE": "Basic Multidisciplinary Project",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -17812,6 +20038,7 @@ const data = [
     "TITLE": "Textile Processing and Finishing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "ADB-702",
     "SLOT": "C1+TC1",
     "FACULTY": "RAJA BALASARASWATHI S"
   },
@@ -17820,6 +20047,7 @@ const data = [
     "TITLE": "Textile Processing and Finishing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "ADB-601",
     "SLOT": "L37+L38",
     "FACULTY": "RAJA BALASARASWATHI S"
   },
@@ -17828,6 +20056,7 @@ const data = [
     "TITLE": "History of Fashion and Traditional Textiles",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "ADB-702",
     "SLOT": "E1",
     "FACULTY": "N.GAYATHRI"
   },
@@ -17836,7 +20065,8 @@ const data = [
     "TITLE": "History of Fashion and Traditional Textiles",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L23+L24+L29+L30",
+    "VENUE": "ADB-601",
+    "SLOT": "L23+L24+L",
     "FACULTY": "N.GAYATHRI"
   },
   {
@@ -17844,6 +20074,7 @@ const data = [
     "TITLE": "Innovative Design Project",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -17852,6 +20083,7 @@ const data = [
     "TITLE": "Textile and Apparel Quality Evaluation",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "ADB-702",
     "SLOT": "A2",
     "FACULTY": "VASANTH KUMAR"
   },
@@ -17860,7 +20092,8 @@ const data = [
     "TITLE": "Textile and Apparel Quality Evaluation",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L11+L12+L27+L28",
+    "VENUE": "ADB-602",
+    "SLOT": "L11+L12+L",
     "FACULTY": "VASANTH KUMAR"
   },
   {
@@ -17868,6 +20101,7 @@ const data = [
     "TITLE": "Ethics in Fashion Industry",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "ADB-702",
     "SLOT": "D1",
     "FACULTY": "SELVAKUMAR"
   },
@@ -17876,7 +20110,8 @@ const data = [
     "TITLE": "Apparel Merchandising and Costing",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "C1+TC1+TCC1",
+    "VENUE": "ADB-704",
+    "SLOT": "C1+TC1+TC",
     "FACULTY": "RATHINAMOORTHY R"
   },
   {
@@ -17884,14 +20119,16 @@ const data = [
     "TITLE": "Women’s Wear and Lingerie",
     "TYPE": "LO",
     "CREDITS": 3,
-    "SLOT": "L31+L32+L49+L50+L55+L56",
-    "FACULTY": "CHARMINI B"
+    "VENUE": "ADB - 801",
+    "SLOT": "L31+L32+L",
+    "FACULTY": "5C6HARMINI B"
   },
   {
     "CODE": "BFST212L",
     "TITLE": "Fashion Communication",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-704",
     "SLOT": "B1+TB1",
     "FACULTY": "CHARMINI B"
   },
@@ -17900,6 +20137,7 @@ const data = [
     "TITLE": "Fabric Manufacturing",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-704",
     "SLOT": "F1+TF1",
     "FACULTY": "PALANI RAJAN T"
   },
@@ -17908,6 +20146,7 @@ const data = [
     "TITLE": "Fabric Manufacturing Lab",
     "TYPE": "LO",
     "CREDITS": 1,
+    "VENUE": "ADB-602",
     "SLOT": "L29+L30",
     "FACULTY": "PALANI RAJAN T"
   },
@@ -17916,15 +20155,17 @@ const data = [
     "TITLE": "Digital Fashion and Apparel Design Lab",
     "TYPE": "LO",
     "CREDITS": 3,
-    "SLOT": "L33+L34+L51+L52+L57+L58",
-    "FACULTY": "RAJA BALASARASWATHI S"
+    "VENUE": "ADB - 802",
+    "SLOT": "L33+L34+L",
+    "FACULTY": "5R8AJA BALASARASWATHI S"
   },
   {
     "CODE": "BFST305L",
     "TITLE": "Industrial Engineering in Apparel Industry",
     "TYPE": "TH",
     "CREDITS": 4,
-    "SLOT": "A1+TA1+TAA1",
+    "VENUE": "ADB-704",
+    "SLOT": "A1+TA1+TA",
     "FACULTY": "RAJA BALASARASWATHI S"
   },
   {
@@ -17932,6 +20173,7 @@ const data = [
     "TITLE": "Quality Assurance in Apparel Industry",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-704",
     "SLOT": "D1+TD1",
     "FACULTY": "VASANTH KUMAR"
   },
@@ -17940,6 +20182,7 @@ const data = [
     "TITLE": "Summer Industrial Internship",
     "TYPE": "PJT",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -17948,7 +20191,8 @@ const data = [
     "TITLE": "Fashion Design Portfolio",
     "TYPE": "LO",
     "CREDITS": 3,
-    "SLOT": "L3+L4+L19+L20+L43+L44",
+    "VENUE": "ADB - 802",
+    "SLOT": "L3+L4+L19",
     "FACULTY": "MAANVIZHI M"
   },
   {
@@ -17956,6 +20200,7 @@ const data = [
     "TITLE": "Brand Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-705",
     "SLOT": "A1+TA1",
     "FACULTY": "CHARMINI B"
   },
@@ -17964,6 +20209,7 @@ const data = [
     "TITLE": "Project - I",
     "TYPE": "PJT",
     "CREDITS": 3,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -17972,14 +20218,16 @@ const data = [
     "TITLE": "Basic Fashion Illustration",
     "TYPE": "LO",
     "CREDITS": 3,
-    "SLOT": "L33+L34+L45+L46+L57+L58",
-    "FACULTY": "VASANTH KUMAR"
+    "VENUE": "ADB-706",
+    "SLOT": "L33+L34+L",
+    "FACULTY": "5V8ASANTH KUMAR"
   },
   {
     "CODE": "FSD1004",
     "TITLE": "Pattern making Fundamentals",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "ADB-703",
     "SLOT": "C2",
     "FACULTY": "JESICA ROSHIMA"
   },
@@ -17988,7 +20236,8 @@ const data = [
     "TITLE": "Pattern making Fundamentals",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L11+L12+L37+L38",
+    "VENUE": "ADB-805",
+    "SLOT": "L11+L12+L",
     "FACULTY": "JESICA ROSHIMA"
   },
   {
@@ -17996,6 +20245,7 @@ const data = [
     "TITLE": "Product Design, Development and Display",
     "TYPE": "PJT",
     "CREDITS": 2,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ACAD FACULTY"
   },
@@ -18004,14 +20254,16 @@ const data = [
     "TITLE": "Garment Components Construction",
     "TYPE": "LO",
     "CREDITS": 3,
-    "SLOT": "L11+L12+L37+L38+L43+L44",
-    "FACULTY": "RAJESH KUMAR K"
+    "VENUE": "ADB - 801",
+    "SLOT": "L11+L12+L",
+    "FACULTY": "4R4AJESH KUMAR K"
   },
   {
     "CODE": "FSD2011",
     "TITLE": "Fabric Structure and Analysis",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "ADB-602",
     "SLOT": "L49+L50",
     "FACULTY": "BHUVANESHWARI"
   },
@@ -18020,6 +20272,7 @@ const data = [
     "TITLE": "Fabric Structure and Analysis",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "ADB-701",
     "SLOT": "F1+TF1",
     "FACULTY": "BHUVANESHWARI"
   },
@@ -18028,6 +20281,7 @@ const data = [
     "TITLE": "Fashion and Apparel Export Merchandising",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-701",
     "SLOT": "B1+TB1",
     "FACULTY": "RATHINAMOORTHY R"
   },
@@ -18036,6 +20290,7 @@ const data = [
     "TITLE": "Draping techniques",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "ADB-703",
     "SLOT": "F1",
     "FACULTY": "RAJESH KUMAR K"
   },
@@ -18044,7 +20299,8 @@ const data = [
     "TITLE": "Draping techniques",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L25+L26+L27+L28",
+    "VENUE": "ADB-805",
+    "SLOT": "L25+L26+L",
     "FACULTY": "RAJESH KUMAR K"
   },
   {
@@ -18052,6 +20308,7 @@ const data = [
     "TITLE": "Interior designing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "ADB-701",
     "SLOT": "E1+TE1",
     "FACULTY": "S.VINUSOWNDARYA"
   },
@@ -18060,6 +20317,7 @@ const data = [
     "TITLE": "Interior designing",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "S.VINUSOWNDARYA"
   },
@@ -18068,6 +20326,7 @@ const data = [
     "TITLE": "Costume Designing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "ADB-703",
     "SLOT": "G1+TG1",
     "FACULTY": "APARNA GOVIND"
   },
@@ -18076,6 +20335,7 @@ const data = [
     "TITLE": "Costume Designing",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "APARNA GOVIND"
   },
@@ -18084,6 +20344,7 @@ const data = [
     "TITLE": "Fashion styling and make up",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-701",
     "SLOT": "A1+TA1",
     "FACULTY": "JESICA ROSHIMA"
   },
@@ -18092,6 +20353,7 @@ const data = [
     "TITLE": "Fashion Communication and Boutique Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-701",
     "SLOT": "C1+TC1",
     "FACULTY": "BANUMATHY S"
   },
@@ -18100,6 +20362,7 @@ const data = [
     "TITLE": "Fashion Entrepreneurship",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "ADB-703",
     "SLOT": "D1+TD1",
     "FACULTY": "BANUMATHY S"
   },
@@ -18108,15 +20371,17 @@ const data = [
     "TITLE": "Digital Fashion Illustration",
     "TYPE": "LO",
     "CREDITS": 3,
-    "SLOT": "L23+L24+L29+L30+L55+L56",
-    "FACULTY": "SAROJ K M"
+    "VENUE": "ADB - 802",
+    "SLOT": "L23+L24+L",
+    "FACULTY": "5S6AROJ K M"
   },
   {
     "CODE": "FSD3001",
     "TITLE": "Digital Fashion Illustration",
     "TYPE": "LO",
     "CREDITS": 3,
-    "SLOT": "L5+L6+L39+L40+L45+L46",
+    "VENUE": "ADB - 802",
+    "SLOT": "L5+L6+L39",
     "FACULTY": "SAROJ K M"
   },
   {
@@ -18124,14 +20389,16 @@ const data = [
     "TITLE": "Mens wear and intimate fashion",
     "TYPE": "LO",
     "CREDITS": 4,
-    "SLOT": "L9+L10+L13+L14+L23+L24+L29+L30",
-    "FACULTY": "BHUVANESHWARI"
+    "VENUE": "ADB - 801",
+    "SLOT": "L9+L10+L1",
+    "FACULTY": "4B+HL2U9V+ALN30ESHWARI"
   },
   {
     "CODE": "FSD3004",
     "TITLE": "Computer Aided Designing",
     "TYPE": "ETH",
     "CREDITS": 2,
+    "VENUE": "ADB-703",
     "SLOT": "E2",
     "FACULTY": "S.VINUSOWNDARYA"
   },
@@ -18140,7 +20407,8 @@ const data = [
     "TITLE": "Computer Aided Designing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L31+L32+L49+L50",
+    "VENUE": "ADB - 802",
+    "SLOT": "L31+L32+L",
     "FACULTY": "S.VINUSOWNDARYA"
   },
   {
@@ -18148,7 +20416,8 @@ const data = [
     "TITLE": "Computer Aided Designing",
     "TYPE": "ELA",
     "CREDITS": 2,
-    "SLOT": "L11+L12+L37+L38",
+    "VENUE": "ADB - 802",
+    "SLOT": "L11+L12+L",
     "FACULTY": "S.VINUSOWNDARYA"
   },
   {
@@ -18156,6 +20425,7 @@ const data = [
     "TITLE": "Security Analysis and Portfolio Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "G1+TG1",
     "FACULTY": "AHMAD HASAN"
   },
@@ -18164,6 +20434,7 @@ const data = [
     "TITLE": "Security Analysis and Portfolio Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-704",
     "SLOT": "G2+TG2",
     "FACULTY": "AHMAD HASAN"
   },
@@ -18172,6 +20443,7 @@ const data = [
     "TITLE": "Security Analysis and Portfolio Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-705",
     "SLOT": "G1+TG1",
     "FACULTY": "MOHD NADEEM BHAT"
   },
@@ -18180,6 +20452,7 @@ const data = [
     "TITLE": "Security Analysis and Portfolio Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-705",
     "SLOT": "G2+TG2",
     "FACULTY": "MOHD NADEEM BHAT"
   },
@@ -18188,6 +20461,7 @@ const data = [
     "TITLE": "Security Analysis and Portfolio Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-706",
     "SLOT": "G1+TG1",
     "FACULTY": "MOHD HAMMAD NAEEM"
   },
@@ -18196,6 +20470,7 @@ const data = [
     "TITLE": "Security Analysis and Portfolio Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-706",
     "SLOT": "G2+TG2",
     "FACULTY": "MOHD HAMMAD NAEEM"
   },
@@ -18204,6 +20479,7 @@ const data = [
     "TITLE": "Fixed Income Securities",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-708",
     "SLOT": "G1+TG1",
     "FACULTY": "BUVANESH"
   },
@@ -18212,6 +20488,7 @@ const data = [
     "TITLE": "Fixed Income Securities",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-708",
     "SLOT": "G2+TG2",
     "FACULTY": "BUVANESH"
   },
@@ -18220,6 +20497,7 @@ const data = [
     "TITLE": "Negotiation and Selling: Tactics and Practice",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "G1+TG1",
     "FACULTY": "THANGARAJA ARUMUGAM"
   },
@@ -18228,6 +20506,7 @@ const data = [
     "TITLE": "Negotiation and Selling: Tactics and Practice",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-703",
     "SLOT": "G2+TG2",
     "FACULTY": "ANBUMATHI R"
   },
@@ -18236,6 +20515,7 @@ const data = [
     "TITLE": "Content and Brand Storytelling",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-706",
     "SLOT": "G1+TG1",
     "FACULTY": "PADMAVATHY C"
   },
@@ -18244,6 +20524,7 @@ const data = [
     "TITLE": "Content and Brand Storytelling",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-705",
     "SLOT": "G2+TG2",
     "FACULTY": "PADMAVATHY C"
   },
@@ -18252,6 +20533,7 @@ const data = [
     "TITLE": "Content and Brand Storytelling",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-704",
     "SLOT": "G1+TG1",
     "FACULTY": "SUDHEER MUHAMMED K M"
   },
@@ -18260,6 +20542,7 @@ const data = [
     "TITLE": "Content and Brand Storytelling",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-704",
     "SLOT": "G2+TG2",
     "FACULTY": "SUDHEER MUHAMMED K M"
   },
@@ -18268,6 +20551,7 @@ const data = [
     "TITLE": "Emotional Intelligence",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-707",
     "SLOT": "G2+TG2",
     "FACULTY": "BHARATH SANKAR S"
   },
@@ -18276,6 +20560,7 @@ const data = [
     "TITLE": "Coping Strategies for Wellness",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-707",
     "SLOT": "G1+TG1",
     "FACULTY": "ASI VASU DEVA REDDY"
   },
@@ -18284,6 +20569,7 @@ const data = [
     "TITLE": "Coping Strategies for Wellness",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-703",
     "SLOT": "G2+TG2",
     "FACULTY": "ASI VASU DEVA REDDY"
   },
@@ -18292,6 +20578,7 @@ const data = [
     "TITLE": "FinTech",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-707",
     "SLOT": "G1+TG1",
     "FACULTY": "SUDARSANAM S K"
   },
@@ -18300,6 +20587,7 @@ const data = [
     "TITLE": "Personal Wealth Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-607",
     "SLOT": "G1+TG1",
     "FACULTY": "CARLIN JEMIMAH G J"
   },
@@ -18308,6 +20596,7 @@ const data = [
     "TITLE": "Personal Wealth Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-607",
     "SLOT": "G2+TG2",
     "FACULTY": "CARLIN JEMIMAH G J"
   },
@@ -18316,6 +20605,7 @@ const data = [
     "TITLE": "Principles of Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-403",
     "SLOT": "F1+TF1",
     "FACULTY": "RAJKUMAR MURUGESAN"
   },
@@ -18324,6 +20614,7 @@ const data = [
     "TITLE": "Principles of Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-708",
     "SLOT": "F2+TF2",
     "FACULTY": "RAJKUMAR MURUGESAN"
   },
@@ -18332,6 +20623,7 @@ const data = [
     "TITLE": "Principles of Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "F1+TF1",
     "FACULTY": "WASI YAZDANI"
   },
@@ -18340,6 +20632,7 @@ const data = [
     "TITLE": "Principles of Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-404",
     "SLOT": "F2+TF2",
     "FACULTY": "WASI YAZDANI"
   },
@@ -18348,6 +20641,7 @@ const data = [
     "TITLE": "Human Resource Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "F1+TF1",
     "FACULTY": "NISHA R"
   },
@@ -18356,6 +20650,7 @@ const data = [
     "TITLE": "Human Resource Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-406",
     "SLOT": "F2+TF2",
     "FACULTY": "MOHD HAMMAD NAEEM"
   },
@@ -18364,6 +20659,7 @@ const data = [
     "TITLE": "Human Resource Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-407",
     "SLOT": "F2+TF2",
     "FACULTY": "MOHD NADEEM BHAT"
   },
@@ -18372,6 +20668,7 @@ const data = [
     "TITLE": "Marketing Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "G1+TG1",
     "FACULTY": "RAJKUMAR MURUGESAN"
   },
@@ -18380,6 +20677,7 @@ const data = [
     "TITLE": "Marketing Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-405",
     "SLOT": "F2+TF2",
     "FACULTY": "ARSHIYA FATHIMA M S"
   },
@@ -18388,6 +20686,7 @@ const data = [
     "TITLE": "Marketing Management",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-603",
     "SLOT": "G2+TG2",
     "FACULTY": "SHAMAL S"
   },
@@ -18396,6 +20695,7 @@ const data = [
     "TITLE": "Lean Start-up Management",
     "TYPE": "ETH",
     "CREDITS": 1,
+    "VENUE": "AB3-604",
     "SLOT": "TG1",
     "FACULTY": "BALAJI J"
   },
@@ -18404,6 +20704,7 @@ const data = [
     "TITLE": "Lean Start-up Management",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "BALAJI J"
   },
@@ -18412,6 +20713,7 @@ const data = [
     "TITLE": "Customer Relationship Management",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-707",
     "SLOT": "F2+TF2",
     "FACULTY": "SHAMAL S"
   },
@@ -18420,6 +20722,7 @@ const data = [
     "TITLE": "Customer Relationship Management",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "SHAMAL S"
   },
@@ -18428,6 +20731,7 @@ const data = [
     "TITLE": "Customer Relationship Management",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB3-708",
     "SLOT": "F1+TF1",
     "FACULTY": "ARCHANA SINGH"
   },
@@ -18436,6 +20740,7 @@ const data = [
     "TITLE": "Customer Relationship Management",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "ARCHANA SINGH"
   },
@@ -18444,6 +20749,7 @@ const data = [
     "TITLE": "Lean Six Sigma Principles",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB2-708",
     "SLOT": "F1+TF1",
     "FACULTY": "VADIVEL S M"
   },
@@ -18452,6 +20758,7 @@ const data = [
     "TITLE": "Lean Six Sigma Principles",
     "TYPE": "EPJ",
     "CREDITS": 1,
+    "VENUE": "NIL",
     "SLOT": "NIL",
     "FACULTY": "VADIVEL S M"
   },
@@ -18460,6 +20767,7 @@ const data = [
     "TITLE": "Company Secretarial Practice",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB3-708",
     "SLOT": "A1+TA1",
     "FACULTY": "ARCHANA SINGH"
   },
@@ -18468,6 +20776,7 @@ const data = [
     "TITLE": "International Business",
     "TYPE": "TH",
     "CREDITS": 3,
+    "VENUE": "AB2-604",
     "SLOT": "E1+TE1",
     "FACULTY": "REEVES WESLEY J"
   },
@@ -18476,6 +20785,7 @@ const data = [
     "TITLE": "Indian Constitution",
     "TYPE": "TH",
     "CREDITS": 2,
+    "VENUE": "AB5-107",
     "SLOT": "F1",
     "FACULTY": "P C ABIRAMI"
   },
@@ -18484,6 +20794,7 @@ const data = [
     "TITLE": "Colonialism in India",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-204",
     "SLOT": "A+TA+TAA",
     "FACULTY": "KUMAR MUKUL CHOUDHARY"
   },
@@ -18492,6 +20803,7 @@ const data = [
     "TITLE": "Colonialism in India",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-204",
     "SLOT": "C+TC+TCC",
     "FACULTY": "BILAL A NAZEER"
   },
@@ -18500,6 +20812,7 @@ const data = [
     "TITLE": "Social Process and Social Change",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-205",
     "SLOT": "C+TC+TCC",
     "FACULTY": "TIWARI MAHALAXMI SHIVSHANKAR"
   },
@@ -18508,6 +20821,7 @@ const data = [
     "TITLE": "Social Process and Social Change",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-205",
     "SLOT": "A+TA+TAA",
     "FACULTY": "APD"
   },
@@ -18516,6 +20830,7 @@ const data = [
     "TITLE": "Macro Economics",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-204",
     "SLOT": "B+TB+TBB",
     "FACULTY": "ARUNA R"
   },
@@ -18524,6 +20839,7 @@ const data = [
     "TITLE": "Macro Economics",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-203",
     "SLOT": "B+TB+TBB",
     "FACULTY": "ALLI P"
   },
@@ -18532,6 +20848,7 @@ const data = [
     "TITLE": "Entrepreneurship Development",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-208",
     "SLOT": "C+TC+TCC",
     "FACULTY": "VIJAYAN L"
   },
@@ -18540,6 +20857,7 @@ const data = [
     "TITLE": "Entrepreneurship Development",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-207",
     "SLOT": "C+TC+TCC",
     "FACULTY": "ANU C H"
   },
@@ -18548,6 +20866,7 @@ const data = [
     "TITLE": "Entrepreneurship Development",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-208",
     "SLOT": "A+TA+TAA",
     "FACULTY": "VIJAYAN L"
   },
@@ -18556,6 +20875,7 @@ const data = [
     "TITLE": "Organizational Behaviour",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-208",
     "SLOT": "E+TE+TEE",
     "FACULTY": "SRILALITHA R"
   },
@@ -18564,6 +20884,7 @@ const data = [
     "TITLE": "Organizational Behaviour",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-207",
     "SLOT": "E+TE+TEE",
     "FACULTY": "MEKHALA"
   },
@@ -18572,6 +20893,7 @@ const data = [
     "TITLE": "Organizational Behaviour",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-108",
     "SLOT": "B+TB+TBB",
     "FACULTY": "APD"
   },
@@ -18580,6 +20902,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-203",
     "SLOT": "E+TE",
     "FACULTY": "ARJUN PHILIP GEORGE"
   },
@@ -18588,6 +20911,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-204",
     "SLOT": "E+TE",
     "FACULTY": "NIKHIL G"
   },
@@ -18596,6 +20920,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-206",
     "SLOT": "D+TD",
     "FACULTY": "K KAMBAN SOCRETES"
   },
@@ -18604,6 +20929,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-205",
     "SLOT": "D+TD",
     "FACULTY": "KAVI SHANKAR"
   },
@@ -18612,6 +20938,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-206",
     "SLOT": "E+TE",
     "FACULTY": "KOWSHIKAA A S"
   },
@@ -18620,6 +20947,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "001",
     "SLOT": "L49+L50",
     "FACULTY": "K KAMBAN SOCRETES"
   },
@@ -18628,6 +20956,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "002",
     "SLOT": "L49+L50",
     "FACULTY": "NIKHIL G"
   },
@@ -18636,6 +20965,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "003",
     "SLOT": "L49+L50",
     "FACULTY": "ARJUN PHILIP GEORGE"
   },
@@ -18644,6 +20974,7 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "004",
     "SLOT": "L49+L50",
     "FACULTY": "KAVI SHANKAR"
   },
@@ -18652,86 +20983,97 @@ const data = [
     "TITLE": "Constitutional Law- I",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "005",
     "SLOT": "L49+L50",
     "FACULTY": "KOWSHIKAA A S"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ETH",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpT)H",
     "CREDITS": 3,
+    "VENUE": "AB5-208",
     "SLOT": "F+TF",
     "FACULTY": "AMBIKA R NAIR"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ETH",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpT)H",
     "CREDITS": 3,
+    "VENUE": "AB5-207",
     "SLOT": "F+TF",
     "FACULTY": "SAIJI J S"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ETH",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpT)H",
     "CREDITS": 3,
+    "VENUE": "AB5-206",
     "SLOT": "F+TF",
     "FACULTY": "SHARMILA M S"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ETH",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpT)H",
     "CREDITS": 3,
+    "VENUE": "AB5-205",
     "SLOT": "F+TF",
     "FACULTY": "SAJI SIVAN S"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ETH",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpT)H",
     "CREDITS": 3,
+    "VENUE": "AB5-204",
     "SLOT": "F+TF",
     "FACULTY": "SWARLATA PANDEY"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ELA",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpL)A",
     "CREDITS": 1,
+    "VENUE": "001",
     "SLOT": "L43+L44",
     "FACULTY": "AMBIKA R NAIR"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ELA",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpL)A",
     "CREDITS": 1,
+    "VENUE": "002",
     "SLOT": "L43+L44",
     "FACULTY": "SHARMILA M S"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ELA",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpL)A",
     "CREDITS": 1,
+    "VENUE": "003",
     "SLOT": "L43+L44",
     "FACULTY": "SAIJI J S"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ELA",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpL)A",
     "CREDITS": 1,
+    "VENUE": "004",
     "SLOT": "L43+L44",
     "FACULTY": "SAJI SIVAN S"
   },
   {
     "CODE": "TLAW204L",
-    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardianship)",
-    "TYPE": "ELA",
+    "TITLE": "Family Law – I (Marriage, Legitimacy and Guardiansh",
+    "TYPE": "iEpL)A",
     "CREDITS": 1,
+    "VENUE": "005",
     "SLOT": "L43+L44",
     "FACULTY": "SWARLATA PANDEY"
   },
@@ -18740,6 +21082,7 @@ const data = [
     "TITLE": "Law of Crimes – II (Cr.P.C.)",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-208",
     "SLOT": "D+TD+TDD",
     "FACULTY": "GANESAN K"
   },
@@ -18748,6 +21091,7 @@ const data = [
     "TITLE": "Law of Crimes – II (Cr.P.C.)",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-207",
     "SLOT": "D+TD+TDD",
     "FACULTY": "RAJAVENKATESAN P R L"
   },
@@ -18756,6 +21100,7 @@ const data = [
     "TITLE": "Law of Crimes – II (Cr.P.C.)",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-207",
     "SLOT": "B+TB+TBB",
     "FACULTY": "ABHISHEK RAJ"
   },
@@ -18764,6 +21109,7 @@ const data = [
     "TITLE": "Law of Crimes – II (Cr.P.C.)",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-206",
     "SLOT": "B+TB+TBB",
     "FACULTY": "ASWATHY"
   },
@@ -18772,6 +21118,7 @@ const data = [
     "TITLE": "Law of Crimes – II (Cr.P.C.)",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-205",
     "SLOT": "B+TB+TBB",
     "FACULTY": "MANJARI SUGIRTHA A"
   },
@@ -18780,6 +21127,7 @@ const data = [
     "TITLE": "Strategic Management",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-303",
     "SLOT": "B+TB+TBB",
     "FACULTY": "WAQAS NIAZI"
   },
@@ -18788,6 +21136,7 @@ const data = [
     "TITLE": "Strategic Management",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-304",
     "SLOT": "B+TB+TBB",
     "FACULTY": "SRILALITHA R"
   },
@@ -18796,6 +21145,7 @@ const data = [
     "TITLE": "Strategic Management",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-303",
     "SLOT": "D+TD+TDD",
     "FACULTY": "WAQAS NIAZI"
   },
@@ -18804,6 +21154,7 @@ const data = [
     "TITLE": "Marketing Management",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-207",
     "SLOT": "A+TA+TAA",
     "FACULTY": "ANBUMATHI R"
   },
@@ -18812,6 +21163,7 @@ const data = [
     "TITLE": "Marketing Management",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-206",
     "SLOT": "A+TA+TAA",
     "FACULTY": "SHAMAL S"
   },
@@ -18820,6 +21172,7 @@ const data = [
     "TITLE": "Marketing Management",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-206",
     "SLOT": "C+TC+TCC",
     "FACULTY": "UDAY KIRAN KOMMURI"
   },
@@ -18828,6 +21181,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-307",
     "SLOT": "F+TF",
     "FACULTY": "ARJUN SHAJI"
   },
@@ -18836,6 +21190,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-306",
     "SLOT": "F+TF",
     "FACULTY": "MRUDHUL M SHENOY"
   },
@@ -18844,6 +21199,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-302",
     "SLOT": "A+TA",
     "FACULTY": "NIKHIL G"
   },
@@ -18852,6 +21208,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-203",
     "SLOT": "A+TA",
     "FACULTY": "ARJUN PHILIP GEORGE"
   },
@@ -18860,6 +21217,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "001",
     "SLOT": "L55+L56",
     "FACULTY": "MRUDHUL M SHENOY"
   },
@@ -18868,6 +21226,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "002",
     "SLOT": "L55+L56",
     "FACULTY": "NIKHIL G"
   },
@@ -18876,6 +21235,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "003",
     "SLOT": "L55+L56",
     "FACULTY": "ARJUN SHAJI"
   },
@@ -18884,6 +21244,7 @@ const data = [
     "TITLE": "Constitutional Law II",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "004",
     "SLOT": "L55+L56",
     "FACULTY": "ARJUN PHILIP GEORGE"
   },
@@ -18892,6 +21253,7 @@ const data = [
     "TITLE": "Law of Evidence",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-302",
     "SLOT": "B+TB+TBB",
     "FACULTY": "GANESAN K"
   },
@@ -18900,6 +21262,7 @@ const data = [
     "TITLE": "Law of Evidence",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-208",
     "SLOT": "B+TB+TBB",
     "FACULTY": "RESHMA SURESH"
   },
@@ -18908,6 +21271,7 @@ const data = [
     "TITLE": "Law of Evidence",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-302",
     "SLOT": "D+TD+TDD",
     "FACULTY": "ABHISHEK RAJ"
   },
@@ -18916,6 +21280,7 @@ const data = [
     "TITLE": "Law of Evidence",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-305",
     "SLOT": "D+TD+TDD",
     "FACULTY": "ASWATHY"
   },
@@ -18924,6 +21289,7 @@ const data = [
     "TITLE": "Code of Civil Procedure and Limitation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-306",
     "SLOT": "E+TE+TEE",
     "FACULTY": "SHASHIKANT SAURAV"
   },
@@ -18932,6 +21298,7 @@ const data = [
     "TITLE": "Code of Civil Procedure and Limitation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-305",
     "SLOT": "E+TE+TEE",
     "FACULTY": "AYUSHI SRIVASTAVA"
   },
@@ -18940,6 +21307,7 @@ const data = [
     "TITLE": "Code of Civil Procedure and Limitation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-304",
     "SLOT": "E+TE+TEE",
     "FACULTY": "BILAL A NAZEER"
   },
@@ -18948,6 +21316,7 @@ const data = [
     "TITLE": "Code of Civil Procedure and Limitation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-303",
     "SLOT": "E+TE+TEE",
     "FACULTY": "SONY RAJ S S"
   },
@@ -18956,6 +21325,7 @@ const data = [
     "TITLE": "Labour and Industrial Law II",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-306",
     "SLOT": "C+TC+TCC",
     "FACULTY": "VIJAYENDRA KUMAR M"
   },
@@ -18964,6 +21334,7 @@ const data = [
     "TITLE": "Labour and Industrial Law II",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-305",
     "SLOT": "C+TC+TCC",
     "FACULTY": "NAVYA BENNY"
   },
@@ -18972,6 +21343,7 @@ const data = [
     "TITLE": "Labour and Industrial Law II",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-304",
     "SLOT": "C+TC+TCC",
     "FACULTY": "POURNA DHEVI N"
   },
@@ -18980,6 +21352,7 @@ const data = [
     "TITLE": "Labour and Industrial Law II",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-303",
     "SLOT": "C+TC+TCC",
     "FACULTY": "BERTILA A"
   },
@@ -18988,6 +21361,7 @@ const data = [
     "TITLE": "Administrative Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-405",
     "SLOT": "E+TE+TEE",
     "FACULTY": "BERTILA A"
   },
@@ -18996,6 +21370,7 @@ const data = [
     "TITLE": "Administrative Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-307",
     "SLOT": "E+TE+TEE",
     "FACULTY": "K KAMBAN SOCRETES"
   },
@@ -19004,6 +21379,7 @@ const data = [
     "TITLE": "Administrative Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-406",
     "SLOT": "E+TE+TEE",
     "FACULTY": "SWARLATA PANDEY"
   },
@@ -19012,6 +21388,7 @@ const data = [
     "TITLE": "Administrative Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-407",
     "SLOT": "E+TE+TEE",
     "FACULTY": "ARJUN SHAJI"
   },
@@ -19020,6 +21397,7 @@ const data = [
     "TITLE": "Alternative Dispute Resolution",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-405",
     "SLOT": "C+TC+TCC",
     "FACULTY": "K NIDHI MOHAN"
   },
@@ -19028,6 +21406,7 @@ const data = [
     "TITLE": "Alternative Dispute Resolution",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-406",
     "SLOT": "C+TC+TCC",
     "FACULTY": "TANMAY ROY"
   },
@@ -19036,6 +21415,7 @@ const data = [
     "TITLE": "Alternative Dispute Resolution",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-407",
     "SLOT": "C+TC+TCC",
     "FACULTY": "ANKIT ANAND"
   },
@@ -19044,6 +21424,7 @@ const data = [
     "TITLE": "Alternative Dispute Resolution",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-307",
     "SLOT": "C+TC+TCC",
     "FACULTY": "SHERIN PRIYAN"
   },
@@ -19052,6 +21433,7 @@ const data = [
     "TITLE": "International Relations",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-306",
     "SLOT": "B+TB+TBB",
     "FACULTY": "HELEN P AZYU"
   },
@@ -19060,6 +21442,7 @@ const data = [
     "TITLE": "International Relations",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-306",
     "SLOT": "D+TD+TDD",
     "FACULTY": "SONY RAJ S S"
   },
@@ -19068,6 +21451,7 @@ const data = [
     "TITLE": "Company Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-405",
     "SLOT": "B+TB+TBB",
     "FACULTY": "KESAVAMOORTHY R"
   },
@@ -19076,6 +21460,7 @@ const data = [
     "TITLE": "Company Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-406",
     "SLOT": "B+TB+TBB",
     "FACULTY": "LALITH KUMAR J"
   },
@@ -19084,6 +21469,7 @@ const data = [
     "TITLE": "Company Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-407",
     "SLOT": "B+TB+TBB",
     "FACULTY": "DULUNG SENGUPTA"
   },
@@ -19092,6 +21478,7 @@ const data = [
     "TITLE": "Company Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-307",
     "SLOT": "B+TB+TBB",
     "FACULTY": "P C ABIRAMI"
   },
@@ -19100,6 +21487,7 @@ const data = [
     "TITLE": "Law of Taxation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-405",
     "SLOT": "A+TA+TAA",
     "FACULTY": "ESAKKI AMMAL K"
   },
@@ -19108,6 +21496,7 @@ const data = [
     "TITLE": "Law of Taxation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-406",
     "SLOT": "A+TA+TAA",
     "FACULTY": "SANTHOSH V"
   },
@@ -19116,6 +21505,7 @@ const data = [
     "TITLE": "Law of Taxation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-407",
     "SLOT": "A+TA+TAA",
     "FACULTY": "SHANTHI"
   },
@@ -19124,6 +21514,7 @@ const data = [
     "TITLE": "Law of Taxation",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-307",
     "SLOT": "A+TA+TAA",
     "FACULTY": "VANMATHI M"
   },
@@ -19132,6 +21523,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-401",
     "SLOT": "D+TD",
     "FACULTY": "K NIDHI MOHAN"
   },
@@ -19140,6 +21532,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-402",
     "SLOT": "D+TD",
     "FACULTY": "AYUSHI SRIVASTAVA"
   },
@@ -19148,6 +21541,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-403",
     "SLOT": "D+TD",
     "FACULTY": "ANKIT ANAND"
   },
@@ -19156,6 +21550,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-404",
     "SLOT": "D+TD",
     "FACULTY": "SHERIN PRIYAN"
   },
@@ -19164,6 +21559,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "001",
     "SLOT": "L31+L32",
     "FACULTY": "K NIDHI MOHAN"
   },
@@ -19172,6 +21568,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "002",
     "SLOT": "L31+L32",
     "FACULTY": "AYUSHI SRIVASTAVA"
   },
@@ -19180,6 +21577,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "003",
     "SLOT": "L31+L32",
     "FACULTY": "SHERIN PRIYAN"
   },
@@ -19188,6 +21586,7 @@ const data = [
     "TITLE": "Drafting, Pleading and Conveyancing",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "004",
     "SLOT": "L31+L32",
     "FACULTY": "ANKIT ANAND"
   },
@@ -19196,6 +21595,7 @@ const data = [
     "TITLE": "Service Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-401",
     "SLOT": "E+TE+TEE",
     "FACULTY": "NAVYA BENNY"
   },
@@ -19204,6 +21604,7 @@ const data = [
     "TITLE": "Right to Education",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-401",
     "SLOT": "B+TB+TBB",
     "FACULTY": "SAJI SIVAN S"
   },
@@ -19212,6 +21613,7 @@ const data = [
     "TITLE": "Citizenship and Emigration Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-401",
     "SLOT": "F+TF+TFF",
     "FACULTY": "KUMAR MUKUL CHOUDHARY"
   },
@@ -19220,6 +21622,7 @@ const data = [
     "TITLE": "Maritime Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-402",
     "SLOT": "E+TE+TEE",
     "FACULTY": "VIJAYENDRA KUMAR M"
   },
@@ -19228,6 +21631,7 @@ const data = [
     "TITLE": "International Trade Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-402",
     "SLOT": "F+TF+TFF",
     "FACULTY": "POOJA"
   },
@@ -19236,6 +21640,7 @@ const data = [
     "TITLE": "Farmers and Breeders right",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-403",
     "SLOT": "E+TE+TEE",
     "FACULTY": "VIJAYA BHARATHI"
   },
@@ -19244,6 +21649,7 @@ const data = [
     "TITLE": "Biodiversity Protection",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-404",
     "SLOT": "E+TE+TEE",
     "FACULTY": "SAIJI J S"
   },
@@ -19252,6 +21658,7 @@ const data = [
     "TITLE": "Investment Law",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-403",
     "SLOT": "F+TF",
     "FACULTY": "ZAKKARIYA T H"
   },
@@ -19260,6 +21667,7 @@ const data = [
     "TITLE": "Investment Law",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "001",
     "SLOT": "L45+L46",
     "FACULTY": "ZAKKARIYA T H"
   },
@@ -19268,6 +21676,7 @@ const data = [
     "TITLE": "Corporate Finance",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-402",
     "SLOT": "B+TB+TBB",
     "FACULTY": "JAYENDRA KASTURE"
   },
@@ -19276,6 +21685,7 @@ const data = [
     "TITLE": "Criminology",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-404",
     "SLOT": "F+TF+TFF",
     "FACULTY": "RESHMA SURESH"
   },
@@ -19284,6 +21694,7 @@ const data = [
     "TITLE": "White Collar Crime",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-403",
     "SLOT": "B+TB+TBB",
     "FACULTY": "BIJOY SHARMA"
   },
@@ -19292,6 +21703,7 @@ const data = [
     "TITLE": "Data Protection Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-404",
     "SLOT": "B+TB+TBB",
     "FACULTY": "SANTHOSH V"
   },
@@ -19300,6 +21712,7 @@ const data = [
     "TITLE": "Interpretation of Statues",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-305",
     "SLOT": "A+TA+TAA",
     "FACULTY": "ADITYA"
   },
@@ -19308,6 +21721,7 @@ const data = [
     "TITLE": "Interpretation of Statues",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-304",
     "SLOT": "F+TF+TFF",
     "FACULTY": "ESAKKI AMMAL K"
   },
@@ -19316,6 +21730,7 @@ const data = [
     "TITLE": "Interpretation of Statues",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-306",
     "SLOT": "A+TA+TAA",
     "FACULTY": "KAVI SHANKAR"
   },
@@ -19324,6 +21739,7 @@ const data = [
     "TITLE": "Interpretation of Statues",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-305",
     "SLOT": "F+TF+TFF",
     "FACULTY": "VANMATHI M"
   },
@@ -19332,6 +21748,7 @@ const data = [
     "TITLE": "Artificial Intelligence & Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-407",
     "SLOT": "F+TF+TFF",
     "FACULTY": "TANIA SEBASTIAN"
   },
@@ -19340,6 +21757,7 @@ const data = [
     "TITLE": "Health and Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-402",
     "SLOT": "C+TC+TCC",
     "FACULTY": "MRUDHUL M SHENOY"
   },
@@ -19348,6 +21766,7 @@ const data = [
     "TITLE": "Discretionary Justice and Rule of Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-401",
     "SLOT": "C+TC+TCC",
     "FACULTY": "POOJA"
   },
@@ -19356,6 +21775,7 @@ const data = [
     "TITLE": "Law of Treaties",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-406",
     "SLOT": "F+TF+TFF",
     "FACULTY": "SEZOLU NYEKHA"
   },
@@ -19364,6 +21784,7 @@ const data = [
     "TITLE": "Air and Space Law",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-303",
     "SLOT": "F+TF",
     "FACULTY": "PREMA E"
   },
@@ -19372,6 +21793,7 @@ const data = [
     "TITLE": "Air and Space Law",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "005",
     "SLOT": "L55+L56",
     "FACULTY": "PREMA E"
   },
@@ -19380,6 +21802,7 @@ const data = [
     "TITLE": "Trade in Intellectual Property",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-404",
     "SLOT": "A+TA+TAA",
     "FACULTY": "CHANDRIKA MEHTA"
   },
@@ -19388,14 +21811,16 @@ const data = [
     "TITLE": "IP / Competition Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-405",
     "SLOT": "F+TF+TFF",
     "FACULTY": "JISHNU J R"
   },
   {
     "CODE": "TLAW513L",
-    "TITLE": "Rights of the Accused under National and International Legal System",
-    "TYPE": "TH",
+    "TITLE": "Rights of the Accused under National and Internation",
+    "TYPE": "aTlH Leg",
     "CREDITS": 4,
+    "VENUE": "AB5-403",
     "SLOT": "C+TC+TCC",
     "FACULTY": "KOWSHIKAA A S"
   },
@@ -19404,6 +21829,7 @@ const data = [
     "TITLE": "India and International Law",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-404",
     "SLOT": "C+TC+TCC",
     "FACULTY": "SEZOLU NYEKHA"
   },
@@ -19412,6 +21838,7 @@ const data = [
     "TITLE": "Government Regulation of Industry",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-402",
     "SLOT": "A+TA+TAA",
     "FACULTY": "POURNA DHEVI N"
   },
@@ -19420,6 +21847,7 @@ const data = [
     "TITLE": "Law of Mergers and Acquisitions",
     "TYPE": "TH",
     "CREDITS": 4,
+    "VENUE": "AB5-401",
     "SLOT": "A+TA+TAA",
     "FACULTY": "LALITH KUMAR J"
   },
@@ -19428,6 +21856,7 @@ const data = [
     "TITLE": "Mediation and Conciliation",
     "TYPE": "ETH",
     "CREDITS": 3,
+    "VENUE": "AB5-403",
     "SLOT": "A+TA",
     "FACULTY": "SHASHIKANT SAURAV"
   },
@@ -19436,6 +21865,7 @@ const data = [
     "TITLE": "Mediation and Conciliation",
     "TYPE": "ELA",
     "CREDITS": 1,
+    "VENUE": "005",
     "SLOT": "L31+L32",
     "FACULTY": "SHASHIKANT SAURAV"
   }
