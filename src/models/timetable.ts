@@ -12,6 +12,7 @@ const timetableSchema = new Schema(
                 courseCode: { type: String, required: true },
                 courseName: { type: String, required: true },
                 facultyName: { type: String, required: true },
+                venue: { type: String, default: '' },
             },
         ],
     },

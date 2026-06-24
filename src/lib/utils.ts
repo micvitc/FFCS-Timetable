@@ -24,6 +24,7 @@ export function generateTT(
                             courseName: course.courseName,
                             slotName: slot.slotName,
                             facultyName: faculty.facultyName,
+                            venue: faculty.venue || 'TBD',
                         });
                     }
                 }
@@ -40,6 +41,7 @@ export function generateTT(
                                     courseName: course.courseName + '__' + course.courseNameLab,
                                     slotName: slot.slotName + '__' + labSlot,
                                     facultyName: faculty.facultyName,
+                                    venue: (faculty.venue || 'TBD') + '__' + (faculty.venueLab || 'TBD'),
                                 });
                             }
                         } else {
@@ -51,6 +53,7 @@ export function generateTT(
                                 courseName: course.courseName,
                                 slotName: slot.slotName,
                                 facultyName: faculty.facultyName,
+                                venue: faculty.venue || 'TBD',
                             });
                         }
                     }
@@ -166,18 +169,21 @@ function breakClubbed(combinations: timetableDisplayData[][]): timetableDisplayD
                 const [thSlot, labSlots] = item.slotName.split('__');
                 const [thCode, labCode] = item.courseCode.split('__');
                 const [thName, labName] = item.courseName.split('__');
+                const [thVenue, labVenue] = (item.venue || 'TBD__TBD').split('__');
                 return [
                     {
                         courseCode: thCode,
                         courseName: thName,
                         slotName: thSlot,
                         facultyName: item.facultyName,
+                        venue: thVenue || 'TBD',
                     },
                     {
                         courseCode: labCode,
                         courseName: labName,
                         slotName: labSlots,
                         facultyName: item.facultyName,
+                        venue: labVenue || 'TBD',
                     },
                 ];
             }

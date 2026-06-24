@@ -56,10 +56,10 @@ export function getCourseCredits(code: string, slot: string, faculty: string): n
         chennaiCourses.forEach((r) => {
             r.SLOT.split('+').forEach((s) => {
                 const key = `${r.CODE}|${s.trim()}|${r.FACULTY}`;
-                creditIndex!.set(key, r.CREDITS);
+                creditIndex!.set(key, Number(r.CREDITS));
             });
             // Also index by full slot string
-            creditIndex!.set(`${r.CODE}|${r.SLOT}|${r.FACULTY}`, r.CREDITS);
+            creditIndex!.set(`${r.CODE}|${r.SLOT}|${r.FACULTY}`, Number(r.CREDITS));
         });
     }
 
@@ -186,8 +186,15 @@ export function buildPreferenceCoursesFromChennaiSelection(
 
                 const slotFaculties = Array.from(facultiesSet).map((facultyName) => {
                     let facultyLabSlot: string | undefined;
+                    let venue: string | undefined;
+                    let venueLab: string | undefined;
 
                     if (slotIsTheory) {
+                        const thRecord = subjectRecords.find(
+                            r => r.FACULTY === facultyName && r.SLOT === slotName && isTheoryType(r.TYPE)
+                        );
+                        venue = (thRecord as any)?.VENUE;
+
                         const labRecords = subjectRecords.filter(
                             r => r.FACULTY === facultyName && isLabType(r.TYPE)
                         );
@@ -197,20 +204,31 @@ export function buildPreferenceCoursesFromChennaiSelection(
                                 const matched = facultyPairings.get(facultyName)?.get(slotName);
                                 if (matched) {
                                     facultyLabSlot = matched;
+                                    const matchingLabRecord = labRecords.find(r => r.SLOT === matched);
+                                    venueLab = (matchingLabRecord as any)?.VENUE;
                                     hasAutoPairedLab = true;
                                 }
                             }
                         } else {
-                            // Legacy behavior: auto-pair only if faculty has EXACTLY 1 ELA/LO row for this course
                             if (labRecords.length === 1) {
                                 facultyLabSlot = labRecords[0].SLOT;
+                                venueLab = (labRecords[0] as any).VENUE;
                                 hasAutoPairedLab = true;
                             }
-                            // 0 or 2+ lab records → cannot auto-pair; user adds lab manually
                         }
+                    } else if (slotIsLab) {
+                        const labRecord = subjectRecords.find(
+                            r => r.FACULTY === facultyName && r.SLOT === slotName && isLabType(r.TYPE)
+                        );
+                        venue = (labRecord as any)?.VENUE;
                     }
 
-                    return { facultyName, ...(facultyLabSlot ? { facultyLabSlot } : {}) };
+                    return {
+                        facultyName,
+                        ...(facultyLabSlot ? { facultyLabSlot } : {}),
+                        venue: venue || 'TBD',
+                        ...(venueLab ? { venueLab } : {}),
+                    };
                 });
 
                 return { slotName, slotFaculties };

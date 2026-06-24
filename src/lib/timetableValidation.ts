@@ -3,6 +3,7 @@ type TimetableSlotInput = {
     courseCode?: unknown;
     courseName?: unknown;
     facultyName?: unknown;
+    venue?: unknown;
 };
 
 type TimetableBodyInput = {
@@ -17,6 +18,7 @@ export type ValidatedTimetableSlot = {
     courseCode: string;
     courseName: string;
     facultyName: string;
+    venue?: string;
 };
 
 const MAX_TITLE_LENGTH = 120;
@@ -61,6 +63,7 @@ export const validateTimetableSlots = (value: unknown): ValidatedTimetableSlot[]
             courseCode: normalizeString(input.courseCode, `slots[${index}].courseCode`),
             courseName: normalizeString(input.courseName, `slots[${index}].courseName`),
             facultyName: normalizeString(input.facultyName, `slots[${index}].facultyName`),
+            venue: input.venue !== undefined ? String(input.venue || '').trim() : undefined,
         };
     });
 };
