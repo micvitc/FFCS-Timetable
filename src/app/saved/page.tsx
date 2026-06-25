@@ -13,6 +13,7 @@ import Image from 'next/image';
 import './saved.css';
 import { setPlannerStoredValue } from '@/lib/plannerStorage';
 import { getChennaiCourseType, getCourseCredits } from '@/lib/chennaiCatalog';
+import { cleanSlot } from '@/lib/slots';
 import chennaiCourses from '@/data/all_data_chennai';
 
 /* ── Venue lookup from raw data ── */
@@ -121,6 +122,7 @@ function convertTimetableToCoursePreferences(tt: TimetableEntry): fullCourseData
     }>();
 
     tt.slots.forEach(entry => {
+        const cleanedSlot = cleanSlot(entry.slot);
         const key = `${entry.courseCode}|||${entry.courseName}`;
         if (!courseMap.has(key)) {
             courseMap.set(key, {
@@ -131,10 +133,10 @@ function convertTimetableToCoursePreferences(tt: TimetableEntry): fullCourseData
         }
         const course = courseMap.get(key)!;
 
-        if (!course.slots.has(entry.slot)) {
-            course.slots.set(entry.slot, []);
+        if (!course.slots.has(cleanedSlot)) {
+            course.slots.set(cleanedSlot, []);
         }
-        course.slots.get(entry.slot)!.push(entry.facultyName);
+        course.slots.get(cleanedSlot)!.push(entry.facultyName);
     });
 
     // Convert to fullCourseData[]
@@ -957,7 +959,8 @@ function TimetableDetailView({
     const labGrid: CellData[][] = Array.from({ length: 5 }, () => Array(12).fill(null));
 
     tt.slots.forEach(s => {
-        s.slot.split('+').forEach(p => {
+        const cleanedSlot = cleanSlot(s.slot);
+        cleanedSlot.split('+').forEach(p => {
             const slotCode = p.trim();
             THEORY_SLOTS[slotCode]?.forEach(([r, c]) => {
                 theoryGrid[r][c] = { code: s.courseCode, courseName: s.courseName, facultyName: s.facultyName, slot: slotCode };
@@ -975,24 +978,25 @@ function TimetableDetailView({
             courseMap.set(s.courseCode, { courseName: s.courseName, facultyName: s.facultyName, slots: [], venues: [], credits: 0 });
         }
         const info = courseMap.get(s.courseCode)!;
-        if (!info.slots.includes(s.slot)) {
-            info.slots.push(s.slot);
+        const cleanedSlot = cleanSlot(s.slot);
+        if (!info.slots.includes(cleanedSlot)) {
+            info.slots.push(cleanedSlot);
             const savedVenue = (s as any).venue;
             const resolvedVenue = (savedVenue && savedVenue !== 'TBD')
                 ? savedVenue
-                : lookupVenue(s.courseCode, s.slot, s.facultyName);
+                : lookupVenue(s.courseCode, cleanedSlot, s.facultyName);
             info.venues.push(resolvedVenue);
             
             // Calculate credits
             if (s.courseCode.includes('__')) {
                 const codes = s.courseCode.split('__');
-                const slots = s.slot.split('__');
+                const slots = cleanedSlot.split('__');
                 info.credits += getCourseCredits(codes[0], slots[0], s.facultyName);
                 if (codes[1] && slots[1]) {
                     info.credits += getCourseCredits(codes[1], slots[1], s.facultyName);
                 }
             } else {
-                info.credits += getCourseCredits(s.courseCode, s.slot, s.facultyName);
+                info.credits += getCourseCredits(s.courseCode, cleanedSlot, s.facultyName);
             }
         }
     });

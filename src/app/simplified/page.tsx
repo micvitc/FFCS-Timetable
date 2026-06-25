@@ -19,7 +19,7 @@ import { clearPlannerClientCache } from '@/lib/clientCache';
 import LoginModal from '@/components/loginPopup';
 import SmallFooter from '@/components/SmallFooter';
 import { getSlotViewPayload } from '@/lib/slot-view';
-import { clashMap, findMatchingLabSlot, pairTheoryAndLabSlots } from '@/lib/slots';
+import { clashMap, findMatchingLabSlot, pairTheoryAndLabSlots, cleanSlot } from '@/lib/slots';
 import { isTheoryType, isLabType, getCourseCredits } from '@/lib/chennaiCatalog';
 import chennaiCourses from '@/data/all_data_chennai';
 import { fullCourseData, timetableDisplayData } from '@/lib/type';
@@ -1140,14 +1140,15 @@ export default function CourseSelectionPage() {
     const labGrid: (timetableDisplayData | null)[][] = Array.from({ length: 5 }, () => Array(13).fill(null));
 
     currentCombination.forEach(s => {
-        const parts = s.slotName.split(/\+|__/);
+        const cleanedSlot = cleanSlot(s.slotName);
+        const parts = cleanedSlot.split(/\+|__/);
         parts.forEach(p => {
             const cleanP = p.trim();
             scheduleRows.forEach((row, dayIdx) => {
-                row.theoryLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx] = s; });
-                row.theoryRight.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx + 7] = s; });
-                row.labLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx] = s; });
-                row.labRight.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx + 7] = s; });
+                row.theoryLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx] = { ...s, slotName: cleanedSlot }; });
+                row.theoryRight.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx + 7] = { ...s, slotName: cleanedSlot }; });
+                row.labLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx] = { ...s, slotName: cleanedSlot }; });
+                row.labRight.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx + 7] = { ...s, slotName: cleanedSlot }; });
             });
         });
     });

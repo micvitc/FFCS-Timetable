@@ -6,6 +6,7 @@ import Image from "next/image";
 import axios from "axios";
 import SmallFooter from "@/components/SmallFooter";
 import { getSlotViewPayload } from "@/lib/slot-view";
+import { cleanSlot } from "@/lib/slots";
 
 type SharedSlot = {
     slot: string;
@@ -88,14 +89,15 @@ export default function SharePage() {
     const labGrid: (SharedSlot | null)[][] = Array.from({ length: 5 }, () => Array(13).fill(null));
 
     timetable.forEach(s => {
-        const parts = s.slot.split(/\+|__/);
+        const cleanedSlot = cleanSlot(s.slot);
+        const parts = cleanedSlot.split(/\+|__/);
         parts.forEach((p: string) => {
             const clean = p.trim();
             scheduleRows.forEach((row, dayIdx) => {
-                row.theoryLeft.forEach((cell, colIdx) => { if (cell.key === clean) theoryGrid[dayIdx][colIdx] = s; });
-                row.theoryRight.forEach((cell, colIdx) => { if (cell.key === clean) theoryGrid[dayIdx][colIdx + 7] = s; });
-                row.labLeft.forEach((cell, colIdx) => { if (cell.key === clean) labGrid[dayIdx][colIdx] = s; });
-                row.labRight.forEach((cell, colIdx) => { if (cell.key === clean) labGrid[dayIdx][colIdx + 7] = s; });
+                row.theoryLeft.forEach((cell, colIdx) => { if (cell.key === clean) theoryGrid[dayIdx][colIdx] = { ...s, slot: cleanedSlot }; });
+                row.theoryRight.forEach((cell, colIdx) => { if (cell.key === clean) theoryGrid[dayIdx][colIdx + 7] = { ...s, slot: cleanedSlot }; });
+                row.labLeft.forEach((cell, colIdx) => { if (cell.key === clean) labGrid[dayIdx][colIdx] = { ...s, slot: cleanedSlot }; });
+                row.labRight.forEach((cell, colIdx) => { if (cell.key === clean) labGrid[dayIdx][colIdx + 7] = { ...s, slot: cleanedSlot }; });
             });
         });
     });
