@@ -14,6 +14,7 @@ import { useTimetable } from '@/lib/TimeTableContext';
 import { exportToPDF } from '@/lib/exportToPDF';
 import { generateTT } from '@/lib/utils';
 import { getSlotViewPayload } from '@/lib/slot-view';
+import { cleanSlot } from '@/lib/slots';
 import { getCourseCredits } from '@/lib/chennaiCatalog';
 import chennaiCourses from '@/data/all_data_chennai';
 
@@ -623,15 +624,16 @@ export default function TimetablePage() {
     const labGrid: (timetableDisplayData | null)[][] = Array.from({ length: 5 }, () => Array(13).fill(null));
 
     currentTT.forEach(s => {
-        const parts = s.slotName.split(/\+|__/);
+        const cleanedSlot = cleanSlot(s.slotName);
+        const parts = cleanedSlot.split(/\+|__/);
         parts.forEach(p => {
             const cleanP = p.trim();
             // We need to find where this slot belongs in our 5x13 grid
             scheduleRows.forEach((row, dayIdx) => {
-                row.theoryLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx] = s; });
-                row.theoryRight.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx + 7] = s; });
-                row.labLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx] = s; });
-                row.labRight.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx + 7] = s; });
+                row.theoryLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx] = { ...s, slotName: cleanedSlot }; });
+                row.theoryRight.forEach((cell, colIdx) => { if (cell.key === cleanP) theoryGrid[dayIdx][colIdx + 7] = { ...s, slotName: cleanedSlot }; });
+                row.labLeft.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx] = { ...s, slotName: cleanedSlot }; });
+                row.labRight.forEach((cell, colIdx) => { if (cell.key === cleanP) labGrid[dayIdx][colIdx + 7] = { ...s, slotName: cleanedSlot }; });
             });
         });
     });

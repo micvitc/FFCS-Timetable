@@ -181,8 +181,86 @@ export const clashMap: Record<string, string[]> = {
     L59: ['TDD2', 'TF2'],
 };
 
+export function cleanSlot(slotStr: string): string {
+    let s = slotStr.trim();
+    if (!s || s === '-') return s;
+
+    if (s.includes('__')) {
+        return s.split('__').map(cleanSlot).join('__');
+    }
+
+    const parts = s.split('+').map(p => p.trim());
+    if (parts.length === 0) return s;
+
+    const cleanedParts = parts.map((part) => {
+        // TCC slot corruption
+        if (part.startsWith('TCC5')) {
+            const num = part.charAt(4); // '1' or '2'
+            if (num === '1' || num === '2') {
+                return `TCC${num}`;
+            }
+        }
+        // TDD slot corruption
+        if (part.startsWith('TD5D')) {
+            const num = part.charAt(4); // '0' -> 1, '1' -> 2
+            if (num === '0') return 'TDD1';
+            if (num === '1') return 'TDD2';
+        }
+        // TAA slot corruption
+        if (part.startsWith('TA5A')) {
+            const num = part.charAt(4); // '0' -> 1, '1' -> 2
+            if (num === '0') return 'TAA1';
+            if (num === '1') return 'TAA2';
+        }
+
+        // Lab slot corruptions
+        if (part.startsWith('L') || part.includes('L')) {
+            const match = part.match(/L(\d+)/);
+            if (match) {
+                const num = parseInt(match[1], 10);
+                if (num > 60) {
+                    const firstTwo = parseInt(String(num).substring(0, 2), 10);
+                    if (firstTwo <= 60) {
+                        return `L${firstTwo}`;
+                    }
+                } else if (num > 0 && num <= 60) {
+                    return `L${num}`;
+                }
+            }
+        }
+        
+        return part;
+    });
+
+    if (cleanedParts.every(p => p.startsWith('L') || p.includes('L') || p === '-')) {
+        const labParts = cleanedParts.filter(p => p.startsWith('L'));
+        if (labParts.length === 4) {
+            const matchA = labParts[0].match(/L(\d+)/);
+            const matchB = labParts[2].match(/L(\d+)/);
+            if (matchA && matchB) {
+                const a = parseInt(matchA[1], 10);
+                const b = parseInt(matchB[1], 10);
+                if (a % 2 === 1 && b % 2 === 1) {
+                    return `L${a}+L${a+1}+L${b}+L${b+1}`;
+                }
+            }
+        } else if (labParts.length === 2) {
+            const matchA = labParts[0].match(/L(\d+)/);
+            if (matchA) {
+                const a = parseInt(matchA[1], 10);
+                if (a % 2 === 1) {
+                    return `L${a}+L${a+1}`;
+                }
+            }
+        }
+    }
+
+    return cleanedParts.join('+');
+}
+
 export function getSlot(slot: string, withName: boolean = true): slot[] {
-    const slotNames = slot.split('+').map(s => s.trim());
+    const cleaned = cleanSlot(slot);
+    const slotNames = cleaned.split('+').map(s => s.trim());
     let slots: slot[] = [];
     for (const name of slotNames) {
         slots = slots.concat(slotMap[name] || []);
@@ -203,7 +281,8 @@ export function getCollisions(s: slot): slot[] {
  * Helper to determine if a slot name represents a morning slot.
  */
 export function isMorningSlot(slot: string): boolean {
-    const parts = slot.split('+').map(s => s.trim().toUpperCase());
+    const cleaned = cleanSlot(slot);
+    const parts = cleaned.split('+').map(s => s.trim().toUpperCase());
     for (const part of parts) {
         if (part.startsWith('L')) {
             const numMatch = part.match(/\d+/);
@@ -222,7 +301,8 @@ export function isMorningSlot(slot: string): boolean {
  * Helper to determine if a slot name represents an evening slot.
  */
 export function isEveningSlot(slot: string): boolean {
-    const parts = slot.split('+').map(s => s.trim().toUpperCase());
+    const cleaned = cleanSlot(slot);
+    const parts = cleaned.split('+').map(s => s.trim().toUpperCase());
     for (const part of parts) {
         if (part.startsWith('L')) {
             const numMatch = part.match(/\d+/);
@@ -241,7 +321,8 @@ export function isEveningSlot(slot: string): boolean {
  * Checks if a lab slot name belongs to the extra mural hours (Block 3 in morning: L5, L11, L17, L23, L29).
  */
 export function isExtraMuralLabSlot(slot: string): boolean {
-    const parts = slot.split('+').map(s => s.trim().toUpperCase());
+    const cleaned = cleanSlot(slot);
+    const parts = cleaned.split('+').map(s => s.trim().toUpperCase());
     for (const part of parts) {
         if (part.startsWith('L')) {
             const numMatch = part.match(/\d+/);
@@ -320,5 +401,6 @@ export function findMatchingLabSlot(theorySlot: string, labSlots: string[]): str
     const pairings = pairTheoryAndLabSlots([theorySlot], labSlots);
     return pairings.get(theorySlot) || labSlots[0];
 }
+
 
 

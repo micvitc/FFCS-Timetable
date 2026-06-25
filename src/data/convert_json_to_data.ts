@@ -2,10 +2,13 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
+import { cleanSlot } from '../lib/slots';
 
 type RawCourseRow = Record<string, unknown> & {
     CODE?: string;
     TITLE?: string;
+    SLOT?: string;
+    FACULTY?: string;
 };
 
 const DATA_DIR = path.dirname(fileURLToPath(import.meta.url));
@@ -56,6 +59,18 @@ const normalizeCourseRow = (row: RawCourseRow): RawCourseRow => {
     
     const code = String(row.CODE).trim();
     let title = String(row.TITLE).trim();
+    let slot = String(row.SLOT || '').trim();
+    let faculty = String(row.FACULTY || '').trim();
+    
+    if (slot === '-' || !slot) {
+        const match = faculty.match(/^([L\d\+\-\s]+)\s+(.+)$/i);
+        if (match) {
+            slot = match[1].trim();
+            faculty = match[2].trim();
+        }
+    }
+    
+    slot = cleanSlot(slot);
     
     if (code === 'BEEE309L' || code === 'BEEE309P') {
         if (title.startsWith('Microprocessors and Microcontro')) {
@@ -87,6 +102,8 @@ const normalizeCourseRow = (row: RawCourseRow): RawCourseRow => {
         ...row,
         CODE: code,
         TITLE: title,
+        SLOT: slot,
+        FACULTY: faculty,
     };
 };
 
