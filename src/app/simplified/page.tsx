@@ -807,7 +807,7 @@ export default function CourseSelectionPage() {
                             const lr = fac.facultyLabSlot ? (chennaiCourses as any).find((r: any) => r.CODE === course.courseCode && r.SLOT === fac.facultyLabSlot && r.FACULTY === fac.facultyName) : undefined;
                             
                             const type: 'th' | 'lab' | 'both' = (tr && lr) ? 'both' : lr ? 'lab' : 'th';
-                            const credits = (tr?.CREDITS || 0) + (lr?.CREDITS || 0);
+                            const credits = Number(tr?.CREDITS || 0) + Number(lr?.CREDITS || 0);
 
                             loadedOptions.push({
                                 id: `${course.courseCode}_${fac.facultyName}_${slot.slotName}_${fac.facultyLabSlot || 'none'}`,
@@ -1001,7 +1001,7 @@ export default function CourseSelectionPage() {
                             theorySlot: tr.SLOT,
                             labSlot: matchingLabRecord.SLOT,
                             type: 'both',
-                            credits: tr.CREDITS + matchingLabRecord.CREDITS,
+                            credits: Number(tr.CREDITS) + Number(matchingLabRecord.CREDITS),
                             venue: tr.VENUE || 'TBD',
                             venueLab: matchingLabRecord.VENUE || 'TBD',
                         });
@@ -1013,7 +1013,7 @@ export default function CourseSelectionPage() {
                             facultyName,
                             theorySlot: tr.SLOT,
                             type: 'th',
-                            credits: tr.CREDITS,
+                            credits: Number(tr.CREDITS),
                             venue: tr.VENUE || 'TBD',
                         });
                     }
@@ -1028,7 +1028,7 @@ export default function CourseSelectionPage() {
                             facultyName,
                             labSlot: lr.SLOT,
                             type: 'lab',
-                            credits: lr.CREDITS,
+                            credits: Number(lr.CREDITS),
                             venueLab: lr.VENUE || 'TBD',
                         });
                     }
@@ -1042,7 +1042,7 @@ export default function CourseSelectionPage() {
                         facultyName,
                         theorySlot: tr.SLOT,
                         type: 'th',
-                        credits: tr.CREDITS,
+                        credits: Number(tr.CREDITS),
                         venue: tr.VENUE || 'TBD',
                     });
                 });
@@ -1055,7 +1055,7 @@ export default function CourseSelectionPage() {
                         facultyName,
                         labSlot: lr.SLOT,
                         type: 'lab',
-                        credits: lr.CREDITS,
+                        credits: Number(lr.CREDITS),
                         venueLab: lr.VENUE || 'TBD',
                     });
                 });
@@ -1214,7 +1214,7 @@ export default function CourseSelectionPage() {
                 return acc;
             }
             seenCourseCodes.add(curr.courseCode);
-            return acc + curr.credits;
+            return acc + Number(curr.credits);
         }, 0);
     }, [selectedOptions, disabledOptions, allSubjectsMode]);
 
