@@ -495,6 +495,15 @@ const data = [
     "FACULTY": "SIVAGAMI M"
   },
   {
+    "CODE": "BACSE106",
+    "TITLE": "Operating Systems",
+    "TYPE": "ETH",
+    "CREDITS": 3,
+    "VENUE": "AB3-206",
+    "SLOT": "L15+L16",
+    "FACULTY": "SIVAGAMI M"
+  },
+  {
     "CODE": "BACSE201",
     "TITLE": "Models of Computation",
     "TYPE": "TH",
